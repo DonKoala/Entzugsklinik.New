@@ -1,0 +1,10 @@
+_cash = _this select 0;
+_pricePerM = _this select 1;
+_totalDistance = (_cash/_pricePerM);
+_totalDistance = floor _totalDistance;
+life_cash = life_cash + _cash;
+player removeAction taxi_ActionToLeave;
+_message = parseText format ["Dein Kunde möchte gerne aussteigen. Du hast %1 $ für %2 Meter bekommen. Du wurdest wieder als verfügbar markiert.",_cash,_totalDistance];
+titleText[format["%1",_message],"PLAIN"];
+life_isOnDutyTaxi = true;
+[[player],"TON_fnc_goOnDuty",false,false] spawn life_fnc_mp;
