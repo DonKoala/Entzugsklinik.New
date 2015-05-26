@@ -18,7 +18,7 @@ switch (_filter) do
 	//Uniforms
 	case 0:
 	{
-		switch(__GETC__(life_coplevel)) do
+		if(__GETC__(life_coplevel) > 5) then
 		{
 			case 1: {_ret set[count _ret,["Item_Carabinieri",nil,1000]];};
 			case 2: {_ret set[count _ret,["Item_Carabinieri",nil,1000]];};
@@ -31,16 +31,16 @@ switch (_filter) do
 			case 9: {_ret set[count _ret,["Item_GeneraleDiDivisione",nil,1300]];};
 			case 10:{_ret set[count _ret,["Item_GeneraleDiCorpoArmata",nil,1400]];};
 		};
-		if(__GETC__(life_coplevel) > 3) then
+		if(__GETC__(life_coplevel) > 5) then
 		{
 			_ret set[count _ret,["Item_Carabinieri",nil,1000]];
 			_ret set[count _ret,["Item_CarabinieriFormal",nil,1200]];
 		};
-		if(__GETC__(life_coplevel) > 0) then
+		if(__GETC__(life_coplevel) > 5) then
 		{
 			_ret set[count _ret,["U_B_Wetsuit",nil,2400]];
 		};
-		if(__GETC__(life_coplevel) > 8) then
+		if(__GETC__(life_coplevel) > 5) then
 		{
 			_ret set[count _ret,["U_I_FullGhillie_ard",nil,22000]];
 			_ret set[count _ret,["U_O_FullGhillie_ard",nil,22000]];
@@ -57,18 +57,18 @@ switch (_filter) do
 	//Hats
 	case 1:
 	{
-		if(__GETC__(life_coplevel) > 0) then
+		if(__GETC__(life_coplevel) > 5) then
 		{
 			_ret set[count _ret,["Beret_Carabinieri",nil,300]];
 			_ret set[count _ret,["NBeret_Carabinieri",nil,300]];
 			_ret set[count _ret,["police_swat_cap",nil,500]];
 		};
-		if(__GETC__(life_coplevel) > 2) then
+		if(__GETC__(life_coplevel) > 5) then
 		{
 			_ret set[count _ret,["gign_Balaclava",nil,1000]];
 			_ret set[count _ret,["gign_helm",nil,1100]];
 		};
-		if(__GETC__(life_coplevel) > 3) then
+		if(__GETC__(life_coplevel) > 5) then
 		{
 			_ret set[count _ret,["gign_helm3",nil,1300]];
 			_ret set[count _ret,["gign_helm4",nil,1320]];
@@ -94,17 +94,17 @@ switch (_filter) do
 	//Vest
 	case 3:
 	{
-		if(__GETC__(life_coplevel) > 0) then
+		if(__GETC__(life_coplevel) > 5) then
 		{
 			_ret set[count _ret,["V_RebreatherB",nil,2000]];
 			_ret set[count _ret,["Vest_Carabinieri",nil,1900]];
 		};
-		if(__GETC__(life_coplevel) > 1) then
+		if(__GETC__(life_coplevel) > 5) then
 		{
 			_ret set[count _ret,["Vest_Carabinieri1",nil,2100]];
 			_ret set[count _ret,["Vest_Carabinieri2",nil,2200]];
 		};
-		if(__GETC__(life_coplevel) > 2) then
+		if(__GETC__(life_coplevel) > 5) then
 		{
 			_ret set[count _ret,["gign_HeavyVest",nil,2600]];
 			_ret set[count _ret,["gign_BlackVest",nil,2700]];
@@ -119,7 +119,7 @@ switch (_filter) do
 	//Backpacks
 	case 4:
 	{
-		if(__GETC__(life_coplevel) > 0) then
+		if(__GETC__(life_coplevel) > 5) then
 		{
 			_ret set[count _ret,["B_AssaultPack_blk",nil,1000]];
 			_ret set[count _ret,["B_FieldPack_blk",nil,1100]];

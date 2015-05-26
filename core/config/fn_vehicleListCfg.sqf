@@ -809,16 +809,16 @@ switch (_shop) do
 	
 	case "sek_car":
 	{
-		if(__GETC__(life_coplevel) > 0) then
+		if(__GETC__(life_coplevel) > 5) then
 		{
 			_return set[count _return,["DAR_ExplorerPoliceStealth",32000]]; //interceptor stealth
 		};
 
-		if(__GETC__(life_coplevel) > 2) then
+		if(__GETC__(life_coplevel) >5) then
 		{
 			_return set[count _return,["DAR_TahoePoliceDet",45000]]; //Taurus
 		};
-		if(__GETC__(life_coplevel) > 3) then
+		if(__GETC__(life_coplevel) > 5) then
 		{
 		    _return set[count _return,["rhsusf_m1025_w_m2",300000]]; //HMMWV_M2
 			_return set[count _return,["rhsusf_M1083A1P2_B_wd_fmtv_usarmy",300000]]; //Fmtv
@@ -842,7 +842,7 @@ switch (_shop) do
 	
 	case "sek_air":
 	{
-		if(__GETC__(life_coplevel) > 0) then
+		if(__GETC__(life_coplevel) > 5) then
 		{
 			_return set[count _return,["B_Heli_Light_01_F",100000]];
 			_return set[count _return,["dezkit_b206_fbi",150000]];

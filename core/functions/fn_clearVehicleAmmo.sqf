@@ -14,15 +14,7 @@ _classname = typeOf _veh;
 
 switch (_classname) do
 {	
-	//Jet A-10
-	case "RHS_UH60M":
-	{
-		//Remove ammo and Flaires
-		_veh setVehicleAmmo 0;
-		_veh setDamage 0;
-		_veh allowDamage true;
-        systemChat "Waffen entfernt und Repariert";
-    };
+
 	
 	//FÜR CONVOY!!
 	case "RHS_CH_47F_light":
