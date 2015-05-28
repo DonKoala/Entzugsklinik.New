@@ -72,6 +72,7 @@ _Btn2 buttonSetAction "[[player],""life_fnc_licenseCheck"",life_pInact_curTarget
 
 
 
+
 //Set Search Button
 _Btn3 ctrlSetText "Alkohol/Drogen";
 _Btn3 buttonSetAction "[[player],""life_fnc_alkoholdrugtester"",life_pInact_curTarget,FALSE] spawn life_fnc_MP;closeDialog 0";
@@ -94,6 +95,10 @@ _Btn6 buttonSetAction "closeDialog 0; [] call life_fnc_showArrestDialog;";
 
 _Btn7 ctrlSetText localize "STR_pInAct_PutInCar";
 _Btn7 buttonSetAction "[life_pInact_curTarget] call life_fnc_putInCar;";
+
+//Set Search Button
+_Btn8 ctrlSetText "Durchsuchen";
+_Btn8 buttonSetAction "[life_pInact_curTarget] spawn life_fnc_searchAction;";
 
 
 
