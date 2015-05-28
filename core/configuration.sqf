@@ -95,7 +95,9 @@ life_istazed = false;
 life_my_gang = ObjNull;
 life_sex_ill = 0;
 life_checked = 0;
-life_sitting = false;
+life_sitting = false;		
+life_nlrtimer_stop = false;		// New Life Timer
+life_nlrtimer_running = false;  // New Life Timer
 
 life_fadeSound = false;
 
