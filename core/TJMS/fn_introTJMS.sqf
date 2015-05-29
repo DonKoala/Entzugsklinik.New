@@ -20,7 +20,7 @@ _tjmsIntroText_5 = "tjmsIntroText_5" call BIS_fnc_rscLayer;
 _tjmsIntroText_5 cutRsc["tjmsIntroText_5","PLAIN"];
 
 _IntroText1 = parseText format["<t font='EtelkaNarrowMediumPro' color='#40FF2E' size='2'>Willkommen auf Entzugsklinik Life RPG</t><br/><t font='EtelkaNarrowMediumPro' color='#ffffff' size='1.8'>Wir wünschen dir viel Spaß %1</t>", profileName];
-_IntroText2 = parseText format["<t font='EtelkaNarrowMediumPro' color='#A22EFF' size='2'>Zeige dich von deiner besten Seite</t><br/><t font='EtelkaNarrowMediumPro' color='#ffffff' size='1.8'>Versuche stets und in jeder möglichen Situation dein Roleplay-Geschick anzuwenden.<br/>Du trägst auch zum Rolplay Anderer bei.</t>"];
+_IntroText2 = parseText format["<t font='EtelkaNarrowMediumPro' color='#A22EFF' size='2'>Zeige dich von deiner besten Seite</t><br/><t font='EtelkaNarrowMediumPro' color='#ffffff' size='1.8'>Versuche stets und in jeder möglichen Situation dein Roleplay-Geschick anzuwenden.<br/>Du trägst auch zum Roleplay Anderer bei.</t>"];
 _IntroText3 = parseText format["<t font='EtelkaNarrowMediumPro' color='#FF2E47' size='2'>Entzugsklinik Projektleitung</t><br/><t font='EtelkaNarrowMediumPro' color='#ffffff' size='1.8'>Don Koala [Projektleitung / Gründer]<br/>Donna Sumsi [Projektleitung / Gründer]<br/>Vogti Krüger [Projektleitung / Gründer]<br/>William Martinez [Grafiker]</t>"];
 _IntroText4 = parseText format["<t font='EtelkaNarrowMediumPro' color='#2E63FF' size='2'>Unsere Entwickler / Developer</t><br/><t font='EtelkaNarrowMediumPro' color='#ffffff' size='1.8'>[Hauptscripter / Mapper] Don Koala <br/>[Hauptmapper / Scripter] Donna Sumsi<br/>[Designer / Texturierer] William Martinez</t>"];
 _IntroText5 = parseText format["<t font='EtelkaNarrowMediumPro' color='#FF9B2E' size='2'>TaskForceRadio- und Teamspeakpflicht</t><br/><t font='EtelkaNarrowMediumPro' color='#ffffff' size='1.8'>Aus kommunikativen Gründen ist der Aufenthalt während des Spielverlaufes Pflicht!<br/>Unsere Teamspeak3 Adresse: <t color='#D8D8D8'>146.0.32.117</t></t>"];
@@ -36,7 +36,7 @@ _cam = "camera" camCreate [26874.3,24528.6,19.9779];
 _cam camSetTarget [26803.6,24541.1,1.376928];  
 _cam cameraEffect ["internal", "BACK"];  
 _cam camCommit 0;     
-_cam camSetPos [26803.6,24541.1,0.376928];  
+_cam camSetPos [26803.6,24541.1,4.376928];  
 _cam camSetTarget [26803.6,24541.1,0.376928]; 
 _cam camCommit 9; 
 

@@ -827,6 +827,12 @@ switch (_shop) do
 			_return set[count _return,["rhsusf_M1083A1P2_B_wd_fmtv_usarmy",300000]]; //Fmtv
 			_return set[count _return,["OREl_Dingo",300000]]; //RÄUMFAHRZEUG
 			_return set[count _return,["DAR_SWATPOLICE",300000]]; //SWAT
+			_return set[count _return,["cl3_reventon_clpd",300000]]; //Fmtv
+			_return set[count _return,["cl3_dodge_charger_patrol",300000]]; //RÄUMFAHRZEUG
+			_return set[count _return,["cl3_dodge_charger_k9",300000]]; //SWAT
+			
+			
+	
 		};
 	};
 	
