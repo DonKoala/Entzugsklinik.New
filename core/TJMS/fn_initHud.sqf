@@ -1,5 +1,5 @@
 /*
-	Idea by Arma 3 Life improvements and edits by M4rc3lloX
+	Idea by Arma 3 Life improvements 
 */
 
 waitUntil {!(isNull (findDisplay 46))};
