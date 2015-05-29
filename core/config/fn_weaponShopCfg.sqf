@@ -35,7 +35,7 @@ switch(_shop) do
 						["ItemMap",nil,800],
 						["ItemWatch",nil,800],
 						["ItemCompass",nil,800],
-						["tf_ex8550","Tschernobyl Mobile S6",100],
+						["tf_ex8550","Altis Mobile S6",100],
 						["Medikit",nil,5000],
 						["FirstAidKit",nil,500],
 						["ToolKit",nil,5000],
@@ -55,7 +55,7 @@ switch(_shop) do
 						["ItemMap",nil,800],
 						["ItemWatch",nil,800],
 						["ItemCompass",nil,800],
-						["tf_ex8550","Tschernobyl Mobile S6",100],
+						["tf_ex8550","Altis Mobile S6",100],
 						["Medikit",nil,5000],
 						["FirstAidKit",nil,500],
 						["ToolKit",nil,5000],
@@ -222,6 +222,16 @@ switch(_shop) do
 						["rhsusf_acc_ACOG",nil,300],
 						["rhsusf_acc_compm4",nil,300],	
 						["rhsusf_acc_eotech_552",nil,300]
+
+													
+						
+
+
+
+
+
+
+
 					]
 				];
 			};
@@ -459,7 +469,24 @@ switch(_shop) do
 						["1Rnd_SmokeGreen_Grenade_shell",nil,1450],
 						["1Rnd_SmokeYellow_Grenade_shell",nil,1450],
 						["1Rnd_SmokePurple_Grenade_shell",nil,1450],
-						["1Rnd_SmokeOrange_Grenade_shell",nil,1450]
+						["1Rnd_SmokeOrange_Grenade_shell",nil,1450],
+						["BWA3_G27",nil,30000],
+						["BWA3_20Rnd_762x51_G28",nil,300],
+						["BWA3_optic_Aimpoint",nil,300],
+						["BWA3_optic_Shortdot",nil,300],
+						["BWA3_optic_ZO4x30",nil,300],
+						["BWA3_acc_LLM01_flash",nil,300],
+						["rhs_weap_m249_pip",nil,30000],
+						["rhsusf_100Rnd_556x45_soft_pouch",nil,300],
+						["BWA3_optic_20x50",nil,300],
+						["BWA3_optic_NSV600",nil,300]
+						
+						
+						
+						
+					
+
+													
 					]
 				];
 			};
@@ -677,7 +704,7 @@ switch(_shop) do
 						["ItemMap",nil,800],
 						["ItemWatch",nil,800],
 						["ItemCompass",nil,800],
-						["tf_ex8550","Tschernobyl Mobile S6",100],
+						["tf_ex8550","Altis Mobile S6",100],
 						["Medikit",nil,5000],
 						["FirstAidKit",nil,500],
 						["ToolKit",nil,5000],
@@ -713,7 +740,7 @@ switch(_shop) do
 						["ItemMap",nil,820],
 						["ItemWatch",nil,800],
 						["ItemCompass",nil,800],
-						["tf_ex8550","Tschernobyl Mobile S6",100],
+						["tf_ex8550","Altis Mobile S6",100],
 						["FirstAidKit",nil,500],
 						["ToolKit",nil,5000],
 						["NVGoggles",nil,5000],
@@ -742,7 +769,7 @@ switch(_shop) do
 						["ItemMap",nil,820],
 						["ItemWatch",nil,800],
 						["ItemCompass",nil,800],
-						["tf_ex8550","Tschernobyl Mobile S6",100],
+						["tf_ex8550","Altis Mobile S6",100],
 						["FirstAidKit",nil,500],
 						["ToolKit",nil,5000],
 						["NVGoggles",nil,5000],
@@ -769,7 +796,7 @@ switch(_shop) do
 						["ItemMap",nil,820],
 						["ItemWatch",nil,800],
 						["ItemCompass",nil,800],
-						["tf_ex8550","Tschernobyl Mobile S6",100],
+						["tf_ex8550","Altis Mobile S6",100],
 						["FirstAidKit",nil,500],
 						["ToolKit",nil,5000],
 						["NVGoggles",nil,5000],
@@ -790,7 +817,7 @@ switch(_shop) do
 						["ItemMap",nil,820],
 						["ItemWatch",nil,800],
 						["ItemCompass",nil,800],
-						["tf_ex8550","Tschernobyl Mobile S6",100],
+						["tf_ex8550","Altis Mobile S6",100],
 						["FirstAidKit",nil,500],
 						["ToolKit",nil,5000],
 						["NVGoggles",nil,5000],
@@ -1086,7 +1113,9 @@ switch(_shop) do
 						["bipod_01_F_snd",nil,1000],	
 						["bipod_03_F_blk",nil,1000],	
 						["bipod_02_F_blk",nil,1000],	
-						["bipod_01_F_blk",nil,1000]	
+						["bipod_01_F_blk",nil,1000],
+						["BWA3_optic_NSV600",nil,1000]
+						
 					]
 				];
 			};

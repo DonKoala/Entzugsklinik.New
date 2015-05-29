@@ -19,14 +19,14 @@ switch (_side) do
 	{
 		_return = [
 			["cop_spawn_1","Polizeipräsidium","\a3\ui_f\data\map\Markers\NATO\b_air.paa"],
-			["cop_spawn_2","JVA Novo","\a3\ui_f\data\map\Markers\NATO\b_air.paa"]
+			["cop_spawn_2","JVA","\a3\ui_f\data\map\Markers\NATO\b_air.paa"]
 		];
 	};
 	
 	case civilian:
 	{
 		_return = [
-			["civ_spawn_1","Pripyat","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
+			["civ_spawn_1","Sofia","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
 		];
 		
 		if(__GETC__(life_donator) > 0) then {
@@ -58,7 +58,7 @@ switch (_side) do
 	
 	case independent: {
 		_return = [
-			["medic_spawn_1","Med. Einr. Tscherno","\a3\ui_f\data\map\MapControl\hospital_ca.paa"]
+			["medic_spawn_1","Med. Einrichtung","\a3\ui_f\data\map\MapControl\hospital_ca.paa"]
 		];
 	};
 };

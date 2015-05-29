@@ -9,7 +9,7 @@ m4rc_blinkerR = false;
 m4rc_blinkerL = false;
 
 // Info
-systemChat "Initializing Entzugsklinik Gaming Life by Koala and Sumsi.";
+systemChat "Initializing Entzugsklinik Gaming Life by Êntzugsklinik.";
 
 // Set TJMS ADMINS for testing purposes
 TJMS_ADMIN = [
