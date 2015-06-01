@@ -153,7 +153,6 @@ class Life_Client_Core
 		class medicSirenLights {};
 		class medicLights {};
 		class medicSiren {};
-		class newLifeRule {};
 	};
 	
 	class Actions
@@ -260,6 +259,16 @@ class Life_Client_Core
 		class clothing_sek {};
 		class clothing_gold {};
 	};
+	
+	class adac
+		{
+		file = "core\adac";
+		class servicefeePrompt {};
+		class servicefeePay {};
+		class servicefeeGive {};
+		class servicefeeAction {};
+		};
+	
 
 	class Player_Menu
 	{
@@ -288,6 +297,9 @@ class Life_Client_Core
 		class craft {};
 		class craft_update {};
 		class craft_updateFilter {};
+		class smartphone {};
+		class newMsg {};
+		class showMsg {};
 	};
 	
 	class Functions

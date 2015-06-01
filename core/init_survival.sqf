@@ -150,7 +150,7 @@
     {
         private["_damage"];
         sleep 1;
-        while {((player distance (getMarkerPos "Warm_Marker") < 150) && (player getVariable["Revive",TRUE]))} do
+        while {((player distance (getMarkerPos "Warm_Marker") < 7000) && (player getVariable["Revive",TRUE]))} do
         {
             if(uniform player == "U_C_Scientist") then
             {

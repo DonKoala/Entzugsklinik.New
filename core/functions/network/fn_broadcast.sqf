@@ -19,7 +19,6 @@ if(_localize) exitWith {
         case 2: {format[localize _message,_arr select 0, _arr select 1];};
         case 3: {format[localize _message,_arr select 0, _arr select 1, _arr select 2];};
         case 4: {format[localize _message,_arr select 0, _arr select 1, _arr select 2, _arr select 3];};
-        
     };
     
     if(typeName _type == typeName []) then {

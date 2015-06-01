@@ -11,12 +11,12 @@ life_market_resources = [
 	//Schema: SHORTNAME, Default, Min, Max, changes in action, [Sales multiplied by 1, Purchase multiplied by -1]
 	["goldbar", 130000, 65000, 260000, 8, 5,[["goldbar",-1],["diamond",1],["diamondc",1],["iron_r",1],["copper_r",1],["salt_r",1],["glass",1]]],
 	["uwsl", 5000, 2500, 10000, 8, 5,[["uwsl",-1],["goldbar",1],["salt_r",1]]],
-	["oilp", 3600, 800, 2400, 4, 2,[["diamond",1],["diamondc",1],["iron_r",1],["copper_r",1],["salt_r",1],["glass",1]]],
-	["iron_r", 2250, 425, 1275, 4, 4,[["diamond",1],["diamondc",1],["oilp",1],["copper_r",1],["salt_r",1],["glass",1]]],
-	["diamondc", 3800, 700, 2100, 4, 2,[["oilp",1],["iron_r",1],["copper_r",1],["salt_r",1],["goldbar",1],["glass",1]]],
-	["copper_r", 2150, 525, 1525, 4, 4,[["diamondc",1],["oilp",1],["iron_r",1],["salt_r",1],["glass",1]]],
-	["salt_r", 2400, 425, 1250, 4, 3,[["diamondc",1],["oilp",1],["iron_r",1],["copper_r",1],["glass",1]]],
-	["glass", 2400, 475, 1425, 4, 3,[["diamondc",1],["oilp",1],["iron_r",1],["copper_r",1],["salt_r",1]]],
+	["oilp", 5100, 2800, 02400, 4, 2,[["diamond",1],["diamondc",1],["iron_r",1],["copper_r",1],["salt_r",1],["glass",1]]],
+	["iron_r", 4550, 1025, 8275, 4, 4,[["diamond",1],["diamondc",1],["oilp",1],["copper_r",1],["salt_r",1],["glass",1]]],
+	["diamondc", 4050, 700, 2100, 4, 2,[["oilp",1],["iron_r",1],["copper_r",1],["salt_r",1],["goldbar",1],["glass",1]]],
+	["copper_r", 2750, 1525, 5525, 4, 4,[["diamondc",1],["oilp",1],["iron_r",1],["salt_r",1],["glass",1]]],
+	["salt_r", 2500, 1425, 5250, 4, 3,[["diamondc",1],["oilp",1],["iron_r",1],["copper_r",1],["glass",1]]],
+	["glass", 3000, 1275, 8425, 4, 3,[["diamondc",1],["oilp",1],["iron_r",1],["copper_r",1],["salt_r",1]]],
 	["apple", 45, 15, 45, 4, 3,[["goldbar",-1],["rabbit",1],["peach",1],["cotton",1]]],
 	["rabbit", 45, 45, 145, 4, 3,[["rabbit",-1],["apple",1],["peach",1],["cotton",1]]],
 	["peach", 60, 30, 90, 4, 3,[["apple",1],["cotton",1]]],
@@ -36,12 +36,12 @@ life_market_resources = [
 	["goatraw", 1700, 500, 3000, 4, 4,[["fishingpoles",-1],["turtle",-1],["marijuana",1],["cocainep",1],["lsdp",1],["methp",1],["turtle",-1],["heroinp",1]]],
 	["rabbitraw", 1500, 500, 1600, 4, 4,[["fishingpoles",-1],["turtle",-1],["marijuana",1],["cocainep",1],["lsdp",1],["methp",1],["turtle",-1],["heroinp",1]]],
 	["turtlesoup", 1000, 750, 2235, 4, 4,[["fishingpoles",-1],["turtlesoup",-1],["marijuana",1],["cocainep",1],["lsdp",1],["methp",1],["turtle",-1],["heroinp",1]]],
-	["marijuana", 5600, 1800, 7200, 4, 4,[["marijuana",-1],["turtle",1],["cocaine",1],["cocainep",1],["lsdp",1],["methp",1],["heroinp",1]]],
-	["cocainep", 6440, 1975, 7900, 4, 4,[["cannabis",1],["marijuana",1],["turtlesoup",1],["turtle",1],["lsdp",1],["methp",1],["heroinp",1]]],
-	["heroinp", 5100, 1750, 7000, 4, 4,[["goldbar",1],["cannabis",1],["marijuana",1],["turtlesoup",1],["turtle",1],["lsdp",1],["methp",1],["cocainep",1]]],
-	["methp", 5750, 2300, 9200, 4, 4,[["cigarette",-1],["methp",-1],["cannabis",1],["marijuana",1],["turtlesoup",1],["turtle",1],["heroinp",1],["lsdu",1],["lsdp",1],["cocainep",1]]],
-	["lsdp", 5700, 1825, 7300, 4, 4,[["lsdu",1],["cannabis",1],["marijuana",1],["turtlesoup",1],["turtle",1],["heroinp",1],["methu",1],["methp",1],["cocainep",1]]],
-	["uranium", 15000, 3500, 11500, 4, 4,[["oilp",1],["iron_r",1],["copper_r",1],["salt_r",1],["goldbar",1],["glass",1]]]
+	["marijuana", 8500, 1800, 7200, 4, 4,[["marijuana",-1],["turtle",1],["cocaine",1],["cocainep",1],["lsdp",1],["methp",1],["heroinp",1]]],
+	["cocainep", 4440, 2975, 7900, 4, 4,[["cannabis",1],["marijuana",1],["turtlesoup",1],["turtle",1],["lsdp",1],["methp",1],["heroinp",1]]],
+	["heroinp", 6500, 3750, 9000, 4, 4,[["goldbar",1],["cannabis",1],["marijuana",1],["turtlesoup",1],["turtle",1],["lsdp",1],["methp",1],["cocainep",1]]],
+	["methp", 8250, 4300, 11200, 4, 4,[["cigarette",-1],["methp",-1],["cannabis",1],["marijuana",1],["turtlesoup",1],["turtle",1],["heroinp",1],["lsdu",1],["lsdp",1],["cocainep",1]]],
+	["lsdp", 7500, 2825, 9100, 4, 4,[["lsdu",1],["cannabis",1],["marijuana",1],["turtlesoup",1],["turtle",1],["heroinp",1],["methu",1],["methp",1],["cocainep",1]]],
+	["uranium", 25000, 3500, 11500, 4, 4,[["oilp",1],["iron_r",1],["copper_r",1],["salt_r",1],["goldbar",1],["glass",1]]]
 ];
 publicVariable "life_market_resources";
 

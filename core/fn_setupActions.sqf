@@ -44,6 +44,9 @@ switch (playerSide) do
 	case independent: {
 		//Personalausweis + Ärztliche Qualifikation zeigen
 		life_actions = life_actions + [player addAction["<t color='#FFBF00'>Personalausweis zeigen</t>",life_fnc_medShowLicense,"",1,false,true,"",' playerSide == independent && (isPlayer cursorTarget) && !isNull cursorTarget && cursorTarget isKindOf "Man" ']];
+		//Ticket
+		life_actions = life_actions + [player addAction["Service-Gebühr stellen",life_fnc_servicefeeAction,"",0,false,false,"",'
+        !isNull cursorTarget && cursorTarget isKindOf "Man" && (isPlayer cursorTarget) && (side cursorTarget != independent) && alive cursorTarget && cursorTarget distance player < 3 ']];
 	};
 };
 
