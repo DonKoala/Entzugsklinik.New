@@ -61,7 +61,7 @@ switch(true) do
 	};
 	case (_rand <= 44): //8% erhöhen
 	{
-		[[0,"News: Öltanker gesunken! Ölpreis ist gestiegen !"],"life_fnc_broadcast",true,false] spawn life_fnc_MP;
+		[[0,"News: Öltanker gesunken! Ölpreis ist gestiegen!"],"life_fnc_broadcast",true,false] spawn life_fnc_MP;
 		
 		["oilp", [20,40] call life_fnc_randomRound, true] call life_fnc_marketBuy;
 		["salema", [20,40] call life_fnc_randomRound, true] call life_fnc_marketBuy; 
@@ -73,7 +73,7 @@ switch(true) do
 	};
 	case (_rand <= 54): //10% erhöhen
 	{
-		[[0,"News: Tschernobyl baut World-Trade-Center! Edelmetallpreise sind gestieben !"],"life_fnc_broadcast",true,false] spawn life_fnc_MP;
+		[[0,"News: Altis baut World-Trade-Center! Edelmetallpreise sind gestiegen!"],"life_fnc_broadcast",true,false] spawn life_fnc_MP;
 		
 		["iron_r", [20,30] call life_fnc_randomRound, true] call life_fnc_marketBuy; 
 		["glass", [25,35] call life_fnc_randomRound, true] call life_fnc_marketBuy;
