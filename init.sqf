@@ -17,7 +17,7 @@ enableSaving[false,false];
 //[] execVM "core\TJMS\welcome.sqf"; //Load Welcome Intro
 [] execVM "scripts\screwpeta.sqf";
 
-
+// SUmsi und Basti sind doof
 
 if(isDedicated && isNil("life_market_prices")) then {
 	[] call life_fnc_marketconfiguration;
