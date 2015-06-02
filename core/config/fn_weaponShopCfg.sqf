@@ -776,10 +776,15 @@ switch(_shop) do
 						["emt_uni1","Rettungssanitäter",600],
 						["fire_uni1","Feuerwehr Kleidung",600],
 						["Item_Medic","Rettungssanitäter Overall",600],
-						["U_C_Scientist","Arztkittel",600],
+						["U_C_Scientist","Strahlenanzug",600],
 						["B_Kitbag_cbr",nil,1500],
 						["V_Rangemaster_belt",nil,1300],
-						["tf_rt1523g_big_rhs",nil,1000]
+						["tf_rt1523g_big_rhs",nil,1000],
+						["GER_Beret_Sanitaeter",nil,1300],
+						["GER_Beret_Panzer",nil,1000]
+						
+						
+						
 					]
 				];
 			};
@@ -1086,13 +1091,13 @@ switch(_shop) do
 				["Koala's Waffenhandel",
 					[	
 						["BWA3_G36",nil,280000],
-						["BWA3_30Rnd_556x45_G36_Tracer_Dim",nil,5000],					
+						["BWA3_30Rnd_556x45_G36_Tracer_Dim",nil,4000],					
 						["BWA3_G28_Standard",nil,800000],		
-						["BWA3_10Rnd_762x51_G28_LR",nil,90000],
+						["BWA3_10Rnd_762x51_G28_LR",nil,4000],
 						["BWA3_MG4",nil,1200000],						
-						["BWA3_200Rnd_556x45",nil,400],							
-						["BWA3_optic_ZO4x30",nil,80000],
-						["BWA3_optic_20x50",nil,80000],
+						["BWA3_200Rnd_556x45",nil,15000],							
+						["BWA3_optic_ZO4x30",nil,8000],
+						["BWA3_optic_20x50",nil,8000],
 						["rhs_weap_rshg2",nil,2800000],
 						["rhs_rshg2_mag",nil,500000],						
 						["rhs_weap_ak103",nil,200000],		
@@ -1164,9 +1169,9 @@ switch(_shop) do
 						["optic_DMS",nil,1000],	
 						["optic_Holosight",nil,1000],	
 						["optic_KHS_blk",nil,1000],		
-						["optic_MRCO",nil,1000],	
-						["optic_Hamr",nil,1000],	
-						["optic_SOS",nil,1000],	
+						["optic_MRCO",nil,5000],	
+						["optic_Hamr",nil,10000],	
+						["optic_SOS",nil,20000],	
 						["acc_pointer_IR",nil,1000],	
 						["acc_flashlight",nil,1000],	
 						["bipod_03_F_oli",nil,1000],	

@@ -39,7 +39,7 @@ switch (playerSide) do
 		life_actions = life_actions + [player addAction["<t color='#BDBDBD'>Barriere aufheben</t>",life_fnc_packupbarrier,"",0,false,false,"",' _barrier = nearestObjects[getPos player,["RoadBarrier_F"],8] select 0; !isNil "_barrier" && !isNil {(_barrier getVariable "item")}']];
 	    //Barriere Klein aufheben
 		life_actions = life_actions + [player addAction["<t color='#BDBDBD'>Barriere klein aufheben</t>",life_fnc_packupbarriersmall,"",0,false,false,"",' _barriersmall = nearestObjects[getPos player,["RoadBarrier_small_F"],8] select 0; !isNil "_barriersmall" && !isNil {(_barriersmall getVariable "item")}']];
-		
+
 	
 	};
 	case independent: {

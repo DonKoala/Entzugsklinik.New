@@ -77,7 +77,7 @@ switch (_shop) do
 		{
 			_return set[count _return,["B_Quadbike_01_F",2500]];
 			_return set[count _return,["B_G_Offroad_01_F",15000]];
-			_return set[count _return,["B_G_Offroad_01_armed_F",750000]];
+			_return set[count _return,["B_G_Offroad_01_armed_F",7500000]];
 			_return set[count _return,["S_Rangerover_Black",65000]];
 			_return set[count _return,["S_Rangerover_Grey",65000]];
 			_return set[count _return,["S_Rangerover_White",65000]];
@@ -85,8 +85,8 @@ switch (_shop) do
 			_return set[count _return,["cl3_range_rover_camo_urban",65000]];
 			_return set[count _return,["B_Heli_Light_01_F",245000]];
 			_return set[count _return,["rhs_tigr_vdv",245000]];
-			_return set[count _return,["rhs_gaz66_vmf",245000]];
-			_return set[count _return,["rhs_gaz66_repair_vmf",245000]];
+			_return set[count _return,["rhs_gaz66_vmf",24500]];
+			_return set[count _return,["rhs_gaz66_repair_vmf",24500]];
 			_return set[count _return,["RHS_Ural_Open_Civ_01",245000]];
 			_return set[count _return,["RHS_Ural_Fuel_MSV_01",245000]];
 			_return set[count _return,["RHS_Ural_Open_MSV_01",245000]];

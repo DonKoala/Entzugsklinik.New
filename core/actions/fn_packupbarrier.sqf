@@ -2,7 +2,6 @@
     File: fn_packupmauer.sqf
     Author: Bryan "Tonic" Boardwine
     Edited by: OLLI aka Hauklotz
-
     Description:
     Packs up a deployed wall.
 */

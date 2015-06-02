@@ -33,6 +33,8 @@ switch (_filter) do
 		};
 			_ret set[count _ret,["Item_Zoll",nil,1000]];
 			_ret set[count _ret,["A3L_Prisoner_Outfit",nil,1000]];
+			_ret set[count _ret,["U_C_Scientist","Strahlenanzug",600]];
+			
 		
 		
 		
