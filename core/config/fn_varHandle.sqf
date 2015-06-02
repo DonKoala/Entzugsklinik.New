@@ -70,6 +70,7 @@ switch (_mode) do
 			case "kidney": {"life_inv_kidney"};
 			case "scalpel": {"life_inv_scalpel"};
 			case "barrier": {"life_inv_barrier"};
+			case "barriersmall": {"life_inv_barriersmall"};
 			case "kegel": {"life_inv_kegel"};
 			case "methu": {"life_inv_methu"};
             case "methp": {"life_inv_methp"};
@@ -152,6 +153,7 @@ switch (_mode) do
 			case "life_inv_kidney": {"kidney"};
 			case "life_inv_scalpel": {"scalpel"};
 			case "life_inv_barrier": {"barrier"};
+			case "life_inv_barriersmall": {"barriersmall"};
 			case "life_inv_kegel": {"kegel"};
 			case "life_inv_methu": {"methu"};
             case "life_inv_methp": {"methp"};

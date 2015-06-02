@@ -62,6 +62,7 @@ switch (_item) do
 	case "scalpel": {1};
 	case "kegel": {2};
 	case "barrier": {2};
+	case "barriersmall": {2};
 	case "methu": {7};
 	case "methp": {3};
 	case "lsdu": {8};

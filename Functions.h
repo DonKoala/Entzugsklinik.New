@@ -198,6 +198,7 @@ class Life_Client_Core
 		class robShops {};
 		class takeOrgans {};
 		class packupbarrier {};
+		class packupbarriersmall {};
 		class packupkegel {};
 		class chemlightUse {};
 		class sitDown {};
@@ -504,6 +505,7 @@ class Life_Client_Core
 		class speedbomb {}; 
 		class kegel {}; 
 		class barrier {}; 
+		class barriersmall {};
 		class zyankali {};
 	};
 	

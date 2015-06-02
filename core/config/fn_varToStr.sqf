@@ -64,6 +64,7 @@ switch (_var) do
 	case "life_inv_kidney": {"Niere"};
 	case "life_inv_scalpel": {"Skalpell"};
 	case "life_inv_barrier": {"Barriere"};
+	case "life_inv_barriersmall": {"Barriere Klein"};
 	case "life_inv_kegel": {"Leuchtkegel"};
 	case "life_inv_methu": {"Methanphetamin"};
 	case "life_inv_methp": {"Crystal Meth"};

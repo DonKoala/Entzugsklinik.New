@@ -80,6 +80,15 @@ switch (true) do
 		};
 	};
 	
+	case (_item == "barriersmall"):
+	{
+		if(!isNull life_mauer) exitWith {hint "Du stellst schon eine Barriere klein hin!"};
+		if(([false,_item,1] call life_fnc_handleInv)) then
+		{
+			[] spawn life_fnc_barriersmall;
+		};
+	};
+	
 	case (_item == "kegel"):
 	{
 		if(!isNull life_kegel) exitWith {hint "Du stellst schon einen Kegel hin!"};
