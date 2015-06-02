@@ -194,7 +194,7 @@ life_inv_items =
 	"life_inv_kidney",//
 	"life_inv_scalpel",//
 	"life_inv_barrier",//
-	"life_inv_barriersmall"
+	"life_inv_barriersmall",//
 	"life_inv_kegel",//
 	"life_inv_methu",//
 	"life_inv_methp",//
@@ -326,7 +326,7 @@ sell_array =
 	["kidney",5000],//
 	["scalpel",1000],//
 	["barrier",100],//
-	["barriersmall",75]
+	["barriersmall",75],//
 	["kegel",50],//
 	["methu",1000],//
     ["methp",3900],//
@@ -378,7 +378,7 @@ buy_array =
 	["kidney",12000],
 	["scalpel",4750],
 	["barrier",400],
-	["barriersmall",350]
+	["barriersmall",350],
 	["kegel",300],
 	["cigarette",700],
 	["cotton",730],
