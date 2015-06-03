@@ -372,7 +372,7 @@ switch (_code) do
 		};
 		
 		//adac lights
-		if(_shift && playerSide in [west,independent,civilian,opfor]) then {
+		if(_shift && playerSide in [west,independent]) then {
 			if(vehicle player != player && (typeOf vehicle player) in [
 			"C_Offroad_01_repair_F"
 			]) then {

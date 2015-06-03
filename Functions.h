@@ -72,8 +72,8 @@ class Life_Client_Core
 		class blinkingLeft {};
 		class bRight {};
 		class blinkingRight {};
-		class adacLights {};
-		class adacLightsPosition {};
+		//class adacLights {};
+		//class adacLightsPosition {};
 		class civShowLicense {};
         class civLicenseShown {};
 		class copShowLicense {};
@@ -153,6 +153,8 @@ class Life_Client_Core
 		class medicSirenLights {};
 		class medicLights {};
 		class medicSiren {};
+		class adacLights {};
+		class adacLightsPosition {};
 	};
 	
 	class Actions
