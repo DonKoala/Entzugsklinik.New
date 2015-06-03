@@ -30,12 +30,11 @@ switch (_shop) do
 		_return set[count _return,["C_Van_01_box_F",15000]];
 		_return set[count _return,["DAR_ExplorerMedic",32000]];
 		_return set[count _return,["cl3_dodge_charger_emt",32000]];
-
-		
-
-		if(__GETC__(life_medicLevel) > 2) then {
-			_return set[count _return,["A3L_CVPILBFD",55000]];
-		};
+		_return set[count _return,["C_Offroad_01_repair_F",20000]];
+		_return set[count _return,["B_Truck_01_transport_F",40000]];
+		_return set[count _return,["A3L_Towtruck",35000]];
+		_return set[count _return,["max_towtruck",25000]];
+		_return set[count _return,["A3L_CVPILBFD",55000]];
 	};
 	
 	case "med_air": {

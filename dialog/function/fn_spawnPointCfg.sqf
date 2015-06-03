@@ -58,7 +58,8 @@ switch (_side) do
 	
 	case independent: {
 		_return = [
-			["medic_spawn_1","Med. Einrichtung","\a3\ui_f\data\map\MapControl\hospital_ca.paa"]
+			["medic_spawn_1","Med. Einrichtung","\a3\ui_f\data\map\MapControl\hospital_ca.paa"],
+			["adac_spawn_1","ADAC Hauptsitz","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
 		];
 	};
 };

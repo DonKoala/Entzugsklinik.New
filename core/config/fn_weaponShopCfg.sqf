@@ -754,21 +754,21 @@ switch(_shop) do
 	{
 		switch (true) do 
 		{
-			case (playerSide != independent): {"Du bist weder Rot noch steht über deiner Rübe Sanitäter!"};
+			case (playerSide != independent): {"Du bist weder Rot noch steht über deiner Rübe Sanitäter oder ADAC!"};
 			default {
 				["Sanitäter Allzweckladen",
 					[
-						["Binocular",nil,10000],
-						["Rangefinder",nil,20000],
+						["Binocular",nil,100],
+						["Rangefinder",nil,200],
 						["ItemGPS",nil,800],
 						["ItemMap",nil,800],
 						["ItemWatch",nil,800],
 						["ItemCompass",nil,800],
 						["tf_ex8550","Altis Mobile S6",100],
-						["Medikit",nil,5000],
-						["FirstAidKit",nil,500],
-						["ToolKit",nil,5000],
-						["NVGoggles_OPFOR",nil,5000],
+						["Medikit",nil,100],
+						["FirstAidKit",nil,50],
+						["ToolKit",nil,2000],
+						["NVGoggles_OPFOR",nil,500],
 						["Chemlight_red",nil,200],
 						["Chemlight_yellow",nil,200],
 						["Chemlight_green",nil,200],
@@ -776,12 +776,31 @@ switch(_shop) do
 						["emt_uni1","Rettungssanitäter",600],
 						["fire_uni1","Feuerwehr Kleidung",600],
 						["Item_Medic","Rettungssanitäter Overall",600],
+						["emsoff_uni",nil,600],
+						["EMTRM_uni",nil,600],
+						["A3L_Worker_Outfit","ADAC Overall",600],
 						["U_C_Scientist","Strahlenanzug",600],
-						["B_Kitbag_cbr",nil,1500],
-						["V_Rangemaster_belt",nil,1300],
-						["tf_rt1523g_big_rhs",nil,1000],
-						["GER_Beret_Sanitaeter",nil,1300],
-						["GER_Beret_Panzer",nil,1000]
+						["B_Kitbag_cbr",nil,100],
+						["V_Rangemaster_belt",nil,100],
+						["tf_rt1523g_big_rhs",nil,100],
+						["GER_Beret_Sanitaeter",nil,100],
+						["GER_Beret_Panzer",nil,100],
+						["GER_Beret_Jaeger",nil,100],
+						["GER_Beret_Pionier",nil,100],
+						["GER_Beret_Artillerist",nil,100],
+						["GER_Beret_Panzergrenadier",nil,100],
+						["GER_Beret_Heeresflieger",nil,100],
+						["GER_Beret_Fallschirmjaeger",nil,100],
+						["GER_Beret_Wach",nil,100],
+						["GER_Beret_Aufklaerer",nil,100],
+						["A3L_russianhat",nil,100],
+						["Kio_Santa_Hat",nil,100],
+						["A3L_longhairbrown",nil,100],
+						["A3L_longhairblond",nil,100],
+						["A3L_longhairblack",nil,100]
+						
+						
+						
 						
 						
 						
