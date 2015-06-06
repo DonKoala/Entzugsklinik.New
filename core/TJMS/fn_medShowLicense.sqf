@@ -20,7 +20,7 @@ switch(_medlevel) do
 
 _message = format[
 "
-	<t align='left' size='1.4' color='#FFFFFF'>Tschernobyl</t><br/>
+	<t align='left' size='1.4' color='#FFFFFF'>Entzugsklinik</t><br/>
 	<t align='left' size='1.2' color='#BDBDBD'>Personalausweis</t><br/><br/>
    
 	<t align='left' size='1.2' color='#FFFFFF'>Vollständiger Name</t><br/>

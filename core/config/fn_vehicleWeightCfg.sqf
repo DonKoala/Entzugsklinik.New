@@ -39,10 +39,33 @@ switch (_className) do
 	case "A3L_Towtruck": {30};
 	case "max_towtruck": {30};
 	case "rhs_tigr_vdv": {30};
+	case "RHS_CH_47F_light" {275};
+	
+	//COP CARS
+	
+	case "A3L_TaurusFPBPDGM" {40};
+	case "A3L_TaurusFPBLBPD" {40};
+	case "A3L_TaurusFPBPD" {40};
+	case "A3L_TaurusFPBLBCSO" {40};
+	case "A3L_TaurusFPBCSO" {40};
+	case "A3L_CVPIFPBLBFG" {40};
+	case "A3L_CVPIFPBFG" {40};
+	case "A3L_CVPIFPBLBSP" {40};
+	case "A3L_CVPIFPBLBSP2" {40};
+	case "A3L_CVPIFPBLBSM" {40};
+	case "A3L_CVPIFPBSM" {40};
+	case "A3L_CVPIFPBLBPD" {40};
+	case "A3L_CVPIFPBPD" {40};
+	case "A3L_CVPIFPBLBHP" {40};
+	case "A3L_CVPIFPBHP" {40};
+	case "A3L_CVPIFPBCSO" {40};
+	case "A3L_CVPIFPBLBCSO" {40};
+	
 	
 	case "A3L_Camaro": {20};
 	case "A3L_Atom": {10};
 	case "A3L_Flipcar": {10};
+	case"UH1N_Slick": {30};
 	
 	
 	//karts

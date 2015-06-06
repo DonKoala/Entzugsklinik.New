@@ -23,7 +23,7 @@ if(_licenses == "") then {_licenses = ("<t color='#BDBDBD'>Keine Lizenzen erworb
 // form everything into the right place..
 _message = format[
 "
-	<t align='left' size='1.4' color='#FFFFFF'>Tschernobyl</t><br/>
+	<t align='left' size='1.4' color='#FFFFFF'>Entzugsklinik</t><br/>
 	<t align='left' size='1.2' color='#BDBDBD'>Personalausweis</t><br/><br/>
    
 	<t align='left' size='1.2' color='#FFFFFF'>Vollständiger Name</t><br/>

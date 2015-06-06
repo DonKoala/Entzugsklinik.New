@@ -722,6 +722,20 @@ switch (_shop) do
 		_return set[count _return,["dezkit_b206_ls",340000]];
 		_return set[count _return,["UH1N_Slick",440000]];
 		
+		//PREIS ANPASSEN    MUSS NOCH IN DIE VEHICLE WEIGHT
+		_return set[count _return,["Bell412",440000]];
+		_return set[count _return,["Cha_Mi17_Civilian",440000]];
+		_return set[count _return,["RHS_Mi8AMT_vvs",440000]];
+		_return set[count _return,["UH1N_Black",440000]];
+		
+
+		
+
+
+		 
+
+
+		
 		if(license_civ_aan) then
 		{
 			_return set[count _return,["dezkit_b206_news",245000]];//Bell NEWS
@@ -754,7 +768,7 @@ switch (_shop) do
 		_return set[count _return,["sab_BI_An2",130000]];
 		_return set[count _return,["sab_AH_An2",130000]];
 		_return set[count _return,["Sab_Amphi_An2",145000]];
-		_return set[count _return,["RHS_CH_47F_light",300000]];
+		_return set[count _return,["RHS_CH_47F_light",3000000]];
 	};
 	
 	case "civ_ship":

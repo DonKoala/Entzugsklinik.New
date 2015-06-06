@@ -37,11 +37,11 @@ life_market_resources = [
 	["rabbitraw", 1500, 500, 1600, 4, 4,[["fishingpoles",-1],["turtle",-1],["marijuana",1],["cocainep",1],["lsdp",1],["methp",1],["turtle",-1],["heroinp",1]]],
 	["turtlesoup", 1000, 750, 2235, 4, 4,[["fishingpoles",-1],["turtlesoup",-1],["marijuana",1],["cocainep",1],["lsdp",1],["methp",1],["turtle",-1],["heroinp",1]]],
 	["marijuana", 8500, 1800, 7200, 4, 4,[["marijuana",-1],["turtle",1],["cocaine",1],["cocainep",1],["lsdp",1],["methp",1],["heroinp",1]]],
-	["cocainep", 4440, 2975, 7900, 4, 4,[["cannabis",1],["marijuana",1],["turtlesoup",1],["turtle",1],["lsdp",1],["methp",1],["heroinp",1]]],
+	["cocainep", 9250, 2975, 7900, 4, 4,[["cannabis",1],["marijuana",1],["turtlesoup",1],["turtle",1],["lsdp",1],["methp",1],["heroinp",1]]],
 	["heroinp", 6500, 3750, 9000, 4, 4,[["goldbar",1],["cannabis",1],["marijuana",1],["turtlesoup",1],["turtle",1],["lsdp",1],["methp",1],["cocainep",1]]],
 	["methp", 8250, 4300, 11200, 4, 4,[["cigarette",-1],["methp",-1],["cannabis",1],["marijuana",1],["turtlesoup",1],["turtle",1],["heroinp",1],["lsdu",1],["lsdp",1],["cocainep",1]]],
 	["lsdp", 7500, 2825, 9100, 4, 4,[["lsdu",1],["cannabis",1],["marijuana",1],["turtlesoup",1],["turtle",1],["heroinp",1],["methu",1],["methp",1],["cocainep",1]]],
-	["uranium", 25000, 3500, 11500, 4, 4,[["oilp",1],["iron_r",1],["copper_r",1],["salt_r",1],["goldbar",1],["glass",1]]]
+	["uranium", 25000, 18500, 28500, 4, 4,[["oilp",1],["iron_r",1],["copper_r",1],["salt_r",1],["goldbar",1],["glass",1]]]
 ];
 publicVariable "life_market_resources";
 
