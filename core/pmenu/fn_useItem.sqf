@@ -73,7 +73,7 @@ switch (true) do
 	
 	case (_item == "barrier"):
 	{
-		if(!isNull life_barrier) exitWith {hint "Du stellst schon eine Barriere hin!"};
+		if(!isNull life_barrier) exitWith {hint "Du stellst schon eine Barriere auf!"};
 		if(([false,_item,1] call life_fnc_handleInv)) then
 		{
 			[] spawn life_fnc_barrier;
@@ -82,7 +82,7 @@ switch (true) do
 	
 	case (_item == "barriersmall"):
 	{
-		if(!isNull life_mauer) exitWith {hint "Du stellst schon eine Barriere klein hin!"};
+		if(!isNull life_barriersmall) exitWith {hint "Du stellst schon eine Barriere klein auf!"};
 		if(([false,_item,1] call life_fnc_handleInv)) then
 		{
 			[] spawn life_fnc_barriersmall;
@@ -91,7 +91,7 @@ switch (true) do
 	
 	case (_item == "kegel"):
 	{
-		if(!isNull life_kegel) exitWith {hint "Du stellst schon einen Kegel hin!"};
+		if(!isNull life_kegel) exitWith {hint "Du stellst schon einen Kegel auf!"};
 		if(([false,_item,1] call life_fnc_handleInv)) then
 		{
 			[] spawn life_fnc_kegel;

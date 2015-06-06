@@ -25,11 +25,13 @@ switch (_className) do
 	case "DAR_4X4": {80};
 	case "rhsusf_M1083A1P2_B_wd_fmtv_usarmy": {110};
 	case "rhsusf_M1078A1P2_wd_fmtv_usarmy": {110};
-	case "rhs_gaz66_vmf": {80};
-	case "rhs_gaz66_repair_vmf": {100};
+	case "rhs_gaz66o_msv": {70};
+	case "rhs_gaz66_msv": {90};
+	case "rhs_gaz66_repair_msv": {110};
 	case "RHS_Ural_Open_Civ_01": {200};
 	case "RHS_Ural_Fuel_MSV_01": {175};
 	case "RHS_Ural_Open_MSV_01": {200};
+	case "RHS_Ural_MSV_01": {250};
 	case "rhs_typhoon_vdv": {350};
 	case "A3L_Dumptruck": {400};
 	case "RHS_UAZ_MSV_01": {25};
@@ -38,8 +40,10 @@ switch (_className) do
 	case "cl3_lada_white": {40};
 	case "A3L_Towtruck": {30};
 	case "max_towtruck": {30};
-	case "rhs_tigr_vdv": {30};
+	case "rhs_tigr_msv": {30};
 	case "RHS_CH_47F_light" {275};
+	case "cl3_defender_110_red": {30};
+	case "cl3_defender_110_yellow": {30};
 	
 	//COP CARS
 	

@@ -60,11 +60,13 @@ switch (_shop) do
 		_return set[count _return,["DAR_4X4",50000]];
 		_return set[count _return,["rhsusf_M1083A1P2_B_wd_fmtv_usarmy",100000]];
 		_return set[count _return,["rhsusf_M1078A1P2_wd_fmtv_usarmy",100000]];
-		_return set[count _return,["rhs_gaz66_vmf",80000]];
-		_return set[count _return,["rhs_gaz66_repair_vmf",80000]];
+		_return set[count _return,["rhs_gaz66o_msv",80000]];			
+		_return set[count _return,["rhs_gaz66_msv",80000]];
+		_return set[count _return,["rhs_gaz66_repair_msv",80000]];
 		_return set[count _return,["RHS_Ural_Open_Civ_01",175000]];
 		_return set[count _return,["RHS_Ural_Fuel_MSV_01",150000]];
 		_return set[count _return,["RHS_Ural_Open_MSV_01",175000]];
+		_return set[count _return,["RHS_Ural_MSV_01",210000]];		
 		_return set[count _return,["rhs_typhoon_vdv",300000]];
 		_return set[count _return,["A3L_Dumptruck",350000]];
 	};
@@ -83,14 +85,17 @@ switch (_shop) do
 			_return set[count _return,["cl3_range_rover_camo",65000]];
 			_return set[count _return,["cl3_range_rover_camo_urban",65000]];
 			_return set[count _return,["B_Heli_Light_01_F",245000]];
-			_return set[count _return,["rhs_tigr_vdv",245000]];
-			_return set[count _return,["rhs_gaz66_vmf",24500]];
-			_return set[count _return,["rhs_gaz66_repair_vmf",24500]];
-			_return set[count _return,["RHS_Ural_Open_Civ_01",245000]];
-			_return set[count _return,["RHS_Ural_Fuel_MSV_01",245000]];
-			_return set[count _return,["RHS_Ural_Open_MSV_01",245000]];
-			_return set[count _return,["RHS_UAZ_MSV_01",245000]];
-			_return set[count _return,["rhs_uaz_open_MSV_01",245000]];		
+			_return set[count _return,["rhs_tigr_msv",245000]];
+			_return set[count _return,["rhsusf_m1025_w_s",245000]];
+			_return set[count _return,["rhs_gaz66o_msv",80000]];			
+			_return set[count _return,["rhs_gaz66_msv",80000]];
+			_return set[count _return,["rhs_gaz66_repair_msv",80000]];
+			_return set[count _return,["RHS_Ural_Open_Civ_01",175000]];
+			_return set[count _return,["RHS_Ural_Fuel_MSV_01",150000]];
+			_return set[count _return,["RHS_Ural_Open_MSV_01",175000]];
+			_return set[count _return,["RHS_Ural_MSV_01",210000]];
+			_return set[count _return,["RHS_UAZ_MSV_01",24500]];
+			_return set[count _return,["rhs_uaz_open_MSV_01",24500]];		
 		};
 	};
 	
@@ -129,6 +134,8 @@ switch (_shop) do
 		_return set[count _return,["A3L_Atom",47000]];
 		_return set[count _return,["A3L_Flipcar",50000]];
 		_return set[count _return,["cl3_lada_white",3000]];
+		_return set[count _return,["cl3_defender_110_yellow",50000]];
+		_return set[count _return,["cl3_defender_110_red",50000]];
 	};
 	
 	case "civ_audi":
