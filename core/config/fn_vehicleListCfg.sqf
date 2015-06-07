@@ -87,6 +87,10 @@ switch (_shop) do
 			_return set[count _return,["B_Heli_Light_01_F",245000]];
 			_return set[count _return,["rhs_tigr_msv",245000]];
 			_return set[count _return,["rhsusf_m1025_w_s",245000]];
+			_return set[count _return,["rhsusf_m998_w_s_2dr_fulltop",245000]];
+			_return set[count _return,["rhsusf_m998_w_s_2dr",245000]];
+			_return set[count _return,["rhsusf_m998_w_s_4dr_fulltop",245000]];
+			_return set[count _return,["rhsusf_m998_w_s_4dr",245000]];
 			_return set[count _return,["rhs_gaz66o_msv",80000]];			
 			_return set[count _return,["rhs_gaz66_msv",80000]];
 			_return set[count _return,["rhs_gaz66_repair_msv",80000]];

@@ -45,6 +45,13 @@ switch (_className) do
 	case "cl3_defender_110_red": {30};
 	case "cl3_defender_110_yellow": {30};
 	
+	//HMMWVS
+	case "rhsusf_m998_w_s_2dr_fulltop": {30};
+	case "rhsusf_m998_w_s_2dr": {30};
+	case "rhsusf_m998_w_s_4dr_fulltop": {30};
+	case "rhsusf_m998_w_s_4dr": {30};
+	case "rhsusf_m1025_w_s": {30};	
+	
 	//COP CARS
 	
 	case "A3L_TaurusFPBPDGM" {40};
