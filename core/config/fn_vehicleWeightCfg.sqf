@@ -41,7 +41,7 @@ switch (_className) do
 	case "A3L_Towtruck": {30};
 	case "max_towtruck": {30};
 	case "rhs_tigr_msv": {30};
-	case "RHS_CH_47F_light" {275};
+	case "RHS_CH_47F_light": {275};
 	case "cl3_defender_110_red": {30};
 	case "cl3_defender_110_yellow": {30};
 	
@@ -54,28 +54,28 @@ switch (_className) do
 	
 	//COP CARS
 	
-	case "Bell412" {30};
-	case "Cha_Mi17_Civilian" {250};
-	case "RHS_Mi8AMT_vvs" {250};
-	case "UH1N_Black" {30};
+	case "Bell412": {30};
+	case "Cha_Mi17_Civilian": {250};
+	case "RHS_Mi8AMT_vvs": {250};
+	case "UH1N_Black": {30};
 	
-	case "A3L_TaurusFPBPDGM" {40};
-	case "A3L_TaurusFPBLBPD" {40};
-	case "A3L_TaurusFPBPD" {40};
-	case "A3L_TaurusFPBLBCSO" {40};
-	case "A3L_TaurusFPBCSO" {40};
-	case "A3L_CVPIFPBLBFG" {40};
-	case "A3L_CVPIFPBFG" {40};
-	case "A3L_CVPIFPBLBSP" {40};
-	case "A3L_CVPIFPBLBSP2" {40};
-	case "A3L_CVPIFPBLBSM" {40};
-	case "A3L_CVPIFPBSM" {40};
-	case "A3L_CVPIFPBLBPD" {40};
-	case "A3L_CVPIFPBPD" {40};
-	case "A3L_CVPIFPBLBHP" {40};
-	case "A3L_CVPIFPBHP" {40};
-	case "A3L_CVPIFPBCSO" {40};
-	case "A3L_CVPIFPBLBCSO" {40};
+	case "A3L_TaurusFPBPDGM": {40};
+	case "A3L_TaurusFPBLBPD": {40};
+	case "A3L_TaurusFPBPD": {40};
+	case "A3L_TaurusFPBLBCSO": {40};
+	case "A3L_TaurusFPBCSO": {40};
+	case "A3L_CVPIFPBLBFG": {40};
+	case "A3L_CVPIFPBFG": {40};
+	case "A3L_CVPIFPBLBSP": {40};
+	case "A3L_CVPIFPBLBSP2": {40};
+	case "A3L_CVPIFPBLBSM": {40};
+	case "A3L_CVPIFPBSM": {40};
+	case "A3L_CVPIFPBLBPD": {40};
+	case "A3L_CVPIFPBPD": {40};
+	case "A3L_CVPIFPBLBHP": {40};
+	case "A3L_CVPIFPBHP": {40};
+	case "A3L_CVPIFPBCSO": {40};
+	case "A3L_CVPIFPBLBCSO": {40};
 	
 	
 	case "A3L_Camaro": {20};
