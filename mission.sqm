@@ -414,7 +414,7 @@ class Mission
 					vehicle="C_man_shorts_3_F_euro";
 					leader=1;
 					skill=0.60000002;
-					init="this enableSimulation false;  this allowDamage false;  this addAction[""Boat Shop"",life_fnc_vehicleShopMenu,[""civ_ship"",civilian,""cop_ship_1"",""civ"",""Seefahrtsverband""]];  this addAction[""Fahrzeuggarage"",  {   [[getPlayerUID player,playerSide,""Ship"",player],""TON_fnc_getVehicles"",false,false] spawn life_fnc_MP;   createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""civ_ship_1""; life_garage_type = ""Ship"";  },"""",0,false,false,"""",'playerSide == civilian'];  this addAction[""Fahrzeug einlagern"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store']; this setVariable[""realname"", ""Schiffswerft""];";
+					init="this enableSimulation false;  this allowDamage false;  this addAction[""Boat Shop"",life_fnc_vehicleShopMenu,[""civ_ship"",civilian,""civ_ship_1"",""civ"",""Seefahrtsverband""]];  this addAction[""Fahrzeuggarage"",  {   [[getPlayerUID player,playerSide,""Ship"",player],""TON_fnc_getVehicles"",false,false] spawn life_fnc_MP;   createDialog ""Life_impound_menu"";   disableSerialization;   ctrlSetText[2802,""Fetching Vehicles....""];   life_garage_sp = ""civ_ship_1""; life_garage_type = ""Ship"";  },"""",0,false,false,"""",'playerSide == civilian'];  this addAction[""Fahrzeug einlagern"",life_fnc_storeVehicle,"""",0,false,false,"""",'!life_garage_store']; this setVariable[""realname"", ""Schiffswerft""];";
 				};
 			};
 		};
@@ -54579,7 +54579,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=141;
+		items=142;
 		class Item0
 		{
 			position[]={4199.4399,17.80924,15034.367};
@@ -55741,6 +55741,13 @@ class Mission
 			name="Anwalt";
 			text="Anwaltskanzlei";
 			type="mil_dot";
+		};
+		class Item141
+		{
+			position[]={26446.994,-0.022566468,20398.809};
+			name="civ_ship_1";
+			type="Empty";
+			angle=146.84367;
 		};
 	};
 };
