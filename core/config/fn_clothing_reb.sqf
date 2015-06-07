@@ -98,7 +98,7 @@ switch (_filter) do
 	//Backpacks
 	case 4:
 	{
-		_ret set[count _ret,["tf_rt1523g_big_rhs",nil,1000]];
+		_ret set[count _ret,["tf_anprc155",nil,1000]];
 		_ret set[count _ret,["B_AssaultPack_dgtl",nil,2000]];
 		_ret set[count _ret,["rhs_rpg_empty",nil,2000]];		
 		_ret set[count _ret,["rhs_sidor",nil,2000]];		
