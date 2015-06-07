@@ -44,7 +44,7 @@ player createDiarySubject ["steuerung","Steuerung"];
 	
 	player createDiaryRecord ["info",
 	[
-		"1 - Über Entzugsklinik Tschernobyl Life",
+		"1 - Über Entzugsklinik Life",
 			"
 				<font color='#F4FA58'>Unser Team besteht derzeit aus folgenden Personen:</font><br/>
 				Developer / Scripter: Dieter Nantz<br/>
