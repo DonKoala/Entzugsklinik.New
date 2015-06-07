@@ -75,7 +75,7 @@ _Btn2 buttonSetAction "[[player],""life_fnc_licenseCheck"",life_pInact_curTarget
 
 //Set Search Button
 _Btn3 ctrlSetText "Alkohol/Drogen";
-_Btn3 buttonSetAction "[[player],""life_fnc_alkoholdrugtester"",life_pInact_curTarget,FALSE] spawn life_fnc_MP;closeDialog 0";
+_Btn3 buttonSetAction "[life_pInact_curTarget] spawn life_fnc_searchAction;";
 
 //Set Escort Button
 if((_curTarget getVariable["Escorting",false])) then {
