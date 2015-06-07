@@ -3,7 +3,7 @@
 	Author: M4rc3lloX
 	For: Sesselfurzer Life RPG!
 
-
+*/
 tjms_IntroOn = true;
 showCinemaBorder false;
 camUseNVG false;
@@ -108,4 +108,4 @@ titleText ["", "BLACK IN",1];
 _cam cameraEffect ["terminate","back"];
 camDestroy _cam;
 tjms_IntroOn = false;
-*/
+
