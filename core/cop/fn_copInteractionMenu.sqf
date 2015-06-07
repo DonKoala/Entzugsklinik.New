@@ -75,7 +75,7 @@ _Btn2 buttonSetAction "[[player],""life_fnc_licenseCheck"",life_pInact_curTarget
 
 //Set Search Button
 _Btn3 ctrlSetText "Durchsuchen";
-_Btn3 buttonSetAction "[life_pInact_curTarget] spawn life_fnc_searchAction;";
+_Btn3 buttonSetAction "[life_pInact_curTarget] spawn life_fnc_searchAction; closeDialog 0;";
 
 //Set Escort Button
 if((_curTarget getVariable["Escorting",false])) then {
