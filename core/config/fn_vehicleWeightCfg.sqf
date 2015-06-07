@@ -54,6 +54,11 @@ switch (_className) do
 	
 	//COP CARS
 	
+	case "Bell412" {30};
+	case "Cha_Mi17_Civilian" {250};
+	case "RHS_Mi8AMT_vvs" {250};
+	case "UH1N_Black" {30};
+	
 	case "A3L_TaurusFPBPDGM" {40};
 	case "A3L_TaurusFPBLBPD" {40};
 	case "A3L_TaurusFPBPD" {40};
