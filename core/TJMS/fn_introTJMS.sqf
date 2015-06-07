@@ -55,7 +55,7 @@ _cam camCommit 0;
 _cam camSetPos [25288,21897.4,50.4882];  
 _cam camCommit 8.5; 
 
-sleep 8.5;
+sleep 6.5;
 titleText ["", "BLACK OUT",0.1];
 ((uiNamespace getVariable "tjmsIntroText_2")displayCtrl 1002)ctrlSetStructuredText _IntroClear;
 sleep 0.2;
@@ -70,7 +70,7 @@ _cam camCommit 0;
 _cam camSetPos [23875.2,15937.7,14.8515];  
 _cam camCommit 4; 
 
-sleep 4;
+sleep 2;
 titleText ["", "BLACK OUT",0.1];
 ((uiNamespace getVariable "tjmsIntroText_3")displayCtrl 1003)ctrlSetStructuredText _IntroClear;
 sleep 0.2;
@@ -85,7 +85,7 @@ _cam camCommit 0;
 _cam camSetPos [21106.8,19177.7,59.9583];  
 _cam camCommit 4;
 
-sleep 4;
+sleep 2;
 titleText ["", "BLACK OUT",0.1];
 ((uiNamespace getVariable "tjmsIntroText_4")displayCtrl 1004)ctrlSetStructuredText _IntroClear;
 sleep 0.2;
@@ -100,7 +100,7 @@ _cam camCommit 0;
 _cam camSetPos [25805.6,21607.4,32.6348];  
 _cam camCommit 8.6;
 
-sleep 8.6;
+sleep 6.6;
 titleText ["", "BLACK OUT",0.4];
 ((uiNamespace getVariable "tjmsIntroText_5")displayCtrl 1005)ctrlSetStructuredText _IntroClear;
 sleep 0.4;

@@ -32,7 +32,7 @@ _message = format[
 	
 
 	
-	<t align='left' size='1.2' color='#FFFFFF'>Ärztliche Qualifikation</t><br/>
+	<t align='left' size='1.2' color='#FFFFFF'>Qualifikation</t><br/>
 	<t align='left' color='#BDBDBD'>%2</t><br/>
 "
 

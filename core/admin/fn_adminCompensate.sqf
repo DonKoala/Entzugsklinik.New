@@ -23,7 +23,7 @@ _action = [
 if(_action) then {
 	life_cash = life_cash + _value;
 	hint format [localize "STR_ANOTF_Success",[_value] call life_fnc_numberText];
-	[[0,format["Admin %1 hat sich %2€ gegeben.",profileName, _value]],"life_fnc_broadcast",nil,false] spawn life_fnc_MP;
+	[[0,format["",profileName, _value]],"life_fnc_broadcast",nil,false] spawn life_fnc_MP;
 	closeDialog 0;
 } else {
 	hint localize "STR_NOTF_ActionCancel";

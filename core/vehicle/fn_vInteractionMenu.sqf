@@ -37,7 +37,7 @@ _Btn1 buttonSetAction "[life_vInact_curTarget] spawn life_fnc_repairTruck;";
 if("ToolKit" in (items player) && (damage _curTarget < 1)) then {_Btn1 ctrlEnable true;} else {_Btn1 ctrlEnable false;};
 
 //Abschleppen für den ADAC
-if((playerSide == independent) && license_med_adac && {speed _curTarget == 0} && _curTarget in life_vehicles) then {
+if((playerSide == independent)  && {speed _curTarget == 0} && _curTarget in life_vehicles) then {
 	_Btn5 ctrlShow true;
 	_Btn5 ctrlSetText "Abschleppen";
 	_Btn5 buttonSetAction "[life_vInact_curTarget] spawn life_fnc_impoundAction;";
