@@ -51314,7 +51314,7 @@ class Mission
 		};
 		class Item139
 		{
-			position[]={25877.074,20.438749,21482.537};
+			position[]={25876.729,20.453875,21482.844};
 			name="nok_itemfach1";
 			type="Empty";
 		};
