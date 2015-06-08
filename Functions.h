@@ -207,7 +207,7 @@ class Life_Client_Core
 		class craftAction {};
 		class processActionDual {};
 		class processActionLsd {};
-		class InteractionMenu {};
+
 	};
 	
 	class Housing
@@ -389,6 +389,7 @@ class Life_Client_Core
 		class civLoadout {};
 		class hooker{};
 		class hasOrgan {};
+		class civInteractionMenu {};
 	};
 	
 	class Vehicle
@@ -410,6 +411,8 @@ class Life_Client_Core
 		class houseClose {};
         class houseOpen {};
 		class updateVehTrunk {};
+		class civVInteractionMenu {};
+        class medVInteractionMenu {};
 	};
 	
 	class Cop

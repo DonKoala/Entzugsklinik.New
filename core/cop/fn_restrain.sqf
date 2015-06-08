@@ -32,7 +32,7 @@ if(isNull _cop) exitWith {};
 
 if((player getVariable["surrender",FALSE])) then { player setVariable["surrender",FALSE,TRUE]; player switchMove ""; };
 titleText[format[localize "STR_Cop_Retrained",_cop getVariable["realname",name _cop]],"PLAIN"];
-player say3D "handcuffs";
+player say3D "cuff";
 while {player getVariable "restrained"} do
 {
 	if(vehicle player == player) then {
