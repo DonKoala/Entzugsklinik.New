@@ -141,8 +141,6 @@ _houseListbox    = _display displayCtrl 6003;
 _ownInvListbox   = _display displayCtrl 6013;
 _titleText       = _display displayCtrl 6005;
 _content         = _house getVariable "content";
-lbClear _houseListbox;
-lbClear _ownInvListbox;
 
 if (isNil "housing_lastIndexHouse") then { housing_lastIndexHouse = 0 };
 if (isNil "housing_lastIndexOwnInv") then { housing_lastIndexOwnInv = 0 };
