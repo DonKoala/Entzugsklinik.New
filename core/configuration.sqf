@@ -43,8 +43,9 @@ life_markers = false;
 nn_last_vehicles = [];
 life_handcuffs = ObjNull;
 life_handcuffkeys = ObjNull;
-
 nn_empInUse = false;
+mdone = false;
+safe = false;
 life_drink = 0;
 life_drug = 0; 
 
@@ -219,7 +220,15 @@ life_inv_items =
 	"life_inv_uranium4",
 	"life_inv_uranium",
 	"life_inv_handcuffs",
-	"life_inv_handcuffkeys"
+	"life_inv_handcuffkeys",
+	"life_inv_brenn",
+	"life_inv_raff",
+	"life_inv_schnaps",
+	"life_inv_benzin",
+	"life_inv_diesel",
+	"life_inv_bauma",
+	"life_inv_zucker",
+	"life_inv_mais"
 ];
 
 //Setup variable inv vars.
@@ -348,7 +357,10 @@ sell_array =
 	["uranium",3500],
 	["puranium",7000],
 	["handcuffs",200],
-	["handcuffkeys",100]
+	["handcuffkeys",100],
+	["schnaps",7000],
+	["diesel",200],
+	["benzin",100]
 ];
 __CONST__(sell_array,sell_array);
 

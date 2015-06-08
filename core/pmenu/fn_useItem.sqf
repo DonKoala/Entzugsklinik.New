@@ -52,6 +52,22 @@ switch (true) do
 		};												   
 	};
 	
+	case (_item == "brenn"): 
+	{
+		if(([false,_item,1] call life_fnc_handleInv)) then
+		{	
+			[] spawn life_fnc_usebrenn;
+		};
+	};
+	
+	case (_item == "raff"): 
+	{
+		if(([false,_item,1] call life_fnc_handleInv)) then
+		{	
+			[] spawn life_fnc_useraff;
+		};
+	};
+	
 	case (_item == "cigarette"): 
 	{
 		

@@ -94,6 +94,18 @@ switch (_mode) do
             case "uranium": {"life_inv_uranium"};
 			case "handcuffs": {"life_inv_handcuffs"};
             case "handcuffkeys": {"life_inv_handcuffkeys"};
+			
+			case "brenn": {"life_inv_brenn"};
+			case "raff": {"life_inv_raff"};
+			
+			case "schnaps": {"life_inv_schnaps"};
+			case "benzin": {"life_inv_benzin"};
+            case "diesel": {"life_inv_diesel"};
+			case "bauma": {"life_inv_bauma"};
+			
+			case "zucker": {"life_inv_zucker"};
+			case "mais": {"life_inv_mais"};
+			
 		};
 	};
 	
@@ -179,6 +191,17 @@ switch (_mode) do
             case "life_inv_uranium": {"uranium"};
 			case "life_inv_handcuffs": {"handcuffs"};
             case "life_inv_handcuffkeys": {"handcuffkeys"};
+			
+			case "life_inv_brenn": {"brenn"};
+            case "life_inv_raff": {"raff"};
+			
+			case "life_inv_schnaps": {"schnaps"};
+			case "life_inv_benzin": {"benzin"};
+            case "life_inv_diesel": {"diesel"};
+			case "life_inv_bauma": {"bauma"};
+			
+			case "life_inv_zucker": {"zucker"};
+			case "life_inv_mais": {"mais"};
 
 		};
 	};

@@ -207,6 +207,15 @@ class Life_Client_Core
 		class craftAction {};
 		class processActionDual {};
 		class processActionLsd {};
+		
+		class packupmais {};
+		class packupzucker {};
+		class baumoto {};
+     	class baumoto2 {};
+     	class desti {};
+     	class maische {};
+     	class Benzin {};
+   		class Diesel {};
 
 	};
 	
@@ -513,6 +522,8 @@ class Life_Client_Core
 		class barrier {}; 
 		class barriersmall {};
 		class zyankali {};
+		class usebrenn {};
+		class useraff {};
 	};
 	
 	class Dialog_Controls

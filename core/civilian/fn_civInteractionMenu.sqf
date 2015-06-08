@@ -12,20 +12,45 @@
 #define Btn5 37454
 #define Btn6 37455
 #define Btn7 37456
+#define Btn8 37457
 #define Title 37401
 
 private["_display","_curTarget","_Btn1","_Btn2","_Btn3","_Btn4","_Btn5","_Btn6","_Btn7"];
-
 if(!dialog) then {
 	createDialog "pInteraction_Menu";
 };
-
 disableSerialization;
-
 _curTarget = [_this,0,ObjNull,[ObjNull]] call BIS_fnc_param;
-if(isNull _curTarget) exitWith {closeDialog 0;};	
-if(!isPlayer _curTarget && side _curTarget == civilian) exitWith {closeDialog 0;};
+if(isNull _curTarget) exitWith {closeDialog 0;};
 
+if(_curTarget isKindOf "House_F") exitWith {
+	if((nearestObject [[16019.5,16952.9,0],"Land_Dome_Big_F"]) == _curTarget OR (nearestObject [[16019.5,16952.9,0],"Land_Research_house_V1_F"]) == _curTarget) then {
+		_display = findDisplay 37400;
+		_Btn1 = _display displayCtrl Btn1;
+		_Btn2 = _display displayCtrl Btn2;
+		_Btn3 = _display displayCtrl Btn3;
+		_Btn4 = _display displayCtrl Btn4;
+		_Btn5 = _display displayCtrl Btn5;
+		_Btn6 = _display displayCtrl Btn6;
+		_Btn7 = _display displayCtrl Btn7;
+		life_pInact_curTarget = _curTarget;
+		
+		_Btn1 ctrlSetText localize "STR_pInAct_Repair";
+		_Btn1 buttonSetAction "[life_pInact_curTarget] spawn life_fnc_repairDoor;";
+		
+		_Btn2 ctrlSetText localize "STR_pInAct_CloseOpen";
+		_Btn2 buttonSetAction "[life_pInact_curTarget] call life_fnc_doorAnimate;";
+		_Btn3 ctrlShow false;
+		_Btn4 ctrlShow false;
+		_Btn5 ctrlShow false;
+		_Btn6 ctrlShow false;
+		_Btn7 ctrlShow false;
+	} else {
+		closeDialog 0;
+	};
+};
+		
+if(!isPlayer _curTarget && side _curTarget == civilian) exitWith {closeDialog 0;};
 _display = findDisplay 37400;
 _Btn1 = _display displayCtrl Btn1;
 _Btn2 = _display displayCtrl Btn2;
@@ -34,10 +59,9 @@ _Btn4 = _display displayCtrl Btn4;
 _Btn5 = _display displayCtrl Btn5;
 _Btn6 = _display displayCtrl Btn6;
 _Btn7 = _display displayCtrl Btn7;
-​
 life_pInact_curTarget = _curTarget;
 
-//Button 1 - Set unrestrain button
+//Button 1 - Set Unrestrain Button
 _Btn1 ctrlSetText localize "STR_pInAct_Unrestrain";
 _Btn1 buttonSetAction "[life_pInact_curTarget] call life_fnc_unrestrain; closeDialog 0;";
 
@@ -48,44 +72,41 @@ if(life_inv_handcuffkeys > 0) then
     _Btn1 ctrlEnable false;
 };
 
-//Button 2 - Set Escort Button
-if((_curTarget getVariable["Escorting",false])) then 
+//Button 2 - Set Check Licenses Button
+_Btn2 ctrlSetText localize "STR_pInAct_checkLicenses";
+_Btn2 buttonSetAction "[[player],""life_fnc_licenseCheck"",life_pInact_curTarget,FALSE] spawn life_fnc_MP";
+
+//Button 3 - Set Search Button
+_Btn3 ctrlSetText localize "STR_pInAct_SearchPlayer";
+//_Btn3 buttonSetAction "[life_pInact_curTarget] spawn life_fnc_searchAction; closeDialog 0;";
+
+//Button 4 - Set Escort Button
+if((_curTarget getVariable["Escorting",false])) then {
+	_Btn4 ctrlSetText localize "STR_pInAct_StopEscort";
+	_Btn4 buttonSetAction "[life_pInact_curTarget] call life_fnc_stopEscorting; [life_pInact_curTarget] call life_fnc_copInteractionMenu; closeDialog 0;";
+} else {
+	_Btn4 ctrlSetText localize "STR_pInAct_Escort";
+	_Btn4 buttonSetAction "[life_pInact_curTarget] call life_fnc_escortAction; closeDialog 0;";
+};
+
+//Button 5 - Set Ticket Button
+_Btn5 ctrlSetText localize "STR_pInAct_TicketBtn";
+_Btn5 buttonSetAction "[life_pInact_curTarget] call life_fnc_ticketAction;";
+
+//Button 6 - Set arrest button
+_Btn6 ctrlSetText localize "STR_pInAct_Arrest";
+_Btn6 buttonSetAction "closeDialog 0; [] call life_fnc_showArrestDialog;";
+
+//Check that you are near a place to jail them.
+if(!(
+	(player distance (getMarkerPos "cop_spawn_1") < 60) OR  
+	(player distance (getMarkerPos "jail_marker") < 60)
+	)) then 
 {
-    _Btn2 ctrlSetText localize "STR_pInAct_StopEscort";
-    _Btn2 buttonSetAction "[life_pInact_curTarget] call life_fnc_stopEscorting; closeDialog 0;";
-} else {
-    _Btn2 ctrlSetText localize "STR_pInAct_Escort";
-    _Btn2 buttonSetAction "[life_pInact_curTarget] call life_fnc_escortAction; closeDialog 0;";
+	_Btn6 ctrlEnable false;
 };
 
-if(_curTarget distance player < 5 && (primaryWeapon player != "")) then {
-    _Btn2 ctrlEnable true;
-} else {
-    _Btn2 ctrlEnable false;
-};
 
-//Button 3 - Set put in car button 
-_Btn3 ctrlSetText localize "STR_pInAct_PutInCar"; 
-_Btn3 buttonSetAction "[life_pInact_curTarget] call life_fnc_putInCar; closeDialog 0;";
-
-if((primaryWeapon player != "")) then {
-    _Btn3 ctrlEnable true;
-} else {
-    _Btn3 ctrlEnable false;
-};
-
-//Button 4 - Set Lockpick Button 
-_Btn4 ctrlSetText localize "STR_pInAct_Lockpick"; 
-_Btn4 buttonSetAction "[] spawn life_fnc_pLockpick; closeDialog 0;"; 
-
-if(life_inv_lockpick > 0) then { 
-    _Btn4 ctrlEnable true; 
-} else { 
-    _Btn4 ctrlEnable false; 
-}; 
-//Button 5 - undefined 
-_Btn5 ctrlShow false; 
-//Button 6 - undefined 
-_Btn6 ctrlShow false; 
-//Button 7 - undefined 
-_Btn7 ctrlShow false; 
+	//Button 7 - Set put in car button
+_Btn7 ctrlSetText localize "STR_pInAct_PutInCar";
+_Btn7 buttonSetAction "[life_pInact_curTarget] call life_fnc_putInCar; closeDialog 0;"; 

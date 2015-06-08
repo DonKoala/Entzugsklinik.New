@@ -20,7 +20,10 @@ switch (playerSide) do
 		life_actions = life_actions + [player addAction["<t color='#FFBF00'>Personalausweis zeigen</t>",life_fnc_civShowLicense,"",1,false,true,"",' playerSide == civilian && (isPlayer cursorTarget) && !isNull cursorTarget && (side cursorTarget in [west, independent, civilian, opfor]) && cursorTarget isKindOf "Man" ']];
 		//Rob Radio, Map and GPS
 		life_actions = life_actions + [player addAction["<t color='#2E9AFE'>GPS und Karte abnehmen</t>",life_fnc_civRobPhone,"",0,false,false,"",'!isNull cursorTarget && player distance cursorTarget < 3.5 && isPlayer cursorTarget && animationState cursorTarget == "Incapacitated" or animationState cursorTarget == "amovpercmstpsnonwnondnon_amovpercmstpssurwnondnon" && (cursorTarget hasWeapon "ItemGPS" || cursorTarget hasWeapon "ItemMap")']];
-	
+		//mais aufheben
+		life_actions = life_actions + [player addAction["<t color='#FF0000'>Mais steheln</t>",life_fnc_packupmais,"",0,false,false,"",' _mais = nearestObjects[getPos player,["Land_Sack_F"],2] select 0; !isNil "_mais" ']];
+		//zucker aufheben
+		life_actions = life_actions + [player addAction["<t color='#FF0000'>Zucker steheln</t>",life_fnc_packupzucker,"",0,false,false,"",' _zucker = nearestObjects[getPos player,["Land_CanisterPlastic_F"],2] select 0; !isNil "_zucker" ']]
 		
 	
 	};
