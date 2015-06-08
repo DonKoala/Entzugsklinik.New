@@ -17,10 +17,10 @@ if(isNull _cop) exitWith {};
 	while {true} do
 	{
 		_time = time;
-		waitUntil {(time - _time) > (5 * 60)};
+		waitUntil {(time - _time) > (20 * 60)};//(5 * 60)
 		
 		if(!(player getVariable["restrained",FALSE])) exitWith {};
-		if(!([west,getPos player,30] call life_fnc_nearUnits) && (player getVariable["restrained",FALSE]) && vehicle player == player) exitWith {
+		if(!([west,getPos player,30] call life_fnc_nearUnits) || ([civilian,getPos player,30] call life_fnc_nearUnits) && (player getVariable["restrained",FALSE]) && vehicle player == player) exitWith {
 			player setVariable["restrained",FALSE,TRUE];
 			player setVariable["Escorting",FALSE,TRUE];
 			player setVariable["transporting",false,true];
@@ -29,10 +29,10 @@ if(isNull _cop) exitWith {};
 		};
 	};
 };
+
 if((player getVariable["surrender",FALSE])) then { player setVariable["surrender",FALSE,TRUE]; player switchMove ""; };
 titleText[format[localize "STR_Cop_Retrained",_cop getVariable["realname",name _cop]],"PLAIN"];
-player say3D "cuff";
-				
+player say3D "handcuffs";
 while {player getVariable "restrained"} do
 {
 	if(vehicle player == player) then {
@@ -57,18 +57,14 @@ while {player getVariable "restrained"} do
 	
 	if(vehicle player != player) then
 	{
-		//disableUserInput true;
 		if(driver (vehicle player) == player) then {player action["eject",vehicle player];};
 	};
 };
-
-//disableUserInput false;
 		
 if(alive player) then
 {
-	player switchMove "AmovPercMstpSlowWrflDnon_SaluteIn";
+	player switchMove "";
 	player setVariable ["Escorting",false,true];
 	player setVariable ["transporting",false,true];
 	detach player;
-	player say3D "cuff";
 };

@@ -50,27 +50,35 @@ if(_curTarget isKindOf "Man" && {!alive _curTarget} && {playerSide in [west,inde
 
 
 //If target is a player then check if we can use the cop menu.
-if(isPlayer _curTarget && _curTarget isKindOf "Man") then {
-	if((_curTarget getVariable["restrained",false]) &&  {!(player getVariable["restrained",false])} && !dialog && playerSide == west) then {
+if(isPlayer _curTarget && _curTarget isKindOf "Man") then 
+{
+	if((_curTarget getVariable["restrained",false]) && {!(player getVariable["restrained",false])} && !dialog && playerSide == west) then 
+	{
 		[_curTarget] call life_fnc_copInteractionMenu;
 	};
-	//Set interactions
-	if((_curTarget getVariable["restrained",false]) && {!(player getVariable["restrained",false])} && !dialog && {playerSide in [civilian,independent]}) exitWith {
-		[_curTarget] call life_fnc_InteractionMenu;
-	}; 
+	if((_curTarget getVariable["restrained",false]) && {!(player getVariable["restrained",false])} && !dialog && playerSide == civilian) exitWith
+	{
+	    [_curTarget] call life_fnc_civInteractionMenu;
+	};
 } else {
 	//OK, it wasn't a player so what is it?
 	private["_isVehicle","_miscItems","_money"];
 	_isVehicle = if((_curTarget isKindOf "landVehicle") OR (_curTarget isKindOf "Ship") OR (_curTarget isKindOf "Air")) then {true} else {false};
 	_miscItems = ["Land_BottlePlastic_V1_F","Land_TacticalBacon_F","Land_Can_V3_F","Land_CanisterFuel_F","Land_Suitcase_F"];
-	_animalTypes = ["Salema_F","Ornate_random_F","Mackerel_F","Tuna_F","Mullet_F","CatShark_F","Turtle_F","Hen_random_F","Cock_random_F","Goat_random_F","Sheep_random_F","Rabbit_F"];
+	_animalTypes = ["Salema_F","Ornate_random_F","Mackerel_F","Tuna_F","Mullet_F","CatShark_F","Turtle_F"];
 	_money = "Land_Money_F";
 	
 	//It's a vehicle! open the vehicle interaction key!
 	if(_isVehicle) then {
 		if(!dialog) then {
-			if(player distance _curTarget < ((boundingBox _curTarget select 1) select 0) + 2) then {
+			if(playerSide == west && player distance _curTarget < (((boundingBox _curTarget select 1) select 0) + 2)) then {
 				[_curTarget] call life_fnc_vInteractionMenu;
+			};
+			if(playerSide == civilian && player distance _curTarget < (((boundingBox _curTarget select 1) select 0) + 2)) then {
+			    [_curTarget] call life_fnc_civVInteractionMenu;
+			};
+			if(playerSide == independent && player distance _curTarget < (((boundingBox _curTarget select 1) select 0) + 2)) then {
+			    [_curTarget] call life_fnc_medVInteractionMenu;
 			};
 		};
 	} else {
@@ -81,21 +89,9 @@ if(isPlayer _curTarget && _curTarget isKindOf "Man") then {
 				_handle = [_curTarget] spawn life_fnc_catchTurtle;
 				waitUntil {scriptDone _handle};
 			} else {
-				if(((typeOf _curTarget) in ["Hen_random_F","Cock_random_F","Goat_random_F","Sheep_random_F","Rabbit_F"]) && !alive _curTarget) then {
-					private["_handle"];
-					switch(typeOf _curTarget) do {
-						case "Hen_random_F": {_handle = [_curTarget] spawn life_fnc_catchHen;};
-						case "Cock_random_F": {_handle = [_curTarget] spawn life_fnc_catchCock;};
-						case "Goat_random_F": {_handle = [_curTarget] spawn life_fnc_catchGoat;};
-						case "Sheep_random_F": {_handle = [_curTarget] spawn life_fnc_catchSheep;};
-						case "Rabbit_F": {_handle = [_curTarget] spawn life_fnc_catchRabbit;};
-					};
-					waitUntil {scriptDone _handle};		
-				} else {
-					private["_handle"];
-					_handle = [_curTarget] spawn life_fnc_catchFish;
-					waitUntil {scriptDone _handle};
-				};
+				private["_handle"];
+				_handle = [_curTarget] spawn life_fnc_catchFish;
+				waitUntil {scriptDone _handle};
 			};
 		} else {
 			//OK, it wasn't a vehicle so let's see what else it could be?
