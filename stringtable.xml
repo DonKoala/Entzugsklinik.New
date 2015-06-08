@@ -5342,4 +5342,34 @@
 			<Portuguese>Roubar Jogador</Portuguese>
 		</Key>
 	</Package>
+	<Package name="Life_Items">
+		<Key ID="STR_Item_Handcuffs">
+			<Original>Handcuffs</Original>
+			<English>Handcuffs</English>
+			<German>Handschellen</German>
+		</Key>
+
+		<Key ID="STR_Item_Handcuffkeys">
+			<Original>Handcuffkeys</Original>
+			<English>Handcuffkeys</English>
+			<German>Handschellenschlüssel</German>
+		</Key>
+
+    <Package name="Notifications">
+        <Key ID="STR_NOTF_RestrainedPerson">
+            <Original>The person is now tied up!</Original>
+            <English>The person is now tied up!</English>
+            <German>Die Person ist nun Gefesselt!</German>
+            <French>%1 a été menotté par %2</French>
+            <Italian>%1 è stato ammanettato da %2</Italian>
+            <Portuguese>%1 foi imobilizado por %2</Portuguese>
+        </Key>
+        <Key ID="STR_NOTF_NoHandcuffs">
+            <Original>You dont have Handcuffs</Original>
+            <English>You dont have Handcuffs</English>
+            <German>Du hast keine Handschellen</German>
+            <French>No Handcuffs</French>
+            <Italian>No Handcuffs</Italian>
+            <Portuguese>Maconha não Processada</Portuguese>
+        </Key>
 </Project>

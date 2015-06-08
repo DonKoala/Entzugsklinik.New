@@ -41,6 +41,8 @@ life_god = false;
 life_frozen = false;
 life_markers = false;
 nn_last_vehicles = [];
+life_handcuffs = ObjNull;
+life_handcuffkeys = ObjNull;
 
 nn_empInUse = false;
 life_drink = 0;
@@ -215,7 +217,9 @@ life_inv_items =
 	"life_inv_uranium2",
 	"life_inv_uranium3",
 	"life_inv_uranium4",
-	"life_inv_uranium"
+	"life_inv_uranium",
+	"life_inv_handcuffs",
+	"life_inv_handcuffkeys"
 ];
 
 //Setup variable inv vars.
@@ -271,7 +275,9 @@ life_illegal_items = [
 	["goldbar",95000],
 	["kidney",10000],
 	["life_inv_cannabis",3000],
-	["ipuranium",10000] 
+	["ipuranium",10000],
+	["handcuffs",200],
+	["handcuffkeys",100]
 ];
 
 
@@ -340,7 +346,9 @@ sell_array =
     ["rabbitraw",1500],//
 	["uwsl",5000],
 	["uranium",3500],
-	["puranium",7000]
+	["puranium",7000],
+	["handcuffs",200],
+	["handcuffkeys",100]
 ];
 __CONST__(sell_array,sell_array);
 
@@ -390,7 +398,9 @@ buy_array =
 	["uwsl",10000],
 	["zyankali",5000],
 	["puranium",2000],
-	["ipuranium",4000]
+	["ipuranium",4000],
+	["handcuffs",500],
+	["handcuffkeys",300]
 ];
 __CONST__(buy_array,buy_array);
 

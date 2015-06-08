@@ -207,6 +207,7 @@ class Life_Client_Core
 		class craftAction {};
 		class processActionDual {};
 		class processActionLsd {};
+		class InteractionMenu {};
 	};
 	
 	class Housing
@@ -442,7 +443,7 @@ class Life_Client_Core
 		class seizeObjects {};
 		class showArrestDialog {};
 		class arrestDialog_Arrest {};
-		class alkoholdrugtester {}; 
+		class alkoholdrugtester {};
 	};
 	
 	class Gangs

@@ -86,6 +86,8 @@ switch (_var) do
     case "life_inv_uranium3": {"Aufgelöstes Uran"};
     case "life_inv_uranium4": {"Uran"};
     case "life_inv_uranium": {"Angereichertes Uran"};
+	case "life_inv_handcuffs": {(localize "STR_Item_Handcuffs")};
+    case "life_inv_handcuffkeys": {(localize "STR_Item_Handcuffkeys")};
 	
 	//License Block
 	case "license_civ_driver": {(localize "STR_License_Driver")};

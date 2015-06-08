@@ -82,5 +82,7 @@ switch (_item) do
     case "uranium3": {3};
     case "uranium4": {3};
     case "uranium": {2};
+	case "handcuffs": {2};
+    case "handcuffkeys": {1};
 	default {1};
 };
