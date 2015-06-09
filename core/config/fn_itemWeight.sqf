@@ -82,16 +82,16 @@ switch (_item) do
     case "uranium3": {3};
     case "uranium4": {3};
     case "uranium": {2};
-	case "handcuffs": {2};
+	case "handcuffs": {1};
     case "handcuffkeys": {1};
 	case "brenn": {10};
     case "raff": {10};
 	case "schnaps": {2};
 	case "diesel": {2};
-    case "benzin": {1};
+    case "benzin": {3};
 	case "bauma": {2};
-	case "mais": {2};
-	case "zucker": {2};
+	case "mais": {4};
+	case "zucker": {4};
 	
 	default {1};
 };

@@ -1,19 +1,24 @@
 //moonshinescript made by spll3r
-if(safe) exitWith {}; 			
-safe = true; 			
-/*_gather = "diesel"; 
-_val = 3;
-_diff = [_gather,_val,life_carryWeight,life_maxWeight] call life_fnc_calWeightDiff;
-if(_diff == 0) exitWith {hint localize "STR_NOTF_InvFull"};
-	*/	
-			hint "Du stellst Diesel her!.";
+
+			 
+if(life_inv_oilu > 0 ) then
+	{		
+			mdone = true;
+			hint "Du stellst Diesel aus Rohoel her.";
 			player playMoveNow "AinvPknlMstpSnonWnonDnon_medic_1";
 			sleep 7;
 			
-			/*life_inv_diesel = life_inv_diesel + 3;
-			life_carryWeight = life_carryWeight + 9;
+			life_inv_oilu = life_inv_oilu - 1;
+			life_carryWeight = life_carryWeight - 6;
+
+			sleep 2;
+			[true,"diesel",2] call life_fnc_handleInv;
+			/*
+			life_inv_diesel = life_inv_diesel + 2;
+			life_carryWeight = life_carryWeight + 4;
 			*/
-			[true,"diesel",3] call life_fnc_handleInv;
-			safe = false;
-			
-				
+			hint "Der Durchlauf ist fertig!";
+			//life_inv_l = 2
+						
+			} else { hint "Du benoetigst 1x Rohoel";
+	 };

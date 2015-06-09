@@ -88,10 +88,10 @@ switch (_var) do
     case "life_inv_uranium": {"Angereichertes Uran"};
 	case "life_inv_handcuffs": {(localize "STR_Item_Handcuffs")};
     case "life_inv_handcuffkeys": {(localize "STR_Item_Handcuffkeys")};
-	case "life_inv_brenn": {"Brenndings"};
-	case "life_inv_raff": {"raff"};
+	case "life_inv_brenn": {"Brenner"};
+	case "life_inv_raff": {"Raffinerie"};
 	case "life_inv_schnaps": {"Schnaps"};
-	case "life_inv_benzin": {"benzin"};
+	case "life_inv_benzin": {"Benzin"};
 	case "life_inv_diesel": {"Diesel"};
 	case "life_inv_bauma": {"Baumaterial"};
 	case "life_inv_mais": {"Maissack"};

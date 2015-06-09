@@ -8,6 +8,7 @@ hint "Du kannst nicht mehr als 3 Raffinerien herstellen!";
 		{
 			hint "Deine Raffinerie ist in wenigen Sekunden fertig!";
 			life_inv_bauma = life_inv_bauma - 20;
+			life_carryWeight = life_carryWeight - 40;
 			sleep 10;
 			life_inv_raff = life_inv_raff + 1;
 			life_carryWeight = life_carryWeight + 10;

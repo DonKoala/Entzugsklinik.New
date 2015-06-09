@@ -7,7 +7,7 @@ if(mdone) exitwith
 if(life_inv_mais > 1 && life_inv_zucker > 0) then
 	{		
 			mdone = true;
-			hint "Du maischt dass Wasser mit 2xMais und 1xZucker an.";
+			hint "Du maischt dass Wasser mit 2x Mais und 1x Zucker an.";
 			player playMoveNow "AinvPknlMstpSnonWnonDnon_medic_1";
 			sleep 7;
 			
@@ -19,7 +19,7 @@ if(life_inv_mais > 1 && life_inv_zucker > 0) then
 			hint "Du kannst nun mit der Destillation beginnnen!";
 			//life_inv_l = 2
 						
-			} else { hint "Zur Einmaischung benoetigst du 2xMais und 1xZucker";
+			} else { hint "Zur Einmaischung benoetigst du 2x Mais und 1x Zucker";
 	 };
 
 
