@@ -5382,3 +5382,9 @@
 <Original>WTF - was ist passiert??</Original>
 </Key>		
 </Project>
+<Key ID="STR_MISC_DrunkBlackOut">
+  <Original>Du hast einen Blackout!</Original>
+  </Key>
+  <Key ID="STR_MISC_DrunkBlackOut1">
+  <Original>Was zum... - was ist passiert?? Wo bin ich?</Original>
+  </Key>

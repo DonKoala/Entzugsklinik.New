@@ -155,6 +155,8 @@ class Life_Client_Core
 		class medicSiren {};
 		class adacLights {};
 		class adacLightsPosition {};
+		class therapie {};
+		class pInteraction_med {};
 	};
 	
 	class Actions
@@ -207,6 +209,12 @@ class Life_Client_Core
 		class craftAction {};
 		class processActionDual {};
 		class processActionLsd {};
+        class LSDnimm {};
+        class Weednimm {};
+        class Cocainenimm {}; 
+        class Heroinnimm {}; 
+        class suechtig {}; 
+
 		
 		class packupmais {};
 		class packupzucker {};
@@ -216,6 +224,7 @@ class Life_Client_Core
      	class maische {};
      	class Benzin {};
    		class Diesel {};
+		class Therapieaction {};
 
 	};
 	

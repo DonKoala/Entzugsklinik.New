@@ -380,3 +380,37 @@ class CfgNotifications
 		priority = 5;
 	};
 };
+class LSD_sound
+{
+name = "LSD_sound"; 
+sound[] = {"\sounds\LSD_sound.ogg", 1.0, 1}; 
+titles[] = {};
+}; 
+
+class Abhaengig_Sound
+{
+name = "Abhaengig_Sound"; 
+sound[] = {"\sounds\Abhaengig_Sound.ogg", 1.0, 1}; 
+titles[] = {};
+}; 
+
+class Heroin_sound
+{
+name = "Heroin_sound"; 
+sound[] = {"\sounds\Heroin_sound.ogg", 1.0, 1}; 
+titles[] = {};
+}; 
+
+class Cocaine_sound
+{
+name = "Cocaine_sound"; 
+sound[] = {"\sounds\Cocaine_sound.ogg", 1.0, 1}; 
+titles[] = {};
+};
+
+class Weed_sound
+{
+name = "Weed_sound"; 
+sound[] = {"\sounds\Weed_sound.ogg", 1.0, 1}; 
+titles[] = {};
+}; 
