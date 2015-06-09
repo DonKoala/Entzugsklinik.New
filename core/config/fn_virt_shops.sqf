@@ -29,6 +29,5 @@ switch (_shop) do
 	case "med": {["Sanitäter Markt",["handcuffs","handcuffkeys","donuts","coffee","kidney","scalpel"]]}; 
 	case "besonders": {["Genussmittel Händler",["cigarette","Schnaps"]]}; 
 	case "uranium": {["Uranhändler",["uranium","puranium"]]};
-	
 	case "raff": {["Treibstoffhändler",["diesel","benzin"]]};
 };
