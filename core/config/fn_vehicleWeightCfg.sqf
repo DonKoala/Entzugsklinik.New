@@ -766,8 +766,8 @@ switch (_className) do
 	case "I_Truck_02_covered_F": {180};
 	case "O_Truck_03_transport_F": {425};
 	case "O_Truck_03_covered_F": {435};
-	case "B_Truck_01_transport_F": {435};
-	case "B_Truck_01_covered_F": {785};
+	case "B_Truck_01_transport_F": {400};
+	case "B_Truck_01_covered_F": {600};
 	case "B_Truck_01_medical_F": {900};
 	case "O_Truck_03_device_F": {930};
 	case "B_Truck_01_fuel_F": {940};
