@@ -414,7 +414,7 @@ buy_array =
 	["ipuranium",4000],
 	["handcuffs",500],
 	["handcuffkeys",300]
-    ["bottledwhiskey",150], 	
+    ["bottledwhiskey",150] 	
 ];
 __CONST__(buy_array,buy_array);
 
