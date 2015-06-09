@@ -43,7 +43,8 @@ _Btn1 ctrlEnable false;
 
 //Button 2 - Set pullout action
 _Btn2 ctrlSetText localize "STR_vInAct_PullOut";
-_Btn2 buttonSetAction "[life_vInact_curTarget] spawn life_fnc_pulloutAction;";
+_Btn2 buttonSetAction "[life_vInact_curTarget] spawn life_fnc_pulloutAction; closeDialog 0;";
+
 
 if(count crew _curTarget == 0) then
 {

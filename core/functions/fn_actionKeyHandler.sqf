@@ -52,8 +52,7 @@ if(_curTarget isKindOf "Man" && {!alive _curTarget} && {playerSide in [west,inde
 //If target is a player then check if we can use the cop menu.
 if(isPlayer _curTarget && _curTarget isKindOf "Man") then 
 {
-	if((_curTarget getVariable["restrained",false]) && {!(player getVariable["restrained",false])} && !dialog && playerSide == west) then 
-	{
+	if(!dialog && playerSide == west) then {
 		[_curTarget] call life_fnc_copInteractionMenu;
 	};
 	if((_curTarget getVariable["restrained",false]) && {!(player getVariable["restrained",false])} && !dialog && playerSide == civilian) exitWith
