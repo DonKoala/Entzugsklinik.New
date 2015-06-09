@@ -5372,4 +5372,13 @@
             <Italian>No Handcuffs</Italian>
             <Portuguese>Maconha não Processada</Portuguese>
         </Key>
+<Key ID="STR_MISC_StPubIntox">
+<Original>%1 hat sich in der Oeffentlichkeit betrunken!</Original>
+</Key>
+<Key ID="STR_MISC_DrunkBlackOut">
+<Original>Du hast einen Blackout!</Original>
+</Key>
+<Key ID="STR_MISC_DrunkBlackOut1">
+<Original>WTF - was ist passiert??</Original>
+</Key>		
 </Project>

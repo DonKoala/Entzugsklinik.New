@@ -92,6 +92,7 @@ switch (_item) do
 	case "bauma": {2};
 	case "mais": {4};
 	case "zucker": {4};
+	case "bottledwhiskey": {5};
 	
 	default {1};
 };

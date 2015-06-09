@@ -228,7 +228,8 @@ life_inv_items =
 	"life_inv_diesel",
 	"life_inv_bauma",
 	"life_inv_zucker",
-	"life_inv_mais"
+	"life_inv_mais",
+	"life_inv_bottledwhiskey"
 ];
 
 //Setup variable inv vars.
@@ -413,6 +414,7 @@ buy_array =
 	["ipuranium",4000],
 	["handcuffs",500],
 	["handcuffkeys",300]
+    ["bottledwhiskey",150], 	
 ];
 __CONST__(buy_array,buy_array);
 

@@ -94,6 +94,7 @@ switch (_mode) do
             case "uranium": {"life_inv_uranium"};
 			case "handcuffs": {"life_inv_handcuffs"};
             case "handcuffkeys": {"life_inv_handcuffkeys"};
+			case "bottledwhiskey": {"life_inv_bottledwhiskey"};
 			
 			case "brenn": {"life_inv_brenn"};
 			case "raff": {"life_inv_raff"};
@@ -191,6 +192,7 @@ switch (_mode) do
             case "life_inv_uranium": {"uranium"};
 			case "life_inv_handcuffs": {"handcuffs"};
             case "life_inv_handcuffkeys": {"handcuffkeys"};
+			case "life_inv_bottledwhiskey": {"bottledwhiskey"};
 			
 			case "life_inv_brenn": {"brenn"};
             case "life_inv_raff": {"raff"};

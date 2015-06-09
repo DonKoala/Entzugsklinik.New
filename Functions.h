@@ -524,6 +524,7 @@ class Life_Client_Core
 		class zyankali {};
 		class usebrenn {};
 		class useraff {};
+		class drinkwhiskey {};
 	};
 	
 	class Dialog_Controls

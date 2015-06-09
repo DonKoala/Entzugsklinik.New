@@ -96,6 +96,7 @@ switch (_var) do
 	case "life_inv_bauma": {"Baumaterial"};
 	case "life_inv_mais": {"Maissack"};
 	case "life_inv_zucker": {"Zucker"};
+	case "life_inv_bottledwhiskey": {"Schnaps (21 Jahre)"};
 	
 	
 

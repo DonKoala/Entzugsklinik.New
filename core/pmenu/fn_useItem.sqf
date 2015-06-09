@@ -307,6 +307,18 @@ switch (true) do
 		hint localize "STR_ISTR_NotUsable";
 	};
 };
+case (_item =="schnaps"):
+{
+if(playerSide in [west,independent]) exitWith {hint localize "STR_MISC_WestIndNoNo";};
+if((player getVariable ["inDrink",FALSE])) exitWith {hint localize "STR_MISC_AlreadyDrinking";};
+if(([false,_item,1] call life_fnc_handleInv)) then
+{
+if(isNil "life_drink") then {life_drink = 0;};
+life_drink = life_drink + 0.4;
+if (life_drink < 0.5) exitWith {};
+[] spawn life_fnc_drinkwhiskey;
+};
+};
 	
 [] call life_fnc_p_updateMenu;
 [] call life_fnc_hudUpdate;
