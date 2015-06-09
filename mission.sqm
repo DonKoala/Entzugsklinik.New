@@ -136,7 +136,8 @@ class Mission
 		"A3_Structures_F_EPC_Civ_Camping",
 		"A3_Structures_F_Civ_InfoBoards",
 		"A3_Structures_F_Heli_Items_Food",
-		"A3_Structures_F_Heli_Items_Luggage"
+		"A3_Structures_F_Heli_Items_Luggage",
+		"A3_Structures_F_Ind_FuelStation"
 	};
 	addOnsAuto[]=
 	{
@@ -273,6 +274,7 @@ class Mission
 		"A3_Structures_F_Civ_InfoBoards",
 		"A3_Structures_F_Heli_Items_Food",
 		"A3_Structures_F_Heli_Items_Luggage",
+		"A3_Structures_F_Ind_FuelStation",
 		"a3_map_altis"
 	};
 	randomSeed=15484811;
@@ -787,7 +789,7 @@ class Mission
 				class Item0
 				{
 					position[]={25828.111,22.100739,21514.482};
-					azimut=389.49686;
+					azimut=389.49701;
 					special="NONE";
 					id=24;
 					side="CIV";
@@ -795,7 +797,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="carshop1_3_2_1_1_1";
-					init="this enableSimulation false; this allowDamage false; this addAction[""Besonderheiten"",life_fnc_virt_menu,""besonders""]; this setVariable[""realname"", ""Besonderheiten Händler""];";
+					init="this enableSimulation false; this allowDamage false; this addAction[""Genussmittel"",life_fnc_virt_menu,""besonders""]; this setVariable[""realname"", ""Genussmittel Händler""];";
 				};
 			};
 		};
@@ -3681,7 +3683,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={16069.286,15.586598,17004.813};
+					position[]={16051.545,13.71839,17000.572};
 					azimut=-101.77955;
 					id=171;
 					side="CIV";
@@ -3695,7 +3697,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=6300;
+		items=6301;
 		class Item0
 		{
 			position[]={23828.66,5.23,15995.707};
@@ -67543,10 +67545,20 @@ class Mission
 			vehicle="Land_Wreck_Truck_dropside_F";
 			skill=0.60000002;
 		};
+		class Item6300
+		{
+			position[]={20774.678,37.255119,16675.248};
+			azimut=-53.431099;
+			id=6472;
+			side="EMPTY";
+			vehicle="Land_FuelStation_Feed_F";
+			skill=0.60000002;
+			init="this allowDamage false; this enableSimulation false; this addAction[""Treibstoff verkaufen"",life_fnc_virt_menu,""raff""]; this setVariable[""realname"", ""Treibstoff Händler""];";
+		};
 	};
 	class Markers
 	{
-		items=145;
+		items=146;
 		class Item0
 		{
 			position[]={4199.4399,17.80924,15034.367};
@@ -67730,11 +67742,11 @@ class Mission
 		};
 		class Item23
 		{
-			position[]={20970.699,16.703844,19276.215};
+			position[]={20970.699,16.708502,19276.408};
 			name="atm_marker_2_5_6";
 			type="loc_Tourism";
 			colorName="ColorGreen";
-			angle=-70.288567;
+			angle=-9.3157778;
 		};
 		class Item24
 		{
@@ -68433,7 +68445,7 @@ class Mission
 			text="Blackjack";
 			type="c_unknown";
 			colorName="ColorEAST";
-			angle=-73.003456;
+			angle=0.6025371;
 		};
 		class Item107
 		{
@@ -68738,6 +68750,14 @@ class Mission
 			name="schrott_1";
 			text="Schrottplatz";
 			type="mil_triangle";
+			colorName="ColorBrown";
+		};
+		class Item145
+		{
+			position[]={20774.672,37.256805,16675.281};
+			name="oil_trader_3_1";
+			text="Treibstoff Händler";
+			type="b_unknown";
 			colorName="ColorBrown";
 		};
 	};
