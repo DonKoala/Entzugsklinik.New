@@ -735,8 +735,8 @@ switch (_shop) do
 		
 		//PREIS ANPASSEN    MUSS NOCH IN DIE VEHICLE WEIGHT
 		_return set[count _return,["Bell412",440000]];
-		_return set[count _return,["Cha_Mi17_Civilian",440000]];
-		_return set[count _return,["RHS_Mi8AMT_vvs",440000]];
+		_return set[count _return,["Cha_Mi17_Civilian",2150000]];
+		_return set[count _return,["RHS_Mi8AMT_vvs",2150000]];
 		_return set[count _return,["UH1N_Black",440000]];
 		
 
