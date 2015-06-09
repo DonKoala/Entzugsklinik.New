@@ -27,7 +27,7 @@ switch (_shop) do
 	case "gold": {["Goldhändler",["goldbar"]]};
 	case "organ": {["Organhändler",["kidney","scalpel"]]}; 
 	case "med": {["Sanitäter Markt",["handcuffs","handcuffkeys","donuts","coffee","kidney","scalpel"]]}; 
-	case "besonders": {["Genussmittel Händler",["cigarette","Schnaps"]]}; 
+	case "besonders": {["Genussmittel Händler",["cigarette","schnaps"]]}; 
 	case "uranium": {["Uranhändler",["uranium","puranium"]]};
 	case "raff": {["Treibstoffhändler",["diesel","benzin"]]};
 };

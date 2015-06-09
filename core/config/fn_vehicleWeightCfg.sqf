@@ -45,6 +45,10 @@ switch (_className) do
 	case "cl3_defender_110_red": {30};
 	case "cl3_defender_110_yellow": {30};
 	
+	//AIRDROP UND SCHIFFSWRACK
+	
+	case "Land_Wreck_Traw_F": {10000000};
+	case "Land_Wreck_Traw2_F": {10000000};
 	//HMMWVS
 	case "rhsusf_m998_w_s_2dr_fulltop": {30};
 	case "rhsusf_m998_w_s_2dr": {30};
