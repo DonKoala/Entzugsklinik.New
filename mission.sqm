@@ -67558,7 +67558,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=146;
+		items=151;
 		class Item0
 		{
 			position[]={4199.4399,17.80924,15034.367};
@@ -68759,6 +68759,36 @@ class Mission
 			text="Treibstoff Händler";
 			type="b_unknown";
 			colorName="ColorBrown";
+		};
+		class Item146
+		{
+			position[]={14221.988,14.685386,17490.438};
+			name="druged1";
+			type="Empty";
+		};
+		class Item147
+		{
+			position[]={18082.73,17.348948,13248.004};
+			name="druged2";
+			type="Empty";
+		};
+		class Item148
+		{
+			position[]={22280.162,16.387268,17894.969};
+			name="druged3";
+			type="Empty";
+		};
+		class Item149
+		{
+			position[]={23539.82,92.269836,21108.596};
+			name="druged4";
+			type="Empty";
+		};
+		class Item150
+		{
+			position[]={27179.033,18.813404,22908.262};
+			name="druged5";
+			type="Empty";
 		};
 	};
 };
