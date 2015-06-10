@@ -1,4 +1,4 @@
-/* 
+/*
 ----------------------------------------------|
 Author: Backer
 Description: LSD Effekt, YES BITCH Lets swim and make some funny fishes + Esteregg ;)
@@ -24,7 +24,8 @@ DrugedMarkers = ["druged1","druged2","druged3","druged4","druged5"] call BIS_fnc
 
 
 player setVariable["Druged",true,true];
-[player,"LSD_sound", 36] call life_fnc_globalSound;
+//[player,"LSD_sound", 36] call life_fnc_globalSound;
+player say3D "LSD_sound";
 
 for "_i" from 0 to 36 do
 {
@@ -79,7 +80,7 @@ player playMoveNow "Incapacitated";
 sleep 15;
 vehicle player setDir 225;vehicle player setVelocity [0, 0, 0]; vehicle player setpos (getmarkerpos DrugedMarkers);
 publicVariable "DrugedMarkers";
-removeUniform player;removeVest player;
+
 player playMoveNow "AinjPpneMstpSnonWrflDnon_rolltoback";
 sleep 10;
 titleText[localize "STR_MISC_DrunkBlackOut1","PLAIN"];

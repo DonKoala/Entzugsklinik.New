@@ -1,4 +1,4 @@
-/* 
+/*
 ----------------------------------------------|
 Author: Backer
 Description: Effekt on heroin use! If you use to much you get naked and spawn on random positions (markers)
@@ -10,7 +10,8 @@ DrugedMarkers = ["druged1","druged2","druged3","druged4","druged5"] call BIS_fnc
 player setVariable["Druged",true,true];
 player allowDamage false;
 
-[player,"Heroin_sound", 46] call life_fnc_globalSound;
+//[player,"Heroin_sound", 46] call life_fnc_globalSound;
+player say3D "Heroin_sound";
 _posold = getPos player;
 
 if(life_drug > 0) then {
@@ -46,7 +47,6 @@ player playMoveNow "Incapacitated";
 sleep 15;
 vehicle player setDir 225;vehicle player setVelocity [0, 0, 0]; vehicle player setpos (getmarkerpos DrugedMarkers);
 publicVariable "DrugedMarkers";
-removeUniform player;removeVest player;
 player playMoveNow "AinjPpneMstpSnonWrflDnon_rolltoback";
 sleep 10;
 titleText[localize "STR_MISC_DrunkBlackOut1","PLAIN"];

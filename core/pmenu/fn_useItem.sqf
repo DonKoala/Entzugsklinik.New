@@ -134,106 +134,10 @@ switch (true) do
 		[] spawn life_fnc_speedbomb;
 	};
 	
-	case (_item == "cannabis"):
-	{
-		if( (life_thirst >= 15) && (life_hunger >= 20) ) then
-		{
-			if(([false,_item,1] call life_fnc_handleInv)) then
-			{
-				player setDamage ((damage player) +0.05);
-				life_thirst = life_thirst -15;
-				life_hunger = life_hunger -20;
-				[] spawn
-				{
-					titleText["So viele Bunte Farben!","PLAIN"];
-					[] spawn
-					{
-						private["_OBJ","_PS"];
-						_OBJ = player;
-						_PS = "#particlesource" createVehicle getpos _OBJ;
-						[[_PS,_OBJ],"life_fnc_smokeWeed",true] spawn life_fnc_MP;
-						sleep 19;
-						deleteVehicle _PS; 
-					};
-				};
-			};
-		}
-		else
-		{
-			hint "Du solltest das in deinem Zustand nicht nehmen... iss und trink lieber erstmal was!";
-		};
-	};
 	
-	case (_item == "marijuana"):
-	{	
-		if( (life_thirst >= 15) && (life_hunger >= 20)) then
-		{
-			if(([false,_item,1] call life_fnc_handleInv)) then
-			{
-				player setDamage ((damage player) -0.05);
-				life_thirst = life_thirst -15;
-				life_hunger = life_hunger -20;
-				[] spawn
-				{
-					titleText["Ich rauch mein Ganja den ganzen Tag!","PLAIN"];
-					[] spawn life_fnc_weedUse;
-				};
-			};
-		}
-		else
-		{
-			hint "Du solltest das in deinem Zustand nicht nehmen... iss und trink lieber erstmal was!";
-		};
-	};
+
 	
-	case (_item == "cocainep" or _item == "lsdp"):
-	{
-		if( (life_thirst >= 15) && (life_hunger >= 20)) then
-		{
-			if(([false,_item,1] call life_fnc_handleInv)) then
-			{
-				player setDamage ((damage player) +0.15);
-				life_thirst = life_thirst -15;
-				life_hunger = life_hunger -15;
-				[] spawn
-				{
-					life_redgull_effect = time;
-					titleText["Du kannst nun 5 Minuten lang rennen, weil du HIGHAYAY bist! Run drugged up Forest...Run!","PLAIN"];
-					player enableFatigue false;
-					[] spawn life_fnc_cocaineUse;
-					waitUntil {!alive player OR ((time - life_redgull_effect) > (5 * 60))};
-					player enableFatigue true;
-				};
-			};
-		
-		}
-		else
-		{
-			hint "Du solltest das in deinem Zustand nicht nehmen... iss und trink lieber erstmal was!";
-		};
-	};
-	
-	case (_item == "heroinp" or _item == "methp"):
-	{	
-		if( (life_thirst >= 20) && (life_hunger >= 20)) then
-		{
-			if(([false,_item,1] call life_fnc_handleInv)) then
-			{
-				player setDamage ((damage player) +0.25);
-				life_thirst = life_thirst -20;
-				life_hunger = life_hunger -20;
-				[] spawn
-				{
-					titleText["Nächster Halt Entzugsklinik!","PLAIN"];
-					[] spawn life_fnc_heroinUse;
-				};
-			};
-		}
-		else
-		{
-			hint "Du solltest das in deinem Zustand nicht nehmen... iss und trink lieber erstmal was!";
-		};
-	};
+
 	
 	case (_item == "boltcutter"): {
 		[cursorTarget] spawn life_fnc_boltcutter;
@@ -287,6 +191,77 @@ switch (true) do
 		[] spawn life_fnc_jerryRefuel;
 	};
 	
+	
+	case (_item =="schnaps"):
+		{
+		if(playerSide in [west,independent]) exitWith {hint localize "STR_MISC_WestIndNoNo";};
+		if((player getVariable ["inDrink",FALSE])) exitWith {hint localize "STR_MISC_AlreadyDrinking";};
+		if(([false,_item,1] call life_fnc_handleInv)) then
+		{
+		if(isNil "life_drink") then {life_drink = 0;};
+		life_drink = life_drink + 0.4;
+		if (life_drink < 0.5) exitWith {};
+		[] spawn life_fnc_drinkwhiskey;
+		};
+		};
+		//Droge
+
+		case (_item in ["lsdp"]): 
+		{ 
+		if(playerSide in [west,independent]) exitWith {hint "Hallo Sie sind im Dienst!!";}; 
+		if((player getVariable ["Druged",FALSE])) exitWith {hint "Du nimmst bereits geiles Zeug";}; 
+		if(([false,_item,1] call life_fnc_handleInv)) then 
+		{ 
+		if(isNil "life_drug") then {life_drug = 0;}; 
+		//Wenn er Drogen nimmt
+		life_drug = life_drug + 0.08; 
+		if (life_drug < 0.00) exitWith {}; 
+		[] spawn life_fnc_LSDnimm; 
+		}; 
+		};
+
+		case (_item in ["heroinp"]): 
+		{ 
+		if(playerSide in [west,independent]) exitWith {hint "Hallo Sie sind im Dienst!!";}; 
+		if((player getVariable ["Druged",FALSE])) exitWith {hint "Du nimmst bereits geiles Zeug";}; 
+		if(([false,_item,1] call life_fnc_handleInv)) then 
+		{ 
+		if(isNil "life_drug") then {life_drug = 0;}; 
+		//Wenn er Drogen nimmt
+		life_drug = life_drug + 0.08; 
+		if (life_drug < 0.00) exitWith {}; 
+		[] spawn life_fnc_Heroinnimm; 
+		}; 
+		};
+
+		case (_item in ["cocainep"]): 
+		{ 
+		if(playerSide in [west,independent]) exitWith {hint "Hallo Sie sind im Dienst!!";}; 
+		if((player getVariable ["Druged",FALSE])) exitWith {hint "Du nimmst bereits geiles Zeug";}; 
+		if(([false,_item,1] call life_fnc_handleInv)) then 
+		{ 
+		if(isNil "life_drug") then {life_drug = 0;}; 
+		//Wenn er Drogen nimmt
+		life_drug = life_drug + 0.08; 
+		if (life_drug < 0.00) exitWith {}; 
+		[] spawn life_fnc_Cocainenimm; 
+		}; 
+		};
+
+		case (_item in ["marijuana"]): 
+		{ 
+		if(playerSide in [west,independent]) exitWith {hint "Hallo Sie sind im Dienst!!";}; 
+		if((player getVariable ["Druged",FALSE])) exitWith {hint "Du nimmst bereits geiles Zeug";}; 
+		if(([false,_item,1] call life_fnc_handleInv)) then 
+		{ 
+		if(isNil "life_drug") then {life_drug = 0;}; 
+		//Wenn er Drogen nimmt
+		life_drug = life_drug + 0.08; 
+		if (life_drug < 0.00) exitWith {}; 
+		[] spawn life_fnc_Weednimm; 
+		}; 
+		};
+
 	case (_item == "lockpick"):
 	{
 		[] spawn life_fnc_lockpick;
@@ -307,75 +282,7 @@ switch (true) do
 		hint localize "STR_ISTR_NotUsable";
 	};
 };
-case (_item =="schnaps"):
-{
-if(playerSide in [west,independent]) exitWith {hint localize "STR_MISC_WestIndNoNo";};
-if((player getVariable ["inDrink",FALSE])) exitWith {hint localize "STR_MISC_AlreadyDrinking";};
-if(([false,_item,1] call life_fnc_handleInv)) then
-{
-if(isNil "life_drink") then {life_drink = 0;};
-life_drink = life_drink + 0.4;
-if (life_drink < 0.5) exitWith {};
-[] spawn life_fnc_drinkwhiskey;
-};
-};
-//Droge
 
-case (_item in ["froschlsd"]): 
-{ 
-if(playerSide in [west,independent]) exitWith {hint "Hallo Sie sind im Dienst!!";}; 
-if((player getVariable ["Druged",FALSE])) exitWith {hint "Du nimmst bereits geiles Zeug";}; 
-if(([false,_item,1] call life_fnc_handleInv)) then 
-{ 
-if(isNil "life_drug") then {life_drug = 0;}; 
-//Wenn er Drogen nimmt
-life_drug = life_drug + 0.08; 
-if (life_drug < 0.00) exitWith {}; 
-[] spawn life_fnc_LSDnimm; 
-}; 
-};
-
-case (_item in ["heroinp"]): 
-{ 
-if(playerSide in [west,independent]) exitWith {hint "Hallo Sie sind im Dienst!!";}; 
-if((player getVariable ["Druged",FALSE])) exitWith {hint "Du nimmst bereits geiles Zeug";}; 
-if(([false,_item,1] call life_fnc_handleInv)) then 
-{ 
-if(isNil "life_drug") then {life_drug = 0;}; 
-//Wenn er Drogen nimmt
-life_drug = life_drug + 0.08; 
-if (life_drug < 0.00) exitWith {}; 
-[] spawn life_fnc_Heroinnimm; 
-}; 
-};
-
-case (_item in ["cocainep"]): 
-{ 
-if(playerSide in [west,independent]) exitWith {hint "Hallo Sie sind im Dienst!!";}; 
-if((player getVariable ["Druged",FALSE])) exitWith {hint "Du nimmst bereits geiles Zeug";}; 
-if(([false,_item,1] call life_fnc_handleInv)) then 
-{ 
-if(isNil "life_drug") then {life_drug = 0;}; 
-//Wenn er Drogen nimmt
-life_drug = life_drug + 0.08; 
-if (life_drug < 0.00) exitWith {}; 
-[] spawn life_fnc_Cocainenimm; 
-}; 
-};
-
-case (_item in ["marijuana"]): 
-{ 
-if(playerSide in [west,independent]) exitWith {hint "Hallo Sie sind im Dienst!!";}; 
-if((player getVariable ["Druged",FALSE])) exitWith {hint "Du nimmst bereits geiles Zeug";}; 
-if(([false,_item,1] call life_fnc_handleInv)) then 
-{ 
-if(isNil "life_drug") then {life_drug = 0;}; 
-//Wenn er Drogen nimmt
-life_drug = life_drug + 0.08; 
-if (life_drug < 0.00) exitWith {}; 
-[] spawn life_fnc_Weednimm; 
-}; 
-};
 	
 [] call life_fnc_p_updateMenu;
 [] call life_fnc_hudUpdate;

@@ -1,7 +1,7 @@
 #include <macro.h>
 /*
 	Author: Bryan "Tonic" Boardwine
-
+	
 	Description:
 	Raids the players house?
 */
@@ -54,15 +54,15 @@ _value = 0;
 {
 	_var = _x select 0;
 	_val = _x select 1;
-
+	
 	_index = [_var,life_illegal_items] call TON_fnc_index;
 	if(_index != -1) then {
-		_vIndex = [_var,sell_array] call TON_fnc_index;
+		_vIndex = [_var,__GETC__(sell_array)] call TON_fnc_index;
 		if(_vIndex != -1) then {
 			_houseInvData set[_forEachIndex,-1];
 			_houseInvData = _houseInvData - [-1];
 			_houseInvVal = _houseInvVal - (([_var] call life_fnc_itemWeight) * _val);
-			_value = _value + (_val * ((sell_array select _vIndex) select 1));
+			_value = _value + (_val * ((__GETC__(sell_array) select _vIndex) select 1));
 		};
 	};
 } foreach (_houseInv select 0);

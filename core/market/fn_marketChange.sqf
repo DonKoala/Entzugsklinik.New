@@ -49,7 +49,7 @@ switch(true) do
 	};
 	case (_rand <= 36): //6% Drogenpreis erhöhen
 	{
-		[[0,"News: Das FBI hat eine Drogenbande ausgehoben ! Die Drogenpreise sind gestiegen !"],"life_fnc_broadcast",true,false] spawn life_fnc_MP;
+		[[0,"News: Die Polizei hat eine Drogenbande ausgehoben! Die Drogenpreise sind gestiegen!"],"life_fnc_broadcast",true,false] spawn life_fnc_MP;
 		
 		//Erhöhe Marktpreis mit marketSell
 		["turtle", [15,30] call life_fnc_randomRound, true] call life_fnc_marketBuy; 

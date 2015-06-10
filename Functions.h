@@ -243,9 +243,6 @@ class Life_Client_Core
 		class lockupHouse {};
 		class copHouseOwner {};
 		class lockHouse {};
-		class openHouseVInv {};
-		class displayStats {};
-		class swapItem {};
 	};
 	
 	class Config

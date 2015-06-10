@@ -1,4 +1,4 @@
-/* 
+/*
 ----------------------------------------------|
 Author: Backer
 Description: To much Drugs biatch! Lets start the effekt every 5 Mins. Called in Init Survival!

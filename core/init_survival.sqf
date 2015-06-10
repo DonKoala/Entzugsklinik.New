@@ -41,6 +41,23 @@
 		[] call _fnc_food;
 	};
 };
+[] spawn
+	{
+	while {true} do
+	{
+	waitUntil {(life_drug > 0)};
+	while{(life_drug > 0)} do {
+
+	if(life_drug > 0.08) then {
+	sleep 60;
+	[] spawn life_fnc_suechtig;
+	hint "Sie sollten bei einen Notarzt vorbei schauen! Sie sind stark Drogensuechtig!";
+	sleep 240;
+	};
+	};
+	};
+	};
+
 
 [] spawn
 {

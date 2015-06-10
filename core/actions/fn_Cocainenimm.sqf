@@ -1,15 +1,15 @@
-/* 
+/*
 ----------------------------------------------|
 Author: Backer
-Description: Effekt on Cocaine use! 
+Description: Effekt on Cocaine use!
 ----------------------------------------------|
 */
 
 closeDialog 0;
 
 player setVariable["Druged",true,true];
-[player,"Cocaine_sound", 54] call life_fnc_globalSound;
-
+//[player,"Cocaine_sound", 54] call life_fnc_globalSound;
+player say3D "Cocaine_sound";
 "dynamicBlur" ppEffectEnable true; // enables ppeffect
 "dynamicBlur" ppEffectAdjust [0]; // enables normal vision
 "dynamicBlur" ppEffectCommit 20; // time it takes to normal

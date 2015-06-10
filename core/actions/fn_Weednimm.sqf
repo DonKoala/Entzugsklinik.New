@@ -1,15 +1,15 @@
-/* 
+/*
 ----------------------------------------------|
 Author: ??? edit by Backer
-Description: Effekt on Weed use! 
+Description: Effekt on Weed use!
 ----------------------------------------------|
 */
 
 closeDialog 0;
 
 player setVariable["Druged",true,true];
-[player,"Weed_sound", 31] call life_fnc_globalSound;
-
+//[player,"Weed_sound", 31] call life_fnc_globalSound;
+player say3D "Weed_sound";
 _smoke = "SmokeShell" createVehicle position player;
 if (vehicle player != player) then {
 _smoke attachTo [vehicle player, [-0.6,-1,0]];
@@ -25,7 +25,7 @@ for "_i" from 0 to 30 do
 {
 if(life_drug > 0) then {
 "chromAberration" ppEffectAdjust [random 0.25,random 0.25,true];
-"chromAberration" ppEffectCommit 1; 
+"chromAberration" ppEffectCommit 1;
 "radialBlur" ppEffectAdjust [random 0.02,random 0.02,0.15,0.15];
 "radialBlur" ppEffectCommit 1;
 addcamShake[random 3, 1, random 3];

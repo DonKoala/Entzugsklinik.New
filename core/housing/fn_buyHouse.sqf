@@ -1,7 +1,7 @@
 #include <macro.h>
 /*
 	Author: Bryan "Tonic" Boardwine
-
+	
 	Description:
 	Buys the house?
 */
@@ -32,7 +32,7 @@ if(_action) then {
 	_house setVariable["house_owner",[_uid,profileName],true];
 	_house setVariable["locked",true,true];
 	_house setVariable["Trunk",[[],0],true];
-	_house setVariable["content",[],true];
+	_house setVariable["containers",[],true];
 	_house setVariable["uid",round(random 99999),true];
 	life_atmcash = life_atmcash - (_houseCfg select 0);
 	life_vehicles pushBack _house;
