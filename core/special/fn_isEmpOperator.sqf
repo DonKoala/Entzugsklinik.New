@@ -8,7 +8,7 @@ _vehicle = vehicle player;
 _result = false;
 
 if((_vehicle != player) && (playerSide == west)) then {
-    if((typeof _vehicle == "B_Heli_Light_01_F") && (_vehicle getVariable ["nano_emp_enabled", false])) then {
+    if((typeof _vehicle == "dezkit_b206_police") && (_vehicle getVariable ["nano_emp_enabled", false])) then {
         if(_slot select 0 == "Turret") then {
             if(_slot select 1 select 0 == 0) then {
                 _result = true;

@@ -88,10 +88,10 @@ switch (_item) do
     case "raff": {10};
 	case "schnaps": {2};
 	case "diesel": {2};
-    case "benzin": {3};
+    case "benzin": {2};
 	case "bauma": {2};
-	case "mais": {4};
-	case "zucker": {4};
+	case "mais": {3};
+	case "zucker": {3};
 	case "bottledwhiskey": {5};
 	case "goldschatz": {8};
 	

@@ -229,7 +229,7 @@ switch (_code) do
 	//EMP Konsole - K
 	case 37:
 	{
-		if (!_shift && !_alt && !_ctrlKey && (playerSide == west) && (vehicle player != player && (typeOf vehicle player) in ["B_Heli_Light_01_F"])) then
+		if (!_shift && !_alt && !_ctrlKey && (playerSide == west) && (vehicle player != player && (typeOf vehicle player) in ["dezkit_b206_police"])) then
 		{
 			[] call life_fnc_openEmpMenu; [_this] call life_fnc_isEmpOperator;
 		};

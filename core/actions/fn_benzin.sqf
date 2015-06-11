@@ -15,7 +15,7 @@ if(life_inv_oilu > 1 ) then
 			[true,"benzin",4] call life_fnc_handleInv;
 			/*
 			life_inv_benzin = life_inv_benzin + 4;
-			life_carryWeight = life_carryWeight + 3;
+			life_carryWeight = life_carryWeight + 8;
 			*/
 			hint "Der Durchlauf ist fertig!";
 			//life_inv_l = 2
