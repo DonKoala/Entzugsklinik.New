@@ -229,7 +229,8 @@ life_inv_items =
 	"life_inv_bauma",
 	"life_inv_zucker",
 	"life_inv_mais",
-	"life_inv_bottledwhiskey"
+	"life_inv_bottledwhiskey",
+	"life_inv_goldschatz"
 ];
 
 //Setup variable inv vars.
@@ -361,7 +362,8 @@ sell_array =
 	["handcuffkeys",100],
 	["schnaps",7000],
 	["diesel",200],
-	["benzin",100]
+	["benzin",100],
+	["goldschatz",15000]
 ];
 __CONST__(sell_array,sell_array);
 

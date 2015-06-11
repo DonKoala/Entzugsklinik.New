@@ -106,6 +106,7 @@ switch (_mode) do
 			
 			case "zucker": {"life_inv_zucker"};
 			case "mais": {"life_inv_mais"};
+			case "goldschatz": {"life_inv_goldschatz"};
 			
 		};
 	};
@@ -193,17 +194,15 @@ switch (_mode) do
 			case "life_inv_handcuffs": {"handcuffs"};
             case "life_inv_handcuffkeys": {"handcuffkeys"};
 			case "life_inv_bottledwhiskey": {"bottledwhiskey"};
-			
 			case "life_inv_brenn": {"brenn"};
             case "life_inv_raff": {"raff"};
-			
 			case "life_inv_schnaps": {"schnaps"};
 			case "life_inv_benzin": {"benzin"};
             case "life_inv_diesel": {"diesel"};
 			case "life_inv_bauma": {"bauma"};
-			
 			case "life_inv_zucker": {"zucker"};
 			case "life_inv_mais": {"mais"};
+			case "life_inv_goldschatz": {"goldschatz"};
 
 		};
 	};

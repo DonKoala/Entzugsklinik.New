@@ -24,7 +24,7 @@ switch (_shop) do
 	case "diamond": {["Diamantenhändler",["diamond","diamondc"]]};
 	case "salt": {["Salzhändler",["salt_r"]]};
 	case "cop": {["Polizei Markt",["handcuffs","handcuffkeys","donuts","coffee","spikeStrip","water","rabbit","apple","redgull","fuelF","defusekit","gpstracker","barrier","kegel","barriersmall"]]};
-	case "gold": {["Goldhändler",["goldbar"]]};
+	case "gold": {["Goldhändler",["goldbar","goldschatz"]]};
 	case "organ": {["Organhändler",["kidney","scalpel"]]}; 
 	case "med": {["Sanitäter Markt",["handcuffs","handcuffkeys","donuts","coffee","kidney","scalpel"]]}; 
 	case "besonders": {["Genussmittel Händler",["cigarette","schnaps"]]}; 
