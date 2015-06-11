@@ -10,7 +10,6 @@
 life_market_resources = [
 	//Schema: SHORTNAME, Default, Min, Max, changes in action, [Sales multiplied by 1, Purchase multiplied by -1]
 	["goldbar", 130000, 65000, 260000, 8, 5,[["goldbar",-1],["diamond",1],["diamondc",1],["iron_r",1],["copper_r",1],["salt_r",1],["glass",1]]],
-	["uwsl", 5000, 2500, 10000, 8, 5,[["uwsl",-1],["goldbar",1],["salt_r",1]]],
 	["oilp", 5100, 2800, 02400, 4, 2,[["diamond",1],["diamondc",1],["iron_r",1],["copper_r",1],["salt_r",1],["glass",1]]],
 	["iron_r", 4550, 1025, 8275, 4, 4,[["diamond",1],["diamondc",1],["oilp",1],["copper_r",1],["salt_r",1],["glass",1]]],
 	["diamondc", 4050, 700, 2100, 4, 2,[["oilp",1],["iron_r",1],["copper_r",1],["salt_r",1],["goldbar",1],["glass",1]]],
@@ -41,7 +40,10 @@ life_market_resources = [
 	["heroinp", 6500, 3750, 9000, 4, 4,[["goldbar",1],["cannabis",1],["marijuana",1],["turtlesoup",1],["turtle",1],["lsdp",1],["methp",1],["cocainep",1]]],
 	["methp", 8250, 4300, 11200, 4, 4,[["cigarette",-1],["methp",-1],["cannabis",1],["marijuana",1],["turtlesoup",1],["turtle",1],["heroinp",1],["lsdu",1],["lsdp",1],["cocainep",1]]],
 	["lsdp", 7500, 2825, 9100, 4, 4,[["lsdu",1],["cannabis",1],["marijuana",1],["turtlesoup",1],["turtle",1],["heroinp",1],["methu",1],["methp",1],["cocainep",1]]],
-	["uranium", 25000, 18500, 28500, 4, 4,[["oilp",1],["iron_r",1],["copper_r",1],["salt_r",1],["goldbar",1],["glass",1]]]
+	["uranium", 25000, 18500, 28500, 4, 4,[["oilp",1],["iron_r",1],["copper_r",1],["salt_r",1],["goldbar",1],["glass",1]]],
+	["diesel", 25000, 18500, 28500, 4, 4,[["oilp",1],["iron_r",1],["copper_r",1],["salt_r",1],["goldbar",1],["glass",1],["benzin",1]]],
+	["benzin", 25000, 18500, 28500, 4, 4,[["oilp",1],["iron_r",1],["copper_r",1],["salt_r",1],["goldbar",1],["glass",1],["diesel",1]]],
+	["goldschatz", 130000, 65000, 260000, 8, 5,[["goldschatz",-1],["diamond",1],["diamondc",1],["iron_r",1],["copper_r",1],["salt_r",1],["glass",1]]]
 ];
 publicVariable "life_market_resources";
 
