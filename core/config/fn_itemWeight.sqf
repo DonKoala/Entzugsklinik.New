@@ -86,7 +86,7 @@ switch (_item) do
     case "handcuffkeys": {1};
 	case "brenn": {10};
     case "raff": {10};
-	case "schnaps": {2};
+	case "schnaps": {4};
 	case "diesel": {2};
     case "benzin": {2};
 	case "bauma": {2};

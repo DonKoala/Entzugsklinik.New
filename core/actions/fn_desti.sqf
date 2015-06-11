@@ -22,7 +22,7 @@ if(mdone) then
 			[true,"schnaps",1] call life_fnc_handleInv;
 			/*
 			life_inv_schnaps = life_inv_schnaps + 1;
-			life_carryWeight = life_carryWeight + 2;
+			life_carryWeight = life_carryWeight + 4;
 			*/
 			hint "Der Durchlauf ist fertig!";
 				 
