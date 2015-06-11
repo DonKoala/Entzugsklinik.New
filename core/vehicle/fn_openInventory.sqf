@@ -14,7 +14,6 @@ _vehicle setVariable["trunk_in_use",true,true];
 if(!createDialog "TrunkMenu") exitWith {hint localize "STR_MISC_DialogError";}; //Couldn't create the menu?
 disableSerialization;
 
-[_vehicle] call life_fnc_updateVehTrunk;
 if(_vehicle isKindOf "House_F") then {
 	ctrlSetText[3501,format[(localize "STR_MISC_HouseStorage")+ " - %1",getText(configFile >> "CfgVehicles" >> (typeOf _vehicle) >> "displayName")]];
 } else {
@@ -31,7 +30,7 @@ if (_vehicle isKindOf "House_F") then {
 		if (_x select 0 == "Box_IND_Grenades_F") then {_boxslots = _boxslots + 80;};
 	} forEach _content;
 };
-[_vehicle] call life_fnc_updateVehTrunk;
+
 if(_vehicle isKindOf "House_F") then {
 	private["_mWeight"];
 	_mWeight = _boxslots;
@@ -40,7 +39,7 @@ if(_vehicle isKindOf "House_F") then {
 	_veh_data = [_vehicle] call life_fnc_vehicleWeight;
 };
 
-[_vehicle] call life_fnc_updateVehTrunk;
+
 if(_vehicle isKindOf "House_F" && {_boxslots == 0}) exitWith {hint localize "STR_MISC_NoStorageWarn"; closeDialog 0; _vehicle setVariable["trunk_in_use",false,true];};
 if(_veh_data select 0 == -1 && {!(_vehicle isKindOf "House_F")}) exitWith {closeDialog 0; _vehicle setVariable["trunk_in_use",false,true]; hint localize "STR_MISC_NoStorageVeh";};
 

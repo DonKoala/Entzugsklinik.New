@@ -1,7 +1,7 @@
 /*
 	File: fn_vehInventory.sqf
 	Author: Bryan "Tonic" Boardwine
-
+	
 	Description:
 	Used a refresher for the vehicle inventory / trunk menu items.
 */
@@ -15,20 +15,10 @@ _pInv = (findDisplay 3500) displayCtrl 3503;
 lbClear _tInv;
 lbClear _pInv;
 
-_boxslots = 0;
-if (_veh isKindOf "House_F") then {
-	_content = cursorTarget getVariable "content";
-	{
-		if (_x select 0 == "B_supplyCrate_F") then {_boxslots = _boxslots + 700;};
-		if (_x select 0 == "Box_IND_AmmoVeh_F") then {_boxslots = _boxslots + 900;};
-		if (_x select 0 == "Box_IND_WpsSpecial_F") then {_boxslots = _boxslots + 100;};
-		if (_x select 0 == "Box_IND_Grenades_F") then {_boxslots = _boxslots + 80;};
-	} forEach _content;
-};
-
 if(_veh isKindOf "House_F") then {
 	private["_mWeight"];
-	_mWeight = _boxslots;
+	_mWeight = 0;
+	{_mWeight = _mWeight + ([(typeOf _x)] call life_fnc_vehicleWeightCfg);} foreach (_veh getVariable["containers",[]]);
 	_veh_data = [_mWeight,(_veh getVariable["Trunk",[[],0]]) select 1];
 } else {
 	_veh_data = [_veh] call life_fnc_vehicleWeight;
