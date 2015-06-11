@@ -73,6 +73,253 @@ switch (_classname) do
 		_veh allowDamage true;
 		systemChat "Waffen entfernt und Repariert";
 	};
+	/////////////////////////////
+	//Blackfoot
+	case "bwi_a3_t6a_6":
+	{
+		//Remove ammo and Flaires
+		_veh setVehicleAmmo 0;
+		_veh setDamage 0;
+		_veh allowDamage true;
+		systemChat "Repariert";
+	};
+	//Blackfoot
+	case "bwi_a3_t6a_nta":
+	{
+		//Remove ammo and Flaires
+		_veh setVehicleAmmo 0;
+		_veh setDamage 0;
+		_veh allowDamage true;
+		systemChat "Repariert";
+	};
+	//Blackfoot
+	case "bwi_a3_t6a_7":
+	{
+		//Remove ammo and Flaires
+		_veh setVehicleAmmo 0;
+		_veh setDamage 0;
+		_veh allowDamage true;
+		systemChat "Repariert";
+	};
+	//Blackfoot
+	case "bwi_a3_t6a_9":
+	{
+		//Remove ammo and Flaires
+		_veh setVehicleAmmo 0;
+		_veh setDamage 0;
+		_veh allowDamage true;
+		systemChat "Repariert";
+	};
+	//Blackfoot
+	case "bwi_a3_t6a_3":
+	{
+		//Remove ammo and Flaires
+		_veh setVehicleAmmo 0;
+		_veh setDamage 0;
+		_veh allowDamage true;
+		systemChat "Repariert";
+	};
+	//Blackfoot
+	case "bwi_a3_t6a_4":
+	{
+		//Remove ammo and Flaires
+		_veh setVehicleAmmo 0;
+		_veh setDamage 0;
+		_veh allowDamage true;
+		systemChat "Repariert";
+	};
+	//Blackfoot
+	case "bwi_a3_t6a_1":
+	{
+		//Remove ammo and Flaires
+		_veh setVehicleAmmo 0;
+		_veh setDamage 0;
+		_veh allowDamage true;
+		systemChat "Repariert";
+	};
+	//Blackfoot
+	case "bwi_a3_t6a":
+	{
+		//Remove ammo and Flaires
+		_veh setVehicleAmmo 0;
+		_veh setDamage 0;
+		_veh allowDamage true;
+		systemChat "Repariert";
+	};
+	//Blackfoot
+	case "bwi_a3_t6a_8":
+	{
+		//Remove ammo and Flaires
+		_veh setVehicleAmmo 0;
+		_veh setDamage 0;
+		_veh allowDamage true;
+		systemChat "Repariert";
+	};
+	//Blackfoot
+	case "bwi_a3_t6a_2":
+	{
+		//Remove ammo and Flaires
+		_veh setVehicleAmmo 0;
+		_veh setDamage 0;
+		_veh allowDamage true;
+		systemChat "Repariert";
+	};
+	//Blackfoot
+	case "bwi_a3_t6c":
+	{
+		//Remove ammo and Flaires
+		_veh setVehicleAmmo 0;
+		_veh setDamage 0;
+		_veh allowDamage true;
+		systemChat "Repariert";
+	};
+	//Blackfoot
+	case "sab_cz_An2":
+	{
+		//Remove ammo and Flaires
+		_veh setVehicleAmmo 0;
+		_veh setDamage 0;
+		_veh allowDamage true;
+		systemChat "Repariert";
+	};
+	//Blackfoot
+	case "Sab_ee_An2":
+	{
+		//Remove ammo and Flaires
+		_veh setVehicleAmmo 0;
+		_veh setDamage 0;
+		_veh allowDamage true;
+		systemChat "Repariert";
+	};
+	//Blackfoot
+	case "Sab_ru_An2":
+	{
+		//Remove ammo and Flaires
+		_veh setVehicleAmmo 0;
+		_veh setDamage 0;
+		_veh allowDamage true;
+		systemChat "Repariert";
+	};
+	//Blackfoot
+	case "Sab_yel_An2":
+	{
+		//Remove ammo and Flaires
+		_veh setVehicleAmmo 0;
+		_veh setDamage 0;
+		_veh allowDamage true;
+		systemChat "Repariert";
+	};
+	//Blackfoot
+	case "Sab_fd_An2":
+	{
+		//Remove ammo and Flaires
+		_veh setVehicleAmmo 0;
+		_veh setDamage 0;
+		_veh allowDamage true;
+		systemChat "Repariert";
+	};
+	
+	/////
+	//Blackfoot
+	case "Sab_ana_An2":
+	{
+		//Remove ammo and Flaires
+		_veh setVehicleAmmo 0;
+		_veh setDamage 0;
+		_veh allowDamage true;
+		systemChat "Repariert";
+	};
+	//Blackfoot
+	case "sab_ca_An2":
+	{
+		//Remove ammo and Flaires
+		_veh setVehicleAmmo 0;
+		_veh setDamage 0;
+		_veh allowDamage true;
+		systemChat "Repariert";
+	};
+	//Blackfoot
+	case "Sab_Snow_An2":
+	{
+		//Remove ammo and Flaires
+		_veh setVehicleAmmo 0;
+		_veh setDamage 0;
+		_veh allowDamage true;
+		systemChat "Repariert";
+	};
+	//Blackfoot
+	case "Sab_Snow3_An2":
+	{
+		//Remove ammo and Flaires
+		_veh setVehicleAmmo 0;
+		_veh setDamage 0;
+		_veh allowDamage true;
+		systemChat "Repariert";
+	};
+	//Blackfoot
+	case "Sab_af_An2":
+	{
+		//Remove ammo and Flaires
+		_veh setVehicleAmmo 0;
+		_veh setDamage 0;
+		_veh allowDamage true;
+		systemChat "Repariert";
+	};
+	
+	//Blackfoot
+	case "Sab_tk_An2":
+	{
+		//Remove ammo and Flaires
+		_veh setVehicleAmmo 0;
+		_veh setDamage 0;
+		_veh allowDamage true;
+		systemChat "Repariert";
+	};
+	//Blackfoot
+	case "Sab_A2_An2":
+	{
+		//Remove ammo and Flaires
+		_veh setVehicleAmmo 0;
+		_veh setDamage 0;
+		_veh allowDamage true;
+		systemChat "Repariert";
+	};
+	//Blackfoot
+	case "sab_BI_An2":
+	{
+		//Remove ammo and Flaires
+		_veh setVehicleAmmo 0;
+		_veh setDamage 0;
+		_veh allowDamage true;
+		systemChat "Repariert";
+	};
+	//Blackfoot
+	case "sab_AH_An2":
+	{
+		//Remove ammo and Flaires
+		_veh setVehicleAmmo 0;
+		_veh setDamage 0;
+		_veh allowDamage true;
+		systemChat "Repariert";
+	};
+	//Blackfoot
+	case "Sab_Amphi_An2":
+	{
+		//Remove ammo and Flaires
+		_veh setVehicleAmmo 0;
+		_veh setDamage 0;
+		_veh allowDamage true;
+		systemChat "Repariert";
+	};
+	//Blackfoot
+	case "RHS_CH_47F_light":
+	{
+		//Remove ammo and Flaires
+		_veh setVehicleAmmo 0;
+		_veh setDamage 0;
+		_veh allowDamage true;
+		systemChat "Repariert";
+	};
 };
 
 clearWeaponCargoGlobal _vehicle;

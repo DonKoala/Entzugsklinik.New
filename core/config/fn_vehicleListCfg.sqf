@@ -733,7 +733,6 @@ switch (_shop) do
 		_return set[count _return,["dezkit_b206_ls",340000]];
 		_return set[count _return,["UH1N_Slick",440000]];
 		
-		//PREIS ANPASSEN    MUSS NOCH IN DIE VEHICLE WEIGHT
 		_return set[count _return,["Bell412",440000]];
 		_return set[count _return,["Cha_Mi17_Civilian",2150000]];
 		_return set[count _return,["RHS_Mi8AMT_vvs",2150000]];
@@ -752,16 +751,7 @@ switch (_shop) do
 			_return set[count _return,["dezkit_b206_news",245000]];//Bell NEWS
 		};
 		
-		_return set[count _return,["bwi_a3_t6a_6",332000]]; //Texan
-		_return set[count _return,["bwi_a3_t6a_nta",332000]];
-		_return set[count _return,["bwi_a3_t6a_7",332000]];
-		_return set[count _return,["bwi_a3_t6a_9",332000]];
-		_return set[count _return,["bwi_a3_t6a_3",332000]];
-		_return set[count _return,["bwi_a3_t6a_4",332000]];
-		_return set[count _return,["bwi_a3_t6a_1",332000]];
-		_return set[count _return,["bwi_a3_t6a",332000]];
-		_return set[count _return,["bwi_a3_t6a_8",332000]];
-		_return set[count _return,["bwi_a3_t6a_2",332000]];
+
 		_return set[count _return,["bwi_a3_t6c",332000]];
 		
 		_return set[count _return,["sab_cz_An2",130000]]; //AN-2
