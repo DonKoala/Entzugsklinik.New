@@ -778,6 +778,7 @@ switch (_shop) do
 		_return set[count _return,["B_Boat_Transport_01_F",33000]];
 		_return set[count _return,["C_Boat_Civil_01_F",52000]];
 		_return set[count _return,["B_SDV_01_F",344000]];
+		_return set[count _return,["D41_Trawler",0]];
 		
 	};
 	
