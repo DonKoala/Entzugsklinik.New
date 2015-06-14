@@ -370,6 +370,7 @@ class Life_Client_Core
 		class autoSave {};
 		class smokeWeed {};
 		class randomRound {};
+		class unlockTrawler {};
 		
 
 	};

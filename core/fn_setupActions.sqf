@@ -25,6 +25,12 @@ switch (playerSide) do
 		//zucker aufheben
 		life_actions = life_actions + [player addAction["<t color='#FF0000'>Zucker steheln</t>",life_fnc_packupzucker,"",0,false,false,"",' _zucker = nearestObjects[getPos player,["Land_CanisterPlastic_F"],2] select 0; !isNil "_zucker" ']]
 		
+		//Trawler aufschließen
+		life_actions = life_actions + [player addAction["Trawler auf/abschließen!",life_fnc_unlockTrawler,"",0,false,false,"",'
+		(cursorTarget isKindOf "D41_Trawler" && player distance cursorTarget < 30)']];
+
+		
+	
 	
 	};
 	case west: {
