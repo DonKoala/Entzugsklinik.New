@@ -1,51 +1,40 @@
 waitUntil {!isNull player && player == player};
 if(player diarySubjectExists "rules")exitwith{};
 
-player createDiarySubject ["info","Informationen"];
-player createDiarySubject ["steuerung","Steuerung"];
+player createDiarySubject ["trenner00","———————"];
+player createDiarySubject ["alh","Entzugsklink"];
+player createDiarySubject ["trenner0","———————"];
+player createDiarySubject ["info","Infos"];
+player createDiarySubject ["trenner1","———————"];
+player createDiarySubject ["controls","Steuerung"];
+player createDiarySubject ["trenner2","———————"];
+
+/*  Example
+	player createDiaryRecord ["", //Container
+		[
+			"", //Subsection
+				"
+				TEXT HERE<br/><br/>
+				"
+		]
+	];
+*/
 	
-	// Informationen
+
 	player createDiaryRecord ["info",
-	[
-		"2 - Bewerbung Polizei/Sanitäter",
-			"
-				<font color='#F4FA58'>> Wie bewerbe ich mich eigentlich bei euch?<br/></font>
-				Einfach auf dem Ts3 melden und freundlich die<br/>
-				Polizeileitung bzw. den Chefarzt, den Support<br/>
-				oder den Community Manager fragen.<br/><br/>
-				
-				<font color='#F4FA58'>> Wie geht es dann mit mir weiter?<br/></font>
-				Es werden nun einige Fragen auf dich zukommen die <br/>
-				allgemein Entzugsklinik Life aber auch nur die<br/> 
-				Polizei oder den Rettungsdienst betreffen können.<br/><br/>
-				
-				<font color='#F4FA58'>> Unser Praktikum für Dich..<br/></font>
-				Solltest du das alles überlebt haben und immernoch <br/>
-				überzeugt sein solltest folgt ein Praktikum welches <br/>
-				1 Stunde bis maximal 2-3 Tage gehen kann.<br/><br/>
-				
-				In dieser Zeit darfst du nur mit deinem/einem<br/>
-				Vorgesetzten online kommen um dich zu beweisen, es<br/>
-				folgen praktische Prüfungen.<br/><br/>
-				
-				Wenn das alles erfolgreich absolviert wurde<br/> 
-				können wir Dich in unserem Team begrüßen :)<br/><br/>
-				
-				<font color='#F4FA58'>> Hast du Angst bekommen?<br/></font>
-				keine Sorge.. wenn wir schnell überzeugt sind dann<br/>
-				kannst Du dich sofort beweisen bzw. wirst du<br/>
-				sofort Sanitäter/Polizist und<br/>
-				hast keine direkten Prüfungen auf dem Buckel!<br/><br/>
-				
-				Viel Glück, euer Entzugsklinik Team!
-			"
+		[
+			"Teamspeak",
+				"
+				Unser Teamspeakserver:<br/><br/>
+				146.0.32.117<br/><br/>
+				"
 		]
 	];
 	
 	player createDiaryRecord ["info",
-	[
-		"1 - Über Entzugsklinik Life",
-			"
+		[
+			"Infos",
+				"
 				<font color='#F4FA58'>Unser Team besteht derzeit aus folgenden Personen:</font><br/>
 				Developer / Scripter: Dieter Nantz<br/>
 				Developer / Mapper: Petra Nantz <br/>
@@ -70,13 +59,82 @@ player createDiarySubject ["steuerung","Steuerung"];
 			"
 		]
 	];
+	
+	
+	player createDiaryRecord ["info",
+		[
+			"Regeln / Bußgeldkatalog",
+				"
+				!! Unbedingt die Regeln im Forum beachten !! <br/><br/>
+				Hier die Grundlegenden Regeln. Die Ausführlichen aktuellen Regeln sind in unserem Forum zu finden.<br/><br/>
+				- Die New-Life Regel gilt für ALLE Spieler. Das heißt, dass ihr nach eurem tot 15 Min warten müsst bis ihr wieder teilnehmen dürft.<br/>
+				- RDM und VRDM sind verboten <br/>
+				- Am Marktplatz dürfen keine Fahrzeuge via Dietrich geklaut werden.<br/>
+				- Das Schießen auf andere ohne RP-Hintergrund und ohne Ankündigung ist Verboten. <br/>
+				- Cops dürfen nicht dauerhaft verfolgt, angeschrieben oder mit der selben RP-Geschichte genervt werden (dies kann zu einem Kick/Ban führen)<br/>
+				- Das Ausnutzen von Bugs ist verboten und kann mit einem Kick/Ban bestraft werden. <br/>
+				
+				<br/>
 
-	// Steuerung
-	player createDiaryRecord ["steuerung",
+				
+				<br/>
+				-------------------------------------------------------------- <br/>
+				- Die Flughöhe über Städten beträgt 150m. <br/>
+				- Fremde Fahrezuge dürfen nicht via Haken geklaut etc werden. <br/>
+				- Man darf keine LKWs via Haken zum Farmen transportieren. <br/>
+				
+				<br/>
+				-------------------------------------------------------------- <br/>
+				Safezones: <br/>
+				- Alle Garagen, Bankautomaten (ATMs), Shops (Markt, Zubehör, etc) im Umkreis von 20 m. <br/>
+				
+				<br/>
+				-------------------------------------------------------------- <br/>
+				Illegale Güter/Fahrzeuge etc: <br/>
+				- Ghili; alle Waffen ausser die Waffen die es beim Waffenhändler gibt; Alle Polizei Waffen, Kleidung, Items<br/>
+				- in jeglichem Stadium der Verarbeitung/Ernte: Schildkröten; Kokain; Heroin; Marijuana; Meth; LSD; Uran<br/>
+				
+				<br/>
+				-------------------------------------------------------------- <br/>
+				- Angriffe auf das Polizei-HQ darf nur mit triftigem Grund durchgeführt werden und muss mittels SMS angekündigt werden. <br/>
+				- Geiselnahmen sind erst ab 4 Cops zulässig. Das Lösegeld darf pro Geisel nicht mehr als 1.Mio betragen <br/>
+				- Banküberfälle sind erst ab 5 Cops möglich. <br/>
+				- Tankstellenüberfälle sind erst ab 2 Cops möglich.<br/>
+				
+	
+				"
+		]
+	];	
+	
+	player createDiaryRecord ["info",
+		[
+			"Changelog",
+				"
+				Alle aktuellen Changelogs sind im Forum zu finden.<br/>
+				Entzugsklinik-Gaming.de/<br/><br/>
+				"
+		]
+	];
+	
+	player createDiaryRecord ["info",
+		[
+			"Restartzeiten",
+				"
+				0 Uhr<br/>
+				6 Uhr<br/>
+				12 Uhr<br/>
+				18 Uhr<br/>
+				"
+		]
+	];
+	
+// Controls Section
+
+	player createDiaryRecord ["controls",
 		[
 			"Steuerung",
 				"
-					<font color='#F4FA58'>Z</font> Spielerinventar öffnen<br/>
+				<font color='#F4FA58'>Z</font> Spielerinventar öffnen<br/>
 					<font color='#F4FA58'>T</font> Fahrzeuginventar öffnen<br/>
 					<font color='#F4FA58'>U</font> Autos und Häuser auf- und zuschließen<br/>
 					<font color='#F4FA58'>C</font> Spitzhacke benutzen<br/>
@@ -113,6 +171,6 @@ player createDiarySubject ["steuerung","Steuerung"];
 					Einstellungen / Controls -> <br/>
 					Benutzerdefiniert / Custom -> <br/>
 					Aktionstaste 10 / Use Action 10 <br/>
-				"
+					"
 		]
 	];
