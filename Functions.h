@@ -213,11 +213,7 @@ class Life_Client_Core
         class Weednimm {};
         class Cocainenimm {}; 
         class Heroinnimm {}; 
-        class suechtig {}; 
-		
-		class busTravel {};
-
-		
+        class suechtig {};
 		class packupmais {};
 		class packupzucker {};
 		class baumoto {};

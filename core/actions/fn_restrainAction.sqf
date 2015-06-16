@@ -16,12 +16,12 @@ if(!isPlayer _unit) exitWith {};
 
 if(life_inv_handcuffs < 1) then 
 {
-    hint "You have no handcuffs";
+    hint "Du hast keine Handschellen";
 } else {
     life_inv_handcuffs = life_inv_handcuffs - 1;
     _unit say3D "cuff";
     _unit setVariable["restrained",true,true];
-    hint "The target is now handcuffed";
+    hint "Die Person ist nun gefesselt";
     [[player], "life_fnc_restrain", _unit, false] spawn life_fnc_MP;
     [[0,"STR_NOTF_Restrained",true,[_unit getVariable["realname", name _unit], profileName]],"life_fnc_broadcast",west,false] spawn life_fnc_MP;
 }; 

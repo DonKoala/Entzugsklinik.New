@@ -263,7 +263,6 @@ switch (_code) do
                     if([false,"handcuffs",1] call life_fnc_handleInv) then
                     {
                         [] call life_fnc_restrainAction;
-                        life_inv_handcuffs = life_inv_handcuffs - 1;
                         systemChat localize "STR_NOTF_RestrainedPerson";
                     }else{
                         systemChat localize "STR_NOTF_NoHandcuffs";
@@ -277,7 +276,6 @@ switch (_code) do
                     if([false,"handcuffs",1] call life_fnc_handleInv) then
                     {
                         [] call life_fnc_restrainAction;
-                        life_inv_handcuffs = life_inv_handcuffs - 1;
                         systemChat localize "STR_NOTF_RestrainedPerson";
                     }else{
                         systemChat localize "STR_NOTF_NoHandcuffs";
@@ -291,7 +289,6 @@ switch (_code) do
                     if([false,"handcuffs",1] call life_fnc_handleInv) then
                     {
                         [] call life_fnc_restrainAction;
-                        life_inv_handcuffs = life_inv_handcuffs - 1;
                         systemChat localize "STR_NOTF_RestrainedPerson";
                     }else{
                         systemChat localize "STR_NOTF_NoHandcuffs";
