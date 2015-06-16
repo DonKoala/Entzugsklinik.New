@@ -1263,7 +1263,7 @@ class Mission
 					vehicle="C_man_1";
 					leader=1;
 					skill=0.60000002;
-					init="this enableSimulation false; this allowDamage false; this addAction[""Öl verarbeiten"",life_fnc_processAction,""oil"",0,false,false,"""",' life_inv_oilu > 0 && !life_is_processing']; this addAction[""Öl verarbeiten ($17,000)"",life_fnc_buyLicense,""oil"",0,false,false,"""",' !license_civ_oil && playerSide == civilian ']; this setVariable[""realname"", ""Ölverarbeiter""];";
+					init="this enableSimulation false; this allowDamage false; this addAction[""Öl verarbeiten"",life_fnc_processAction,""oil"",0,false,false,"""",' life_inv_oilu > 0 && !life_is_processing']; this addAction[""Öl verarbeiten ($52500)"",life_fnc_buyLicense,""oil"",0,false,false,"""",' !license_civ_oil && playerSide == civilian ']; this setVariable[""realname"", ""Ölverarbeiter""];";
 				};
 			};
 		};
