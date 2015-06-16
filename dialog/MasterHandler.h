@@ -32,7 +32,6 @@
 #include "common_EditorWrapper.hpp"
 #include "market.hpp"
 #include "jail_time.hpp"
-#include "house_vInv.hpp"
 #include "taxiMenu.hpp"
 #include "AS_AdminMenu.hpp"
 #include "AS_Refund.hpp"
