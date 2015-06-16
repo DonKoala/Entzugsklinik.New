@@ -5354,7 +5354,16 @@
 			<English>Handcuffkeys</English>
 			<German>Handschellenschlüssel</German>
 		</Key>
-
+		<Package name="Process_Action">
+        ...
+        <Key ID="STR_Bus_Cost">
+		<Original>You need $%1 to go to this destination!</Original>
+		<German>Sie müssen $ %1 um zu diesem Ziel zu gehen!</German>
+		<French>Vous devez $ %1 pour aller à cette destination!</French>
+		<Italian>Avete bisogno di $%1 per andare a questa destinazione!</Italian>
+		<Portuguese>Você precisa $ %1 para ir para este destino!</Portuguese>
+	</Key>
+	</Package>
     <Package name="Notifications">
         <Key ID="STR_NOTF_RestrainedPerson">
             <Original>The person is now tied up!</Original>
@@ -5372,19 +5381,19 @@
             <Italian>No Handcuffs</Italian>
             <Portuguese>Maconha não Processada</Portuguese>
         </Key>
-<Key ID="STR_MISC_StPubIntox">
-<Original>%1 hat sich in der Oeffentlichkeit betrunken!</Original>
-</Key>
-<Key ID="STR_MISC_DrunkBlackOut">
-<Original>Du hast einen Blackout!</Original>
-</Key>
-<Key ID="STR_MISC_DrunkBlackOut1">
-<Original>WTF - was ist passiert??</Original>
-</Key>		
-</Project>
-<Key ID="STR_MISC_DrunkBlackOut">
-  <Original>Du hast einen Blackout!</Original>
-  </Key>
-  <Key ID="STR_MISC_DrunkBlackOut1">
-  <Original>Was zum... - was ist passiert?? Wo bin ich?</Original>
-  </Key>
+		<Key ID="STR_MISC_StPubIntox">
+		<Original>%1 hat sich in der Oeffentlichkeit betrunken!</Original>
+		</Key>
+		<Key ID="STR_MISC_DrunkBlackOut">
+		<Original>Du hast einen Blackout!</Original>
+		</Key>
+		<Key ID="STR_MISC_DrunkBlackOut1">
+		<Original>WTF - was ist passiert??</Original>
+		</Key>		
+		</Project>
+		<Key ID="STR_MISC_DrunkBlackOut">
+		  <Original>Du hast einen Blackout!</Original>
+		  </Key>
+		  <Key ID="STR_MISC_DrunkBlackOut1">
+		  <Original>Was zum... - was ist passiert?? Wo bin ich?</Original>
+		  </Key>

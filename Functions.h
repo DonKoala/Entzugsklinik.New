@@ -214,6 +214,8 @@ class Life_Client_Core
         class Cocainenimm {}; 
         class Heroinnimm {}; 
         class suechtig {}; 
+		
+		class busTravel {};
 
 		
 		class packupmais {};

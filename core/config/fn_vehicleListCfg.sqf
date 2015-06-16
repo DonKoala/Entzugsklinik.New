@@ -141,12 +141,6 @@ switch (_shop) do
 		_return set[count _return,["cl3_defender_110_yellow",50000]];
 		_return set[count _return,["cl3_defender_110_red",50000]];
 		
-		_return set[count _return,["cl3_enduro_yellow",0]];
-		_return set[count _return,["cl3_enduro_black",0]];
-		_return set[count _return,["cl3_impreza_rally_yellow",0]];
-		_return set[count _return,["cl3_impreza_rally_black",0]];
-		_return set[count _return,["cl3_impreza_road_black",0]];
-		
 		
 		
 		
@@ -753,13 +747,6 @@ switch (_shop) do
 		_return set[count _return,["RHS_Mi8AMT_vvs",2150000]];
 		_return set[count _return,["UH1N_Black",440000]];
 		
-		
-		_return set[count _return,["EC635_Unarmed",0]];
-		_return set[count _return,["EC635_Unarmed_CSAT",0]];
-		_return set[count _return,["EC635_SAR",0]];
-		_return set[count _return,["EC635_Unarmed_BW",0]];
-		_return set[count _return,["EC635_ADAC",40]];
-		
 
 		
 
@@ -800,12 +787,6 @@ switch (_shop) do
 		_return set[count _return,["B_Boat_Transport_01_F",33000]];
 		_return set[count _return,["C_Boat_Civil_01_F",52000]];
 		_return set[count _return,["B_SDV_01_F",344000]];
-		_return set[count _return,["D41_Trawler",0]];
-		
-		_return set[count _return,["cl3_phoenixyacht",0]];
-		_return set[count _return,["A3L_Ship",0]];
-		_return set[count _return,["A3L_JetSki",0]];
-		_return set[count _return,["A3L_JetSki_Yellow",0]];
 		
 		
 		
