@@ -37,10 +37,10 @@ player createDiarySubject ["trenner2","———————"];
 				"
 				<font color='#F4FA58'>Unser Team besteht derzeit aus folgenden Personen:</font><br/>
 				Developer / Scripter: Dieter Nantz<br/>
-				Developer / Mapper: Petra Nantz <br/>
-				Designer / Künstler: Petra Nantz ,Michael Nantz, John Krüger<br/>
+				Developer / Mapper: Uschi Nantz <br/>
+				Designer / Künstler: Uschi Nantz ,Michael Nantz, John Krüger<br/>
 				Server-Projektleitung:<br/>
-				   Petra Nantz,<br/>
+				   Uschi Nantz,<br/>
 				   Dieter Nantz,<br/>
 				   Vogti<br/>
 				Ts3-Techniker: Michael Nantz ,Magnus Hilten,John Krüger <br/>

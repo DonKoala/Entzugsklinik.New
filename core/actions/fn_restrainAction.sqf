@@ -18,7 +18,7 @@ if(life_inv_handcuffs < 1) then
 {
     hint "Du hast keine Handschellen";
 } else {
-    life_inv_handcuffs = life_inv_handcuffs - 1;
+   // life_inv_handcuffs = life_inv_handcuffs - 1;
     _unit say3D "cuff";
     _unit setVariable["restrained",true,true];
     hint "Die Person ist nun gefesselt";
