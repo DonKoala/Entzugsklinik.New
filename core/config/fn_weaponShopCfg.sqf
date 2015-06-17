@@ -227,7 +227,7 @@ switch(_shop) do
 						["BWA3_optic_RSAS",nil,300],
 						["BWA3_optic_ZO4x30",nil,300],
 						["BWA3_optic_NSV600",nil,300],					
-						["BWA3_acc_LLM01_flash",nil,300],						
+						["BWA3_acc_LLM01_flash",nil,300]						
 		
 					]
 				];
@@ -287,7 +287,7 @@ switch(_shop) do
 						["BWA3_optic_RSAS",nil,300],
 						["BWA3_optic_ZO4x30",nil,300],
 						["BWA3_optic_NSV600",nil,300],					
-						["BWA3_acc_LLM01_flash",nil,300],	
+						["BWA3_acc_LLM01_flash",nil,300]
 					]
 				];
 			};
@@ -632,7 +632,7 @@ switch(_shop) do
 						["BWA3_G36",nil,300000],							
 						["BWA3_30Rnd_556x45_G36",nil,5000],
 						["BWA3_G36_LMG",nil,300000],
-						["BWA3_100Rnd_556x45_G36",nil,5000],							
+						["BWA3_100Rnd_556x45_G36",nil,5000]						
 						
 
 						
@@ -665,7 +665,7 @@ switch(_shop) do
 						["rhs_10Rnd_762x54mmR_7N1",nil,320000],								
 						["rhs_acc_tgpv",nil,10000],		
 						["rhs_weap_makarov_pmm",nil,320000],
-						["rhs_mag_9x18_12_57N181S",nil,320000],								
+						["rhs_mag_9x18_12_57N181S",nil,320000]							
 					]
 				];
 			};
