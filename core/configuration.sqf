@@ -286,9 +286,8 @@ life_illegal_items = [
 	["goldbar",95000],
 	["kidney",10000],
 	["life_inv_cannabis",3000],
-	["ipuranium",10000],
-	["handcuffs",200],
-	["handcuffkeys",100]
+	["ipuranium",10000]
+
 ];
 
 

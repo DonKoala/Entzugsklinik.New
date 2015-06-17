@@ -7,7 +7,7 @@
 	Figure it out.
 */
 private["_value","_action"];
-if(__GETC__(life_adminlevel) < 1 && !((getPlayerUID player) in TJMS_ADMIN)) exitWith {closeDialog 0; hint localize "STR_ANOTF_ErrorLevel";};
+if(__GETC__(life_adminlevel) < 1 ) exitWith {closeDialog 0; hint "Beschwere dich bei Koala :P";};
 _value = parseNumber(ctrlText 9922);
 if(_value < 0) exitWith {};
 //if(_value > 999999) exitWith {hint localize "STR_ANOTF_Fail"};
@@ -23,7 +23,7 @@ _action = [
 if(_action) then {
 	life_cash = life_cash + _value;
 	hint format [localize "STR_ANOTF_Success",[_value] call life_fnc_numberText];
-	[[0,format["",profileName, _value]],"life_fnc_broadcast",nil,false] spawn life_fnc_MP;
+	[[0,format["%1 hat sich %2 $ Erstattungsgeld gegeben.",profileName, _value]],"life_fnc_broadcast",nil,false] spawn life_fnc_MP;
 	closeDialog 0;
 } else {
 	hint localize "STR_NOTF_ActionCancel";

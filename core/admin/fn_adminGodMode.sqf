@@ -6,7 +6,7 @@
 	Description: Enables God mode for Admin
 */
 
-if(__GETC__(life_adminlevel) < 1 && !((getPlayerUID player) in TJMS_ADMIN)) exitWith {closeDialog 0; hint localize "STR_ANOTF_ErrorLevel";};
+if(__GETC__(life_adminlevel) < 5 ) exitWith {closeDialog 0; hint "Beschwere dich bei Koala :P";};
 
 [] spawn {
   while {dialog} do {

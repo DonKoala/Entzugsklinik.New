@@ -59,12 +59,13 @@ if(__GETC__(life_adminlevel) < 1 ) then
 };
 
 //SUPPORTER
-if(__GETC__(life_adminlevel) < 5) then
+if(__GETC__(life_adminlevel) < 5 ) then
 {
-			ctrlShow[2904,false];  
+			ctrlShow[2905,false];  
 			ctrlShow[2906,false];
 			ctrlShow[2907,false];
 			ctrlShow[2908,false];
+			ctrlShow[2909,false];
 			ctrlShow[2910,false];
 			ctrlShow[2911,false];
 };

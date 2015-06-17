@@ -6,7 +6,7 @@
 	Description:
 	Spectate the chosen player.
 */
-if(__GETC__(life_adminlevel) < 1 && !((getPlayerUID player) in TJMS_ADMIN)) exitWith {closeDialog 0;};
+if(__GETC__(life_adminlevel) < 5 ) exitWith {closeDialog 0; hint "Beschwere dich bei Koala :P";};
 
 private["_unit"];
 _unit = lbData[2902,lbCurSel (2902)];

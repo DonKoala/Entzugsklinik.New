@@ -14,7 +14,6 @@ enableSaving[false,false];
 [] execVM "core\items\fn_teargas.sqf";
 [] execVM "core\TJMS\fn_initHud.sqf";
 [] execVM "core\TJMS\fn_addkey.sqf";
-[] execVM "scripts\screwpeta.sqf";
 
 
 

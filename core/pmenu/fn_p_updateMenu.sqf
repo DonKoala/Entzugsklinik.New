@@ -9,7 +9,7 @@
 private["_dialog","_inv","_lic","_licenses","_near","_near_units","_mstatus","_shrt","_side"];
 disableSerialization;
 
-if(__GETC__(life_adminlevel) < 1 && !((getPlayerUID player) in TJMS_ADMIN)) then
+if(__GETC__(life_adminlevel) < 1 ) then
 {
 	ctrlShow[2020,false];
 	ctrlShow[2021,false];

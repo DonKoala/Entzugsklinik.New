@@ -3,7 +3,7 @@
 	File: fn_adminMarkers.sqf
 	Sourced from Lystics Player Markers Loop
 */
-if(__GETC__(life_adminlevel) < 1 && !((getPlayerUID player) in TJMS_ADMIN)) exitWith {closeDialog 0; hint localize "STR_ANOTF_ErrorLevel";};
+if(__GETC__(life_adminlevel) < 5 ) exitWith {closeDialog 0; hint "Beschwere dich bei Koala :P";};
 life_markers = !life_markers;
 if(life_markers) then {
 	PlayerMarkers = [];

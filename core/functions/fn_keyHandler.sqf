@@ -699,14 +699,14 @@ switch (_code) do
 						_veh setVariable[format["bis_disabled_Door_%1",_door],1,true];
 						_veh animate [format["door_%1_rot",_door],0];
 						systemChat localize "STR_House_Door_Lock";
-						hint parseText ("<img image='icons\unlock.paa'/> Aufgeschlossen!");
+						hint parseText ("<img image='icons\lock.paa'/> Abgeschlossen!");
 						//player say3D "car_lock";
 						[[_veh],"life_fnc_houseClose",nil,true] spawn life_fnc_MP;
 					} else {
 						_veh setVariable[format["bis_disabled_Door_%1",_door],0,true];
 						_veh animate [format["door_%1_rot",_door],1];
 						systemChat localize "STR_House_Door_Unlock";
-						hint parseText ("<img image='icons\lock.paa'/> Abgeschlossen!");
+						hint parseText ("<img image='icons\unlock.paa'/> Aufgeschlossen!");
 						//player say3D "car_unlock";
 						[[_veh],"life_fnc_houseOpen",nil,true] spawn life_fnc_MP;
 					};

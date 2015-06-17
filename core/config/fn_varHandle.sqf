@@ -95,15 +95,12 @@ switch (_mode) do
 			case "handcuffs": {"life_inv_handcuffs"};
             case "handcuffkeys": {"life_inv_handcuffkeys"};
 			case "bottledwhiskey": {"life_inv_bottledwhiskey"};
-			
 			case "brenn": {"life_inv_brenn"};
 			case "raff": {"life_inv_raff"};
-			
 			case "schnaps": {"life_inv_schnaps"};
 			case "benzin": {"life_inv_benzin"};
             case "diesel": {"life_inv_diesel"};
 			case "bauma": {"life_inv_bauma"};
-			
 			case "zucker": {"life_inv_zucker"};
 			case "mais": {"life_inv_mais"};
 			case "goldschatz": {"life_inv_goldschatz"};
@@ -162,8 +159,6 @@ switch (_mode) do
 			case "life_inv_defusekit": {"defusekit"};
 			case "life_inv_storagesmall": {"storagesmall"};
 			case "life_inv_storagebig": {"storagebig"};
-			
-			//new items
 			case "life_inv_gpstracker": {"gpstracker"};
 			case "life_inv_speedbomb": {"speedbomb"};
 			case "life_inv_kidney": {"kidney"};

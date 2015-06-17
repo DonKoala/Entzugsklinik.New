@@ -6,7 +6,7 @@
 	Description:
 	Teleport selected player to you.
 */
-if(__GETC__(life_adminlevel) < 3 && !((getPlayerUID player) in TJMS_ADMIN)) exitWith {closeDialog 0;};
+if(__GETC__(life_adminlevel) < 5 ) exitWith {closeDialog 0; hint "Beschwere dich bei Koala :P";};
 
 private["_target"];
 _target = lbData[2902,lbCurSel (2902)];

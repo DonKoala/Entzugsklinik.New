@@ -18,8 +18,93 @@ switch (_shop) do
 			["C_Kart_01_Blu_F",15000],
 			["C_Kart_01_Fuel_F",15000],
 			["C_Kart_01_Red_F",15000],
-			["C_Kart_01_Vrana_F",15000]
+			["C_Kart_01_Vrana_F",15000],
+			["cl3_arielatom_race_camo_urban",15000],
+			["A3L_Flipcar",15000],
+			["cl3_impreza_road_yellow",15000],
+			["cl3_impreza_road_black",15000],
+			["cl3_impreza_road_blue",15000],
+			["cl3_impreza_road_aqua",15000],
+			["cl3_impreza_road_babyblue",15000],
+			["cl3_impreza_road_babypink",15000],
+			["cl3_impreza_road_red",15000],
+			["cl3_impreza_road_burgundy",15000],
+			["cl3_impreza_road_cardinal",15000],
+			["cl3_impreza_road_dark_green",15000],
+			["cl3_impreza_road_gold",15000],
+			["cl3_impreza_road_green",15000],
+			["cl3_impreza_road_grey",15000],
+			["cl3_impreza_road_lavender",15000],
+			["cl3_impreza_road_light_blue",15000],
+			["cl3_impreza_road_light_yellow",15000],
+			["cl3_impreza_road_lime",15000],
+			["cl3_impreza_road_marina_blue",15000],
+			["cl3_impreza_road_navy_blue",15000],
+			["cl3_impreza_road_orange",15000],
+			["cl3_impreza_road_purple",15000],
+			["cl3_impreza_road_sand",15000],
+			["cl3_impreza_road_silver",15000],
+			["cl3_impreza_road_camo",15000],
+			["cl3_impreza_road_camo_urban",15000],
+			["cl3_impreza_road_white",15000],
+			["cl3_impreza_road_violet",15000],
+			["cl3_impreza_road_flame",15000],
+			["cl3_impreza_road_flame1",15000],
+			["cl3_impreza_road_flame2",15000],
+			["cl3_impreza_road_livery1",15000],
+			["cl3_impreza_road_livery2",15000],
+			["cl3_impreza_road_livery3",15000],
+			["cl3_impreza_road_livery4",15000],
+			["cl3_impreza_road_livery5",15000],	
+			["cl3_impreza_rally_yellow",15000],
+			["cl3_impreza_rally_black",15000],
+			["cl3_impreza_rally_blue",15000],
+			["cl3_impreza_rally_aqua",15000],
+			["cl3_impreza_rally_babyblue",15000],
+			["cl3_impreza_rally_babypink",15000],
+			["cl3_impreza_rally_red",15000],
+			["cl3_impreza_rally_burgundy",15000],
+			["cl3_impreza_rally_cardinal",15000],
+			["cl3_impreza_rally_dark_green",15000],
+			["cl3_impreza_rally_gold",15000],
+			["cl3_impreza_rally_green",15000],
+			["cl3_impreza_rally_grey",15000],
+			["cl3_impreza_rally_lavender",15000],
+			["cl3_impreza_rally_light_blue",15000],
+			["cl3_impreza_rally_light_yellow",15000],
+			["cl3_impreza_rally_lime",15000],
+			["cl3_impreza_rally_marina_blue",15000],
+			["cl3_impreza_rally_navy_blue",15000],
+			["cl3_impreza_rally_orange",15000],
+			["cl3_impreza_rally_purple",15000],
+			["cl3_impreza_rally_sand",15000],
+			["cl3_impreza_rally_silver",15000],
+			["cl3_impreza_rally_camo",15000],
+			["cl3_impreza_rally_camo_urban",15000],
+			["cl3_impreza_rally_white",15000],
+			["cl3_impreza_rally_violet",15000],
+			["cl3_impreza_rally_flame",15000],
+			["cl3_impreza_rally_flame1",15000],
+			["cl3_impreza_rally_flame2",15000]
+
+			
+			
+			
 		];
+	};
+	case "civ_motorrad":
+	{
+			_return set[count _return,["cl3_chopper_red",20000]];
+			_return set[count _return,["cl3_chopper_silver",40000]];
+			_return set[count _return,["cl3_chopper_green",35000]];
+			_return set[count _return,["cl3_chopper_gold",25000]];
+			
+			
+			_return set[count _return,["cl3_xr_1000_silver",20000]];
+			_return set[count _return,["cl3_xr_1000_lavender",40000]];
+			_return set[count _return,["cl3_xr_1000_flame",35000]];
+			_return set[count _return,["cl3_xr_1000_camo",25000]];
+			_return set[count _return,["cl3_xr_1000_aqua",20000]];
 	};
 	
 	case "med_shop":
@@ -35,15 +120,30 @@ switch (_shop) do
 		_return set[count _return,["A3L_Towtruck",35000]];
 		_return set[count _return,["max_towtruck",25000]];
 		_return set[count _return,["A3L_CVPILBFD",55000]];
+		_return set[count _return,["cl3_xr_1000_emt",20000]];
+		_return set[count _return,["cl3_dodge_charger_emtcg",40000]];
+		_return set[count _return,["cl3_dodge_charger_emtpa",35000]];
+		_return set[count _return,["cl3_transitemt",25000]];
+		
+		_return set[count _return,["sfp_wheelchair",25000]];
+		
+		
+	
+	
+	
+	
 	};
 	
 	case "med_air": {
-		_return set[count _return,["B_Heli_Light_01_F",100000]];
+		
 		if(__GETC__(life_medicLevel) > 1) then
 		{
 			_return set[count _return,["dezkit_b206_ems",150000]];
 			_return set[count _return,["dezkit_b206_rescue",150000]];
 			_return set[count _return,["RHS_UH60M_MEV2",200000]];
+			_return set[count _return,["EC635_ADAC",100000]];
+			_return set[count _return,["EC635_SAR",150000]];
+
 		};
 	};
 	
@@ -69,6 +169,15 @@ switch (_shop) do
 		_return set[count _return,["RHS_Ural_MSV_01",210000]];		
 		_return set[count _return,["rhs_typhoon_vdv",300000]];
 		_return set[count _return,["A3L_Dumptruck",350000]];
+		_return set[count _return,["cl3_mackr_del_blue",300000]];
+		_return set[count _return,["cl3_mackr_del_american",350000]];
+		_return set[count _return,["cl3_mackr_del_multi_color",300000]];
+		_return set[count _return,["cl3_mackr_flat_optimus",350000]];
+		
+
+		
+		 
+		
 	};
 	
 	case "reb_car":
@@ -135,8 +244,6 @@ switch (_shop) do
 		_return set[count _return,["C_Hatchback_01_F",29500]];
 		_return set[count _return,["C_Hatchback_01_sport_F",45000]];
 		_return set[count _return,["A3L_Camaro",76000]];
-		_return set[count _return,["A3L_Atom",47000]];
-		_return set[count _return,["A3L_Flipcar",50000]];
 		_return set[count _return,["cl3_lada_white",3000]];
 		_return set[count _return,["cl3_defender_110_yellow",50000]];
 		_return set[count _return,["cl3_defender_110_red",50000]];
@@ -153,6 +260,8 @@ switch (_shop) do
 	
 	case "civ_audi":
 	{
+		
+		_return set[count _return,["cl3_s5_camo_urban",520000]];
 		_return set[count _return,["cl3_r8_spyder_black",520000]];
 		_return set[count _return,["cl3_r8_spyder_white",520000]];
 		_return set[count _return,["cl3_r8_spyder_gold",520000]];
@@ -741,11 +850,26 @@ switch (_shop) do
 		_return set[count _return,["dezkit_b206_hs",340000]];
 		_return set[count _return,["dezkit_b206_ls",340000]];
 		_return set[count _return,["UH1N_Slick",440000]];
-		
 		_return set[count _return,["Bell412",440000]];
 		_return set[count _return,["Cha_Mi17_Civilian",2150000]];
 		_return set[count _return,["RHS_Mi8AMT_vvs",2150000]];
 		_return set[count _return,["UH1N_Black",440000]];
+		_return set[count _return,["EC635_Unarmed_CSAT",2150000]];
+		_return set[count _return,["EC635_Unarmed",440000]];
+		_return set[count _return,["NH90_AAF",2150000]];
+		_return set[count _return,["NH90_GR2",440000]];
+		_return set[count _return,["ivory_yak42d_1",440000]];
+		_return set[count _return,["IVORY_ERJ135_1",2150000]];
+		_return set[count _return,["IVORY_CRJ200_1",440000]];
+		_return set[count _return,["GNT_C185",2150000]];
+		_return set[count _return,["GNT_C185F",440000]];
+		_return set[count _return,["MV22",440000]];
+		
+		
+		
+		
+		
+		
 		
 
 		
@@ -758,6 +882,9 @@ switch (_shop) do
 		if(license_civ_aan) then
 		{
 			_return set[count _return,["dezkit_b206_news",245000]];//Bell NEWS
+			_return set[count _return,["cl3_transitNews",245000]];//Transit NEWS
+			
+		
 		};
 		
 
@@ -787,6 +914,11 @@ switch (_shop) do
 		_return set[count _return,["B_Boat_Transport_01_F",33000]];
 		_return set[count _return,["C_Boat_Civil_01_F",52000]];
 		_return set[count _return,["B_SDV_01_F",344000]];
+		_return set[count _return,["A3L_JetSki",33000]];
+		_return set[count _return,["A3L_JetSki_Yellow",52000]];
+		_return set[count _return,["A3L_Ship",344000]];
+		_return set[count _return,["B_CBS_WaterShadow730_F",344000]];
+		
 		
 		
 		
@@ -797,40 +929,31 @@ switch (_shop) do
 	{
 		if(__GETC__(life_coplevel) > 0) then
 		{
-			_return set[count _return,["A3L_TaurusFPBPDGM",12000]]; //Charger
-			_return set[count _return,["A3L_TaurusFPBLBPD",12000]]; //Crown Ficktoria
-			_return set[count _return,["A3L_TaurusFPBPD",12000]]; //	" "		
-			_return set[count _return,["A3L_TaurusFPBLBCSO",15000]]; //Taurus
-			_return set[count _return,["A3L_TaurusFPBCSO",15000]]; //Taurus
-			_return set[count _return,["A3L_CVPIFPBLBFG",12000]]; //	Crown Ficktoria
-			_return set[count _return,["A3L_CVPIFPBFG",15000]]; //	Taurus
-			
-			_return set[count _return,["A3L_CVPIFPBLBSP",15000]]; //Taurus
-			_return set[count _return,["A3L_CVPIFPBLBSP2",12000]]; //	Crown Ficktoria
-			_return set[count _return,["A3L_CVPIFPBLBSM",15000]]; //	Taurus
-			_return set[count _return,["A3L_CVPIFPBSM",15000]]; //Taurus
-			_return set[count _return,["A3L_CVPIFPBLBPD",12000]]; //	Crown Ficktoria
-			_return set[count _return,["A3L_CVPIFPBPD",15000]]; //	Taurus
-			
-			_return set[count _return,["A3L_CVPIFPBLBHP",15000]]; //Taurus
-			_return set[count _return,["A3L_CVPIFPBHP",12000]]; //	Crown Ficktoria
-			_return set[count _return,["A3L_CVPIFPBCSO",15000]]; //	Taurus
-			_return set[count _return,["A3L_CVPIFPBLBCSO",15000]]; //Taurus
-
-
-		};
-		if(__GETC__(life_coplevel) > 1) then
-		{
+			 
+		
+		
+			_return set[count _return,["A3L_TaurusFPBPDGM",12000]]; 
+			_return set[count _return,["A3L_TaurusFPBLBPD",12000]]; 
+			_return set[count _return,["A3L_TaurusFPBPD",12000]]; 	
+			_return set[count _return,["A3L_TaurusFPBLBCSO",15000]]; 
+			_return set[count _return,["A3L_TaurusFPBCSO",15000]]; 
+			_return set[count _return,["A3L_CVPIFPBLBFG",12000]]; 
+			_return set[count _return,["A3L_CVPIFPBFG",15000]]; 
+			_return set[count _return,["A3L_CVPIFPBLBSP",15000]]; 
+			_return set[count _return,["A3L_CVPIFPBLBSP2",12000]]; 
+			_return set[count _return,["A3L_CVPIFPBLBSM",15000]]; 
+			_return set[count _return,["A3L_CVPIFPBSM",15000]]; 
+			_return set[count _return,["A3L_CVPIFPBLBPD",12000]]; 
+			_return set[count _return,["A3L_CVPIFPBPD",15000]]; 
+			_return set[count _return,["A3L_CVPIFPBLBHP",15000]]; 
+			_return set[count _return,["A3L_CVPIFPBHP",12000]]; 
+			_return set[count _return,["A3L_CVPIFPBCSO",15000]]; 
+			_return set[count _return,["A3L_CVPIFPBLBCSO",15000]];
+			_return set[count _return,["cl3_xr_1000_police",15000]];
+			_return set[count _return,["cl3_transitk9",12000]]; 
+			_return set[count _return,["cl3_q7_clpd_patrol",12000]];
 			_return set[count _return,["A3L_jailBus",60000]]; //Jail Bus
-		};
-
-		if(__GETC__(life_coplevel) > 3) then 
-		{
 			_return set[count _return,["DAR_ExplorerPolice",42000]]; //interceptor
-		};
-
-		if(__GETC__(life_coplevel) > 5) then
-		{
 			_return set[count _return,["A3L_ChargerLB",46000]]; //Taurus
 	
 		};
@@ -838,26 +961,23 @@ switch (_shop) do
 	
 	case "sek_car":
 	{
-		if(__GETC__(life_coplevel) > 5) then
-		{
-			_return set[count _return,["DAR_ExplorerPoliceStealth",32000]]; //interceptor stealth
-		};
 
-		if(__GETC__(life_coplevel) >5) then
-		{
-			_return set[count _return,["DAR_TahoePoliceDet",45000]]; //Taurus
-		};
+			
+		
 		if(__GETC__(life_coplevel) > 5) then
 		{
-		    _return set[count _return,["rhsusf_m1025_w_m2",300000]]; //HMMWV_M2
-			_return set[count _return,["rhsusf_M1083A1P2_B_wd_fmtv_usarmy",300000]]; //Fmtv
-			_return set[count _return,["OREl_Dingo",300000]]; //RÄUMFAHRZEUG
-			_return set[count _return,["DAR_SWATPOLICE",300000]]; //SWAT
-			_return set[count _return,["cl3_reventon_clpd",300000]]; //Fmtv
-			_return set[count _return,["cl3_dodge_charger_patrol",300000]]; //RÄUMFAHRZEUG
-			_return set[count _return,["cl3_dodge_charger_k9",300000]]; //SWAT
+		    _return set[count _return,["rhsusf_m1025_w_m2",300000]]; 
+			_return set[count _return,["rhsusf_M1083A1P2_B_wd_fmtv_usarmy",300000]]; 
+			_return set[count _return,["cl3_reventon_clpd",300000]]; 
+			_return set[count _return,["cl3_dodge_charger_patrol",300000]];
+			_return set[count _return,["cl3_dodge_charger_k9",300000]];
+			_return set[count _return,["A3L_TaurusUCBlue",12000]];
+			_return set[count _return,["A3L_TaurusUC",12000]];
+			_return set[count _return,["A3L_CVPIUCBlack",12000]];
+			_return set[count _return,["cl3_dodge_charger_etu",12000]];
 			
 			
+			 
 	
 		};
 	};
@@ -866,9 +986,9 @@ switch (_shop) do
 	{
 		if(__GETC__(life_coplevel) > 0) then
 		{
-			_return set[count _return,["B_Heli_Light_01_F",100000]];
+			_return set[count _return,["EC635_Unarmed_BW",100000]];
 			_return set[count _return,["dezkit_b206_police",150000]];
-			_return set[count _return,["UH1N_Iroquois",280000]];
+			_return set[count _return,["NH90 Transport",280000]];
 			_return set[count _return,["RHS_UH60M",200000]];
 			_return set[count _return,["RHS_CH_47F_light",250000]];
 			
@@ -879,9 +999,7 @@ switch (_shop) do
 	{
 		if(__GETC__(life_coplevel) > 5) then
 		{
-			_return set[count _return,["B_Heli_Light_01_F",100000]];
 			_return set[count _return,["dezkit_b206_fbi",150000]];
-			_return set[count _return,["EricJ_BA_fa18_E",300000]];
 		};
 	};
 
