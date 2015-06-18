@@ -391,11 +391,9 @@ switch(_shop) do
 	
 	case "vanilla":
 	{
-		switch(true) do
-		{
-			{
-				["Vanilla Visiere",
-					[	
+		["Vanilla Visiere",
+			[
+
 						["optic_ACO_grn",nil,10000],
 						["optic_Aco",nil,10000],
 						["optic_ACO_grn_smg",nil,10000],
@@ -413,13 +411,11 @@ switch(_shop) do
 						["acc_flashlight",nil,10000],
 						["bipod_01_F_blk",nil,10000],
 						["bipod_02_F_blk",nil,10000],
-						["bipod_03_F_blk",nil,10000]
-					]
-				];
-			};
-		};
+						["bipod_03_F_blk",nil,10000]				
+
+			]
+		];
 	};
-	
 	case "aan":
 	{
 		switch(true) do
