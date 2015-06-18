@@ -69113,10 +69113,10 @@ class Mission
 		};
 		class Item19
 		{
-			position[]={24855.998,20.050409,20785.143};
+			position[]={24862.668,19.944273,20768.932};
 			name="medic_spawn_1";
 			type="Empty";
-			angle=-649.73328;
+			angle=-388.55273;
 		};
 		class Item20
 		{
@@ -69152,10 +69152,10 @@ class Mission
 		};
 		class Item24
 		{
-			position[]={24858.572,20.133209,20791.02};
+			position[]={24897.555,19.685095,20790.514};
 			name="med_car_1";
 			type="Empty";
-			angle=-197.37926;
+			angle=-203.80255;
 		};
 		class Item25
 		{
