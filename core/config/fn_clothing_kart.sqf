@@ -45,7 +45,12 @@ switch (_filter) do
 			["H_RacingHelmet_1_F",nil,2500],
 			["H_RacingHelmet_2_F",nil,2500],
 			["H_RacingHelmet_3_F",nil,2500],
-			["H_RacingHelmet_4_F",nil,2500]
+			["H_RacingHelmet_4_F",nil,2500],
+			["pilot_black_helmet",nil,2500],
+			["pilot_blue_helmet",nil,2500],
+			["pilot_red_helmet",nil,2500]
+			
+			
 		];
 	};
 	

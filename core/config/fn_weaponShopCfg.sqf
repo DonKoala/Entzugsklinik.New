@@ -115,7 +115,7 @@ switch(_shop) do
 						["rhsusf_acc_anpeq15_light",nil,300],							
 						["rhsusf_acc_compm4",nil,300],
 						["rhsusf_acc_eotech_552",nil,300],
-						["rhsusf_acc_ACOG",nil,300]
+						["rhsusf_acc_ACOG",nil,300],
 						["arifle_mas_hk416",nil,30000],
 						["arifle_mas_hk416c",nil,30000],
 						["30Rnd_mas_556x45_Stanag",nil,300],
@@ -162,7 +162,7 @@ switch(_shop) do
 						["rhs_weap_m16a4_carryhandle_grip_pmag",nil,3000],
 						["30Rnd_556x45_Stanag",nil,300],
 						["rhs_weap_sr25_ec",nil,30000],
-						["rhsusf_20Rnd_762x51_m118_special_Mag",nil,5000]	
+						["rhsusf_20Rnd_762x51_m118_special_Mag",nil,5000],
 						["rhsusf_acc_anpeq15",nil,300],
 						["rhsusf_acc_anpeq15_light",nil,300],						
 						["rhsusf_acc_harris_bipod",nil,300],						
@@ -214,7 +214,7 @@ switch(_shop) do
 						["20Rnd_mas_762x51_Stanag",nil,300],
 						["optic_mas_zeiss_eo",nil,300],
 						["optic_mas_acog_eo",nil,300],	
-						["acc_mas_pointer_IR_b",nil,300]	
+						["acc_mas_pointer_IR_b",nil,300],	
 						["BWA3_G27",nil,30000],
 						["BWA3_G28_Assault",nil,30000],							
 						["BWA3_20Rnd_762x51_G28",nil,300],
@@ -274,7 +274,7 @@ switch(_shop) do
 						["20Rnd_mas_762x51_Stanag",nil,300],
 						["optic_mas_zeiss_eo",nil,300],
 						["optic_mas_acog_eo",nil,300],	
-						["acc_mas_pointer_IR_b",nil,300]	
+						["acc_mas_pointer_IR_b",nil,300],
 						["BWA3_G27",nil,30000],
 						["BWA3_G28_Assault",nil,30000],							
 						["BWA3_20Rnd_762x51_G28",nil,300],
@@ -344,8 +344,20 @@ switch(_shop) do
 						["Kio_Santa_Hat",nil,100],
 						["A3L_longhairbrown",nil,100],
 						["A3L_longhairblond",nil,100],
+<<<<<<< HEAD
 						["A3L_longhairblack",nil,100]
 																																		
+=======
+						["A3L_longhairblack",nil,100],
+						["A3L_medic_helmet","Medichelm",100]
+						
+						
+						
+						
+						
+						
+						
+>>>>>>> origin/master
 					]
 				];
 			};
@@ -463,69 +475,71 @@ switch(_shop) do
 	{
 		["Gang Waffenkammer",
 			[
-						[""arifle_MX_SW_Black_F";",nil,650000],
-						[""100Rnd_65x39_caseless_mag";",nil,7000],
-						[""arifle_MXM_Black_F";",nil,600000],						
-						[""arifle_MX_Black_F";",nil,550000],
-						[""arifle_MXC_Black_F";",nil,500000],
-						[""30Rnd_65x39_caseless_mag";",nil,5500]						
-						[""arifle_Katiba_F";",nil,550000],
-						[""arifle_Katiba_C_F";",nil,500000],
-						[""30Rnd_65x39_caseless_green";",nil,5000],		
-						[""muzzle_snds_H";",nil,10000],							
-						[""arifle_Mk20_plain_F";",nil,550000],
-						[""arifle_Mk20C_plain_F";",nil,500000],		
-						[""arifle_TRG21_F";",nil,550000],
-						[""arifle_TRG20_F";",nil,500000],
-						[""30Rnd_556x45_Stanag";",nil,5000],	
-                        [""muzzle_snds_M";",nil,10000],							
-						[""srifle_DMR_05_blk_F";",nil,900000],
-						[""10Rnd_93x64_DMR_05_Mag";",nil,9000],		
-						[""muzzle_snds_93mmg";",nil,10000],						
-						[""srifle_DMR_02_F";",nil,1000000],
-						[""10Rnd_338_Mag";",nil,10000],
-						[""muzzle_snds_338_black";",nil,10000],						
-						[""srifle_DMR_03_F";",nil,750000],						
-						[""srifle_DMR_06_olive_F";",nil,750000],										
-						[""srifle_EBR_F";",nil,750000],
-						[""20Rnd_762x51_Mag";",nil,5000],											
-						[""srifle_DMR_01_F";",nil,800000],
-						[""10Rnd_762x54_Mag";",nil,5000],	
-						[""muzzle_snds_B";",nil,10000],												
-						[""optic_ACO_grn";",nil,10000],
-						[""optic_Aco";",nil,10000],
-						[""optic_ACO_grn_smg";",nil,10000],
-						[""optic_Aco_smg";",nil,10000],
-						[""optic_AMS";",nil,10000],
-						[""optic_Arco";",nil,10000],
-						[""optic_DMS";",nil,10000],
-						[""optic_Holosight";",nil,10000],
-						[""optic_KHS_blk";",nil,10000],
-						[""optic_Holosight_smg";",nil,10000],
-						[""optic_MRCO";",nil,10000],
-						[""optic_Hamr";",nil,10000],
-						[""optic_SOS";",nil,10000],	
-						[""acc_pointer_IR";",nil,10000],
-						[""acc_flashlight";",nil,10000],
-						[""bipod_01_F_blk";",nil,10000],
-						[""bipod_02_F_blk";",nil,10000],
-						[""bipod_03_F_blk";",nil,10000],	
-						[""hgun_Pistol_heavy_01_F";",nil,20000],
-						[""optic_MRD";",nil,1000],
-						[""muzzle_snds_acp";",nil,1000],	
-						[""11Rnd_45ACP_Mag";",nil,500],
-						[""hgun_ACPC2_F";",nil,20000],
-						[""muzzle_snds_acp";",nil,1000],	
-						[""9Rnd_45ACP_Mag";",nil,500],
-						[""hgun_P07_F";",nil,20000],
-						[""muzzle_snds_L";",nil,1000],	
-						[""16Rnd_9x21_Mag";",nil,500],						
-						[""hgun_Rook40_F";",nil,20000],
-						[""muzzle_snds_L";",nil,1000],	
-						[""16Rnd_9x21_Mag";",nil,500],						
-						[""hgun_Pistol_heavy_02_F";",nil,20000],
-						[""optic_Yorris";",nil,1000],		
-						[""6Rnd_45ACP_Cylinder";",nil,500]					
+
+						["arifle_MX_SW_Black_F",nil,500000],
+						["100Rnd_65x39_caseless_mag",nil,500000],
+						["arifle_MXM_Black_F",nil,600000],						
+						["arifle_MX_Black_F",nil,5000],
+						["arifle_MXC_Black_F",nil,5000],
+						["30Rnd_65x39_caseless_mag",nil,5000],					
+						["arifle_Katiba_F",nil,500000],
+						["arifle_Katiba_C_F",nil,500000],
+						["30Rnd_65x39_caseless_green",nil,500000],		
+						["muzzle_snds_H",nil,500000],							
+						["arifle_Mk20_plain_F",nil,500000],
+						["arifle_Mk20C_plain_F",nil,500000],
+						["30Rnd_556x45_Stanag",nil,500000],		
+						["arifle_TRG21_F",nil,500000],
+						["arifle_TRG20_F",nil,500000],
+						["30Rnd_556x45_Stanag",nil,500000],	
+                        ["muzzle_snds_M",nil,500000],						
+						["srifle_DMR_05_blk_F",nil,500000],
+						["10Rnd_93x64_DMR_05_Mag",nil,500000],			
+						["srifle_DMR_02_F",nil,500000],
+						["10Rnd_338_Mag",nil,500000],
+						["srifle_DMR_03_F",nil,500000],
+						["20Rnd_762x51_Mag",nil,500000],		
+						["srifle_DMR_06_olive_F",nil,500000],
+						["20Rnd_762x51_Mag",nil,500000],	
+						["srifle_EBR_F",nil,500000],
+						["20Rnd_762x51_Mag",nil,500000],		
+						["srifle_DMR_01_F",nil,500000],
+						["10Rnd_762x54_Mag",nil,500000],		
+						["optic_ACO_grn",nil,10000],
+						["optic_Aco",nil,10000],
+						["optic_ACO_grn_smg",nil,10000],
+						["optic_Aco_smg",nil,10000],
+						["optic_AMS",nil,10000],
+						["optic_Arco",nil,10000],
+						["optic_DMS",nil,10000],
+						["optic_Holosight",nil,10000],
+						["optic_KHS_blk",nil,10000],
+						["optic_Holosight_smg",nil,10000],
+						["optic_MRCO",nil,10000],
+						["optic_Hamr",nil,10000],
+						["optic_SOS",nil,10000],	
+						["acc_pointer_IR",nil,10000],
+						["acc_flashlight",nil,10000],
+						["bipod_01_F_blk",nil,10000],
+						["bipod_02_F_blk",nil,10000],
+						["bipod_03_F_blk",nil,10000],	
+						["hgun_Pistol_heavy_01_F",nil,10000],
+						["optic_MRD",nil,10000],
+						["muzzle_snds_acp",nil,10000],	
+						["11Rnd_45ACP_Mag",nil,600000],
+						["hgun_ACPC2_F",nil,10000],
+						["muzzle_snds_acp",nil,10000],	
+						["9Rnd_45ACP_Mag",nil,600000],
+						["hgun_P07_F",nil,10000],
+						["muzzle_snds_L",nil,10000],	
+						["16Rnd_9x21_Mag",nil,600000],						
+						["hgun_Rook40_F",nil,10000],
+						["muzzle_snds_L",nil,10000],	
+						["16Rnd_9x21_Mag",nil,600000],						
+						["hgun_Pistol_heavy_02_F",nil,10000],
+						["optic_Yorris",nil,10000],		
+						["6Rnd_45ACP_Cylinder",nil,600000]					
+
 			]
 		];
 	};
@@ -568,7 +582,7 @@ switch(_shop) do
 						["hlc_smg_mp5sd6",nil,180000],	
                 		["hlc_30Rnd_9x19_B_MP5",nil,1500],	
 						["hlc_rifle_psg1",nil,900000],	
-                		["hlc_20rnd_762x51_b_G3",nil,9000]	
+                		["hlc_20rnd_762x51_b_G3",nil,9000],
 						["hlc_rifle_ak12",nil,320000],									
 						["hlc_rifle_aku12",nil,320000],									
 						["hlc_30Rnd_545x39_B_AK",nil,5000],
@@ -721,7 +735,7 @@ switch(_shop) do
                 ["Uran Verkäufer",
                     [
              
-                        ["U_C_Scientist","Anti-Strahlungs Anzug",100000]
+                        ["TRYK_U_B_PCUHsW2","Anti-Strahlungs Anzug",100000]
                     ]
                 ];
             };
