@@ -396,19 +396,24 @@ switch(_shop) do
 			{
 				["Vanilla Visiere",
 					[	
-						["Binocular",nil,10000],
-						["ItemGPS",nil,800],
-						["ItemMap",nil,820],
-						["ItemWatch",nil,800],
-						["ItemCompass",nil,800],
-						["tf_ex8550","Altis Mobile S6",100],
-						["FirstAidKit",nil,500],
-						["ToolKit",nil,5000],
-						["NVGoggles",nil,5000],
-						["Chemlight_red",nil,10],
-						["Chemlight_yellow",nil,10],
-						["Chemlight_green",nil,10],
-						["Chemlight_blue",nil,10]
+						["optic_ACO_grn",nil,10000],
+						["optic_Aco",nil,10000],
+						["optic_ACO_grn_smg",nil,10000],
+						["optic_Aco_smg",nil,10000],
+						["optic_AMS",nil,10000],
+						["optic_Arco",nil,10000],
+						["optic_DMS",nil,10000],
+						["optic_Holosight",nil,10000],
+						["optic_KHS_blk",nil,10000],
+						["optic_Holosight_smg",nil,10000],
+						["optic_MRCO",nil,10000],
+						["optic_Hamr",nil,10000],
+						["optic_SOS",nil,10000],	
+						["acc_pointer_IR",nil,10000],
+						["acc_flashlight",nil,10000],
+						["bipod_01_F_blk",nil,10000],
+						["bipod_02_F_blk",nil,10000],
+						["bipod_03_F_blk",nil,10000]
 					]
 				];
 			};
