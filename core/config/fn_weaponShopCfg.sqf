@@ -388,11 +388,11 @@ switch(_shop) do
 			};
 		};
 	};
+	
 	case "vanilla":
 	{
 		switch(true) do
 		{
-			case (playerSide != civilian): {"Also du siehst jetzt nicht wirklich wie ein Zivilist aus!"};
 			{
 				["Vanilla Visiere",
 					[	
