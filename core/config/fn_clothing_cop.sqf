@@ -51,7 +51,6 @@ switch (_filter) do
 		if(__GETC__(life_coplevel) > 1) then
 		{
 			_ret set[count _ret,["H_CrewHelmetHeli_B",nil,2500]];
-			_ret set[count _ret,["police_pilot_helmet",nil,2200]];
 		};
 	};
 

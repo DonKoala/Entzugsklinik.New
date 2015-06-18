@@ -105,9 +105,9 @@ switch(_shop) do
 					[
 						["hgun_Pistol_heavy_01_F","Tazerpistole",2000],
 						["11Rnd_45ACP_Mag","Tazermunition",50],
-						["optic_MRD","Tazeroptic",nil,2000],
+						["optic_MRD","Tazervisier",nil,2000],
 						["muzzle_snds_acp","Tazeraufsatz",1000],
-						["rhs_weap_M590_8RD",nil,1000], 
+						["rhs_weap_M590_8RD",nil,15000], 
 						["rhsusf_8Rnd_00Buck",nil,300],
 						["rhs_weap_m16a4_carryhandle_grip_pmag",nil,3000],
 						["30Rnd_556x45_Stanag",nil,300],
@@ -116,6 +116,9 @@ switch(_shop) do
 						["rhsusf_acc_compm4",nil,300],
 						["rhsusf_acc_eotech_552",nil,300],
 						["rhsusf_acc_ACOG",nil,300],
+						["hlc_smg_mp5a2",nil,30000],								
+						["hlc_smg_mp5a3",nil,30000],	
+                		["hlc_30Rnd_9x19_B_MP5",nil,300],							
 						["arifle_mas_hk416",nil,30000],
 						["arifle_mas_hk416c",nil,30000],
 						["30Rnd_mas_556x45_Stanag",nil,300],
@@ -391,9 +394,18 @@ switch(_shop) do
 	
 	case "vanilla":
 	{
+<<<<<<< HEAD
 		["Vanilla Visiere",
 			[
 
+=======
+		switch(true) do
+		{
+			
+			{
+				["Vanilla Visiere",
+					[	
+>>>>>>> origin/master
 						["optic_ACO_grn",nil,10000],
 						["optic_Aco",nil,10000],
 						["optic_ACO_grn_smg",nil,10000],
@@ -563,7 +575,10 @@ switch(_shop) do
 						["16Rnd_9x21_Mag",nil,600000],						
 						["hgun_Pistol_heavy_02_F",nil,10000],
 						["optic_Yorris",nil,10000],		
-						["6Rnd_45ACP_Cylinder",nil,600000]					
+						["6Rnd_45ACP_Cylinder",nil,600000],		
+						["hgun_Pistol_Signal_F",nil,10000],
+						["6Rnd_RedSignal_F",nil,100],		
+						["6Rnd_GreenSignal_F",nil,100]							
 
 			]
 		];
@@ -777,96 +792,11 @@ switch(_shop) do
 			case (license_civ_gun):
 			{
 				["Billy Joe's Premium Bleispucker",
-					[
-						["RH_mk2",nil,15000],
-                        ["RH_10Rnd_22LR_mk2",nil,500],
-						["RH_deagle",nil,25000], 	
-						["RH_deagleg",nil,50000],	
-						["RH_deagles",nil,25000],		
-						["RH_deaglem",nil,25000],		
-						["RH_7Rnd_50_AE",nil,500],	
-						["RH_m1911",nil,5000],
-						["RH_kimber",nil,5200],
-						["RH_kimber_nw",nil,5300],
-						["RH_7Rnd_45cal_m1911",nil,200],
-						["RH_cz75",nil,15000],	
-						["RH_16Rnd_9x19_cz",nil,500], 		
-						["RH_sw659",nil,17500],				
-						["RH_14Rnd_9x19_sw",nil,500],		
-						["RH_usp",nil,16500],			
-						["RH_12Rnd_45cal_usp",nil,500],		
-						["RH_mak",nil,10000],				
-						["RH_8Rnd_9x18_Mak",nil,500],	
-						["RH_uspm",nil,18500],				
-						["RH_16Rnd_40cal_usp",nil,500],		
-						["RH_m9",nil,19000],			
-						["RH_15Rnd_9x19_M9",nil,500],
-						["RH_g18",nil,35000],
-                        ["RH_33Rnd_9x19_g18",nil,500],
-						["RH_m9c",nil,15500],				
-						["RH_tt33",nil,15500],				
-						["RH_8Rnd_762_tt33",nil,50],         
-						["RH_mk2",nil,11500],				
-						["RH_10Rnd_22LR_mk2",nil,500],         
-						["RH_p226",nil,18000],				
-						["RH_15Rnd_9x19_SIG",nil,500],      
-						["RH_p226s",nil,15500],				
-						["RH_mateba",nil,50000],            
-						["RH_6Rnd_44_Mag",nil,500],        
-						["RH_python",nil,19000],           
-						["RH_6Rnd_357_Mag",nil,500],           
-						["RH_mp412",nil,17500],            
-						["RH_bull",nil,50000],				
-						["RH_6Rnd_454_Mag",nil,500],
-						["RH_g17",nil,500],
-                        ["RH_g19",nil,500],
-                        ["RH_g19t",nil,550],
-						["RH_17Rnd_9x19_g17",nil,50],
-						["RH_X300",nil,150],
-                        ["RH_usp",nil,650],
-                        ["RH_12Rnd_45cal_usp",nil,75],
-						["RH_X300",nil,150],
-						["RH_bullb",nil,50000],            
-						["RH_ttracker",nil,50000],   
-						["RH_ttracker_g",nil,50000], 
-						["RH_6Rnd_45ACP_Mag",nil,500], 
-						["RH_vz61",nil,3500], 
-						["RH_20Rnd_32cal_vz61",nil,100], 
-						["RH_vp70",nil,6200], 
-						["RH_18Rnd_9x19_VP",nil,100], 
-						["RH_fnp45",nil,19500],           
-						["RH_15Rnd_45cal_fnp",nil,500],    
-						["RH_fnp45t",nil,18500],           
-						["RH_fn57",nil,16500], 				
-						["RH_20Rnd_57x28_FN",nil,500],     
-						["RH_fn57_g",nil,21000],          
-						["RH_fn57_t",nil,21000],           	
-						["RH_gsh18",nil,18000],             
-						["RH_18Rnd_9x19_gsh",nil,500],	
-						["Trixie_CZ550_Rail",nil,79000],
-						["Trixie_CZ550_Mag",nil,600],
-						["Trixie_Enfield_Rail",nil,83000],
-						["Trixie_Enfield_Mag",nil,400],
-						["hgun_P07_F",nil,5000],
-						["hgun_Rook40_F",nil,5000],
-						["30Rnd_9x21_Mag",nil,100],
-						["16Rnd_9x21_Mag",nil,50],
-						["hgun_ACPC2_F",nil,5000],
-						["9Rnd_45ACP_Mag",nil,50],
-						["hgun_Pistol_heavy_02_F",nil,15000],
-						["6Rnd_45ACP_Cylinder",nil,50],
-						["hgun_Pistol_Signal_F",nil,15000],
-						["6Rnd_GreenSignal_F",nil,50],
-						["6Rnd_RedSignal_F",nil,50],
-						["optic_Yorris",nil,2000],
-						["optic_Holosight_smg",nil,2000],
-						["optic_SOS",nil,9000],
-						["optic_DMS",nil,10000],
-						["optic_MRCO",nil,10000],
-						["muzzle_snds_L",nil,5000],
-						["muzzle_snds_acp",nil,5000],
-						["RH_gemtech9",nil,6000],
-						["RH_m9qd",nil,6000]
+					[	
+						["Trixie_CZ550_Rail",nil,80000],
+						["Trixie_CZ550_Mag",nil,400],
+						["Trixie_Enfield_Rail",nil,85000],
+						["Trixie_Enfield_Mag",nil,600]
 					]
 				];
 			};
