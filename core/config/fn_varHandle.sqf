@@ -176,7 +176,7 @@ switch (_mode) do
             case "life_inv_roosterraw": {"roosterraw"};
             case "life_inv_goatraw": {"goatraw"};
             case "life_inv_sheepraw": {"sheepraw"};
-            CASE "life_inv_rabbitraw": {"rabbitraw"};
+            case "life_inv_rabbitraw": {"rabbitraw"};
 			case "life_inv_uwsl": {"uwsl"};
 			case "life_inv_zyankali": {"zyankali"};
 			case "life_inv_puranium": {"puranium"};
