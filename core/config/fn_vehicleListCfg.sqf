@@ -988,9 +988,7 @@ switch (_shop) do
 		{
 			_return set[count _return,["EC635_Unarmed_BW",100000]];
 			_return set[count _return,["dezkit_b206_police",150000]];
-			_return set[count _return,["NH90 Transport",280000]];
-			_return set[count _return,["RHS_UH60M",200000]];
-			_return set[count _return,["RHS_CH_47F_light",250000]];
+			_return set[count _return,["NH90",280000]];
 			
 		};
 	};
