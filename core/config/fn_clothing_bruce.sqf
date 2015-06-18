@@ -19,7 +19,19 @@ switch (_filter) do
 	//Uniforms
 	case 0:
 	{
-		_ret set[count _ret,["A3L_Priest_Uniform","Priester Uniform",800]];
+		_ret set[count _ret,["TRYK_U_B_PCUGs_BLK",800]];
+		_ret set[count _ret,["TRYK_U_B_PCUGs_gry",800]];
+		_ret set[count _ret,["TRYK_U_B_PCUGs_OD",800]];		
+		_ret set[count _ret,["TRYK_U_denim_hood_blk",800]];
+		_ret set[count _ret,["TRYK_U_denim_hood_nc",800]];
+		_ret set[count _ret,["TRYK_U_denim_jersey_blk",800]];	
+		_ret set[count _ret,["TRYK_U_denim_jersey_blu",800]];
+		_ret set[count _ret,["TRYK_U_taki_wh",800]];		
+		_ret set[count _ret,["TRYK_U_B_BLK_T_BK",800]];
+		_ret set[count _ret,["TRYK_U_B_BLK_T_WH",800]];
+		_ret set[count _ret,["TRYK_U_B_Denim_T_BK",800]];		
+		_ret set[count _ret,["TRYK_U_B_Denim_T_WH",800]];
+		_ret set[count _ret,["A3L_Priest_Uniform","Priester Uniform",800]];		
 		_ret set[count _ret,["A3L_Suit_Uniform","Anzug",950]];
 		_ret set[count _ret,["A3L_Character_Uniform","Life Uniform",400]];
 		_ret set[count _ret,["A3L_Dude_Outfit","Dude outfit",500]];
@@ -124,7 +136,16 @@ switch (_filter) do
 	case 1:
 	{
 	
-		
+		_ret set[count _ret,["TRYK_H_Bandana_H",nil,500]];
+		_ret set[count _ret,["TRYK_H_Bandana_wig",nil,500]];
+		_ret set[count _ret,["TRYK_H_pakol2",nil,500]];
+		_ret set[count _ret,["TRYK_H_DELTAHELM_NV",nil,500]];;
+		_ret set[count _ret,["TRYK_R_CAP_BLK",nil,500]];
+		_ret set[count _ret,["TRYK_H_wig",nil,500]];
+		_ret set[count _ret,["TRYK_H_woolhat",nil,500]];
+		_ret set[count _ret,["TRYK_H_woolhat_br",nil,500]];;
+		_ret set[count _ret,["TRYK_H_woolhat_cu",nil,500]];
+		_ret set[count _ret,["TRYK_H_woolhat_tan",nil,500]];
 		_ret set[count _ret,["A3L_SkateHelmet_green","Fahrradhelm",1000]];
 		_ret set[count _ret,["A3L_mexicanhat","Mexikan Hut",5000]];
 		_ret set[count _ret,["A3L_Halloween_Pumpkinhead","Pumpkin",2000]];	
@@ -193,7 +214,14 @@ switch (_filter) do
 	//Glasses
 	case 2:
 	{
-		_ret set[count _ret,["G_Shades_Black",nil,25]];
+		_ret set[count _ret,["TRYK_Shemagh_G",nil,55]];
+		_ret set[count _ret,["TRYK_Shemagh_WH",nil,55]];
+		_ret set[count _ret,["TRYK_Shemagh",nil,55]];
+		_ret set[count _ret,["TRYK_Shemagh_shade_MH",nil,55]];		
+		_ret set[count _ret,["TRYK_Shemagh_shade_G",nil,55]];
+		_ret set[count _ret,["TRYK_Shemagh_shade",nil,55]];
+		_ret set[count _ret,["TRYK_Shemagh_shade_WH",nil,55]];				
+    	_ret set[count _ret,["G_Shades_Black",nil,25]];
 		_ret set[count _ret,["G_Shades_Blue",nil,20]];
 		_ret set[count _ret,["G_Sport_Blackred",nil,20]];
 		_ret set[count _ret,["G_Sport_Checkered",nil,20]];

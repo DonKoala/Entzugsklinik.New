@@ -72,8 +72,15 @@ switch (_filter) do
 		_ret set[count _ret,["Vest_PoliceYellow",nil,2000]];
 		if(__GETC__(life_coplevel) > 1) then
 		{
+			_ret set[count _ret,["V_TacVest_blk_POLICE",nil,2500]];		
 			_ret set[count _ret,["Vest_PoliceBlue",nil,2500]];
 			_ret set[count _ret,["Vest_PoliceBlack",nil,2500]];
+			_ret set[count _ret,["TRYK_V_tacv1LP_BK",nil,2500]];
+			_ret set[count _ret,["TRYK_V_tacv1LSRF_BK",nil,2500]];
+			_ret set[count _ret,["TRYK_V_Sheriff_BA_OD",nil,2500]];
+			_ret set[count _ret,["TRYK_V_tacv1LC_P_BK",nil,2500]];
+			_ret set[count _ret,["TRYK_V_tacv1LC_SRF_BK",nil,2500]];
+			_ret set[count _ret,["TRYK_V_tacv1LC_SRF_OD",nil,2500]];			
 		}; 
 	};
 	

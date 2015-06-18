@@ -451,6 +451,7 @@ switch(_shop) do
 					[	
 						["Rangefinder",nil,20000],
 						["Binocular",nil,10000],
+						["BWA3_ItemNaviPad",nil,1600],
 						["ItemGPS",nil,800],
 						["ItemMap",nil,820],
 						["ItemWatch",nil,800],
