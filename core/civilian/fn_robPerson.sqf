@@ -19,6 +19,7 @@ if(life_cash > 0) then
 		[[1,format[localize "STR_NOTF_Robbed", "*Maskierte Person*", profileName,[life_cash] call life_fnc_numberText]],"life_fnc_broadcast",nil,false] spawn life_fnc_MP;
 	} else {
 		[[1,format[localize "STR_NOTF_Robbed",_robber getVariable["realname",name _robber],profileName,[life_cash] call life_fnc_numberText]],"life_fnc_broadcast",nil,false] spawn life_fnc_MP;
+		[[player, _robber, life_cash, 4, life_atmcash, 0],"TON_fnc_handleDBLog",false] spawn life_fnc_MP; //By Nukefliege <----- Hier
 	};
 	life_cash = 0;
 }

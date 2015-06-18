@@ -21,6 +21,9 @@ if((_val + _tax) > life_atmcash) exitWith {hint format[localize "STR_ATM_SentMon
 life_atmcash = life_atmcash - (_val + _tax);
 
 [[_val,profileName],"TON_fnc_clientWireTransfer",_unit,false] spawn life_fnc_MP;
+[[player, _unit, _val, 0, life_atmcash, life_cash],"TON_fnc_handleDBLog",false] spawn life_fnc_MP; 
+
+[[_val,profileName],"TON_fnc_clientWireTransfer",_unit,false] spawn life_fnc_MP;
 [] call life_fnc_atmMenu;
 hint format[localize "STR_ATM_SentMoneySuccess",[_val] call life_fnc_numberText,_unit getVariable["realname",name _unit],[_tax] call life_fnc_numberText];
 playSound "atmSound";

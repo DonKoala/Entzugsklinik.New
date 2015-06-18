@@ -114,6 +114,7 @@ _unit = _this select 0;
 				_obj = "Land_Money_F" createVehicle _pos;
 				_obj setVariable["item",["money",_value],true];
 				_obj setPos _pos;
+				 [[player, player, _value, 2, life_atmcash, life_cash],"TON_fnc_handleDBLog",false] spawn life_fnc_MP; //By Nukefliege
 				[[_obj],"life_fnc_simDisable",nil,true] spawn life_fnc_MP;
 				missionNamespace setVariable[_x,0];
 			};
