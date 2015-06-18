@@ -19,18 +19,18 @@ switch (_filter) do
 	//Uniforms
 	case 0:
 	{
-		_ret set[count _ret,["TRYK_U_B_PCUGs_BLK",800]];
-		_ret set[count _ret,["TRYK_U_B_PCUGs_gry",800]];
-		_ret set[count _ret,["TRYK_U_B_PCUGs_OD",800]];		
-		_ret set[count _ret,["TRYK_U_denim_hood_blk",800]];
-		_ret set[count _ret,["TRYK_U_denim_hood_nc",800]];
-		_ret set[count _ret,["TRYK_U_denim_jersey_blk",800]];	
-		_ret set[count _ret,["TRYK_U_denim_jersey_blu",800]];
-		_ret set[count _ret,["TRYK_U_taki_wh",800]];		
-		_ret set[count _ret,["TRYK_U_B_BLK_T_BK",800]];
-		_ret set[count _ret,["TRYK_U_B_BLK_T_WH",800]];
-		_ret set[count _ret,["TRYK_U_B_Denim_T_BK",800]];		
-		_ret set[count _ret,["TRYK_U_B_Denim_T_WH",800]];
+		_ret set[count _ret,["TRYK_U_B_PCUGs_BLK",nil,800]];
+		_ret set[count _ret,["TRYK_U_B_PCUGs_gry",nil,800]];
+		_ret set[count _ret,["TRYK_U_B_PCUGs_OD",nil,800]];		
+		_ret set[count _ret,["TRYK_U_denim_hood_blk",nil,800]];
+		_ret set[count _ret,["TRYK_U_denim_hood_nc",nil,800]];
+		_ret set[count _ret,["TRYK_U_denim_jersey_blk",nil,800]];	
+		_ret set[count _ret,["TRYK_U_denim_jersey_blu",nil,800]];
+		_ret set[count _ret,["TRYK_U_taki_wh",nil,800]];		
+		_ret set[count _ret,["TRYK_U_B_BLK_T_BK",nil,800]];
+		_ret set[count _ret,["TRYK_U_B_BLK_T_WH",nil,800]];
+		_ret set[count _ret,["TRYK_U_B_Denim_T_BK",nil,800]];		
+		_ret set[count _ret,["TRYK_U_B_Denim_T_WH",nil,800]];
 		_ret set[count _ret,["A3L_Priest_Uniform","Priester Uniform",800]];		
 		_ret set[count _ret,["A3L_Suit_Uniform","Anzug",950]];
 		_ret set[count _ret,["A3L_Character_Uniform","Life Uniform",400]];
