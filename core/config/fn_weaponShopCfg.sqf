@@ -344,10 +344,7 @@ switch(_shop) do
 						["Kio_Santa_Hat",nil,100],
 						["A3L_longhairbrown",nil,100],
 						["A3L_longhairblond",nil,100],
-<<<<<<< HEAD
-						["A3L_longhairblack",nil,100]
-																																		
-=======
+						["A3L_longhairblack",nil,100],																																		
 						["A3L_longhairblack",nil,100],
 						["A3L_medic_helmet","Medichelm",100]
 						
@@ -357,7 +354,7 @@ switch(_shop) do
 						
 						
 						
->>>>>>> origin/master
+
 					]
 				];
 			};
