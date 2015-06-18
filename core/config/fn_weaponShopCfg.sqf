@@ -388,6 +388,32 @@ switch(_shop) do
 			};
 		};
 	};
+	case "vanilla":
+	{
+		switch(true) do
+		{
+			case (playerSide != civilian): {"Also du siehst jetzt nicht wirklich wie ein Zivilist aus!"};
+			{
+				["Vanilla Visiere",
+					[	
+						["Binocular",nil,10000],
+						["ItemGPS",nil,800],
+						["ItemMap",nil,820],
+						["ItemWatch",nil,800],
+						["ItemCompass",nil,800],
+						["tf_ex8550","Altis Mobile S6",100],
+						["FirstAidKit",nil,500],
+						["ToolKit",nil,5000],
+						["NVGoggles",nil,5000],
+						["Chemlight_red",nil,10],
+						["Chemlight_yellow",nil,10],
+						["Chemlight_green",nil,10],
+						["Chemlight_blue",nil,10]
+					]
+				];
+			};
+		};
+	};
 	
 	case "aan":
 	{
