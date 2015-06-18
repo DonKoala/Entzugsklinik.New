@@ -62,7 +62,6 @@ switch (_filter) do
 		_ret set[count _ret,["rhs_Booniehat_digi",nil,500]];
 		_ret set[count _ret,["rhs_fieldcap_helm_digi",nil,500]];
 		_ret set[count _ret,["rhs_fieldcap_digi",nil,500]];						
-		_ret set[count _ret,["BWA3_M92_Fleck",nil,500]];	
 	};
 	
 	//Glasses
