@@ -344,7 +344,9 @@ switch(_shop) do
 						["Kio_Santa_Hat",nil,100],
 						["A3L_longhairbrown",nil,100],
 						["A3L_longhairblond",nil,100],
-						["A3L_longhairblack",nil,100]
+						["A3L_longhairblack",nil,100],
+						["A3L_medic_helmet","Medichelm",100]
+						
 						
 						
 						
@@ -721,7 +723,7 @@ switch(_shop) do
                 ["Uran Verkäufer",
                     [
              
-                        ["U_C_Scientist","Anti-Strahlungs Anzug",100000]
+                        ["TRYK_U_B_PCUHsW2","Anti-Strahlungs Anzug",100000]
                     ]
                 ];
             };

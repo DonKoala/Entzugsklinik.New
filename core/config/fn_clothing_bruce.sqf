@@ -92,7 +92,7 @@ switch (_filter) do
 		_ret set[count _ret,["BreakingBad",nil,400]];
 		_ret set[count _ret,["PH",nil,300]];
 		_ret set[count _ret,["RastaCiv",nil,100]];
-		_ret set[count _ret,["vacationshirt_uni",nix,400]];
+		_ret set[count _ret,["vacationshirt_uni",nil,400]];
 		
 	
 	
@@ -125,6 +125,7 @@ switch (_filter) do
 	{
 	
 		
+		_ret set[count _ret,["A3L_SkateHelmet_green","Fahrradhelm",1000]];
 		_ret set[count _ret,["A3L_mexicanhat","Mexikan Hut",5000]];
 		_ret set[count _ret,["A3L_Halloween_Pumpkinhead","Pumpkin",2000]];	
 		_ret set[count _ret,["jokermask","Joker Mask",2250]];
