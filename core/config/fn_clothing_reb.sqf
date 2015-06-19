@@ -105,7 +105,7 @@ switch (_filter) do
 		_ret set[count _ret,["BWA3_Vest_Autorifleman_Fleck",nil,10000]];		
 		_ret set[count _ret,["BWA3_Vest_Medic_Fleck",nil,10000]];
 		_ret set[count _ret,["BWA3_Vest_Rifleman1_Fleck",nil,10000]];			
-		_ret set[count _ret,["rhs_6b23_digi_6sh92_Spetsnaz",nil,10000]];
+		//_ret set[count _ret,["rhs_6b23_digi_6sh92_Spetsnaz",nil,10000]];
 		_ret set[count _ret,["rhs_6b13_EMR",nil,10000]];
 		_ret set[count _ret,["rhs_6b23_digi",nil,10000]];
 		_ret set[count _ret,["rhs_6b23_digi_6sh92",nil,10000]];
