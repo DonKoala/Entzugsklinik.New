@@ -81,7 +81,7 @@ switch(_shop) do
 					[
 						["RH_g17","Tazerpistole",2000],
 						["RH_17Rnd_9x19_g17","Tazermunition",100],
-						["RH_gemtech9","Tazeraufsatz",1000]
+						["RH_gemtech9","Tazeraufsatz",1000],
 						["RH_X300","Tazerlampe",1000]						
 					]
 				];
@@ -92,8 +92,8 @@ switch(_shop) do
 					[
 						["RH_g17","Tazerpistole",2000],
 						["RH_17Rnd_9x19_g17","Tazermunition",100],
-						["RH_gemtech9","Tazeraufsatz",1000]
-						["RH_X300","Tazerlampe",1000]	
+						["RH_gemtech9","Tazeraufsatz",1000],
+						["RH_X300","Tazerlampe",1000],
 						["rhs_weap_M590_8RD",nil,1000], 
 						["rhsusf_8Rnd_00Buck",nil,300]
 					]
@@ -105,8 +105,8 @@ switch(_shop) do
 					[
 						["RH_g17","Tazerpistole",2000],
 						["RH_17Rnd_9x19_g17","Tazermunition",100],
-						["RH_gemtech9","Tazeraufsatz",1000]
-						["RH_X300","Tazerlampe",1000]	
+						["RH_gemtech9","Tazeraufsatz",1000],
+						["RH_X300","Tazerlampe",1000],
 						["rhs_weap_M590_8RD",nil,15000], 
 						["rhsusf_8Rnd_00Buck",nil,300],
 						["rhs_weap_m16a4_carryhandle_grip_pmag",nil,3000],
@@ -133,8 +133,8 @@ switch(_shop) do
 					[
 						["RH_g17","Tazerpistole",2000],
 						["RH_17Rnd_9x19_g17","Tazermunition",100],
-						["RH_gemtech9","Tazeraufsatz",1000]
-						["RH_X300","Tazerlampe",1000]	
+						["RH_gemtech9","Tazeraufsatz",1000],
+						["RH_X300","Tazerlampe",1000],	
 						["rhs_weap_M590_8RD",nil,1000], 
 						["rhsusf_8Rnd_00Buck",nil,300],
 						["rhs_weap_m16a4_carryhandle_grip_pmag",nil,3000],
@@ -158,8 +158,8 @@ switch(_shop) do
 					[
 						["RH_g17","Tazerpistole",2000],
 						["RH_17Rnd_9x19_g17","Tazermunition",100],
-						["RH_gemtech9","Tazeraufsatz",1000]
-						["RH_X300","Tazerlampe",1000]	
+						["RH_gemtech9","Tazeraufsatz",1000],
+						["RH_X300","Tazerlampe",1000],	
 						["rhs_weap_M590_8RD",nil,1000], 
 						["rhsusf_8Rnd_00Buck",nil,300],
 						["rhs_weap_m16a4_carryhandle_grip_pmag",nil,3000],
@@ -192,8 +192,8 @@ switch(_shop) do
 					[
 						["RH_g17","Tazerpistole",2000],
 						["RH_17Rnd_9x19_g17","Tazermunition",100],
-						["RH_gemtech9","Tazeraufsatz",1000]
-						["RH_X300","Tazerlampe",1000]										
+						["RH_gemtech9","Tazeraufsatz",1000],
+						["RH_X300","Tazerlampe",1000],										
 						["rhs_weap_m16a4_carryhandle_grip_pmag",nil,30000],
 						["rhs_weap_m4a1_carryhandle_grip",nil,30000],
 					    ["30Rnd_556x45_Stanag",nil,300],						
@@ -252,8 +252,8 @@ switch(_shop) do
 						["SmokeShellBlue","Tränengas",200],
 						["RH_g17","Tazerpistole",2000],
 						["RH_17Rnd_9x19_g17","Tazermunition",100],
-						["RH_gemtech9","Tazeraufsatz",1000]
-						["RH_X300","Tazerlampe",1000]										
+						["RH_gemtech9","Tazeraufsatz",1000],
+						["RH_X300","Tazerlampe",1000],										
 						["rhs_weap_m16a4_carryhandle_grip_pmag",nil,30000],
 						["rhs_weap_m4a1_carryhandle_grip",nil,30000],
 					    ["30Rnd_556x45_Stanag",nil,300],						
@@ -736,7 +736,7 @@ switch(_shop) do
 						["optic_mas_PSO_eo",nil,10000],								
 						["optic_mas_PSO_nv_eo",nil,10000],		
 						["muzzle_mas_snds_AK",nil,10000],
-						["arifle_mas_g36c",nil,280000]	
+						["arifle_mas_g36c",nil,280000],	
 						["arifle_mas_arx_l",nil,280000],					
 						["arifle_mas_l119",nil,280000],
 						["arifle_mas_l119c",nil,260000],						
@@ -751,7 +751,7 @@ switch(_shop) do
 						["30Rnd_mas_9x21_Stanag",nil,5000],								
 						["arifle_mas_g3",nil,60000],		
 						["arifle_mas_g3s",nil,680000],
-						["20Rnd_mas_762x51_Stanag",nil,5000]	
+						["20Rnd_mas_762x51_Stanag",nil,5000],	
 						["arifle_mas_lee",nil,500000],					
 						["optic_mas_zeiss_eo",nil,10000],
 						["5Rnd_mas_762x51_Stanag",nil,5000],						
