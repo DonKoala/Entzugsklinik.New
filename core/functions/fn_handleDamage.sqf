@@ -21,7 +21,7 @@ if(!isNil "TON_Debug") then {
 if(!isNull _source) then {
 	if(_source != _unit) then {
 		_curWep = currentWeapon _source;
-		if(_projectile in ["B_9x21_Ball","B_45ACP_Ball"] && _curWep in ["hgun_Pistol_heavy_01_snds_F","hgun_Pistol_heavy_01_F"]) then {
+		if(_projectile in ["RH_17Rnd_9x19_g17"] && _curWep in ["RH_g17"]) then {
 			if(side _source == west or side _source == civilian or side _source == independent) then {
 				private["_distance","_isVehicle","_isQuad"];
 				_distance = if(_projectile == "B_556x45_dual") then {100} else {35};
