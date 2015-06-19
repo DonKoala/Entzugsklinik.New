@@ -388,7 +388,7 @@ buy_array =
 	["fuelF",850],
 	["peach",68],
 	["spikeStrip",1000],
-	["blastingcharge",3500],
+	["blastingcharge",30000],
 	["boltcutter",7500],
 	["defusekit",2500],
 	["storagesmall",78000],
