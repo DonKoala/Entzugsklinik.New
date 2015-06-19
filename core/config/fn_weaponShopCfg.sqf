@@ -722,7 +722,7 @@ switch(_shop) do
 						["30Rnd_mas_545x39_mag",nil,5000],								
 						["arifle_mas_akm",nil,400000],		
 						["arifle_mas_akms",nil,380000],
-						["30Rnd_mas_762x39_mag",nil,5000]		
+						["30Rnd_mas_762x39_mag",nil,5000],		
 						["arifle_mas_bizon",nil,180000],					
 						["64Rnd_mas_9x18_mag",nil,5000],
 						["srifle_mas_svd",nil,700000],						
