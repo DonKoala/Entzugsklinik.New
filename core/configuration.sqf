@@ -393,8 +393,6 @@ buy_array =
 	["defusekit",2500],
 	["storagesmall",78000],
 	["storagebig",160000],
-	
-	//new items
 	["gpstracker",2500],
 	["speedbomb",170000],
 	["kidney",12000],
