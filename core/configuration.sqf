@@ -270,7 +270,7 @@ life_licenses =
 
 life_dp_points = ["dp_1","dp_2","dp_3"];
 //[shortVar,reward]
-life_illegal_items = [
+/* life_illegal_items = [
 	["heroinu",1200],
 	["heroinp",3500],
 	["cocaine",1500],
@@ -289,7 +289,10 @@ life_illegal_items = [
 	["ipuranium",10000]
 
 ];
+*/
 
+life_illegal_items = [["heroinu",2500],["heroinp",5000],["cocaine",3000],["cocainep",6000],["cannabis",0],["methu",4000],["methp",8000],["marijuana",3500],["ipuranium",10000],["turtle",5000],["blastingcharge",10000],
+["moonshine",6500],["boltcutter",1000],["bottledshine",6500],["kidney",12500],["scalpel",5000],["mash",6500]];
 
 /*
 	Sell / buy arrays

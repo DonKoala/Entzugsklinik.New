@@ -966,7 +966,7 @@ switch (_shop) do
 		
 		if(__GETC__(life_coplevel) > 5) then
 		{
-		    _return set[count _return,["rhsusf_m1025_w_m2",300000]]; 
+		    _return set[count _return,["rhsusf_M1083A1P2_B_M2_d_MHQ_fmtv_usarmy",300000]]; 
 			_return set[count _return,["rhsusf_M1083A1P2_B_wd_fmtv_usarmy",300000]]; 
 			_return set[count _return,["cl3_reventon_clpd",300000]]; 
 			_return set[count _return,["cl3_dodge_charger_patrol",300000]];
@@ -975,6 +975,10 @@ switch (_shop) do
 			_return set[count _return,["A3L_TaurusUC",12000]];
 			_return set[count _return,["A3L_CVPIUCBlack",12000]];
 			_return set[count _return,["cl3_dodge_charger_etu",12000]];
+			_return set[count _return,["rhsusf_m1025_d",12000]];
+			_return set[count _return,["B_APC_Tracked_01_CRV_F",12000]];
+			
+			
 			
 			
 			 

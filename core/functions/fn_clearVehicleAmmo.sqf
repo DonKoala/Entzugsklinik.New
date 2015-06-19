@@ -15,6 +15,17 @@ _classname = typeOf _veh;
 switch (_classname) do
 {	
 
+
+	/FÜR CONVOY!!
+	case "B_APC_Tracked_01_CRV_F":
+	{
+		//Remove ammo and Flaires
+		_veh setVehicleAmmo 0;
+		_veh setDamage 0;
+		_veh allowDamage true;
+        systemChat "Waffen entfernt und Repariert";
+    };
+	
 	
 	//FÜR CONVOY!!
 	case "RHS_CH_47F_light":
