@@ -44,11 +44,33 @@ switch (_className) do
 	case "RHS_CH_47F_light": {275};
 	case "cl3_defender_110_red": {30};
 	case "cl3_defender_110_yellow": {30};
+	case "A3L_Camaro": {20};
+	case "A3L_Atom": {10};
+	case "A3L_Flipcar": {10};
+	
+	//Helikopter
+	case "Bell412": {30};
+	case "Cha_Mi17_Civilian": {250};
+	case "RHS_Mi8AMT_vvs": {250};
+	case "UH1N_Black": {30};
+	case "UH1N_Slick": {30};
+	case "EC635_Unarmed_BW": {30};
+	case "NH90": {50};
+	case "EC635_Unarmed_CSAT"": {50};   	
+	case "EC635_Unarmed": {50};		
+	case "NH90_AAF": {200};				
+	case "NH90_GR2": {200};			
+	case "ivory_yak42d_1": {100};			
+	case "IVORY_ERJ135_1": {75};			
+	case "IVORY_CRJ200_1": {75};			
+	case "GNT_C185": {30};					
+	case "GNT_C185F"": {30};			
+	case "MV22": {100};				
 	
 	//AIRDROP UND SCHIFFSWRACK
-	
 	case "Land_Wreck_Traw_F": {10000000};
 	case "Land_Wreck_Traw2_F": {10000000};
+	
 	//HMMWVS
 	case "rhsusf_m998_w_s_2dr_fulltop": {30};
 	case "rhsusf_m998_w_s_2dr": {30};
@@ -56,13 +78,12 @@ switch (_className) do
 	case "rhsusf_m998_w_s_4dr": {30};
 	case "rhsusf_m1025_w_s": {30};	
 	
+	//HMMWV's
+	case "EWK_HMMWV_Light": {140};
+	case "EWK_HMMWV_Medevac": {150};
+	case "EWK_M997A2_Ambulance_Tan": {180};
+	
 	//COP CARS
-	
-	case "Bell412": {30};
-	case "Cha_Mi17_Civilian": {250};
-	case "RHS_Mi8AMT_vvs": {250};
-	case "UH1N_Black": {30};
-	
 	case "A3L_TaurusFPBPDGM": {40};
 	case "A3L_TaurusFPBLBPD": {40};
 	case "A3L_TaurusFPBPD": {40};
@@ -80,12 +101,10 @@ switch (_className) do
 	case "A3L_CVPIFPBHP": {40};
 	case "A3L_CVPIFPBCSO": {40};
 	case "A3L_CVPIFPBLBCSO": {40};
-	
-	
-	case "A3L_Camaro": {20};
-	case "A3L_Atom": {10};
-	case "A3L_Flipcar": {10};
-	case"UH1N_Slick": {30};
+	case "cl3_xr_1000_police": {5};
+	case "cl3_transitk9": {30};
+	case "cl3_q7_clpd_patrol": {30};
+	case "A3L_ChargerLB": {30};
 	
 	
 	//karts
@@ -109,11 +128,7 @@ switch (_className) do
 	case "O_MRAP_02_F": {140}; // ifrid
 	case "B_MRAP_01_gmg_F": {140}; //hunter gmg
 	case "B_MRAP_01_hmg_F": {140}; //hunter hmg
-	
-	//HMMWV's
-	case "EWK_HMMWV_Light": {140};
-	case "EWK_HMMWV_Medevac": {150};
-	case "EWK_M997A2_Ambulance_Tan": {180};
+	case "cl3_transitNews": {30};//Transit NEWS		
 
 	//mini-cooper
 	case "Jonzie_Mini_Cooper": {40};
@@ -143,35 +158,36 @@ switch (_className) do
 	
 	
 	//Insignia(Vauxhall)
-		case "cl3_insignia_aqua": {15};
-		case "cl3_insignia_babyblue": {15};
-		case "cl3_insignia_babypink": {15};
-		case "cl3_insignia_black": {15};
-		case "cl3_insignia_blue": {15};
-		case "cl3_insignia_burgundy": {15};
-		case "cl3_insignia_camo": {15};
-		case "cl3_insignia_cardinal": {15};
-		case "cl3_insignia_dark_green": {15};
-		case "cl3_insignia_gold": {15};
-		case "cl3_insignia_green": {15};
-		case "cl3_insignia_grey": {15};
-		case "cl3_insignia_lavendar": {15};
-		case "cl3_insignia_light_blue": {15};
-		case "cl3_insignia_light_yellow": {15};
-		case "cl3_insignia_lime": {15};
-		case "cl3_insignia_marina_blue": {15};
-		case "cl3_insignia_navy_blue": {15};
-		case "cl3_insignia_orange": {15};
-		case "cl3_insignia_purple": {15};
-		case "cl3_insignia_red": {15};
-		case "cl3_insignia_sand": {15};
-		case "cl3_insignia_silver": {15};
-		case "cl3_insignia_violet": {15};
-		case "cl3_insignia_white": {15};
-		case "cl3_insignia_yellow": {15};
+	case "cl3_insignia_aqua": {15};
+	case "cl3_insignia_babyblue": {15};
+	case "cl3_insignia_babypink": {15};
+	case "cl3_insignia_black": {15};
+	case "cl3_insignia_blue": {15};
+	case "cl3_insignia_burgundy": {15};
+	case "cl3_insignia_camo": {15};
+	case "cl3_insignia_cardinal": {15};
+	case "cl3_insignia_dark_green": {15};
+	case "cl3_insignia_gold": {15};
+	case "cl3_insignia_green": {15};
+	case "cl3_insignia_grey": {15};
+	case "cl3_insignia_lavendar": {15};
+	case "cl3_insignia_light_blue": {15};
+	case "cl3_insignia_light_yellow": {15};
+	case "cl3_insignia_lime": {15};
+	case "cl3_insignia_marina_blue": {15};
+	case "cl3_insignia_navy_blue": {15};
+	case "cl3_insignia_orange": {15};
+	case "cl3_insignia_purple": {15};
+	case "cl3_insignia_red": {15};
+	case "cl3_insignia_sand": {15};
+	case "cl3_insignia_silver": {15};
+	case "cl3_insignia_violet": {15};
+	case "cl3_insignia_white": {15};
+	case "cl3_insignia_yellow": {15};
 	
 	
 	//audi r8
+	case "cl3_s5_camo_urban": {15};
 	case "cl3_r8_spyder_black": {15};
 	case "cl3_r8_spyder_white": {15};
 	case "cl3_r8_spyder_gold": {15};
@@ -192,7 +208,6 @@ switch (_className) do
 	case "cl3_r8_spyder_burgundy": {15};
 	case "cl3_r8_spyder_yellow": {15};
 	case "cl3_r8_spyder_navy_blue": {15};
-	case "cl3_r8_spyder_marina_blue": {15};
 	case "cl3_r8_syder_cardinal": {15};
 	case "cl3_r8_spyder_aqua": {15};
 	case "cl3_r8_spyder_camo": {15};
@@ -226,41 +241,67 @@ switch (_className) do
 	case "cl3_q7_camo": {30};
 	case "cl3_q7_camo_urban": {30};
 	
+	//audi s5
+	case "cl3_s5_aqua": {15};
+	case "cl3_s5_babyblue": {15};
+	case "cl3_s5_babypink": {15};
+	case "cl3_s5_black": {15};
+	case "cl3_s5_blue": {15};
+	case "cl3_s5_burgundy": {15};
+	case "cl3_s5_camo": {15};
+	case "cl3_s5_camo_urban": {15};
+	case "cl3_s5_cardinal": {15};
+	case "cl3_s5_dark_green": {15};
+	case "cl3_s5_gold": {15};
+	case "cl3_s5_green": {15};
+	case "cl3_s5_grey": {15};
+	case "cl3_s5_lavender": {15};
+	case "cl3_s5_light_blue": {15};
+	case "cl3_s5_light_yellow": {15};
+	case "cl3_s5_lime": {15};
+	case "cl3_s5_marina_blue": {15};
+	case "cl3_s5_navy_blue": {15};
+	case "cl3_s5_orange": {15};
+	case "cl3_s5_purple": {15};
+	case "cl3_s5_red": {15};
+	case "cl3_s5_sand": {15};
+	case "cl3_s5_silver": {15};
+	case "cl3_s5_violet": {15};
+	case "cl3_s5_white": {15};
+	case "cl3_s5_yellow": {15};
+	
 	//bmw m3
 	case "DAR_M3CivBlack": {20};
 	case "DAR_M3CivGrey": {20};
 	case "DAR_M3CivWhite": {20};
 	
 	//bmw m5
-		case "cl3_e60_m5_babypink": {20};
-		case "cl3_e60_m5_yellow": {20};
-		case "cl3_e60_m5_white": {20};
-		case "cl3_e60_m5_violet": {20};
-		case "cl3_e60_m5_silver": {20};
-		case "cl3_e60_m5_red": {20};
-		case "cl3_e60_m5_purple": {20};
-		case "cl3_e60_m5_orange": {20};
-		case "cl3_e60_m5_navy_blue": {20};
-		case "cl3_e60_m5_marina_blue": {20};
-		case "cl3_e60_m5_lime": {20};
-		case "cl3_e60_m5_light_yellow": {20};
-		case "cl3_e60_m5_light_blue": {20};
-		case "cl3_e60_m5_lavender": {20};
-		case "cl3_e60_m5_grey": {20};
-		case "cl3_e60_m5_green": {20};
-		case "cl3_e60_m5_dark_green": {20};
-		case "cl3_e60_m5_cardinal": {20};
-		case "cl3_e60_m5_camo_urban": {20};
-		case "cl3_e60_m5_camo": {20};
-		case "cl3_e60_m5_burgundy": {20};
-		case "cl3_e60_m5_blue": {20};
-		case "cl3_e60_m5_babyblue": {20};
-		case "cl3_e60_m5_aqua": {20};
-		case "cl3_e60_m5_black": {20};
-	
-	
-	
-	
+	case "cl3_e60_m5_babypink": {20};
+	case "cl3_e60_m5_yellow": {20};
+	case "cl3_e60_m5_white": {20};
+	case "cl3_e60_m5_violet": {20};
+	case "cl3_e60_m5_silver": {20};
+	case "cl3_e60_m5_red": {20};
+	case "cl3_e60_m5_purple": {20};
+	case "cl3_e60_m5_orange": {20};
+	case "cl3_e60_m5_navy_blue": {20};
+	case "cl3_e60_m5_marina_blue": {20};
+	case "cl3_e60_m5_lime": {20};
+	case "cl3_e60_m5_light_yellow": {20};
+	case "cl3_e60_m5_light_blue": {20};
+	case "cl3_e60_m5_lavender": {20};
+	case "cl3_e60_m5_grey": {20};
+	case "cl3_e60_m5_green": {20};
+	case "cl3_e60_m5_dark_green": {20};
+	case "cl3_e60_m5_cardinal": {20};
+	case "cl3_e60_m5_camo_urban": {20};
+	case "cl3_e60_m5_camo": {20};
+	case "cl3_e60_m5_burgundy": {20};
+	case "cl3_e60_m5_blue": {20};
+	case "cl3_e60_m5_babyblue": {20};
+	case "cl3_e60_m5_aqua": {20};
+	case "cl3_e60_m5_black": {20};
+
 	//bmw z4
 	case "cl3_z4_2008_black": {20};
 	case "cl3_z4_2008_white": {20};
@@ -429,48 +470,46 @@ switch (_className) do
 	case "S_PorscheRS_Black": {15};
 	case "S_PorscheRS_White": {15};
 	case "S_PorscheRS_Yellow": {15};
-	
-		case "cl3_carrera_gt_aqua": {15};
-		case "cl3_carrera_gt_babyblue": {15};
-		case "cl3_carrera_gt_babypink": {15};
-		case "cl3_carrera_gt_black": {15};
-		case "cl3_carrera_gt_blue": {15};
-		case "cl3_carrera_gt_burgundy": {15};
-		case "cl3_carrera_gt_camo_urban": {15};
-		case "cl3_carrera_gt_cardinal": {15};
-		case "cl3_carrera_gt_dark_green": {15};
-		case "cl3_carrera_gt_gold": {15};
-		case "cl3_carrera_gt_green": {15};
-		case "cl3_carrera_gt_grey": {15};
-		case "cl3_carrera_gt_lavender": {15};
-		case "cl3_carrera_gt_light_blue": {15};
-		case "cl3_carrera_gt_light_yellow": {15};
-		case "cl3_carrera_gt_lime": {15};
-		case "cl3_carrera_gt_marina_blue": {15};
-		case "cl3_carrera_gt_navy_blue": {15};
-		case "cl3_carrera_gt_orange": {15};
-		case "cl3_carrera_gt_purple": {15};
-		case "cl3_carrera_gt_red": {15};
-		case "cl3_carrera_gt_silver": {15};
-		case "cl3_carrera_gt_sand": {15};
-		case "cl3_carrera_gt_violet": {15};
-		case "cl3_carrera_gt_white": {15};
-		case "cl3_carrera_gt_yellow": {15};
+	case "cl3_carrera_gt_aqua": {15};
+	case "cl3_carrera_gt_babyblue": {15};
+	case "cl3_carrera_gt_babypink": {15};
+	case "cl3_carrera_gt_black": {15};
+	case "cl3_carrera_gt_blue": {15};
+	case "cl3_carrera_gt_burgundy": {15};
+	case "cl3_carrera_gt_camo_urban": {15};
+	case "cl3_carrera_gt_cardinal": {15};
+	case "cl3_carrera_gt_dark_green": {15};
+	case "cl3_carrera_gt_gold": {15};
+	case "cl3_carrera_gt_green": {15};
+	case "cl3_carrera_gt_grey": {15};
+	case "cl3_carrera_gt_lavender": {15};
+	case "cl3_carrera_gt_light_blue": {15};
+	case "cl3_carrera_gt_light_yellow": {15};
+	case "cl3_carrera_gt_lime": {15};
+	case "cl3_carrera_gt_marina_blue": {15};
+	case "cl3_carrera_gt_navy_blue": {15};
+	case "cl3_carrera_gt_orange": {15};
+	case "cl3_carrera_gt_purple": {15};
+	case "cl3_carrera_gt_red": {15};
+	case "cl3_carrera_gt_silver": {15};
+	case "cl3_carrera_gt_sand": {15};
+	case "cl3_carrera_gt_violet": {15};
+	case "cl3_carrera_gt_white": {15};
+	case "cl3_carrera_gt_yellow": {15};
 	
 	//ships
-	case "B_Boat_Transport_01_F": {135};
-	case "C_Boat_Civil_01_police_F": {125};
+	case "B_Boat_Transport_01_F": {65};
+	case "C_Boat_Civil_01_police_F": {55};
 	case "B_Boat_Armed_01_minigun_F": {85};
 	case "B_SDV_01_F": {65};
 	case "C_Rubberboat": {75};
 	case "C_Boat_Civil_01_F": {85};
-	case "D41_Trawler": {485};
-	case "Sab_sea_An2": {130};
-	case "Sab_sea2_An2": {130};
-	case "Sab_sea3_An2": {130};
-	case "Sab_sea4_An2": {130};
-	case "Sab_Amphi_An2": {130};
-	
+	case "D41_Trawler": {85};
+	case "Sab_sea_An2": {30};
+	case "Sab_sea2_An2": {30};
+	case "Sab_sea3_An2": {30};
+	case "Sab_sea4_An2": {30};
+	case "Sab_Amphi_An2": {30};
 	
 	//Vanilla helicopters
 	case "B_Heli_Light_01_F": {30};
@@ -675,75 +714,106 @@ switch (_className) do
 	case "cl3_reventon_violet": {15};
 	case "cl3_reventon_white": {15};
 	case "cl3_reventon_yellow": {15};
-	
-	
-		case "cl3_lamborghini_gt1_2tone1": {15};
-		case "cl3_lamborghini_gt1_2tone2": {15};
-		case "cl3_lamborghini_gt1_2tone3": {15};
-		case "cl3_lamborghini_gt1_2tone4": {15};
-		case "cl3_lamborghini_gt1_2tone5": {15};
-		case "cl3_lamborghini_gt1_aqua": {15};
-		case "cl3_lamborghini_gt1_babyblue": {15};
-		case "cl3_lamborghini_gt1_babypink": {15};
-		case "cl3_lamborghini_gt1_black": {15};
-		case "cl3_lamborghini_gt1_blue": {15};
-		case "cl3_lamborghini_gt1_burgundy": {15};
-		case "cl3_lamborghini_gt1_camo_urban": {15};
-		case "cl3_lamborghini_gt1_cardinal": {15};
-		case "cl3_lamborghini_gt1_dark_green": {15};
-		case "cl3_lamborghini_gt1_flame": {15};
-		case "cl3_lamborghini_gt1_flame2": {15};
-		case "cl3_lamborghini_gt1_gold": {15};
-		case "cl3_lamborghini_gt1_green": {15};
-		case "cl3_lamborghini_gt1_grey": {15};
-		case "cl3_lamborghini_gt1_lavender": {15};
-		case "cl3_lamborghini_gt1_light_blue": {15};
-		case "cl3_lamborghini_gt1_light_yellow": {15};
-		case "cl3_lamborghini_gt1_lime": {15};
-		case "cl3_lamborghini_gt1_marina_blue": {15};
-		case "cl3_lamborghini_gt1_navy_blue": {15};
-		case "cl3_lamborghini_gt1_orange": {15};
-		case "cl3_lamborghini_gt1_purple": {15};
-		case "cl3_lamborghini_gt1_red": {15};
-		case "cl3_lamborghini_gt1_sand": {15};
-		case "cl3_lamborghini_gt1_silver": {15};
-		case "cl3_lamborghini_gt1_violet": {15};
-		case "cl3_lamborghini_gt1_white": {15};
-		case "cl3_lamborghini_gt1_yellow": {15};
-		
-		case "cl3_murcielago_2tone1": {15};
-		case "cl3_murcielago_2tone2": {15};
-		case "cl3_murcielago_2tone3": {15};
-		case "cl3_murcielago_2tone4": {15};
-		case "cl3_murcielago_2tone5": {15};
-		case "cl3_murcielago_aqua": {15};
-		case "cl3_murcielago_babyblue": {15};
-		case "cl3_murcielago_babypink": {15};
-		case "cl3_murcielago_black": {15};
-		case "cl3_murcielago_blue": {15};
-		case "cl3_murcielago_burgundy": {15};
-		case "cl3_murcielago_camo_urban": {15};
-		case "cl3_murcielago_cardinal": {15};
-		case "cl3_murcielago_dark_green": {15};
-		case "cl3_murcielago_flame": {15};
-		case "cl3_murcielago_flame2": {15};
-		case "cl3_murcielago_gold": {15};
-		case "cl3_murcielago_green": {15};
-		case "cl3_murcielago_grey": {15};
-		case "cl3_murcielago_lavender": {15};
-		case "cl3_murcielago_light_blue": {15};
-		case "cl3_murcielago_light_yellow": {15};
-		case "cl3_murcielago_lime": {15};
-		case "cl3_murcielago_marina_blue": {15};
-		case "cl3_murcielago_navy_blue": {15};
-		case "cl3_murcielago_orange": {15};
-		case "cl3_murcielago_purple": {15};
-		case "cl3_murcielago_red": {15};
-		case "cl3_murcielago_sand": {15};
-		case "cl3_murcielago_silver": {15};
-		case "cl3_murcielago_violet": {15};
-		case "cl3_murcielago_white": {15};
-		case "cl3_murcielago_yellow": {15};
+	case "cl3_lamborghini_gt1_2tone1": {15};
+	case "cl3_lamborghini_gt1_2tone2": {15};
+	case "cl3_lamborghini_gt1_2tone3": {15};
+	case "cl3_lamborghini_gt1_2tone4": {15};
+	case "cl3_lamborghini_gt1_2tone5": {15};
+	case "cl3_lamborghini_gt1_aqua": {15};
+	case "cl3_lamborghini_gt1_babyblue": {15};
+	case "cl3_lamborghini_gt1_babypink": {15};
+	case "cl3_lamborghini_gt1_black": {15};
+	case "cl3_lamborghini_gt1_blue": {15};
+	case "cl3_lamborghini_gt1_burgundy": {15};
+	case "cl3_lamborghini_gt1_camo_urban": {15};
+	case "cl3_lamborghini_gt1_cardinal": {15};
+	case "cl3_lamborghini_gt1_dark_green": {15};
+	case "cl3_lamborghini_gt1_flame": {15};
+	case "cl3_lamborghini_gt1_flame2": {15};
+	case "cl3_lamborghini_gt1_gold": {15};
+	case "cl3_lamborghini_gt1_green": {15};
+	case "cl3_lamborghini_gt1_grey": {15};
+	case "cl3_lamborghini_gt1_lavender": {15};
+	case "cl3_lamborghini_gt1_light_blue": {15};
+	case "cl3_lamborghini_gt1_light_yellow": {15};
+	case "cl3_lamborghini_gt1_lime": {15};
+	case "cl3_lamborghini_gt1_marina_blue": {15};
+	case "cl3_lamborghini_gt1_navy_blue": {15};
+	case "cl3_lamborghini_gt1_orange": {15};
+	case "cl3_lamborghini_gt1_purple": {15};
+	case "cl3_lamborghini_gt1_red": {15};
+	case "cl3_lamborghini_gt1_sand": {15};
+	case "cl3_lamborghini_gt1_silver": {15};
+	case "cl3_lamborghini_gt1_violet": {15};
+	case "cl3_lamborghini_gt1_white": {15};
+	case "cl3_lamborghini_gt1_yellow": {15};
+	case "cl3_murcielago_2tone1": {15};
+	case "cl3_murcielago_2tone2": {15};
+	case "cl3_murcielago_2tone3": {15};
+	case "cl3_murcielago_2tone4": {15};
+	case "cl3_murcielago_2tone5": {15};
+	case "cl3_murcielago_aqua": {15};
+	case "cl3_murcielago_babyblue": {15};
+	case "cl3_murcielago_babypink": {15};
+	case "cl3_murcielago_black": {15};
+	case "cl3_murcielago_blue": {15};
+	case "cl3_murcielago_burgundy": {15};
+	case "cl3_murcielago_camo_urban": {15};
+	case "cl3_murcielago_cardinal": {15};
+	case "cl3_murcielago_dark_green": {15};
+	case "cl3_murcielago_flame": {15};
+	case "cl3_murcielago_flame2": {15};
+	case "cl3_murcielago_gold": {15};
+	case "cl3_murcielago_green": {15};
+	case "cl3_murcielago_grey": {15};
+	case "cl3_murcielago_lavender": {15};
+	case "cl3_murcielago_light_blue": {15};
+	case "cl3_murcielago_light_yellow": {15};
+	case "cl3_murcielago_lime": {15};
+	case "cl3_murcielago_marina_blue": {15};
+	case "cl3_murcielago_navy_blue": {15};
+	case "cl3_murcielago_orange": {15};
+	case "cl3_murcielago_purple": {15};
+	case "cl3_murcielago_red": {15};
+	case "cl3_murcielago_sand": {15};
+	case "cl3_murcielago_silver": {15};
+	case "cl3_murcielago_violet": {15};
+	case "cl3_murcielago_white": {15};
+	case "cl3_murcielago_yellow": {15};
+	case "cl3_aventador_lp7004_2tone1": {15};
+	case "cl3_aventador_lp7004_2tone2": {15};
+	case "cl3_aventador_lp7004_2tone3": {15};
+	case "cl3_aventador_lp7004_2tone4": {15};
+	case "cl3_aventador_lp7004_2tone5": {15};
+	case "cl3_aventador_lp7004_aqua": {15};
+	case "cl3_aventador_lp7004_babyblue": {15};
+	case "cl3_aventador_lp7004_babypink": {15};
+	case "cl3_aventador_lp7004_black": {15};
+	case "cl3_aventador_lp7004_blue": {15};
+	case "cl3_aventador_lp7004_burgundy": {15};
+	case "cl3_aventador_lp7004_camo": {15};
+	case "cl3_aventador_lp7004_camo_urban": {15};
+	case "cl3_aventador_lp7004_cardinal": {15};
+	case "cl3_aventador_lp7004_dark_green": {15};
+	case "cl3_aventador_lp7004_flame": {15};
+	case "cl3_aventador_lp7004_flame1": {15};
+	case "cl3_aventador_lp7004_flame2": {15};
+	case "cl3_aventador_lp7004_gold": {15};
+	case "cl3_aventador_lp7004_green": {15};
+	case "cl3_aventador_lp7004_grey": {15};
+	case "cl3_aventador_lp7004_lavender": {15};
+	case "cl3_aventador_lp7004_light_blue": {15};
+	case "cl3_aventador_lp7004_light_yellow": {15};
+	case "cl3_aventador_lp7004_lime": {15};
+	case "cl3_aventador_lp7004_marina_blue": {15};
+	case "cl3_aventador_lp7004_navy_blue": {15};
+	case "cl3_aventador_lp7004_orange": {15};
+	case "cl3_aventador_lp7004_purple": {15};
+	case "cl3_aventador_lp7004_sand": {15};
+	case "cl3_aventador_lp7004_silver": {15};
+	case "cl3_aventador_lp7004_violet": {15};
+	case "cl3_aventador_lp7004_white": {15};
+	case "cl3_aventador_lp7004_yellow": {15};
 	
 	//bugatti b206
 	case "cl3_veyron_wht_lwht": {15};
@@ -778,7 +848,23 @@ switch (_className) do
 	case "O_Truck_03_ammo_F": {950};
 	case "B_Truck_01_ammo_F": {950};
 	case "B_Truck_01_box_F": {1100};
+	case "cl3_mackr_del_blue": {500};
+	case "cl3_mackr_del_american": {500};
+	case "cl3_mackr_del_multi_color": {500};
+	case "cl3_mackr_flat_optimus": {100};
 
+	
+	//Motorräder
+	case "cl3_chopper_red": {5};
+	case "cl3_chopper_silver": {5};
+	case "cl3_chopper_green": {5};
+	case "cl3_chopper_gold": {5};
+	case "cl3_xr_1000_silver": {5};
+	case "cl3_xr_1000_lavender": {5};
+	case "cl3_xr_1000_flame": {5};
+	case "cl3_xr_1000_camo": {5};
+	case"cl3_xr_1000_aqua": {5};
+	
 	//House
 	case "Land_CargoBox_V1_F": {5000};
 	case "Box_IND_Grenades_F": {850};
@@ -787,6 +873,73 @@ switch (_className) do
 	//Wrecks
 	case "Land_Wreck_Traw_F": {10000000};
 	case "Land_Wreck_Traw2_F": {10000000};
+	
+	//Subaru
+	case "cl3_impreza_road_yellow": {10};
+	case "cl3_impreza_road_black": {10};
+	case "cl3_impreza_road_blue: {10};
+	case "cl3_impreza_road_aqua": {10};
+	case "cl3_impreza_road_babyblue": {10};
+	case "cl3_impreza_road_babypink": {10};
+	case "cl3_impreza_road_red": {10};
+	case "cl3_impreza_road_burgundy": {10};
+	case "cl3_impreza_road_cardinal": {10};
+	case "cl3_impreza_road_dark_green": {10};
+	case "cl3_impreza_road_gold": {10};
+	case "cl3_impreza_road_green": {10};
+	case "cl3_impreza_road_grey": {10};
+	case "cl3_impreza_road_lavender": {10};
+	case "cl3_impreza_road_light_blue": {10};
+	case "cl3_impreza_road_light_yellow": {10};
+	case "cl3_impreza_road_lime": {10};
+	case "cl3_impreza_road_marina_blue": {10};
+	case "cl3_impreza_road_navy_blue": {10};
+	case "cl3_impreza_road_orange": {10};
+	case "cl3_impreza_road_purple": {10};
+	case "cl3_impreza_road_sand": {10};
+	case "cl3_impreza_road_silver": {10};
+	case "cl3_impreza_road_camo": {10};
+	case "cl3_impreza_road_camo_urban": {10};
+	case "cl3_impreza_road_white": {10};
+	case "cl3_impreza_road_violet": {10};
+	case "cl3_impreza_road_flame": {10};
+	case "cl3_impreza_road_flame1": {10};
+	case "cl3_impreza_road_flame2": {10};
+	case "cl3_impreza_road_livery1": {10};
+	case "cl3_impreza_road_livery2": {10};
+	case "cl3_impreza_road_livery3": {10};
+	case "cl3_impreza_road_livery4": {10};
+	case "cl3_impreza_road_livery5": {10};	
+	case "cl3_impreza_rally_yellow": {10};
+	case "cl3_impreza_rally_black": {10};
+	case "cl3_impreza_rally_blue": {10};
+	case "cl3_impreza_rally_aqua": {10};
+	case "cl3_impreza_rally_babyblue": {10};
+	case "cl3_impreza_rally_babypink": {10};
+	case "cl3_impreza_rally_red": {10};
+	case "cl3_impreza_rally_burgundy": {10};
+	case "cl3_impreza_rally_cardinal": {10};
+	case "cl3_impreza_rally_dark_green": {10};
+	case "cl3_impreza_rally_gold": {10};
+	case "cl3_impreza_rally_green": {10};
+	case "cl3_impreza_rally_grey": {10};
+	case "cl3_impreza_rally_lavender": {10};
+	case "cl3_impreza_rally_light_blue": {10};
+	case "cl3_impreza_rally_light_yellow": {10};
+	case "cl3_impreza_rally_lime": {10};
+	case "cl3_impreza_rally_marina_blue": {10};
+	case "cl3_impreza_rally_navy_blue": {10};
+	case "cl3_impreza_rally_orange": {10};
+	case "cl3_impreza_rally_purple": {10};
+	case "cl3_impreza_rally_sand": {10};
+	case "cl3_impreza_rally_silver": {10};
+	case "cl3_impreza_rally_camo": {10};
+	case "cl3_impreza_rally_camo_urban": {10};
+	case "cl3_impreza_rally_white": {10};
+	case "cl3_impreza_rally_violet": {10};
+	case "cl3_impreza_rally_flame": {10};
+	case "cl3_impreza_rally_flame1": {10};
+	case "cl3_impreza_rally_flame2": {10};
 	
 	default {-1};
 
