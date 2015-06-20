@@ -56,7 +56,7 @@ switch (_className) do
 	case "UH1N_Slick": {30};
 	case "EC635_Unarmed_BW": {30};
 	case "NH90": {50};
-	case "EC635_Unarmed_CSAT"": {50};   	
+	case "EC635_Unarmed_CSAT": {50};   	
 	case "EC635_Unarmed": {50};		
 	case "NH90_AAF": {200};				
 	case "NH90_GR2": {200};			
@@ -64,7 +64,7 @@ switch (_className) do
 	case "IVORY_ERJ135_1": {75};			
 	case "IVORY_CRJ200_1": {75};			
 	case "GNT_C185": {30};					
-	case "GNT_C185F"": {30};			
+	case "GNT_C185F": {30};			
 	case "MV22": {100};				
 	
 	//AIRDROP UND SCHIFFSWRACK
@@ -863,7 +863,7 @@ switch (_className) do
 	case "cl3_xr_1000_lavender": {5};
 	case "cl3_xr_1000_flame": {5};
 	case "cl3_xr_1000_camo": {5};
-	case"cl3_xr_1000_aqua": {5};
+	case "cl3_xr_1000_aqua": {5};
 	
 	//House
 	case "Land_CargoBox_V1_F": {5000};
@@ -877,7 +877,7 @@ switch (_className) do
 	//Subaru
 	case "cl3_impreza_road_yellow": {10};
 	case "cl3_impreza_road_black": {10};
-	case "cl3_impreza_road_blue: {10};
+	case "cl3_impreza_road_blue": {10};
 	case "cl3_impreza_road_aqua": {10};
 	case "cl3_impreza_road_babyblue": {10};
 	case "cl3_impreza_road_babypink": {10};
