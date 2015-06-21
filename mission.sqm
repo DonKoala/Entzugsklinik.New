@@ -1063,7 +1063,7 @@ class Mission
 					vehicle="I_soldier_F";
 					leader=1;
 					skill=0.60000002;
-					init="removeallWeapons this;  this enableSimulation false;  this allowDamage false; this addAction[""Schwarzmarkt"",life_fnc_virt_menu,""rebel""]; this addAction[""Rebellen Klamotten"",life_fnc_clothingMenu,""reb"",0,false,false,"""",'license_civ_rebel && playerSide == civilian'];  this addAction[""Rebellenwaffen"",life_fnc_weaponShopMenu,""rebel"",0,false,false,"""",' license_civ_rebel && playerSide == civilian']; this addAction[""Visiere"",life_fnc_weaponShopMenu,""vanilla""];  this addAction[format[""%1 ($%2)"",[""license_civ_rebel""] call life_fnc_varToStr,[([""rebel""] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,""rebel"",0,false,false,"""",' !license_civ_rebel && playerSide == civilian ']; this addAction[""Vladimir Kalaschnikows Waffen"",life_fnc_weaponShopMenu,""rebel_ak"",0,false,false,"""",' license_civ_rebel && playerSide == civilian']; this setVariable[""realname"", ""Schwarzmarkt""];";
+					init="removeallWeapons this;  this enableSimulation false;  this allowDamage false; this addAction[""Schwarzmarkt"",life_fnc_virt_menu,""rebel""]; this addAction[""Rebellen Klamotten"",life_fnc_clothingMenu,""reb"",0,false,false,"""",'license_civ_rebel && playerSide == civilian'];  this addAction[""Rebellenwaffen"",life_fnc_weaponShopMenu,""rebel"",0,false,false,"""",' license_civ_rebel && playerSide == civilian']; this addAction[""Visiere"",life_fnc_weaponShopMenu,""vanilla""];  this addAction[format[""%1 ($%2)"",[""license_civ_rebel""] call life_fnc_varToStr,[([""rebel""] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,""rebel"",0,false,false,"""",' !license_civ_rebel && playerSide == civilian ']; this addAction[""Vladimir Waffen"",life_fnc_weaponShopMenu,""rebel_ak"",0,false,false,"""",' license_civ_rebel && playerSide == civilian']; this setVariable[""realname"", ""Schwarzmarkt""];";
 				};
 			};
 		};
@@ -6837,7 +6837,7 @@ class Mission
 		};
 		class Item288
 		{
-			position[]={26836.805,24.852442,24506.828};
+			position[]={26822.402,24.83987,24507.141};
 			azimut=209.66284;
 			special="NONE";
 			id=460;
@@ -6848,7 +6848,7 @@ class Mission
 		};
 		class Item289
 		{
-			position[]={15207.496,17.91,16783.432};
+			position[]={15210.202,17.91,16782.529};
 			azimut=42.229233;
 			special="NONE";
 			id=461;
@@ -6859,7 +6859,7 @@ class Mission
 		};
 		class Item290
 		{
-			position[]={15222.561,17.91,16769.672};
+			position[]={15183.541,17.91,16751.771};
 			azimut=-323.952;
 			special="NONE";
 			id=462;
@@ -7103,8 +7103,8 @@ class Mission
 		};
 		class Item316
 		{
-			position[]={26820.814,24.189302,24550.623};
-			azimut=-98.633041;
+			position[]={26826.621,24.178604,24539.129};
+			azimut=-138.3967;
 			special="NONE";
 			id=488;
 			side="EMPTY";
@@ -75037,7 +75037,7 @@ class Mission
 		};
 		class Item15
 		{
-			position[]={26836.701,24.858541,24506.68};
+			position[]={26822.299,24.843527,24506.992};
 			name="air_g_1_1";
 			type="Empty";
 			angle=389.77203;
@@ -75134,14 +75134,14 @@ class Mission
 		};
 		class Item28
 		{
-			position[]={15207.641,17.91,16783.553};
+			position[]={15210.347,17.91,16782.65};
 			name="air_g_1_2";
 			type="Empty";
 			angle=222.33878;
 		};
 		class Item29
 		{
-			position[]={15222.602,17.91,16769.707};
+			position[]={15183.582,17.91,16751.807};
 			name="civ_air_1_1_2";
 			type="Empty";
 			angle=-510.6716;
@@ -75266,10 +75266,10 @@ class Mission
 		};
 		class Item45
 		{
-			position[]={26820.621,24.190987,24550.523};
+			position[]={26826.568,24.182045,24538.918};
 			name="civ_air_1";
 			type="Empty";
-			angle=-285.35193;
+			angle=-325.11551;
 		};
 		class Item46
 		{
@@ -75345,10 +75345,10 @@ class Mission
 		};
 		class Item55
 		{
-			position[]={15217.386,17.91,16749.709};
+			position[]={15212.104,17.91,16737.992};
 			name="cop_air_3";
 			type="Empty";
-			angle=-1215.7988;
+			angle=-1176.0126;
 		};
 		class Item56
 		{
