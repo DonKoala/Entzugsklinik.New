@@ -55,9 +55,11 @@ switch (_className) do
 	case "UH1N_Black": {30};
 	case "UH1N_Slick": {30};
 	case "EC635_Unarmed_BW": {30};
-	case "NH90": {50};
+	case "NH90Marine": {50};
 	case "EC635_Unarmed_CSAT": {50};   	
-	case "EC635_Unarmed": {50};		
+	case "EC635_Unarmed": {50};	
+	case "EC635_ADAC": {50};
+	case "EC635_SAR": {50};	
 	case "NH90_AAF": {200};				
 	case "NH90_GR2": {200};			
 	case "ivory_yak42d_1": {100};			
@@ -128,7 +130,10 @@ switch (_className) do
 	case "O_MRAP_02_F": {140}; // ifrid
 	case "B_MRAP_01_gmg_F": {140}; //hunter gmg
 	case "B_MRAP_01_hmg_F": {140}; //hunter hmg
-	case "cl3_transitNews": {30};//Transit NEWS		
+	case "cl3_transitNews": {50};//Transit NEWS		
+	case "A3L_LadderTruck": {30};//Transit NEWS	
+	case "cl3_transitemt": {50};//Transit NEWS	
+	case "sfp_wheelchair": {1};//Transit NEWS	
 
 	//mini-cooper
 	case "Jonzie_Mini_Cooper": {40};
@@ -347,6 +352,9 @@ switch (_className) do
 	case "DAR_ChargerPolice": {30};
 	case "DAR_ChargerPoliceState": {30};
 	case "DAR_ChargerPoliceStateSlick": {30};
+	case "cl3_dodge_charger_emt": {30};
+	case "cl3_dodge_charger_emtcg": {30};
+	case "cl3_dodge_charger_emtpa": {30};
 	
 	//jonzie_viper
 	case "Jonzie_Viper": {15};
@@ -577,7 +585,8 @@ switch (_className) do
 	case "S_Rangerover_Orange": {25};
 	case "S_Rangerover_Purple": {25};
 	case "S_Rangerover_Red": {25};
-	case "S_Rangerover_White": {25};
+	case "cl3_range_rover_camo": {25};
+	case "cl3_range_rover_camo_urban": {25};
 	
 	//astonmartin dbs volante
 	case "cl3_dbs_volante_black": {15};
@@ -864,6 +873,7 @@ switch (_className) do
 	case "cl3_xr_1000_flame": {5};
 	case "cl3_xr_1000_camo": {5};
 	case "cl3_xr_1000_aqua": {5};
+	case "cl3_xr_1000_emt": {5};
 	
 	//House
 	case "Land_CargoBox_V1_F": {5000};

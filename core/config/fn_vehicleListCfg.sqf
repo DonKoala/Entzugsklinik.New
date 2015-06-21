@@ -104,21 +104,21 @@ switch (_shop) do
 	
 	case "med_shop":
 	{	
-		_return set[count _return,["A3L_LadderTruck",15000]];
+		_return set[count _return,["A3L_LadderTruck",15000]];				
 		_return set[count _return,["Jonzie_Ambulance",15000]];
 		_return set[count _return,["C_Van_01_box_F",15000]];
 		_return set[count _return,["DAR_ExplorerMedic",32000]];
-		_return set[count _return,["cl3_dodge_charger_emt",32000]];
+		_return set[count _return,["cl3_dodge_charger_emt",32000]];			
 		_return set[count _return,["C_Offroad_01_repair_F",20000]];
 		_return set[count _return,["B_Truck_01_transport_F",40000]];
 		_return set[count _return,["A3L_Towtruck",35000]];
 		_return set[count _return,["max_towtruck",25000]];
 		_return set[count _return,["A3L_CVPILBFD",55000]];
-		_return set[count _return,["cl3_xr_1000_emt",20000]];
-		_return set[count _return,["cl3_dodge_charger_emtcg",40000]];
-		_return set[count _return,["cl3_dodge_charger_emtpa",35000]];
-		_return set[count _return,["cl3_transitemt",25000]];
-		_return set[count _return,["sfp_wheelchair",25000]];
+		_return set[count _return,["cl3_xr_1000_emt",20000]];				
+		_return set[count _return,["cl3_dodge_charger_emtcg",40000]];		
+		_return set[count _return,["cl3_dodge_charger_emtpa",35000]];		
+		_return set[count _return,["cl3_transitemt",25000]];				
+		_return set[count _return,["sfp_wheelchair",25000]];				
 	};
 	
 	case "med_air": {
@@ -127,8 +127,8 @@ switch (_shop) do
 			_return set[count _return,["dezkit_b206_ems",150000]];
 			_return set[count _return,["dezkit_b206_rescue",150000]];
 			_return set[count _return,["RHS_UH60M_MEV2",200000]];
-			_return set[count _return,["EC635_ADAC",100000]];
-			_return set[count _return,["EC635_SAR",150000]];
+			_return set[count _return,["EC635_ADAC",100000]];				
+			_return set[count _return,["EC635_SAR",100000]];				
 		};
 	};
 	
@@ -174,7 +174,7 @@ switch (_shop) do
 			_return set[count _return,["cl3_range_rover_camo",65000]];
 			_return set[count _return,["cl3_range_rover_camo_urban",65000]];
 			_return set[count _return,["B_Heli_Light_01_F",245000]];
-			_return set[count _return,["rhs_tigr_msv",245000]];
+			_return set[count _return,["rhs_tigr_msv",445000]];
 			_return set[count _return,["rhsusf_m1025_w_s",245000]];
 			_return set[count _return,["rhsusf_m998_w_s_2dr_fulltop",245000]];
 			_return set[count _return,["rhsusf_m998_w_s_2dr",245000]];
@@ -975,7 +975,7 @@ switch (_shop) do
 		{
 			_return set[count _return,["EC635_Unarmed_BW",100000]];
 			_return set[count _return,["dezkit_b206_police",150000]];
-			_return set[count _return,["NH90",280000]];
+			_return set[count _return,["NH90Marine",280000]];
 		};
 	};
 	
