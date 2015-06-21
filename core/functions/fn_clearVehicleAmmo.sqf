@@ -16,7 +16,6 @@ switch (_classname) do
 {	
 
 
-	/FÜR CONVOY!!
 	case "B_APC_Tracked_01_CRV_F":
 	{
 		//Remove ammo and Flaires
