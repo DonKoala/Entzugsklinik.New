@@ -55,13 +55,13 @@ switch (_className) do
 	case "UH1N_Black": {30};
 	case "UH1N_Slick": {30};
 	case "EC635_Unarmed_BW": {30};
-	case "NH90Marine": {50};
+	case "NH90": {200};
 	case "EC635_Unarmed_CSAT": {50};   	
 	case "EC635_Unarmed": {50};	
 	case "EC635_ADAC": {50};
 	case "EC635_SAR": {50};	
 	case "NH90_AAF": {200};				
-	case "NH90_GR2": {200};			
+	case "NH90_GR2": {50};			
 	case "ivory_yak42d_1": {100};			
 	case "IVORY_ERJ135_1": {75};			
 	case "IVORY_CRJ200_1": {75};			
