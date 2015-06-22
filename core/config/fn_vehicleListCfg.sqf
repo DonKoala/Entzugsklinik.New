@@ -394,6 +394,13 @@ switch (_shop) do
 		_return set[count _return,["Jonzie_Mini_Cooper_R_spec",7500]];
 	};
 	
+	case "civ_honda": 
+	{
+		_return set[count _return,["A3L_ChargerBlack",110000]];
+		_return set[count _return,["A3L_ChargerBlue",110000]];
+	
+	};
+	
 	case "civ_dodge": 
 	{
 		_return set[count _return,["A3L_ChargerBlack",110000]];
