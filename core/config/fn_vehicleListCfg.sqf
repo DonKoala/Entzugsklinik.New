@@ -560,6 +560,7 @@ switch (_shop) do
 	
 	case "civ_porsche": 
 	{
+		_return set[count _return,["wirk_cayenne",250000]];
 		_return set[count _return,["S_PorscheRS_Black",360000]];
 		_return set[count _return,["S_PorscheRS_White",360000]];
 		_return set[count _return,["S_PorscheRS_Yellow",360000]];
@@ -644,6 +645,7 @@ switch (_shop) do
 	
 	case "civ_ferrari": 
 	{
+		_return set[count _return,["wirk_ferrari_california",400000]];
 		_return set[count _return,["cl3_458_black",520000]];
 		_return set[count _return,["cl3_458_white",520000]];
 		_return set[count _return,["cl3_458_blue",520000]];
