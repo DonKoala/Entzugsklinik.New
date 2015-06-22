@@ -2,7 +2,7 @@
 	File: fn_introTJMS.sqf
 	Author: M4rc3lloX
 	For: Sesselfurzer Life RPG!
-
+*/
 
 tjms_IntroOn = true;
 showCinemaBorder false;
@@ -27,7 +27,8 @@ _IntroText5 = parseText format["<t font='EtelkaNarrowMediumPro' color='#FF9B2E' 
 
 _IntroClear = parseText format[""];
 
-playMusic "music_intro";
+player say3D "music_intro";
+
 titleText ["", "BLACK IN",0.2];
 
 // 1. Introcam with text
@@ -109,4 +110,3 @@ _cam cameraEffect ["terminate","back"];
 camDestroy _cam;
 tjms_IntroOn = false;
 
-*/

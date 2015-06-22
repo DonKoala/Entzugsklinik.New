@@ -18,7 +18,7 @@ _z = (position player select 2);
 "colorCorrections" ppEffectEnable true;
 
 // 1. Introcam with text
-playMusic "music_gta";
+player say3D "music_gta";
 _cam = "camera" camCreate [_x, _y, _z + 150];  
 _cam camSetTarget vehicle player;  
 _cam cameraEffect ["internal","back"];
@@ -30,7 +30,7 @@ sleep 1.7;
 
 "colorCorrections" ppEffectAdjust [1, 1, 0, [0.0, 0.0, 0.0, 0.0], [0.6, 0.6, 8.8, 0.7],  [0.199, 0.287, 0.114, 0.0]];  
 "colorCorrections" ppEffectCommit 1; 
-playMusic "music_gta";
+player say3D "music_gta";
 _cam = "camera" camCreate [_x, _y, _z + 100];  
 _cam camSetTarget vehicle player;  
 _cam cameraEffect ["internal", "BACK"];  
@@ -42,7 +42,7 @@ sleep 1.7;
 
 "colorCorrections" ppEffectAdjust [1, 1, 0, [0.0, 0.0, 0.0, 0.0], [0.6, 0.6, 4.8, 0.7],  [0.199, 0.987, 0.114, 0.0]];  
 "colorCorrections" ppEffectCommit 1; 
-playMusic "music_gta";
+player say3D "music_gta";
 _cam = "camera" camCreate [_x, _y, _z + 50];  
 _cam camSetTarget vehicle player;  
 _cam cameraEffect ["internal", "BACK"];  

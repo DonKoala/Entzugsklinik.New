@@ -49,7 +49,7 @@ class CfgMusic
 	class music_intro
 	{
 		name = "music_intro";
-		sound[] = {"sounds\music_intro.ogg", 3.0, 1};
+		sound[] = {"sounds\riddle_ringtone.ogg", 3.0, 1};
 	};
 	class music_gta
 	{
@@ -66,6 +66,37 @@ class CfgSounds
 	{
 		name = "blinker";
 		sound[] = {"sounds\blinker.ogg", 1.0, 1};
+		titles[] = {};
+	}; 
+	class music_intro
+	{
+		name = "music_intro";
+		sound[] = {"sounds\riddle_ringtone.ogg", 3.0, 1};
+		titles[] = {};
+	};
+	class music_gta
+	{
+		name = "music_gta";
+		sound[] = {"sounds\music_gta.ogg", 3.0, 1};
+		titles[] = {};
+	};
+	class bombe
+	{
+		name = "bombe";
+		sound[] = {"sounds\bombe.ogg", 3.0, 1};
+		titles[] = {};
+	};
+	class boom
+	{
+		name = "boom";
+		sound[] = {"sounds\boom.ogg", 3.0, 1};
+		titles[] = {};
+	};
+	
+	class auto
+	{
+		name = "auto";
+		sound[] = {"sounds\auto.ogg", 1.0, 1};
 		titles[] = {};
 	}; 
 	

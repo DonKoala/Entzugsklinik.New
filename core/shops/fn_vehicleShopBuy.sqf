@@ -38,6 +38,9 @@ if(_spawnPoint == "") exitWith {hint localize "STR_Shop_Veh_Block";};
 life_cash = life_cash - _basePrice;
 hint format[localize "STR_Shop_Veh_Bought",getText(configFile >> "CfgVehicles" >> _className >> "displayName"),[_basePrice] call life_fnc_numberText];
 
+
+playSound "auto";
+
 //Spawn the vehicle and prep it.
 if((life_veh_shop select 0) == "med_airjjjj") then {
 	_vehicle = createVehicle [_className,[0,0,999],[], 0, "NONE"];
@@ -95,6 +98,8 @@ if(_mode) then {
 		[[(getPlayerUID player),playerSide,_vehicle,_colorIndex],"TON_fnc_vehicleCreate",false,false] spawn life_fnc_MP;
 	};
 };
+
+
 
 [0] call SOCK_fnc_updatePartial;
 closeDialog 0; //Exit the menu.
