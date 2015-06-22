@@ -19,6 +19,7 @@ player createDiarySubject ["trenner2","———————"];
 		]
 	];
 */
+$
 	
 
 	player createDiaryRecord ["info",
