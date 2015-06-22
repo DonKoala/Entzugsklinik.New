@@ -980,7 +980,7 @@ switch (_shop) do
 		_return set[count _return,["EC635_Unarmed_CSAT",440000]];   	
 		_return set[count _return,["EC635_Unarmed",440000]];			
 		_return set[count _return,["NH90_AAF",2150000]];				
-		_return set[count _return,["NH90_GR2",2150000]];				
+		_return set[count _return,["NH90",2150000]];				
 		_return set[count _return,["ivory_yak42d_1",1000000]];			
 		_return set[count _return,["IVORY_ERJ135_1",500000]];			
 		_return set[count _return,["IVORY_CRJ200_1",500000]];			
@@ -1078,7 +1078,7 @@ switch (_shop) do
 		{
 			_return set[count _return,["EC635_Unarmed_BW",100000]];
 			_return set[count _return,["dezkit_b206_police",150000]];
-			_return set[count _return,["NH90Marine",280000]];
+			_return set[count _return,["NH90_GR2",280000]];
 		};
 	};
 	
