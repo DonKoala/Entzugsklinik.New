@@ -475,6 +475,7 @@ switch (_className) do
 	case "DAR_MF1Civ": {75};
 	
 	//porsche 
+	case "wirk_cayenne": {20};
 	case "S_PorscheRS_Black": {15};
 	case "S_PorscheRS_White": {15};
 	case "S_PorscheRS_Yellow": {15};
@@ -660,6 +661,7 @@ switch (_className) do
 	case "cl3_458_aqua": {15};
 	case "cl3_458_camo": {15};
 	case "cl3_458_camo_urban": {15};
+	case "wirk_ferrari_california": {15};
 	
 	//Mercedes AMG e63
 	case "cl3_e63_amg_black": {20};
@@ -865,6 +867,7 @@ switch (_className) do
 	
 	//Motorräder
 	case "cl3_chopper_red": {5};
+	case "cl3_chopper_blue": {5};
 	case "cl3_chopper_silver": {5};
 	case "cl3_chopper_green": {5};
 	case "cl3_chopper_gold": {5};
