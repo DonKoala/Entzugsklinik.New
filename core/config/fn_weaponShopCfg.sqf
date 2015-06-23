@@ -79,10 +79,10 @@ switch(_shop) do
 			{
 				["Polizei Waffenladen - Polizeineuling",
 					[
-						["RH_m9","Tazerpistole",2000],
-						["RH_15Rnd_9x19_M9","Tazermunition",100],
-						["RH_m9qd","Tazeraufsatz",1000],
-						["RH_X300","Tazerlampe",1000]						
+						["hgun_Pistol_heavy_01_F","Tazerpistole",2000],
+						["11Rnd_45ACP_Mag","Tazermunition",100],
+						["optic_MRD","Tazervisier",1000],
+						["muzzle_snds_acp","Tazeraufsatz",1000]						
 					]
 				];
 			};
@@ -90,10 +90,10 @@ switch(_shop) do
 			{
 				["Polizei Waffenladen - Polizeianwärter",
 					[
-						["RH_m9","Tazerpistole",2000],
-						["RH_15Rnd_9x19_M9","Tazermunition",100],
-						["RH_m9qd","Tazeraufsatz",1000],
-						["RH_X300","Tazerlampe",1000],	
+					    ["hgun_Pistol_heavy_01_F","Tazerpistole",2000],
+						["11Rnd_45ACP_Mag","Tazermunition",100],
+						["optic_MRD","Tazervisier",1000],
+						["muzzle_snds_acp","Tazeraufsatz",1000],
 						["rhs_weap_M590_8RD",nil,1000], 
 						["rhsusf_8Rnd_00Buck",nil,300]
 					]
@@ -103,10 +103,10 @@ switch(_shop) do
 			{
 				["Polizei Waffenladen - Polizeimeister",
 					[
-						["RH_m9","Tazerpistole",2000],
-						["RH_15Rnd_9x19_M9","Tazermunition",100],
-						["RH_m9qd","Tazeraufsatz",1000],
-						["RH_X300","Tazerlampe",1000],	
+					    ["hgun_Pistol_heavy_01_F","Tazerpistole",2000],
+						["11Rnd_45ACP_Mag","Tazermunition",100],
+						["optic_MRD","Tazervisier",1000],
+						["muzzle_snds_acp","Tazeraufsatz",1000],	
 						["rhs_weap_M590_8RD",nil,15000], 
 						["rhsusf_8Rnd_00Buck",nil,300],
 						["rhs_weap_m16a4_carryhandle_grip_pmag",nil,3000],
@@ -131,10 +131,10 @@ switch(_shop) do
 			{
 				["Polizei Waffenladen -Polizeihauptmeister",
 					[
-						["RH_m9","Tazerpistole",2000],
-						["RH_15Rnd_9x19_M9","Tazermunition",100],
-						["RH_m9qd","Tazeraufsatz",1000],
-						["RH_X300","Tazerlampe",1000],	
+					    ["hgun_Pistol_heavy_01_F","Tazerpistole",2000],
+						["11Rnd_45ACP_Mag","Tazermunition",100],
+						["optic_MRD","Tazervisier",1000],
+						["muzzle_snds_acp","Tazeraufsatz",1000],
 						["rhs_weap_M590_8RD",nil,1000], 
 						["rhsusf_8Rnd_00Buck",nil,300],
 						["rhs_weap_m16a4_carryhandle_grip_pmag",nil,3000],
@@ -156,10 +156,10 @@ switch(_shop) do
 			{
 				["Polizei Waffenladen - Polizeikomissar",
 					[
-						["RH_m9","Tazerpistole",2000],
-						["RH_15Rnd_9x19_M9","Tazermunition",100],
-						["RH_m9qd","Tazeraufsatz",1000],
-						["RH_X300","Tazerlampe",1000],	
+					    ["hgun_Pistol_heavy_01_F","Tazerpistole",2000],
+						["11Rnd_45ACP_Mag","Tazermunition",100],
+						["optic_MRD","Tazervisier",1000],
+						["muzzle_snds_acp","Tazeraufsatz",1000],
 						["rhs_weap_M590_8RD",nil,1000], 
 						["rhsusf_8Rnd_00Buck",nil,300],
 						["rhs_weap_m16a4_carryhandle_grip_pmag",nil,3000],
@@ -190,13 +190,10 @@ switch(_shop) do
 			{
 				["Polizei Waffenladen - Polizeihauptkomissar",
 					[
-						["RH_m9","Tazerpistole",2000],
-						["RH_15Rnd_9x19_M9","Tazermunition",100],
-						["RH_m9qd","Tazeraufsatz",1000],
-						["RH_X300","Tazerlampe",1000],	
-						["RH_g19","Glock 19",2000],
-						["RH_19Rnd_9x19_g18","Glock 19 Munition",100],
-						["RH_M6X","Glock 19 Lampe",1000],						
+					    ["hgun_Pistol_heavy_01_F","Tazerpistole",2000],
+						["11Rnd_45ACP_Mag","Tazermunition",100],
+						["optic_MRD","Tazervisier",1000],
+						["muzzle_snds_acp","Tazeraufsatz",1000],						
 						["rhs_weap_m16a4_carryhandle_grip_pmag",nil,30000],
 						["rhs_weap_m4a1_carryhandle_grip",nil,30000],
 					    ["30Rnd_556x45_Stanag",nil,300],						
@@ -253,10 +250,10 @@ switch(_shop) do
 						["SatchelCharge_Remote_Mag","Panzerfreund Satchii",10000],
 						["HandGrenade_Stone","Blendgranate",700],
 						["SmokeShellBlue","Tränengas",200],
-						["RH_m9","Tazerpistole",2000],
-						["RH_15Rnd_9x19_M9","Tazermunition",100],
-						["RH_m9qd","Tazeraufsatz",1000],
-						["RH_X300","Tazerlampe",1000],											
+					    ["hgun_Pistol_heavy_01_F","Tazerpistole",2000],
+						["11Rnd_45ACP_Mag","Tazermunition",100],
+						["optic_MRD","Tazervisier",1000],
+						["muzzle_snds_acp","Tazeraufsatz",1000],										
 						["rhs_weap_m16a4_carryhandle_grip_pmag",nil,30000],
 						["rhs_weap_m4a1_carryhandle_grip",nil,30000],
 					    ["30Rnd_556x45_Stanag",nil,300],						
