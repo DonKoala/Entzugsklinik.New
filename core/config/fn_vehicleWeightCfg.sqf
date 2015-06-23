@@ -1143,7 +1143,7 @@ switch (_className) do
 	case "cl3_civic_vti_purple": {15};
 	case "cl3_civic_vti_sand": {15};
 	case "cl3_civic_vti_silver": {15};
-	case "cl3_civic_vti_camo",: {15};
+	case "cl3_civic_vti_camo": {15};
 	case "cl3_civic_vti_camo_urban": {15};
 	case "cl3_civic_vti_white": {15};
 	case "cl3_civic_vti_violet": {15};
