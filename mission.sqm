@@ -73423,8 +73423,8 @@ class Mission
 		};
 		class Item6858
 		{
-			position[]={20255.131,15.413416,19237.609};
-			azimut=212.51671;
+			position[]={20255.262,15.416748,19237.725};
+			azimut=29.628685;
 			special="NONE";
 			id=7045;
 			side="EMPTY";
@@ -73533,8 +73533,8 @@ class Mission
 		};
 		class Item6868
 		{
-			position[]={21814.66,14.464633,7508.1431};
-			azimut=212.51671;
+			position[]={21814.783,14.429664,7508.249};
+			azimut=31.641455;
 			special="NONE";
 			id=7055;
 			side="EMPTY";
@@ -75197,8 +75197,8 @@ class Mission
 		};
 		class Item7021
 		{
-			position[]={22429.836,16.566828,20039.334};
-			azimut=212.51671;
+			position[]={22429.98,16.572643,20039.434};
+			azimut=34.52422;
 			special="NONE";
 			id=7208;
 			side="EMPTY";
@@ -75930,8 +75930,7 @@ class Mission
 		class Item7087
 		{
 			position[]={18651.695,40.349453,16828.313};
-			azimut=121.81908;
-			offsetY=0.2;
+			azimut=121.819;
 			id=7274;
 			side="EMPTY";
 			vehicle="cl3_440cuda_flannery12";
@@ -75943,8 +75942,7 @@ class Mission
 		class Item7088
 		{
 			position[]={18650.068,40.492527,16825.869};
-			azimut=122.67862;
-			offsetY=0.2;
+			azimut=122.679;
 			id=7275;
 			side="EMPTY";
 			vehicle="cl3_440cuda_flannery27";
@@ -75956,8 +75954,7 @@ class Mission
 		class Item7089
 		{
 			position[]={18648.324,40.629227,16823.426};
-			azimut=124.04725;
-			offsetY=0.2;
+			azimut=124.047;
 			id=7276;
 			side="EMPTY";
 			vehicle="cl3_440cuda_flannery69";
@@ -77349,7 +77346,7 @@ class Mission
 		};
 		class Item160
 		{
-			position[]={20835.375,54.674923,16973.486};
+			position[]={20805.793,55.911903,16979.996};
 			name="auto_1_7";
 			text="Audi Händler";
 			type="c_car";
@@ -77491,10 +77488,10 @@ class Mission
 		};
 		class Item177
 		{
-			position[]={20255.254,15.416563,19237.717};
+			position[]={20255.121,15.413098,19237.613};
 			name="civ_car_dodge";
 			type="Empty";
-			angle=385.55765;
+			angle=202.66957;
 		};
 		class Item178
 		{
@@ -77561,17 +77558,17 @@ class Mission
 		};
 		class Item187
 		{
-			position[]={21814.791,14.428254,7508.2505};
+			position[]={21814.672,14.462487,7508.1455};
 			name="civ_car_bugatti";
 			type="Empty";
-			angle=385.55765;
+			angle=204.68228;
 		};
 		class Item188
 		{
-			position[]={22429.967,16.572285,20039.441};
+			position[]={22429.822,16.566359,20039.334};
 			name="civ_car_honda";
 			type="Empty";
-			angle=385.55801;
+			angle=207.56566;
 		};
 		class Item189
 		{
