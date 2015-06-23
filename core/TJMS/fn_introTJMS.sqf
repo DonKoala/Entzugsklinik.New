@@ -1,8 +1,8 @@
 /*
 	File: fn_introTJMS.sqf
-	Author: M4rc3lloX
-	For: Sesselfurzer Life RPG!
-*/
+	Author: Koala
+	For: Entzugsklinik RPG
+
 
 tjms_IntroOn = true;
 showCinemaBorder false;
@@ -27,7 +27,7 @@ _IntroText5 = parseText format["<t font='EtelkaNarrowMediumPro' color='#FF9B2E' 
 
 _IntroClear = parseText format[""];
 
-player say3D "music_intro";
+playMusic "music_intro";
 
 titleText ["", "BLACK IN",0.2];
 
@@ -110,3 +110,4 @@ _cam cameraEffect ["terminate","back"];
 camDestroy _cam;
 tjms_IntroOn = false;
 
+*/
