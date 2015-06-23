@@ -107,8 +107,16 @@ switch (_className) do
 	case "cl3_transitk9": {30};
 	case "cl3_q7_clpd_patrol": {30};
 	case "A3L_ChargerLB": {30};
+	case "BW_Dingo_Des": {30};
 	
-	
+	//Bus
+	case "CL3_bus_cl_blue": {50};
+	case "CL3_bus_cl_green": {50};
+	case "CL3_bus_cl_yellow": {50};
+	case "CL3_bus_cl_purple": {50};
+	case "CL3_bus_cl_grey": {50};
+	case "CL3_bus_cl_black": {50};
+
 	//karts
 	case "C_Kart_01_Blu_F": {0};
 	case "C_Kart_01_Fuel_F": {0};
@@ -134,10 +142,14 @@ switch (_className) do
 	case "A3L_LadderTruck": {30};//Transit NEWS	
 	case "cl3_transitemt": {50};//Transit NEWS	
 	case "sfp_wheelchair": {1};//Transit NEWS	
+	
+	//Volha
+	case "cl3_volha_grey": {15};
+	case "cl3_volha_black": {15};
 
 	//mini-cooper
-	case "Jonzie_Mini_Cooper": {40};
-	case "Jonzie_Mini_Cooper_R_spec": {40};
+	case "Jonzie_Mini_Cooper": {30};
+	case "Jonzie_Mini_Cooper_R_spec": {30};
 	
 	//explorer
 	case "DAR_ExplorerMedic": {30};
@@ -148,6 +160,25 @@ switch (_className) do
 	case "DAR_ImpalaPolice": {30};
 	case "DAR_ImpalaPoliceSlick": {30};
 	case "DAR_ImpalaPoliceDet": {30};
+	
+	//Playmouth Barracuda
+	case "cl3_440cuda_yellow": {20};
+	case "cl3_440cuda_yellow_stripe": {20};
+	case "cl3_440cuda_blue": {20};
+	case "cl3_440cuda_blue_flame": {20};
+	case "cl3_440cuda_green": {20};
+	case "cl3_440cuda_green_Logo": {20};
+	case "cl3_440cuda_flannery70": {20};
+	case "cl3_440cuda_flannery69": {20};
+	case "cl3_440cuda_flannery55": {20};
+	case "cl3_440cuda_flannery51": {20};
+	case "cl3_440cuda_flannery27": {20};
+	case "cl3_440cuda_flannery14": {20};
+	case "cl3_440cuda_flannery12": {20};
+	case "cl3_440cuda_flannery08": {20};
+	case "cl3_440cuda_blu_ltn": {20};
+	case "cl3_440cuda_black": {20};
+	case "cl3_440cuda_black1": {20};
 	
 	//tahoe
 	case "DAR_TahoeEMS": {30};
@@ -161,6 +192,15 @@ switch (_className) do
 	//Jail Bus
 	case "A3L_jailBus": {30};
 	
+	//RG-335
+	case "rhsusf_rg33_d": {30};
+	case "rhsusf_rg33_wd": {30};
+	
+	//Dumper Truck
+	case "cl3_dumper_truck_yellow": {800};
+	case "cl3_dumper_truck_blue": {800};
+	case "cl3_dumper_truck_red": {800};
+	case "cl3_dumper_truck_green": {800};
 	
 	//Insignia(Vauxhall)
 	case "cl3_insignia_aqua": {15};
@@ -356,6 +396,14 @@ switch (_className) do
 	case "cl3_dodge_charger_emtcg": {30};
 	case "cl3_dodge_charger_emtpa": {30};
 	
+	//dodge grand caravan
+	case "A3L_GrandCaravan": {30};
+	case "A3L_GrandCaravanBlk": {30};
+	case "A3L_GrandCaravanBlue": {30};
+	case "A3L_GrandCaravanGreen": {30};
+	case "A3L_GrandCaravanRed": {30};
+	case "A3L_GrandCaravanPurple": {30};
+	
 	//jonzie_viper
 	case "Jonzie_Viper": {15};
 	
@@ -451,6 +499,39 @@ switch (_className) do
 	case "cl3_polo_gti_camo": {20};
 	case "cl3_polo_gti_camo_urban": {20};
 	
+	//Golf MK2
+	case "cl3_golf_mk2_yellow": {20};
+	case "cl3_golf_mk2_black": {20};
+	case "cl3_golf_mk2_blue": {20};
+	case "cl3_golf_mk2_aqua": {20};
+	case "cl3_golf_mk2_babyblue": {20};
+	case "cl3_golf_mk2_babypink": {20};
+	case "cl3_golf_mk2_red": {20};
+	case "cl3_golf_mk2_burgundy": {20};
+	case "cl3_golf_mk2_cardinal": {20};
+	case "cl3_golf_mk2_dark_green": {20};
+	case "cl3_golf_mk2_gold": {20};
+	case "cl3_golf_mk2_green": {20};
+	case "cl3_golf_mk2_grey": {20};
+	case "cl3_golf_mk2_lavender": {20};
+	case "cl3_golf_mk2_light_blue": {20};
+	case "cl3_golf_mk2_light_yellow": {20};
+	case "cl3_golf_mk2_lime": {20};
+	case "cl3_golf_mk2_marina_blue": {20};
+	case "cl3_golf_mk2_navy_blue": {20};
+	case "cl3_golf_mk2_orange": {20};
+	case "cl3_golf_mk2_purple": {20};
+	case "cl3_golf_mk2_sand": {20};
+	case "cl3_golf_mk2_silver": {20};
+	case "cl3_golf_mk2_camo": {20};
+	case "cl3_golf_mk2_camo_urban": {20};
+	case "cl3_golf_mk2_white": {20};
+	case "cl3_golf_mk2_violet": {20};
+	
+	//volvo
+	case "A3L_VolvoS60RBlack": {20};
+	case "A3L_VolvoS60Rred": {20};
+
 	//skyline
 	case "S_Skyline_Black": {20};
 	case "S_Skyline_Blue": {20};
@@ -468,11 +549,11 @@ switch (_className) do
 	case "S_McLarenP1_Yellow": {15};
 	
 	//mclaren mf1
-	case "DAR_MF1Silver": {75};
-	case "DAR_MF1Red": {75};
-	case "DAR_MF1Orange": {75};
-	case "DAR_MF1Burgundy": {75};
-	case "DAR_MF1Civ": {75};
+	case "DAR_MF1Silver": {15};
+	case "DAR_MF1Red": {15};
+	case "DAR_MF1Orange": {15};
+	case "DAR_MF1Burgundy": {15};
+	case "DAR_MF1Civ": {15};
 	
 	//porsche 
 	case "wirk_cayenne": {20};
@@ -588,6 +669,35 @@ switch (_className) do
 	case "S_Rangerover_Red": {25};
 	case "cl3_range_rover_camo": {25};
 	case "cl3_range_rover_camo_urban": {25};
+	
+	//Jeep Purge
+	case "cl3_jeep_purge_pinkcamo": {25};
+	case "cl3_jeep_purge_tiger1camo": {25};
+	case "cl3_jeep_purge_tiger2camo": {25};
+	case "cl3_jeep_purge_tiger3camo": {25};
+	case "cl3_jeep_purge_tiger4camo": {25};
+	case "cl3_jeep_purge_black": {25};
+	case "cl3_jeep_purge_orangecamo": {25};
+	case "cl3_jeep_purge_woodcamo": {25};
+	case "cl3_jeep_purge_digitalcamo": {25};
+	case "cl3_jeep_purge_firecamo": {25};
+	case "cl3_jeep_purge_mtcamo": {25};
+	case "cl3_jeep_purge_urbancamo": {25};
+	
+	//Land Rover
+	case "cl3_defender_110_yellow": {25};
+	case "cl3_defender_110_red": {25};
+	case "cl3_defender_110_cammo": {25};	
+	case "cl3_discovery_black": {30};
+	case "cl3_discovery_joker": {30};
+	case "cl3_discovery_blue": {30};
+	case "cl3_discovery_green": {30};
+	case "cl3_discovery_pink": {30};
+	case "cl3_discovery_darkorange": {30};
+	case "cl3_discovery_gold": {30};
+	case "cl3_discovery_silver": {30};
+	case "cl3_discovery_hellokitty": {30};
+	case "cl3_jurassicpark": {30};
 	
 	//astonmartin dbs volante
 	case "cl3_dbs_volante_black": {15};
@@ -859,10 +969,11 @@ switch (_className) do
 	case "O_Truck_03_ammo_F": {950};
 	case "B_Truck_01_ammo_F": {950};
 	case "B_Truck_01_box_F": {1100};
-	case "cl3_mackr_del_blue": {500};
-	case "cl3_mackr_del_american": {500};
-	case "cl3_mackr_del_multi_color": {500};
+	case "cl3_mackr_del_blue": {550};
+	case "cl3_mackr_del_american": {550};
+	case "cl3_mackr_del_multi_color": {550};
 	case "cl3_mackr_flat_optimus": {100};
+	case "cl3_bounder_beige: {80};
 
 	
 	//Motorräder
@@ -902,6 +1013,35 @@ switch (_className) do
 	case "cl3_xr_1000_violet": {5};
 	case "cl3_xr_1000_white": {5};
 	case "cl3_xr_1000_yellow": {5};
+	case "cl3_enduro_aqua": {5};
+	case "cl3_enduro_babyblue": {5};
+	case "cl3_enduro_babypink": {5};
+	case "cl3_enduro_black": {5};
+	case "cl3_enduro_blue": {5};
+	case "cl3_enduro_burgundy": {5};
+	case "cl3_enduro_camo": {5};
+	case "cl3_enduro_camo_urban": {5};
+	case "cl3_enduro_cardinal": {5};
+	case "cl3_enduro_dark_green": {5};
+	case "cl3_enduro_flame": {5};
+	case "cl3_enduro_flame1": {5};
+	case "cl3_enduro_flame2": {5};
+	case "cl3_enduro_gold": {5};
+	case "cl3_enduro_green": {5};
+	case "cl3_enduro_grey": {5};
+	case "cl3_enduro_lavender": {5};
+	case "cl3_enduro_light_blue": {5};
+	case "cl3_enduro_light_yellow": {5};
+	case "cl3_enduro_lime": {5};
+	case "cl3_enduro_marina_blue": {5};
+	case "cl3_enduro_navy_blue": {5};
+	case "cl3_enduro_orange": {5};
+	case "cl3_enduro_purple": {5};
+	case "cl3_enduro_red": {5};
+	case "cl3_enduro_sand": {5};
+	case "cl3_enduro_silver": {5};
+	case "cl3_enduro_white": {5};
+	case "cl3_enduro_yellow": {5};
 	
 	//House
 	case "Land_CargoBox_V1_F": {5000};
@@ -978,6 +1118,36 @@ switch (_className) do
 	case "cl3_impreza_rally_flame": {10};
 	case "cl3_impreza_rally_flame1": {10};
 	case "cl3_impreza_rally_flame2": {10};
+	
+	
+	//Honda
+	case "cl3_civic_vti",15000]];
+	case "cl3_civic_vti_yellow",15000]];
+	case "cl3_civic_vti_black",15000]];
+	case "cl3_civic_vti_blue",15000]];
+	case "cl3_civic_vti_aqua",15000]];
+	case "cl3_civic_vti_babypink",15000]];
+	case "cl3_civic_vti_red",15000]];
+	case "cl3_civic_vti_burgundy",15000]];
+	case "cl3_civic_vti_cardinal",15000]];
+	case "cl3_civic_vti_dark_green",15000]];
+	case "cl3_civic_vti_gold",15000]];
+	case "cl3_civic_vti_green",15000]];
+	case "cl3_civic_vti_grey",15000]];
+	case "cl3_civic_vti_lavender",15000]];
+	case "cl3_civic_vti_light_blue",15000]];
+	case "cl3_civic_vti_light_yellow",15000]];
+	case "cl3_civic_vti_lime",15000]];
+	case "cl3_civic_vti_marina_blue",15000]];
+	case "cl3_civic_vti_navy_blue",15000]];
+	case "cl3_civic_vti_orange",15000]];
+	case "cl3_civic_vti_purple",15000]];
+	case "cl3_civic_vti_sand",15000]];
+	case "cl3_civic_vti_silver",15000]];
+	case "cl3_civic_vti_camo",15000]];
+	case "cl3_civic_vti_camo_urban",15000]];
+	case "cl3_civic_vti_white",15000]];
+	case "cl3_civic_vti_violet",15000]];
 	
 	default {-1};
 

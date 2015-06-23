@@ -126,6 +126,35 @@ switch (_shop) do
 			_return set[count _return,["cl3_xr_1000_violet",75000]];
 			_return set[count _return,["cl3_xr_1000_white",75000]];
 			_return set[count _return,["cl3_xr_1000_yellow",75000]];
+			_return set[count _return,["cl3_enduro_aqua",45000]];
+			_return set[count _return,["cl3_enduro_babyblue",45000]];
+			_return set[count _return,["cl3_enduro_babypink",45000]];
+			_return set[count _return,["cl3_enduro_black",45000]];
+			_return set[count _return,["cl3_enduro_blue",45000]];
+			_return set[count _return,["cl3_enduro_burgundy",45000]];
+			_return set[count _return,["cl3_enduro_camo",45000]];
+			_return set[count _return,["cl3_enduro_camo_urban",45000]];
+			_return set[count _return,["cl3_enduro_cardinal",45000]];
+			_return set[count _return,["cl3_enduro_dark_green",45000]];
+			_return set[count _return,["cl3_enduro_flame",45000]];
+			_return set[count _return,["cl3_enduro_flame1",45000]];
+			_return set[count _return,["cl3_enduro_flame2",45000]];
+			_return set[count _return,["cl3_enduro_gold",45000]];
+			_return set[count _return,["cl3_enduro_green",45000]];
+			_return set[count _return,["cl3_enduro_grey",45000]];
+			_return set[count _return,["cl3_enduro_lavender",45000]];
+			_return set[count _return,["cl3_enduro_light_blue",45000]];
+			_return set[count _return,["cl3_enduro_light_yellow",45000]];
+			_return set[count _return,["cl3_enduro_lime",45000]];
+			_return set[count _return,["cl3_enduro_marina_blue",45000]];
+			_return set[count _return,["cl3_enduro_navy_blue",45000]];
+			_return set[count _return,["cl3_enduro_orange",45000]];
+			_return set[count _return,["cl3_enduro_purple",45000]];
+			_return set[count _return,["cl3_enduro_red",45000]];
+			_return set[count _return,["cl3_enduro_sand",45000]];
+			_return set[count _return,["cl3_enduro_silver",45000]];
+			_return set[count _return,["cl3_enduro_white",45000]];
+			_return set[count _return,["cl3_enduro_yellow",45000]];
 	};
 	
 	case "med_shop":
@@ -180,10 +209,15 @@ switch (_shop) do
 		_return set[count _return,["RHS_Ural_MSV_01",210000]];		
 		_return set[count _return,["rhs_typhoon_vdv",300000]];
 		_return set[count _return,["A3L_Dumptruck",350000]];
-		_return set[count _return,["cl3_mackr_del_blue",450000]];
-		_return set[count _return,["cl3_mackr_del_american",450000]];
-		_return set[count _return,["cl3_mackr_del_multi_color",450000]];
+		_return set[count _return,["cl3_mackr_del_blue",800000]];
+		_return set[count _return,["cl3_mackr_del_american",800000]];
+		_return set[count _return,["cl3_mackr_del_multi_color",800000]];
 		_return set[count _return,["cl3_mackr_flat_optimus",80000]];
+		_return set[count _return,["cl3_dumper_truck_yellow",2000000]];
+		_return set[count _return,["cl3_dumper_truck_blue",2000000]];
+		_return set[count _return,["cl3_dumper_truck_red",2000000]];
+		_return set[count _return,["cl3_dumper_truck_green",2000000]];
+		_return set[count _return,["cl3_bounder_beige",80000]];
 	};
 	
 	case "reb_car":
@@ -201,6 +235,8 @@ switch (_shop) do
 			_return set[count _return,["cl3_range_rover_camo_urban",65000]];
 			_return set[count _return,["B_Heli_Light_01_F",245000]];
 			_return set[count _return,["rhs_tigr_msv",445000]];
+			_return set[count _return,["rhsusf_rg33_d",550000]];
+			_return set[count _return,["rhsusf_rg33_wd",550000]];
 			_return set[count _return,["rhsusf_m1025_w_s",245000]];
 			_return set[count _return,["rhsusf_m998_w_s_2dr_fulltop",245000]];
 			_return set[count _return,["rhsusf_m998_w_s_2dr",245000]];
@@ -250,6 +286,8 @@ switch (_shop) do
 		_return set[count _return,["A3L_Camaro",76000]];
 		_return set[count _return,["cl3_lada_white",3000]];
 		_return set[count _return,["cl3_defender_110_yellow",50000]];
+		_return set[count _return,["cl3_volha_grey",15000]];
+		_return set[count _return,["cl3_volha_black",15000]];
 	};
 	
 	case "civ_audi":
@@ -396,9 +434,33 @@ switch (_shop) do
 	
 	case "civ_honda": 
 	{
-		_return set[count _return,["A3L_ChargerBlack",110000]];
-		_return set[count _return,["A3L_ChargerBlue",110000]];
-	
+		_return set[count _return,["cl3_civic_vti",15000]];
+		_return set[count _return,["cl3_civic_vti_yellow",15000]];
+		_return set[count _return,["cl3_civic_vti_black",15000]];
+		_return set[count _return,["cl3_civic_vti_blue",15000]];
+		_return set[count _return,["cl3_civic_vti_aqua",15000]];
+		_return set[count _return,["cl3_civic_vti_babypink",15000]];
+		_return set[count _return,["cl3_civic_vti_red",15000]];
+		_return set[count _return,["cl3_civic_vti_burgundy",15000]];
+		_return set[count _return,["cl3_civic_vti_cardinal",15000]];
+		_return set[count _return,["cl3_civic_vti_dark_green",15000]];
+		_return set[count _return,["cl3_civic_vti_gold",15000]];
+		_return set[count _return,["cl3_civic_vti_green",15000]];
+		_return set[count _return,["cl3_civic_vti_grey",15000]];
+		_return set[count _return,["cl3_civic_vti_lavender",15000]];
+		_return set[count _return,["cl3_civic_vti_light_blue",15000]];
+		_return set[count _return,["cl3_civic_vti_light_yellow",15000]];
+		_return set[count _return,["cl3_civic_vti_lime",15000]];
+		_return set[count _return,["cl3_civic_vti_marina_blue",15000]];
+		_return set[count _return,["cl3_civic_vti_navy_blue",15000]];
+		_return set[count _return,["cl3_civic_vti_orange",15000]];
+		_return set[count _return,["cl3_civic_vti_purple",15000]];
+		_return set[count _return,["cl3_civic_vti_sand",15000]];
+		_return set[count _return,["cl3_civic_vti_silver",15000]];
+		_return set[count _return,["cl3_civic_vti_camo",15000]];
+		_return set[count _return,["cl3_civic_vti_camo_urban",15000]];
+		_return set[count _return,["cl3_civic_vti_white",15000]];
+		_return set[count _return,["cl3_civic_vti_violet",15000]];	
 	};
 	
 	case "civ_dodge": 
@@ -439,6 +501,12 @@ switch (_shop) do
 		_return set[count _return,["cl3_dodge_charger_o_white",110000]];
 		_return set[count _return,["cl3_dodge_charger_o_yellow",110000]];
 		_return set[count _return,["cl3_dodge_charger_0_camo",110000]];
+		_return set[count _return,["A3L_GrandCaravan",90000]];
+		_return set[count _return,["A3L_GrandCaravanBlk",90000]];
+		_return set[count _return,["A3L_GrandCaravanBlue",90000]];
+		_return set[count _return,["A3L_GrandCaravanGreen",90000]];
+		_return set[count _return,["A3L_GrandCaravanRed",90000]];
+		_return set[count _return,["A3L_GrandCaravanPurple",90000]];
 	};
 	
 	case "civ_ford": 
@@ -511,6 +579,77 @@ switch (_shop) do
 		_return set[count _return,["cl3_insignia_yellow",100000]];
 	};
 	
+	case "civ_volvo": 
+	{
+		_return set[count _return,["A3L_VolvoS60RBlack",75000]];
+		_return set[count _return,["A3L_VolvoS60Rred",75000]];	
+	};
+	
+	case "civ_bus": 
+	{
+		_return set[count _return,["CL3_bus_cl_blue",100000]];
+		_return set[count _return,["CL3_bus_cl_green",100000]];
+		_return set[count _return,["CL3_bus_cl_yellow",100000]];
+		_return set[count _return,["CL3_bus_cl_purple",100000]];
+		_return set[count _return,["CL3_bus_cl_grey",100000]];
+		_return set[count _return,["CL3_bus_cl_black",100000]];
+	};
+	
+	case "civ_barracuda": 
+	{
+		_return set[count _return,["cl3_440cuda_yellow",100000]];
+		_return set[count _return,["cl3_440cuda_yellow_stripe",100000]];
+		_return set[count _return,["cl3_440cuda_blue",100000]];
+		_return set[count _return,["cl3_440cuda_blue_flame",100000]];
+		_return set[count _return,["cl3_440cuda_green",100000]];
+		_return set[count _return,["cl3_440cuda_green_Logo",100000]];
+		_return set[count _return,["cl3_440cuda_flannery70",100000]];
+		_return set[count _return,["cl3_440cuda_flannery69",100000]];
+		_return set[count _return,["cl3_440cuda_flannery55",100000]];
+		_return set[count _return,["cl3_440cuda_flannery51",100000]];
+		_return set[count _return,["cl3_440cuda_flannery27",100000]];
+		_return set[count _return,["cl3_440cuda_flannery14",100000]];
+		_return set[count _return,["cl3_440cuda_flannery12",100000]];
+		_return set[count _return,["cl3_440cuda_flannery08",100000]];
+		_return set[count _return,["cl3_440cuda_blu_ltn",100000]];
+		_return set[count _return,["cl3_440cuda_black",100000]];
+		_return set[count _return,["cl3_440cuda_black1",100000]];
+	};
+	
+	case "civ_jeep": 
+	{
+		_return set[count _return,["cl3_jeep_purge_pinkcamo",80000]];
+		_return set[count _return,["cl3_jeep_purge_tiger1camo",80000]];
+		_return set[count _return,["cl3_jeep_purge_tiger2camo",80000]];
+		_return set[count _return,["cl3_jeep_purge_tiger3camo",80000]];
+		_return set[count _return,["cl3_jeep_purge_tiger4camo",80000]];
+		_return set[count _return,["cl3_jeep_purge_black",80000]];
+		_return set[count _return,["cl3_jeep_purge_orangecamo",80000]];
+		_return set[count _return,["cl3_jeep_purge_woodcamo",80000]];
+		_return set[count _return,["cl3_jeep_purge_digitalcamo",80000]];
+		_return set[count _return,["cl3_jeep_purge_firecamo",80000]];
+		_return set[count _return,["cl3_jeep_purge_mtcamo",80000]];
+		_return set[count _return,["cl3_jeep_purge_urbancamo",80000]];	
+	};
+	
+	case "civ_landrover": 
+	{
+		_return set[count _return,["cl3_defender_110_yellow",80000]];
+		_return set[count _return,["cl3_defender_110_red",80000]];
+		_return set[count _return,["cl3_defender_110_cammo",80000]];	
+		_return set[count _return,["cl3_discovery_black",90000]];
+		_return set[count _return,["cl3_discovery_joker",90000]];
+		_return set[count _return,["cl3_discovery_blue",90000]];
+		_return set[count _return,["cl3_discovery_green",90000]];
+		_return set[count _return,["cl3_discovery_pink",90000]];
+		_return set[count _return,["cl3_discovery_darkorange",90000]];
+		_return set[count _return,["cl3_discovery_gold",90000]];
+		_return set[count _return,["cl3_discovery_silver",90000]];
+		_return set[count _return,["cl3_discovery_hellokitty",90000]];
+		_return set[count _return,["cl3_jurassicpark",90000]];
+	};
+	
+	
 	case "civ_vw": 
 	{
 		_return set[count _return,["A3L_VolksWagenGolfGTiblack",10000]];
@@ -543,6 +682,33 @@ switch (_shop) do
 		_return set[count _return,["cl3_polo_gti_violet",25000]];
 		_return set[count _return,["cl3_polo_gti_camo",25000]];
 		_return set[count _return,["cl3_polo_gti_camo_urban",25000]];
+		_return set[count _return,["cl3_golf_mk2_yellow",25000]];
+		_return set[count _return,["cl3_golf_mk2_black",25000]];
+		_return set[count _return,["cl3_golf_mk2_blue",25000]];
+		_return set[count _return,["cl3_golf_mk2_aqua",25000]];
+		_return set[count _return,["cl3_golf_mk2_babyblue",25000]];
+		_return set[count _return,["cl3_golf_mk2_babypink",25000]];
+		_return set[count _return,["cl3_golf_mk2_red",25000]];
+		_return set[count _return,["cl3_golf_mk2_burgundy",25000]];
+		_return set[count _return,["cl3_golf_mk2_cardinal",25000]];
+		_return set[count _return,["cl3_golf_mk2_dark_green",25000]];
+		_return set[count _return,["cl3_golf_mk2_gold",25000]];
+		_return set[count _return,["cl3_golf_mk2_green",25000]];
+		_return set[count _return,["cl3_golf_mk2_grey",25000]];
+		_return set[count _return,["cl3_golf_mk2_lavender",25000]];
+		_return set[count _return,["cl3_golf_mk2_light_blue",25000]];
+		_return set[count _return,["cl3_golf_mk2_light_yellow",25000]];
+		_return set[count _return,["cl3_golf_mk2_lime",25000]];
+		_return set[count _return,["cl3_golf_mk2_marina_blue",25000]];
+		_return set[count _return,["cl3_golf_mk2_navy_blue",25000]];
+		_return set[count _return,["cl3_golf_mk2_orange",25000]];
+		_return set[count _return,["cl3_golf_mk2_purple",25000]];
+		_return set[count _return,["cl3_golf_mk2_sand",25000]];
+		_return set[count _return,["cl3_golf_mk2_silver",25000]];
+		_return set[count _return,["cl3_golf_mk2_camo",25000]];
+		_return set[count _return,["cl3_golf_mk2_camo_urban",25000]];
+		_return set[count _return,["cl3_golf_mk2_white",25000]];
+		_return set[count _return,["cl3_golf_mk2_violet",25000]];		
 	};
 	
 	case "civ_skyline": 
@@ -563,6 +729,11 @@ switch (_shop) do
 		_return set[count _return,["S_McLarenP1_Silver",800000]];
 		_return set[count _return,["S_McLarenP1_White",800000]];
 		_return set[count _return,["S_McLarenP1_Yellow",800000]];
+		_return set[count _return,["DAR_MF1Civ",850000]];
+		_return set[count _return,["DAR_MF1Burgundy",850000]];
+		_return set[count _return,["DAR_MF1Orange",850000]];
+		_return set[count _return,["DAR_MF1Red",850000]];
+		_return set[count _return,["DAR_MF1Silver",850000]];
 	};
 	
 	case "civ_porsche": 
@@ -1074,8 +1245,8 @@ switch (_shop) do
 			_return set[count _return,["A3L_TaurusUC",12000]];
 			_return set[count _return,["A3L_CVPIUCBlack",12000]];
 			_return set[count _return,["cl3_dodge_charger_etu",12000]];
-			_return set[count _return,["rhsusf_m1025_d",50000]];
 			_return set[count _return,["B_APC_Tracked_01_CRV_F",400000]];
+			_return set[count _return,["BW_Dingo_Des",400000]];
 		};
 	};
 	

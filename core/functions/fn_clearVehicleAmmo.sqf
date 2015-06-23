@@ -25,6 +25,14 @@ switch (_classname) do
         systemChat "Waffen entfernt und Repariert";
     };
 	
+	case "BW_Dingo_Des":
+	{
+		//Remove ammo and Flaires
+		_veh setVehicleAmmo 0;
+		_veh setDamage 0;
+		_veh allowDamage true;
+        systemChat "Waffen entfernt und Repariert";
+    };
 	
 	//FÜR CONVOY!!
 	case "RHS_CH_47F_light":
