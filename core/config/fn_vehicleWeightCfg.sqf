@@ -973,7 +973,7 @@ switch (_className) do
 	case "cl3_mackr_del_american": {550};
 	case "cl3_mackr_del_multi_color": {550};
 	case "cl3_mackr_flat_optimus": {100};
-	case "cl3_bounder_beige: {80};
+	case "cl3_bounder_beige": {80};
 
 	
 	//Motorräder
@@ -1121,33 +1121,32 @@ switch (_className) do
 	
 	
 	//Honda
-	case "cl3_civic_vti",15000]];
-	case "cl3_civic_vti_yellow",15000]];
-	case "cl3_civic_vti_black",15000]];
-	case "cl3_civic_vti_blue",15000]];
-	case "cl3_civic_vti_aqua",15000]];
-	case "cl3_civic_vti_babypink",15000]];
-	case "cl3_civic_vti_red",15000]];
-	case "cl3_civic_vti_burgundy",15000]];
-	case "cl3_civic_vti_cardinal",15000]];
-	case "cl3_civic_vti_dark_green",15000]];
-	case "cl3_civic_vti_gold",15000]];
-	case "cl3_civic_vti_green",15000]];
-	case "cl3_civic_vti_grey",15000]];
-	case "cl3_civic_vti_lavender",15000]];
-	case "cl3_civic_vti_light_blue",15000]];
-	case "cl3_civic_vti_light_yellow",15000]];
-	case "cl3_civic_vti_lime",15000]];
-	case "cl3_civic_vti_marina_blue",15000]];
-	case "cl3_civic_vti_navy_blue",15000]];
-	case "cl3_civic_vti_orange",15000]];
-	case "cl3_civic_vti_purple",15000]];
-	case "cl3_civic_vti_sand",15000]];
-	case "cl3_civic_vti_silver",15000]];
-	case "cl3_civic_vti_camo",15000]];
-	case "cl3_civic_vti_camo_urban",15000]];
-	case "cl3_civic_vti_white",15000]];
-	case "cl3_civic_vti_violet",15000]];
+	case "cl3_civic_vti_yellow": {15};
+	case "cl3_civic_vti_black": {15};
+	case "cl3_civic_vti_blue": {15};
+	case "cl3_civic_vti_aqua": {15};
+	case "cl3_civic_vti_babypink": {15};
+	case "cl3_civic_vti_red": {15};
+	case "cl3_civic_vti_burgundy": {15};
+	case "cl3_civic_vti_cardinal": {15};
+	case "cl3_civic_vti_dark_green": {15};
+	case "cl3_civic_vti_gold": {15};
+	case "cl3_civic_vti_green": {15};
+	case "cl3_civic_vti_grey": {15};
+	case "cl3_civic_vti_lavender": {15};
+	case "cl3_civic_vti_light_blue": {15};
+	case "cl3_civic_vti_light_yellow": {15};
+	case "cl3_civic_vti_lime": {15};
+	case "cl3_civic_vti_marina_blue": {15};
+	case "cl3_civic_vti_navy_blue": {15};
+	case "cl3_civic_vti_orange": {15};
+	case "cl3_civic_vti_purple": {15};
+	case "cl3_civic_vti_sand": {15};
+	case "cl3_civic_vti_silver": {15};
+	case "cl3_civic_vti_camo",: {15};
+	case "cl3_civic_vti_camo_urban": {15};
+	case "cl3_civic_vti_white": {15};
+	case "cl3_civic_vti_violet": {15};
 	
 	default {-1};
 
