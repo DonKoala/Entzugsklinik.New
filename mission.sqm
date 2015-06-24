@@ -77165,7 +77165,7 @@ class Mission
 		};
 		class Item51
 		{
-			position[]={25836.453,20.534027,21433.578};
+			position[]={25786.791,22.238073,21481.859};
 			name="civ_spawn_1";
 			type="Empty";
 			angle=35.42683;
