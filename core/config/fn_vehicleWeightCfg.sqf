@@ -180,6 +180,37 @@ switch (_className) do
 	case "cl3_440cuda_black": {20};
 	case "cl3_440cuda_black1": {20};
 	
+	//Cadillac Escalade
+	case "cl3_escalade_yellow": {30};
+	case "cl3_escalade_black": {30};
+	case "cl3_escalade_blue": {30};
+	case "cl3_escalade_aqua": {30};
+	case "cl3_escalade_babyblue": {30};
+	case "cl3_escalade_babypink": {30};
+	case "cl3_escalade_red": {30};
+	case "cl3_escalade_burgundy": {30};
+	case "cl3_escalade_cardinal": {30};
+	case "cl3_escalade_dark_green": {30};
+	case "cl3_escalade_gold": {30};
+	case "cl3_escalade_green": {30};
+	case "cl3_escalade_grey": {30};
+	case "cl3_escalade_lavender": {30};
+	case "cl3_escalade_light_blue": {30};
+	case "cl3_escalade_light_yellow": {30};
+	case "cl3_escalade_lime": {30};
+	case "cl3_escalade_marina_blue": {30};
+	case "cl3_escalade_navy_blue": {30};
+	case "cl3_escalade_orange": {30};
+	case "cl3_escalade_purple": {30};
+	case "cl3_escalade_sand": {30};
+	case "cl3_escalade_silver": {30};
+	case "cl3_escalade_camo": {30};
+	case "cl3_escalade_camo_urban": {30};
+	case "cl3_escalade_white": {30};
+	case "cl3_escalade_violet": {30};
+	
+	
+	
 	//tahoe
 	case "DAR_TahoeEMS": {30};
 	case "DAR_TahoePolice": {30};

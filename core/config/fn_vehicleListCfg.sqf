@@ -187,6 +187,37 @@ switch (_shop) do
 		};
 	};
 	
+	case "civ_cadillac":
+	{
+		_return set[count _return,["cl3_escalade_yellow",220000]];
+		_return set[count _return,["cl3_escalade_black",220000]];
+		_return set[count _return,["cl3_escalade_blue",220000]];
+		_return set[count _return,["cl3_escalade_aqua",220000]];
+		_return set[count _return,["cl3_escalade_babyblue",220000]];
+		_return set[count _return,["cl3_escalade_babypink",220000]];
+		_return set[count _return,["cl3_escalade_red",220000]];
+		_return set[count _return,["cl3_escalade_burgundy",220000]];
+		_return set[count _return,["cl3_escalade_cardinal",220000]];
+		_return set[count _return,["cl3_escalade_dark_green",220000]];
+		_return set[count _return,["cl3_escalade_gold",220000]];
+		_return set[count _return,["cl3_escalade_green",220000]];
+		_return set[count _return,["cl3_escalade_grey",220000]];
+		_return set[count _return,["cl3_escalade_lavender",220000]];
+		_return set[count _return,["cl3_escalade_light_blue",220000]];
+		_return set[count _return,["cl3_escalade_light_yellow",220000]];
+		_return set[count _return,["cl3_escalade_lime",220000]];
+		_return set[count _return,["cl3_escalade_marina_blue",220000]];
+		_return set[count _return,["cl3_escalade_navy_blue",220000]];
+		_return set[count _return,["cl3_escalade_orange",220000]];
+		_return set[count _return,["cl3_escalade_purple",220000]];
+		_return set[count _return,["cl3_escalade_sand",220000]];
+		_return set[count _return,["cl3_escalade_silver",220000]];
+		_return set[count _return,["cl3_escalade_camo",220000]];
+		_return set[count _return,["cl3_escalade_camo_urban",220000]];
+		_return set[count _return,["cl3_escalade_white",220000]];
+		_return set[count _return,["cl3_escalade_violet",220000]];
+	};
+	
 	case "civ_truck":
 	{
 		_return set[count _return,["C_Van_01_transport_F",50000]];
