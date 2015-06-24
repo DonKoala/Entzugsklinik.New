@@ -905,7 +905,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="light5_2";
-					init="this allowDamage false;  this enableSimulation false;    this addAction[format[""%1 ($%2)"",[""license_civ_driver""] call life_fnc_varToStr,[([""driver""] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,""driver"",0,false,false,"""",' !license_civ_driver && playerSide == civilian ']; this addAction[format[""%1 ($%2)"",[""license_civ_logistic""] call life_fnc_varToStr,[([""logistic""] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,""logistic"",0,false,false,"""",' !license_civ_logistic && playerSide == civilian '];   this addAction[format[""%1 ($%2)"",[""license_civ_boat""] call life_fnc_varToStr,[([""boat""] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,""boat"",0,false,false,"""",' !license_civ_boat && playerSide == civilian '];    this addAction[format[""%1 ($%2)"",[""license_civ_air""] call life_fnc_varToStr,[([""pilot""] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,""pilot"",0,false,false,"""",' !license_civ_air && playerSide == civilian '];    this addAction[format[""%1 ($%2)"",[""license_civ_truck""] call life_fnc_varToStr,[([""truck""] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,""truck"",0,false,false,"""",' !license_civ_truck && playerSide == civilian ']; this addAction[format[""%1 ($%2)"",[""license_civ_anwalt""] call life_fnc_varToStr,[([""anwalt""] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,""anwalt"",0,false,false,"""",' !license_civ_anwalt && playerSide == civilian '];    this setVariable[""realname"",""Lizenzamt""];";
+					init="this allowDamage false;  this enableSimulation false;    this addAction[format[""%1 ($%2)"",[""license_civ_driver""] call life_fnc_varToStr,[([""driver""] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,""driver"",0,false,false,"""",' !license_civ_driver && playerSide == civilian ']; this addAction[format[""%1 ($%2)"",[""license_civ_logistic""] call life_fnc_varToStr,[([""logistic""] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,""logistic"",0,false,false,"""",' !license_civ_logistic && playerSide == civilian '];   this addAction[format[""%1 ($%2)"",[""license_civ_boat""] call life_fnc_varToStr,[([""boat""] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,""boat"",0,false,false,"""",' !license_civ_boat && playerSide == civilian '];    this addAction[format[""%1 ($%2)"",[""license_civ_air""] call life_fnc_varToStr,[([""pilot""] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,""pilot"",0,false,false,"""",' !license_civ_air && playerSide == civilian '];    this addAction[format[""%1 ($%2)"",[""license_civ_truck""] call life_fnc_varToStr,[([""truck""] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,""truck"",0,false,false,"""",' !license_civ_truck && playerSide == civilian ']; this addAction[format[""%1 ($%2)"",[""license_civ_anwalt""] call life_fnc_varToStr,[([""anwalt""] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,""anwalt"",0,false,false,"""",' !license_civ_anwalt && playerSide == civilian '];  this addAction[format[""%1 ($%2)"",[""license_civ_home  ""] call life_fnc_varToStr,[([""home""] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,""home"",0,false,false,"""",' !license_civ_home && playerSide == civilian '];   this setVariable[""realname"",""Lizenzamt""];";
 				};
 			};
 		};
@@ -8618,7 +8618,8 @@ class Mission
 		class Item436
 		{
 			position[]={27048.508,25.580296,22706.008};
-			azimut=-139.70755;
+			azimut=-139.70799;
+			offsetY=1;
 			id=624;
 			side="EMPTY";
 			vehicle="Land_CashDesk_F";
@@ -55173,7 +55174,7 @@ class Mission
 			side="EMPTY";
 			vehicle="UserTexture10m_F";
 			skill=0.60000002;
-			init=" this setObjectTexture [0,""icons\30er.paa""]";
+			init="[this, -90,0] call BIS_fnc_setPitchBank; this allowDamage false; this setObjectTexture [0,""icons\30er.paa""];";
 		};
 		class Item5055
 		{
@@ -55196,12 +55197,12 @@ class Mission
 		class Item5057
 		{
 			position[]={25906.545,21.536781,21519.941};
-			azimut=-117.47942;
+			azimut=-117.479;
 			id=5245;
 			side="EMPTY";
 			vehicle="UserTexture10m_F";
 			skill=0.60000002;
-			init="[this, -90,0] call BIS_fnc_setPitchBank; this allowDamage false; this setObjectTexture [0,""icons\30er.paa""]";
+			init="[this, -90,0] call BIS_fnc_setPitchBank; this allowDamage false; this setObjectTexture [0,""icons\30er.paa""];";
 		};
 		class Item5058
 		{
@@ -76743,7 +76744,6 @@ class Mission
 		{
 			position[]={26428.748,9.233511,20477.627};
 			azimut=69.265099;
-			offsetY=3;
 			id=7348;
 			side="EMPTY";
 			vehicle="Land_LampHarbour_F";
@@ -76754,7 +76754,6 @@ class Mission
 		{
 			position[]={26444.92,7.8401785,20458.42};
 			azimut=69.265099;
-			offsetY=3;
 			id=7349;
 			side="EMPTY";
 			vehicle="Land_LampHarbour_F";
@@ -76764,7 +76763,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=202;
+		items=200;
 		class Item0
 		{
 			position[]={4199.4399,17.80924,15034.367};
@@ -77165,7 +77164,7 @@ class Mission
 		};
 		class Item51
 		{
-			position[]={25786.791,22.238073,21481.859};
+			position[]={25787.012,22.237,21481.932};
 			name="civ_spawn_1";
 			type="Empty";
 			angle=35.42683;
@@ -77887,6 +77886,7 @@ class Mission
 			name="Anwalt";
 			text="Anwaltskanzlei";
 			type="mil_dot";
+			colorName="ColorWhite";
 		};
 		class Item136
 		{
@@ -77988,7 +77988,7 @@ class Mission
 			name="car1_1_1_1_4_7_1_1_1";
 			text="Motorräder";
 			type="c_car";
-			colorName="ColorOrange";
+			colorName="ColorBlack";
 			angle=1.93097;
 		};
 		class Item150
@@ -78021,145 +78021,136 @@ class Mission
 			name="auto_1_1";
 			text="LKW-Händler";
 			type="c_car";
-			colorName="ColorOrange";
+			colorName="ColorBlack";
 			angle=0.63421899;
 		};
 		class Item154
-		{
-			position[]={25360.232,49.503178,21996.92};
-			name="auto_1_2";
-			text="Range Rover Händler";
-			type="c_car";
-			colorName="ColorOrange";
-			angle=0.63421899;
-		};
-		class Item155
 		{
 			position[]={26702.832,15.785232,21235.354};
 			name="auto_1_3";
 			text="Ford Händler";
 			type="c_car";
-			colorName="ColorOrange";
+			colorName="ColorBlack";
 			angle=0.63421899;
 		};
-		class Item156
+		class Item155
 		{
 			position[]={23165.232,13.701012,19956.301};
 			name="auto_1_4";
 			text="Fiat Händler";
 			type="c_car";
-			colorName="ColorOrange";
+			colorName="ColorBlack";
 			angle=0.63421899;
 		};
-		class Item157
+		class Item156
 		{
 			position[]={24754.475,5.079443,19108.867};
 			name="auto_1_5";
 			text="VW Händler";
 			type="c_car";
-			colorName="ColorOrange";
+			colorName="ColorBlack";
 			angle=0.63421899;
 		};
-		class Item158
+		class Item157
 		{
 			position[]={20261.697,15.552711,19249.77};
 			name="auto_1_6";
 			text="Dodge Händler";
 			type="c_car";
-			colorName="ColorOrange";
+			colorName="ColorBlack";
 			angle=0.63421899;
 		};
-		class Item159
+		class Item158
 		{
 			position[]={20805.793,55.911903,16979.996};
 			name="auto_1_7";
 			text="Audi Händler";
 			type="c_car";
-			colorName="ColorOrange";
+			colorName="ColorBlack";
 			angle=0.63421899;
 		};
-		class Item160
+		class Item159
 		{
 			position[]={21405.094,18.127773,16305.9};
 			name="auto_1_8";
 			text="BMW Händler";
 			type="c_car";
-			colorName="ColorOrange";
+			colorName="ColorBlack";
 			angle=0.63421899;
 		};
-		class Item161
+		class Item160
 		{
 			position[]={18332.494,28.668669,15272.906};
 			name="auto_1_9";
 			text="Porsche Händler";
 			type="c_car";
-			colorName="ColorOrange";
+			colorName="ColorBlack";
 			angle=0.63421899;
 		};
-		class Item162
+		class Item161
 		{
 			position[]={16245.973,25.420547,17313.65};
 			name="auto_1_10";
 			text="Mercedes Händler";
 			type="c_car";
-			colorName="ColorOrange";
+			colorName="ColorBlack";
 			angle=0.63421899;
 		};
-		class Item163
+		class Item162
 		{
 			position[]={14047.209,23.992174,18836.432};
 			name="auto_1_11";
 			text="Ferrari Händler";
 			type="c_car";
-			colorName="ColorOrange";
+			colorName="ColorBlack";
 			angle=0.63421899;
 		};
-		class Item164
+		class Item163
 		{
 			position[]={12793.021,42.859005,19633.84};
 			name="auto_1_12";
 			text="Skyline Händler";
 			type="c_car";
-			colorName="ColorOrange";
+			colorName="ColorBlack";
 			angle=0.63421899;
 		};
-		class Item165
+		class Item164
 		{
 			position[]={16592.285,11,12722.038};
 			name="auto_1_13";
 			text="McLaren Händler";
 			type="c_car";
-			colorName="ColorOrange";
+			colorName="ColorBlack";
 			angle=0.63421899;
 		};
-		class Item166
+		class Item165
 		{
 			position[]={15785.118,3.4269557,11392.974};
 			name="auto_1_14";
 			text="Aston Martin Händler";
 			type="c_car";
-			colorName="ColorOrange";
+			colorName="ColorBlack";
 			angle=0.63421899;
 		};
-		class Item167
+		class Item166
 		{
 			position[]={20253.221,41.04517,8813.1338};
 			name="auto_1_15";
 			text="Lamborghini Händler";
 			type="c_car";
-			colorName="ColorOrange";
+			colorName="ColorBlack";
 			angle=0.63421899;
 		};
-		class Item168
+		class Item167
 		{
 			position[]={21810.836,15.282148,7499.8262};
 			name="auto_1_16";
 			text="Bugatti Händler";
 			type="c_car";
-			colorName="ColorOrange";
+			colorName="ColorBlack";
 			angle=0.63421899;
 		};
-		class Item169
+		class Item168
 		{
 			position[]={21639.086,14.317331,7704.9966};
 			name="atm_marker_2_5_2_1";
@@ -78167,7 +78158,7 @@ class Mission
 			colorName="ColorGreen";
 			angle=-3.2393415;
 		};
-		class Item170
+		class Item169
 		{
 			position[]={16776.811,13.709173,12509.043};
 			name="atm_marker_2_5_2_1_1";
@@ -78175,7 +78166,7 @@ class Mission
 			colorName="ColorGreen";
 			angle=-0.13047855;
 		};
-		class Item171
+		class Item170
 		{
 			position[]={14573.014,45.001945,20758.096};
 			name="atm_marker_2_5_2_1_1_1";
@@ -78183,224 +78174,215 @@ class Mission
 			colorName="ColorGreen";
 			angle=2.0926678;
 		};
-		class Item172
+		class Item171
 		{
 			position[]={25356.57,49.048508,22005.549};
 			name="civ_car_rover";
 			type="Empty";
 			angle=344.46716;
 		};
-		class Item173
+		class Item172
 		{
 			position[]={26696.703,16.034695,21228.672};
 			name="civ_car_ford";
 			type="Empty";
 			angle=210.19304;
 		};
-		class Item174
+		class Item173
 		{
 			position[]={23172.754,13.816272,19961.84};
 			name="civ_car_fiat";
 			type="Empty";
 			angle=385.55765;
 		};
-		class Item175
+		class Item174
 		{
 			position[]={24762.18,4.944026,19106.342};
 			name="civ_car_vw";
 			type="Empty";
 			angle=385.55765;
 		};
-		class Item176
+		class Item175
 		{
 			position[]={20255.121,15.413098,19237.613};
 			name="civ_car_dodge";
 			type="Empty";
 			angle=202.66957;
 		};
-		class Item177
+		class Item176
 		{
 			position[]={20803.203,55.932281,16979.617};
 			name="civ_car_audi";
 			type="Empty";
 			angle=417.50967;
 		};
-		class Item178
+		class Item177
 		{
 			position[]={21405.527,18.139219,16307.437};
 			name="civ_car_bmw";
 			type="Empty";
 			angle=292.03253;
 		};
-		class Item179
+		class Item178
 		{
 			position[]={18339.033,28.15638,15269.044};
 			name="civ_car_porsche";
 			type="Empty";
 			angle=326.49625;
 		};
-		class Item180
+		class Item179
 		{
 			position[]={16244.465,25.557379,17316.352};
 			name="civ_car_mercedes";
 			type="Empty";
 			angle=385.55765;
 		};
-		class Item181
+		class Item180
 		{
 			position[]={14047.349,24.043619,18838.313};
 			name="civ_car_ferrari";
 			type="Empty";
 			angle=287.94492;
 		};
-		class Item182
+		class Item181
 		{
 			position[]={12794.94,42.706375,19632.328};
 			name="civ_car_skyline";
 			type="Empty";
 			angle=377.08078;
 		};
-		class Item183
+		class Item182
 		{
 			position[]={16593.896,11,12720.813};
 			name="civ_car_mclaren";
 			type="Empty";
 			angle=385.55765;
 		};
-		class Item184
+		class Item183
 		{
 			position[]={15784.593,3.4200001,11390.284};
 			name="civ_car_aston";
 			type="Empty";
 			angle=362.81647;
 		};
-		class Item185
+		class Item184
 		{
 			position[]={20255.365,40.890945,8810.9873};
 			name="civ_car_lambo";
 			type="Empty";
 			angle=368.39673;
 		};
-		class Item186
+		class Item185
 		{
 			position[]={21814.672,14.462487,7508.1455};
 			name="civ_car_bugatti";
 			type="Empty";
 			angle=204.68228;
 		};
-		class Item187
+		class Item186
 		{
 			position[]={22429.822,16.566359,20039.334};
 			name="civ_car_honda";
 			type="Empty";
 			angle=207.56566;
 		};
-		class Item188
+		class Item187
 		{
 			position[]={22431.066,16.616177,20040.748};
 			name="auto_1_17";
 			text="Honda Händler";
 			type="c_car";
-			colorName="ColorOrange";
+			colorName="ColorBlack";
 			angle=0.63421899;
 		};
-		class Item189
+		class Item188
 		{
 			position[]={25374.984,48.302441,22026.684};
 			name="civ_car_landrover";
 			type="Empty";
 			angle=529.08112;
 		};
-		class Item190
+		class Item189
 		{
-			position[]={25378.619,48.212357,22030.385};
+			position[]={25365.232,48.4981,22017.953};
 			name="auto_1_17_1";
-			text="Land Rover Händler";
+			text="Jeep und Rover Händler";
 			type="c_car";
-			colorName="ColorOrange";
+			colorName="ColorBlack";
 			angle=0.63421899;
 		};
-		class Item191
+		class Item190
 		{
 			position[]={25358.955,48.585388,22025.871};
 			name="civ_car_jeep";
 			type="Empty";
 			angle=539.35834;
 		};
-		class Item192
-		{
-			position[]={25355.348,48.598328,22030.1};
-			name="auto_1_17_2";
-			text="Jeep Händler";
-			type="c_car";
-			colorName="ColorOrange";
-			angle=0.63421899;
-		};
-		class Item193
+		class Item191
 		{
 			position[]={18655.342,40.32653,16821.207};
 			name="civ_car_barracuda";
 			type="Empty";
 			angle=426.98346;
 		};
-		class Item194
+		class Item192
 		{
 			position[]={18655.418,40.372856,16818.457};
 			name="auto_1_17_3";
-			text="Playmouth Barracuda Händler";
+			text="Barracuda Händler";
 			type="c_car";
-			colorName="ColorOrange";
+			colorName="ColorBlack";
 			angle=0.63421899;
 		};
-		class Item195
+		class Item193
 		{
 			position[]={21226.959,13.512691,15393.383};
 			name="civ_car_volvo";
 			type="Empty";
 			angle=641.25311;
 		};
-		class Item196
+		class Item194
 		{
 			position[]={21225.857,13.451836,15389.675};
 			name="auto_1_17_4";
 			text="Volvo Händler";
 			type="c_car";
-			colorName="ColorOrange";
-			angle=0.96307951;
+			colorName="ColorBlack";
+			angle=0.96307999;
 		};
-		class Item197
+		class Item195
 		{
 			position[]={27057.715,21.738255,22799.045};
 			name="civ_car_bus";
 			type="Empty";
 			angle=481.36777;
 		};
-		class Item198
+		class Item196
 		{
 			position[]={27054.188,21.615326,22801.979};
 			name="auto_1_17_5";
 			text="Bus Händler";
 			type="c_car";
-			colorName="ColorOrange";
-			angle=2.3449683;
+			colorName="ColorBlack";
+			angle=2.34497;
 		};
-		class Item199
+		class Item197
 		{
 			position[]={19494.268,36.145363,13337.074};
 			name="civ_car_cadillac";
 			type="Empty";
 			angle=508.08701;
 		};
-		class Item200
+		class Item198
 		{
 			position[]={19494.043,36.079796,13338.322};
 			name="auto_1_17_3_1";
 			text="Cadillac Händler";
 			type="c_car";
-			colorName="ColorOrange";
+			colorName="ColorBlack";
 			angle=0.0819171;
 		};
-		class Item201
+		class Item199
 		{
 			position[]={25849.146,20.388794,21454.332};
 			name="atm_marker_2_5_4_1";
