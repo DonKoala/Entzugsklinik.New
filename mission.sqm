@@ -4063,7 +4063,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=7160;
+		items=7162;
 		class Item0
 		{
 			position[]={23828.66,5.23,15995.707};
@@ -76738,6 +76738,28 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_ClutterCutter_large_F";
 			skill=0.60000002;
+		};
+		class Item7160
+		{
+			position[]={26428.748,9.233511,20477.627};
+			azimut=69.265099;
+			offsetY=3;
+			id=7348;
+			side="EMPTY";
+			vehicle="Land_LampHarbour_F";
+			skill=0.60000002;
+			init="this enableSimulation true;this setVectorUp [0,0,1]";
+		};
+		class Item7161
+		{
+			position[]={26444.92,7.8401785,20458.42};
+			azimut=69.265099;
+			offsetY=3;
+			id=7349;
+			side="EMPTY";
+			vehicle="Land_LampHarbour_F";
+			skill=0.60000002;
+			init="this enableSimulation true;this setVectorUp [0,0,1]";
 		};
 	};
 	class Markers
