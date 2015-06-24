@@ -1,7 +1,7 @@
 author = "Framework by Tonic / Edited by Entzugsklinik";
 onLoadName = "Entzugsklinik Life RPG";
 onLoadMission = "A RPG game mode developed by Tonic and edited by Entzugsklinik";
-loadScreen = "\icons\loadscreen.paa";
+loadScreen = "icons\loadscreen.paa";
 joinUnassigned = 1;
 respawn = BASE;
 respawndelay = 1;
