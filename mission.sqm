@@ -905,7 +905,7 @@ class Mission
 					leader=1;
 					skill=0.60000002;
 					text="light5_2";
-					init="this allowDamage false;  this enableSimulation false;    this addAction[format[""%1 ($%2)"",[""license_civ_driver""] call life_fnc_varToStr,[([""driver""] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,""driver"",0,false,false,"""",' !license_civ_driver && playerSide == civilian ']; this addAction[format[""%1 ($%2)"",[""license_civ_logistic""] call life_fnc_varToStr,[([""logistic""] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,""logistic"",0,false,false,"""",' !license_civ_logistic && playerSide == civilian '];   this addAction[format[""%1 ($%2)"",[""license_civ_boat""] call life_fnc_varToStr,[([""boat""] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,""boat"",0,false,false,"""",' !license_civ_boat && playerSide == civilian '];    this addAction[format[""%1 ($%2)"",[""license_civ_air""] call life_fnc_varToStr,[([""pilot""] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,""pilot"",0,false,false,"""",' !license_civ_air && playerSide == civilian '];    this addAction[format[""%1 ($%2)"",[""license_civ_truck""] call life_fnc_varToStr,[([""truck""] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,""truck"",0,false,false,"""",' !license_civ_truck && playerSide == civilian ']; this addAction[format[""%1 ($%2)"",[""license_civ_anwalt""] call life_fnc_varToStr,[([""anwalt""] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,""anwalt"",0,false,false,"""",' !license_civ_anwalt && playerSide == civilian '];  this addAction[format[""%1 ($%2)"",[""license_civ_home  ""] call life_fnc_varToStr,[([""home""] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,""home"",0,false,false,"""",' !license_civ_home && playerSide == civilian '];   this setVariable[""realname"",""Lizenzamt""];";
+					init="this allowDamage false;  this enableSimulation false;    this addAction[format[""%1 ($%2)"",[""license_civ_driver""] call life_fnc_varToStr,[([""driver""] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,""driver"",0,false,false,"""",' !license_civ_driver && playerSide == civilian ']; this addAction[format[""%1 ($%2)"",[""license_civ_logistic""] call life_fnc_varToStr,[([""logistic""] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,""logistic"",0,false,false,"""",' !license_civ_logistic && playerSide == civilian '];   this addAction[format[""%1 ($%2)"",[""license_civ_boat""] call life_fnc_varToStr,[([""boat""] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,""boat"",0,false,false,"""",' !license_civ_boat && playerSide == civilian '];    this addAction[format[""%1 ($%2)"",[""license_civ_air""] call life_fnc_varToStr,[([""pilot""] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,""pilot"",0,false,false,"""",' !license_civ_air && playerSide == civilian '];    this addAction[format[""%1 ($%2)"",[""license_civ_truck""] call life_fnc_varToStr,[([""truck""] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,""truck"",0,false,false,"""",' !license_civ_truck && playerSide == civilian ']; this addAction[format[""%1 ($%2)"",[""license_civ_anwalt""] call life_fnc_varToStr,[([""anwalt""] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,""anwalt"",0,false,false,"""",' !license_civ_anwalt && playerSide == civilian '];  this addAction[format[""%1 ($%2)"",[""license_civ_home""] call life_fnc_varToStr,[([""home""] call life_fnc_licensePrice)] call life_fnc_numberText],life_fnc_buyLicense,""home"",0,false,false,"""",' !license_civ_home && playerSide == civilian '];   this setVariable[""realname"",""Lizenzamt""];";
 				};
 			};
 		};
@@ -55168,8 +55168,9 @@ class Mission
 		};
 		class Item5054
 		{
-			position[]={25802.52,21.755421,21452.705};
-			azimut=54.2728;
+			position[]={25800.715,21.747978,21451.105};
+			azimut=45.9604;
+			offsetY=0.050000001;
 			id=5242;
 			side="EMPTY";
 			vehicle="UserTexture10m_F";
@@ -55196,8 +55197,9 @@ class Mission
 		};
 		class Item5057
 		{
-			position[]={25906.545,21.536781,21519.941};
-			azimut=-117.479;
+			position[]={25896.113,21.266573,21513.643};
+			azimut=-120.69494;
+			offsetY=0.050000001;
 			id=5245;
 			side="EMPTY";
 			vehicle="UserTexture10m_F";
