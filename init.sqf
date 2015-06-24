@@ -29,6 +29,7 @@ if(isDedicated && isNil("life_market_prices")) then {
 	diag_log "Server FSM executed";
 };
 
+tf_no_auto_long_range_radio = true
 tf_same_sw_frequencies_for_side = true;
 tf_same_lr_frequencies_for_side = true;
 tf_freq_west    = [0,7,["35","36.6","42.3","48","53.7","59.4","65.1","70.8","76.5","82.2","87.9","93.6","99.3"],0,"_bluefor",-1,0];

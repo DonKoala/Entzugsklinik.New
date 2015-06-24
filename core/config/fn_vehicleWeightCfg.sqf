@@ -41,33 +41,43 @@ switch (_className) do
 	case "A3L_Towtruck": {30};
 	case "max_towtruck": {30};
 	case "rhs_tigr_msv": {30};
-	case "RHS_CH_47F_light": {275};
+	case "RHS_CH_47F_light": {350};
 	case "cl3_defender_110_red": {30};
 	case "cl3_defender_110_yellow": {30};
 	case "A3L_Camaro": {20};
 	case "A3L_Atom": {10};
 	case "A3L_Flipcar": {10};
 	
+	
+	case "B_CBS_WaterShadow730_F": {5};
+	case "A3L_JetSki": {5};
+	case "A3L_JetSki_Yellow": {5};
+	case "A3L_Ship": {160};
+	
+	
+	
+	
+	
 	//Helikopter
 	case "Bell412": {30};
-	case "Cha_Mi17_Civilian": {250};
-	case "RHS_Mi8AMT_vvs": {250};
+	case "Cha_Mi17_Civilian": {325};
+	case "RHS_Mi8AMT_vvs": {325};
 	case "UH1N_Black": {30};
 	case "UH1N_Slick": {30};
 	case "EC635_Unarmed_BW": {30};
-	case "NH90": {200};
+	case "NH90": {250};
 	case "EC635_Unarmed_CSAT": {50};   	
 	case "EC635_Unarmed": {50};	
 	case "EC635_ADAC": {50};
 	case "EC635_SAR": {50};	
-	case "NH90_AAF": {200};				
-	case "NH90_GR2": {50};			
+	case "NH90_AAF": {250};				
+	case "NH90_GR2": {250};			
 	case "ivory_yak42d_1": {100};			
 	case "IVORY_ERJ135_1": {75};			
 	case "IVORY_CRJ200_1": {75};			
 	case "GNT_C185": {30};					
 	case "GNT_C185F": {30};			
-	case "MV22": {100};				
+	case "MV22": {300};				
 	
 	//AIRDROP UND SCHIFFSWRACK
 	case "Land_Wreck_Traw_F": {10000000};
@@ -619,12 +629,12 @@ switch (_className) do
 	case "cl3_carrera_gt_yellow": {15};
 	
 	//ships
-	case "B_Boat_Transport_01_F": {65};
+	case "B_Boat_Transport_01_F": {75};
 	case "C_Boat_Civil_01_police_F": {55};
 	case "B_Boat_Armed_01_minigun_F": {85};
 	case "B_SDV_01_F": {65};
 	case "C_Rubberboat": {75};
-	case "C_Boat_Civil_01_F": {85};
+	case "C_Boat_Civil_01_F": {110};
 	case "D41_Trawler": {85};
 	case "Sab_sea_An2": {30};
 	case "Sab_sea2_An2": {30};
@@ -639,7 +649,7 @@ switch (_className) do
 	case "I_Heli_light_03_unarmed_F": {165};
 	case "B_Heli_Transport_01_F": {165};
 	case "O_Heli_Light_02_unarmed_F": {175};
-	case "I_Heli_Transport_02_F": {275};
+	case "I_Heli_Transport_02_F": {350};
 	case "O_Heli_Attack_02_black_F": {165};
 	case "B_Heli_Attack_01_F": {165};
 	case "B_Heli_Transport_03_unarmed_F": {335};
