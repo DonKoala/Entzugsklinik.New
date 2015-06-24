@@ -26,8 +26,6 @@ switch (playerSide) do
 		life_actions = life_actions + [player addAction["<t color='#FF0000'>Zucker steheln</t>",life_fnc_packupzucker,"",0,false,false,"",' _zucker = nearestObjects[getPos player,["Land_CanisterPlastic_F"],2] select 0; !isNil "_zucker" ']]
 
 		
-	
-	
 	};
 	case west: {
 		//Seize PlayerWeapons
