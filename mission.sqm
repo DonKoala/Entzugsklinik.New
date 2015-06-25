@@ -8871,45 +8871,45 @@ class Mission
 		class Item460
 		{
 			position[]={25822.582,21.663153,21495.77};
-			azimut=277.39023;
+			azimut=277.39001;
 			offsetY=-0.0606061;
 			id=648;
 			side="EMPTY";
 			vehicle="Land_i_Garage_V1_F";
 			skill=0.60000002;
-			init="this enableSimulation true;this setVectorUp [0,0,1]";
+			init="this enableSimulation true;this setVectorUp [0,0,1];this allowDamage false;";
 		};
 		class Item461
 		{
 			position[]={25816.064,21.817389,21496.619};
-			azimut=277.39023;
+			azimut=277.39001;
 			offsetY=-0.060605999;
 			id=649;
 			side="EMPTY";
 			vehicle="Land_i_Garage_V1_F";
 			skill=0.60000002;
-			init="this enableSimulation true;this setVectorUp [0,0,1]";
+			init="this enableSimulation true;this setVectorUp [0,0,1];this allowDamage false;";
 		};
 		class Item462
 		{
 			position[]={25818.791,21.717524,21492.986};
-			azimut=7.3901491;
+			azimut=7.3901501;
 			id=650;
 			side="EMPTY";
 			vehicle="Land_LampDecor_F";
 			skill=0.60000002;
-			init="this enableSimulation true;this setVectorUp [0,0,1]";
+			init="this enableSimulation true;this setVectorUp [0,0,1];this allowDamage false;";
 		};
 		class Item463
 		{
 			position[]={25821.096,21.659912,21492.771};
-			azimut=7.3901491;
+			azimut=7.3901501;
 			offsetY=0.067340098;
 			id=651;
 			side="EMPTY";
 			vehicle="Land_CashDesk_F";
 			skill=0.60000002;
-			init="this enableSimulation true;this setVectorUp [0,0,1]";
+			init="this enableSimulation true;this setVectorUp [0,0,1];this allowDamage false;";
 		};
 		class Item464
 		{
@@ -55170,7 +55170,7 @@ class Mission
 		{
 			position[]={25800.055,21.738693,21449.883};
 			azimut=45.9604;
-			offsetY=0.050000001;
+			offsetY=0.1;
 			id=5242;
 			side="EMPTY";
 			vehicle="UserTexture10m_F";
@@ -55198,8 +55198,8 @@ class Mission
 		class Item5057
 		{
 			position[]={25894.367,21.252796,21512.77};
-			azimut=-120.69494;
-			offsetY=0.050000001;
+			azimut=-120.695;
+			offsetY=0.1;
 			id=5245;
 			side="EMPTY";
 			vehicle="UserTexture10m_F";
@@ -71130,18 +71130,18 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_LampDecor_F";
 			skill=0.60000002;
-			init="this enableSimulation true;this setVectorUp [0,0,1]";
+			init="this enableSimulation true;this setVectorUp [0,0,1];this allowDamage false;";
 		};
 		class Item6639
 		{
 			position[]={25816.395,21.780771,21493.443};
-			azimut=7.3901491;
+			azimut=7.3901501;
 			offsetY=0.067340098;
 			id=6827;
 			side="EMPTY";
 			vehicle="Land_CashDesk_F";
 			skill=0.60000002;
-			init="this enableSimulation true;this setVectorUp [0,0,1]";
+			init="this enableSimulation true;this setVectorUp [0,0,1];this allowDamage false;";
 		};
 		class Item6640
 		{
@@ -71161,7 +71161,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_LampDecor_F";
 			skill=0.60000002;
-			init="this enableSimulation true;this setVectorUp [0,0,1]";
+			init="this enableSimulation true;this setVectorUp [0,0,1];this allowDamage false;";
 		};
 		class Item6642
 		{
@@ -73859,7 +73859,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Pipe_fence_4m_F";
 			skill=0.60000002;
-			init="this enableSimulation true;this setdir 222.86;this setposATL [25850.00585938,21477.0839844,0];this setVectorUp [0,0,1]";
+			init="this enableSimulation true;this setdir 222.86;this setposATL [25850.00585938,21477.0839844,0];this setVectorUp [0,0,1];this allowDamage false;";
 		};
 		class Item6888
 		{
@@ -73869,7 +73869,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Pipe_fence_4m_F";
 			skill=0.60000002;
-			init="this enableSimulation true;this setdir 222.86;this setposATL [25853.0546875,21474.253906,0];this setVectorUp [0,0,1]";
+			init="this enableSimulation true;this setdir 222.86;this setposATL [25853.0546875,21474.253906,0];this setVectorUp [0,0,1];this allowDamage false;";
 		};
 		class Item6889
 		{
@@ -73879,7 +73879,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Pipe_fence_4m_F";
 			skill=0.60000002;
-			init="this enableSimulation true;this setdir 222.86;this setposATL [25856.103516,21471.423828,0];this setVectorUp [0,0,1]";
+			init="this enableSimulation true;this setdir 222.86;this setposATL [25856.103516,21471.423828,0];this setVectorUp [0,0,1];this allowDamage false;";
 		};
 		class Item6890
 		{
@@ -73889,7 +73889,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Pipe_fence_4m_F";
 			skill=0.60000002;
-			init="this enableSimulation true;this setdir 222.86;this setposATL [25859.152344,21468.59375,0];this setVectorUp [0,0,1]";
+			init="this enableSimulation true;this setdir 222.86;this setposATL [25859.152344,21468.59375,0];this setVectorUp [0,0,1];this allowDamage false;";
 		};
 		class Item6891
 		{
@@ -73899,7 +73899,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Pipe_fence_4m_F";
 			skill=0.60000002;
-			init="this enableSimulation true;this setdir 222.86;this setposATL [25862.201172,21465.763672,0];this setVectorUp [0,0,1]";
+			init="this enableSimulation true;this setdir 222.86;this setposATL [25862.201172,21465.763672,0];this setVectorUp [0,0,1];this allowDamage false;";
 		};
 		class Item6892
 		{
@@ -73909,7 +73909,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Pipe_fence_4m_F";
 			skill=0.60000002;
-			init="this enableSimulation true;this setdir 222.86;this setposATL [25865.25,21462.933594,0];this setVectorUp [0,0,1]";
+			init="this enableSimulation true;this setdir 222.86;this setposATL [25865.25,21462.933594,0];this setVectorUp [0,0,1];this allowDamage false;";
 		};
 		class Item6893
 		{
@@ -73919,7 +73919,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Pipe_fence_4m_F";
 			skill=0.60000002;
-			init="this enableSimulation true;this setdir 222.86;this setposATL [25869.148438,21459.316406,0];this setVectorUp [0,0,1]";
+			init="this enableSimulation true;this setdir 222.86;this setposATL [25869.148438,21459.316406,0];this setVectorUp [0,0,1];this allowDamage false;";
 		};
 		class Item6894
 		{
@@ -73929,7 +73929,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Pipe_fence_4m_F";
 			skill=0.60000002;
-			init="this enableSimulation true;this setdir 222.86;this setposATL [25872.197266,21456.486328,0];this setVectorUp [0,0,1]";
+			init="this enableSimulation true;this setdir 222.86;this setposATL [25872.197266,21456.486328,0];this setVectorUp [0,0,1];this allowDamage false;";
 		};
 		class Item6895
 		{
@@ -73939,7 +73939,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Pipe_fence_4m_F";
 			skill=0.60000002;
-			init="this enableSimulation true;this setdir 222.86;this setposATL [25875.246094,21453.65625,0];this setVectorUp [0,0,1]";
+			init="this enableSimulation true;this setdir 222.86;this setposATL [25875.246094,21453.65625,0];this setVectorUp [0,0,1];this allowDamage false;";
 		};
 		class Item6896
 		{
@@ -73949,7 +73949,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Pipe_fence_4m_F";
 			skill=0.60000002;
-			init="this enableSimulation true;this setdir 222.86;this setposATL [25878.294922,21450.826172,0];this setVectorUp [0,0,1]";
+			init="this enableSimulation true;this setdir 222.86;this setposATL [25878.294922,21450.826172,0];this setVectorUp [0,0,1];this allowDamage false;";
 		};
 		class Item6897
 		{
@@ -73959,7 +73959,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Pipe_fence_4m_F";
 			skill=0.60000002;
-			init="this enableSimulation true;this setdir 312.86;this setposATL [25878.287109,21447.894531,0];this setVectorUp [0,0,1]";
+			init="this enableSimulation true;this setdir 312.86;this setposATL [25878.287109,21447.894531,0];this setVectorUp [0,0,1];this allowDamage false;";
 		};
 		class Item6898
 		{
@@ -73969,7 +73969,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Pipe_fence_4m_F";
 			skill=0.60000002;
-			init="this enableSimulation true;this setdir 312.86;this setposATL [25875.457031,21444.845703,0];this setVectorUp [0,0,1]";
+			init="this enableSimulation true;this setdir 312.86;this setposATL [25875.457031,21444.845703,0];this setVectorUp [0,0,1];this allowDamage false;";
 		};
 		class Item6899
 		{
@@ -73979,7 +73979,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Pipe_fence_4m_F";
 			skill=0.60000002;
-			init="this enableSimulation true;this setdir 312.86;this setposATL [25872.634766,21441.806641,0];this setVectorUp [0,0,1]";
+			init="this enableSimulation true;this setdir 312.86;this setposATL [25872.634766,21441.806641,0];this setVectorUp [0,0,1];this allowDamage false;";
 		};
 		class Item6900
 		{
@@ -73989,7 +73989,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Pipe_fence_4m_F";
 			skill=0.60000002;
-			init="this enableSimulation true;this setdir 312.86;this setposATL [25869.824219,21438.777344,0];this setVectorUp [0,0,1]";
+			init="this enableSimulation true;this setdir 312.86;this setposATL [25869.824219,21438.777344,0];this setVectorUp [0,0,1];this allowDamage false;";
 		};
 		class Item6901
 		{
@@ -73999,7 +73999,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Pipe_fence_4m_F";
 			skill=0.60000002;
-			init="this enableSimulation true;this setdir 312.86;this setposATL [25867.0117188,21435.748047,0];this setVectorUp [0,0,1]";
+			init="this enableSimulation true;this setdir 312.86;this setposATL [25867.0117188,21435.748047,0];this setVectorUp [0,0,1];this allowDamage false;";
 		};
 		class Item6902
 		{
@@ -74009,7 +74009,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Pipe_fence_4m_F";
 			skill=0.60000002;
-			init="this enableSimulation true;this setdir 312.86;this setposATL [25864.197266,21432.714844,0];this setVectorUp [0,0,1]";
+			init="this enableSimulation true;this setdir 312.86;this setposATL [25864.197266,21432.714844,0];this setVectorUp [0,0,1];this allowDamage false;";
 		};
 		class Item6903
 		{
@@ -74019,17 +74019,18 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Pipe_fence_4m_F";
 			skill=0.60000002;
-			init="this enableSimulation true;this setdir 312.86;this setposATL [25861.382813,21429.683594,0];this setVectorUp [0,0,1]";
+			init="this enableSimulation true;this setdir 312.86;this setposATL [25861.382813,21429.683594,0];this setVectorUp [0,0,1];this allowDamage false;";
 		};
 		class Item6904
 		{
+			presence=0.38936517;
 			position[]={25856.996,19.938423,21425.029};
 			azimut=312.85999;
 			id=7092;
 			side="EMPTY";
 			vehicle="Land_Pipe_fence_4m_F";
 			skill=0.60000002;
-			init="this enableSimulation true;this setdir 312.86;this setposATL [25857.0449219,21425.00976563,0];this setVectorUp [0,0,1]";
+			init="this enableSimulation true;this setdir 312.86;this setposATL [25857.0449219,21425.00976563,0];this setVectorUp [0,0,1];this allowDamage false;";
 		};
 		class Item6905
 		{
@@ -74039,7 +74040,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Pipe_fence_4m_F";
 			skill=0.60000002;
-			init="this enableSimulation true;this setdir 12.86;this setposATL [25853.599609,21424.00195313,0];this setVectorUp [0,0,1]";
+			init="this enableSimulation true;this setdir 12.86;this setposATL [25853.599609,21424.00195313,0];this setVectorUp [0,0,1];this allowDamage false;";
 		};
 		class Item6906
 		{
@@ -74049,7 +74050,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Pipe_fence_4m_F";
 			skill=0.60000002;
-			init="this enableSimulation true;this setdir 372.86;this setposATL [25849.544922,21424.927734,0];this setVectorUp [0,0,1]";
+			init="this enableSimulation true;this setdir 372.86;this setposATL [25849.544922,21424.927734,0];this setVectorUp [0,0,1];this allowDamage false;";
 		};
 		class Item6907
 		{
@@ -74059,7 +74060,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Pipe_fence_4m_F";
 			skill=0.60000002;
-			init="this enableSimulation true;this setdir 357.86;this setposATL [25845.224609,21426.476563,0];this setVectorUp [0,0,1]";
+			init="this enableSimulation true;this setdir 357.86;this setposATL [25845.224609,21426.476563,0];this setVectorUp [0,0,1];this allowDamage false;";
 		};
 		class Item6908
 		{
@@ -74070,7 +74071,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Pipe_fence_4m_F";
 			skill=0.60000002;
-			init="this enableSimulation true;this setdir 317.86;this setposATL [25846.951172,21476.988281,-0.03367];this setVectorUp [0,0,1]";
+			init="this enableSimulation true;this setdir 317.86;this setposATL [25846.951172,21476.988281,-0.03367];this setVectorUp [0,0,1];this allowDamage false;";
 		};
 		class Item6909
 		{
@@ -74081,7 +74082,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Pipe_fence_4m_F";
 			skill=0.60000002;
-			init="this enableSimulation true;this setdir 317.86;this setposATL [25843.867188,21474.197266,-0.03367];this setVectorUp [0,0,1]";
+			init="this enableSimulation true;this setdir 317.86;this setposATL [25843.867188,21474.197266,-0.03367];this setVectorUp [0,0,1];this allowDamage false;";
 		};
 		class Item6910
 		{
@@ -74092,7 +74093,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Pipe_fence_4m_F";
 			skill=0.60000002;
-			init="this enableSimulation true;this setdir 317.86;this setposATL [25839.849609,21470.5625,-0.0336704];this setVectorUp [0,0,1]";
+			init="this enableSimulation true;this setdir 317.86;this setposATL [25839.849609,21470.5625,-0.0336704];this setVectorUp [0,0,1];this allowDamage false;";
 		};
 		class Item6911
 		{
@@ -74103,7 +74104,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Pipe_fence_4m_F";
 			skill=0.60000002;
-			init="this enableSimulation true;this setdir 317.86;this setposATL [25836.765625,21467.771484,-0.03367];this setVectorUp [0,0,1]";
+			init="this enableSimulation true;this setdir 317.86;this setposATL [25836.765625,21467.771484,-0.03367];this setVectorUp [0,0,1];this allowDamage false;";
 		};
 		class Item6912
 		{
@@ -74114,7 +74115,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Pipe_fence_4m_F";
 			skill=0.60000002;
-			init="this enableSimulation true;this setdir 317.86;this setposATL [25833.681641,21464.980469,-0.03367];this setVectorUp [0,0,1]";
+			init="this enableSimulation true;this setdir 317.86;this setposATL [25833.681641,21464.980469,-0.03367];this setVectorUp [0,0,1];this allowDamage false;";
 		};
 		class Item6913
 		{
@@ -74125,7 +74126,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Pipe_fence_4m_F";
 			skill=0.60000002;
-			init="this enableSimulation true;this setdir 317.86;this setposATL [25829.693359,21461.371094,-0.03367];this setVectorUp [0,0,1]";
+			init="this enableSimulation true;this setdir 317.86;this setposATL [25829.693359,21461.371094,-0.03367];this setVectorUp [0,0,1];this allowDamage false;";
 		};
 		class Item6914
 		{
@@ -74136,7 +74137,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Pipe_fence_4m_F";
 			skill=0.60000002;
-			init="this enableSimulation true;this setdir 317.86;this setposATL [25826.609375,21458.580078,-0.03367];this setVectorUp [0,0,1]";
+			init="this enableSimulation true;this setdir 317.86;this setposATL [25826.609375,21458.580078,-0.03367];this setVectorUp [0,0,1];this allowDamage false;";
 		};
 		class Item6915
 		{
@@ -74147,7 +74148,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Pipe_fence_4m_F";
 			skill=0.60000002;
-			init="this enableSimulation true;this setdir 237.86;this setposATL [25827.00390625,21454.257813,-0.0336704];this setVectorUp [0,0,1]";
+			init="this enableSimulation true;this setdir 237.86;this setposATL [25827.00390625,21454.257813,-0.0336704];this setVectorUp [0,0,1];this allowDamage false;";
 		};
 		class Item6916
 		{
@@ -74158,7 +74159,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Pipe_fence_4m_F";
 			skill=0.60000002;
-			init="this enableSimulation true;this setdir 237.86;this setposATL [25829.197266,21450.765625,-0.03367];this setVectorUp [0,0,1]";
+			init="this enableSimulation true;this setdir 237.86;this setposATL [25829.197266,21450.765625,-0.03367];this setVectorUp [0,0,1];this allowDamage false;";
 		};
 		class Item6917
 		{
@@ -74169,7 +74170,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Pipe_fence_4m_F";
 			skill=0.60000002;
-			init="this enableSimulation true;this setdir 237.86;this setposATL [25831.410156,21447.242188,-0.03367];this setVectorUp [0,0,1]";
+			init="this enableSimulation true;this setdir 237.86;this setposATL [25831.410156,21447.242188,-0.03367];this setVectorUp [0,0,1];this allowDamage false;";
 		};
 		class Item6918
 		{
@@ -74180,7 +74181,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Pipe_fence_4m_F";
 			skill=0.60000002;
-			init="this enableSimulation true;this setdir 237.86;this setposATL [25833.623047,21443.71875,-0.03367];this setVectorUp [0,0,1]";
+			init="this enableSimulation true;this setdir 237.86;this setposATL [25833.623047,21443.71875,-0.03367];this setVectorUp [0,0,1];this allowDamage false;";
 		};
 		class Item6919
 		{
@@ -74191,7 +74192,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_Pipe_fence_4m_F";
 			skill=0.60000002;
-			init="this enableSimulation true;this setdir 237.86;this setposATL [25836.382813,21439.326172,-0.03367];this setVectorUp [0,0,1]";
+			init="this enableSimulation true;this setdir 237.86;this setposATL [25836.382813,21439.326172,-0.03367];this setVectorUp [0,0,1];this allowDamage false;";
 		};
 		class Item6920
 		{
@@ -74534,7 +74535,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_TreeBin_F";
 			skill=0.60000002;
-			init="this enableSimulation true;this setdir 312.073;this setposATL [25828.527344,21436.841797,0];this setVectorUp [0,0,1]";
+			init="this enableSimulation true;this setdir 312.073;this setposATL [25828.527344,21436.841797,0];this setVectorUp [0,0,1];this allowDamage false;";
 		};
 		class Item6954
 		{
@@ -74544,7 +74545,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_TreeBin_F";
 			skill=0.60000002;
-			init="this enableSimulation true;this setdir 312.073;this setposATL [25824.78125,21440.224609,0];this setVectorUp [0,0,1]";
+			init="this enableSimulation true;this setdir 312.073;this setposATL [25824.78125,21440.224609,0];this setVectorUp [0,0,1];this allowDamage false;";
 		};
 		class Item6955
 		{
@@ -74554,7 +74555,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_TreeBin_F";
 			skill=0.60000002;
-			init="this enableSimulation true;this setdir 312.073;this setposATL [25821.0351563,21443.607422,0];this setVectorUp [0,0,1]";
+			init="this enableSimulation true;this setdir 312.073;this setposATL [25821.0351563,21443.607422,0];this setVectorUp [0,0,1];this allowDamage false;";
 		};
 		class Item6956
 		{
@@ -74564,7 +74565,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_TreeBin_F";
 			skill=0.60000002;
-			init="this enableSimulation true;this setdir 312.073;this setposATL [25817.289063,21446.990234,0];this setVectorUp [0,0,1]";
+			init="this enableSimulation true;this setdir 312.073;this setposATL [25817.289063,21446.990234,0];this setVectorUp [0,0,1];this allowDamage false;";
 		};
 		class Item6957
 		{
@@ -74574,7 +74575,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_TreeBin_F";
 			skill=0.60000002;
-			init="this enableSimulation true;this setdir 312.073;this setposATL [25813.542969,21450.373047,0];this setVectorUp [0,0,1]";
+			init="this enableSimulation true;this setdir 312.073;this setposATL [25813.542969,21450.373047,0];this setVectorUp [0,0,1];this allowDamage false;";
 		};
 		class Item6958
 		{
@@ -74585,7 +74586,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Palm_1";
 			skill=0.60000002;
-			init="this enableSimulation true;this setdir 141.583;this setposATL [25828.671875,21436.853516,0.292088];this setVectorUp [0,0,1]";
+			init="this enableSimulation true;this setdir 141.583;this setposATL [25828.671875,21436.853516,0.292088];this setVectorUp [0,0,1];this allowDamage false;";
 		};
 		class Item6959
 		{
@@ -74596,7 +74597,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Palm_1";
 			skill=0.60000002;
-			init="this enableSimulation true;this setdir 209.304;this setposATL [25824.808594,21440.150391,0.292088];this setVectorUp [0,0,1]";
+			init="this enableSimulation true;this setdir 209.304;this setposATL [25824.808594,21440.150391,0.292088];this setVectorUp [0,0,1];this allowDamage false;";
 		};
 		class Item6960
 		{
@@ -74607,7 +74608,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Palm_1";
 			skill=0.60000002;
-			init="this enableSimulation true;this setdir 120.498;this setposATL [25821.121094,21443.572266,0.292088];this setVectorUp [0,0,1]";
+			init="this enableSimulation true;this setdir 120.498;this setposATL [25821.121094,21443.572266,0.292088];this setVectorUp [0,0,1];this allowDamage false;";
 		};
 		class Item6961
 		{
@@ -74618,7 +74619,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Palm_1";
 			skill=0.60000002;
-			init="this enableSimulation true;this setdir 331.704;this setposATL [25817.228516,21446.921875,0.292088];this setVectorUp [0,0,1]";
+			init="this enableSimulation true;this setdir 331.704;this setposATL [25817.228516,21446.921875,0.292088];this setVectorUp [0,0,1];this allowDamage false;";
 		};
 		class Item6962
 		{
@@ -74629,7 +74630,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Palm_1";
 			skill=0.60000002;
-			init="this enableSimulation true;this setdir 252.155;this setposATL [25813.5,21450.216797,0.292088];this setVectorUp [0,0,1]";
+			init="this enableSimulation true;this setdir 252.155;this setposATL [25813.5,21450.216797,0.292088];this setVectorUp [0,0,1];this allowDamage false;";
 		};
 		class Item6963
 		{
@@ -75720,7 +75721,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_LampDecor_F";
 			skill=0.60000002;
-			init="this enableSimulation true;this setdir 288.35;this setposATL [25869.402344,21485.322266,0];this setVectorUp [0,0,1]";
+			init="this enableSimulation true;this setdir 288.35;this setposATL [25869.402344,21485.322266,0];this setVectorUp [0,0,1];this allowDamage false;";
 		};
 		class Item7064
 		{
@@ -75730,7 +75731,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_LampDecor_F";
 			skill=0.60000002;
-			init="this enableSimulation true;this setdir 1008.35;this setposATL [25837.166016,21468.164063,0];this setVectorUp [0,0,1]";
+			init="this enableSimulation true;this setdir 1008.35;this setposATL [25837.166016,21468.164063,0];this setVectorUp [0,0,1];this allowDamage false;";
 		};
 		class Item7065
 		{
@@ -75740,7 +75741,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_LampDecor_F";
 			skill=0.60000002;
-			init="this enableSimulation true;this setdir 288.35;this setposATL [25812.640625,21451.814453,0];this setVectorUp [0,0,1]";
+			init="this enableSimulation true;this setdir 288.35;this setposATL [25812.640625,21451.814453,0];this setVectorUp [0,0,1];this allowDamage false;";
 		};
 		class Item7066
 		{
@@ -75750,7 +75751,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_LampDecor_F";
 			skill=0.60000002;
-			init="this enableSimulation true;this setdir 1008.35;this setposATL [25818.869141,21445.21875,0];this setVectorUp [0,0,1]";
+			init="this enableSimulation true;this setdir 1008.35;this setposATL [25818.869141,21445.21875,0];this setVectorUp [0,0,1];this allowDamage false;";
 		};
 		class Item7067
 		{
@@ -75760,7 +75761,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_LampDecor_F";
 			skill=0.60000002;
-			init="this enableSimulation true;this setdir 1008.35;this setposATL [25826.521484,21438.384766,0];this setVectorUp [0,0,1]";
+			init="this enableSimulation true;this setdir 1008.35;this setposATL [25826.521484,21438.384766,0];this setVectorUp [0,0,1];this allowDamage false;";
 		};
 		class Item7068
 		{
@@ -76504,7 +76505,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_CashDesk_F";
 			skill=0.60000002;
-			init="this enableSimulation true;this setdir 134.574;this setposATL [25864.0449219,21422.00195313,-0.0058918];this setVectorUp [0,0,1]";
+			init="this enableSimulation true;this setdir 134.574;this setposATL [25864.0449219,21422.00195313,-0.0058918];this setVectorUp [0,0,1];this allowDamage false;";
 		};
 		class Item7137
 		{
@@ -76515,7 +76516,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_PartyTent_01_F";
 			skill=0.60000002;
-			init="this enableSimulation true;this setdir 494.574;this setposATL [25861.935547,21422.917969,0.0959596];this setVectorUp [0,0,1]";
+			init="this enableSimulation true;this setdir 494.574;this setposATL [25861.935547,21422.917969,0.0959596];this setVectorUp [0,0,1];this allowDamage false;";
 		};
 		class Item7138
 		{
@@ -76525,7 +76526,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_LampDecor_F";
 			skill=0.60000002;
-			init="this enableSimulation true;this setdir 943.347;this setposATL [25868.505859,21424.417969,0];this setVectorUp [0,0,1]";
+			init="this enableSimulation true;this setdir 943.347;this setposATL [25868.505859,21424.417969,0];this setVectorUp [0,0,1];this allowDamage false;";
 		};
 		class Item7139
 		{
@@ -76535,7 +76536,7 @@ class Mission
 			side="EMPTY";
 			vehicle="Land_LampDecor_F";
 			skill=0.60000002;
-			init="this enableSimulation true;this setdir 943.347;this setposATL [25886.652344,21442.660156,0];this setVectorUp [0,0,1]";
+			init="this enableSimulation true;this setdir 943.347;this setposATL [25886.652344,21442.660156,0];this setVectorUp [0,0,1];this allowDamage false;";
 		};
 		class Item7140
 		{
