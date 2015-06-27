@@ -169,7 +169,7 @@
         sleep 1;
         while {((player distance (getMarkerPos "Warm_Marker") < 7000) && (player getVariable["Revive",TRUE]))} do
         {
-            if(uniform player == "U_C_Scientist") then
+            if(uniform player == "TRYK_U_B_PCUHsW2") then
             {
                 hint "!!! Du betrittst die Radioaktive Sperrzone !!! Aber dein Schutzanzug schützt dich";
                 sleep 5;
