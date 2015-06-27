@@ -25,7 +25,7 @@ diag_log "::Life Client:: User actions completed";
 diag_log "::Life Client:: Waiting for server functions to transfer..";
 waitUntil {(!isNil {TON_fnc_clientGangLeader})};
 
-
+/*
 if (isNil "TFAR_fnc_isTeamSpeakPluginEnabled") exitwith {
 	
 	999999 cutText ["Task Force Radio is not running on your computer. Please re-sync and retry","BLACK FADED"];
@@ -93,7 +93,7 @@ titleText ["Task Force Radio Erfolgreich Geladen!","BLACK IN"];
 		sleep 2;	
 	};
 };
-
+*/
 
 diag_log "::Life Client:: Received server functions.";
 0 cutText ["Waiting for the server to be ready...","BLACK FADED"];

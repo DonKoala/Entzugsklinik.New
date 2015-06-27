@@ -3,7 +3,7 @@
 	Author: Koala
 	For: Entzugsklinik RPG
 
-*/
+
 
 tjms_IntroOn = true;
 showCinemaBorder false;
@@ -111,3 +111,4 @@ _cam cameraEffect ["terminate","back"];
 camDestroy _cam;
 tjms_IntroOn = false;
 
+*/
