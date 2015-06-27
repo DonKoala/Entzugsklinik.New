@@ -1225,7 +1225,6 @@ switch (_shop) do
 			_return set[count _return,["cl3_transitk9",50000]]; 
 			_return set[count _return,["cl3_q7_clpd_patrol",30000]];
 			_return set[count _return,["A3L_jailBus",60000]]; //Jail Bus
-			_return set[count _return,["DAR_ExplorerPolice",42000]]; //interceptor
 			_return set[count _return,["A3L_ChargerLB",46000]]; //Taurus
 		};
 	};

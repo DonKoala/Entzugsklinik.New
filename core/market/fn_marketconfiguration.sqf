@@ -41,8 +41,8 @@ life_market_resources = [
 	["methp", 8250, 4300, 11200, 4, 4,[["cigarette",-1],["methp",-1],["cannabis",1],["marijuana",1],["turtlesoup",1],["turtle",1],["heroinp",1],["lsdu",1],["lsdp",1],["cocainep",1]]],
 	["lsdp", 7500, 2825, 9100, 4, 4,[["lsdu",1],["cannabis",1],["marijuana",1],["turtlesoup",1],["turtle",1],["heroinp",1],["methu",1],["methp",1],["cocainep",1]]],
 	["uranium", 25000, 18500, 28500, 4, 4,[["oilp",1],["iron_r",1],["copper_r",1],["salt_r",1],["goldbar",1],["glass",1]]],
-	["diesel", 2000, 1850, 4850, 4, 4,[["oilp",1],["iron_r",1],["copper_r",1],["salt_r",1],["goldbar",1],["glass",1],["benzin",1]]],
-	["benzin", 2500, 1800, 4850, 4, 4,[["oilp",1],["iron_r",1],["copper_r",1],["salt_r",1],["goldbar",1],["glass",1],["diesel",1]]],
+	["diesel", 4000, 1850, 6850, 4, 4,[["oilp",1],["iron_r",1],["copper_r",1],["salt_r",1],["goldbar",1],["glass",1],["benzin",1]]],
+	["benzin", 4500, 1800, 6850, 4, 4,[["oilp",1],["iron_r",1],["copper_r",1],["salt_r",1],["goldbar",1],["glass",1],["diesel",1]]],
 	["goldschatz", 50000, 30000, 90000, 8, 5,[["goldschatz",-1],["diamond",1],["diamondc",1],["iron_r",1],["copper_r",1],["salt_r",1],["glass",1]]],
 	["schnaps", 6250, 4300, 11200, 4, 4,[["cigarette",-1],["methp",-1],["cannabis",1],["marijuana",1],["turtlesoup",1],["turtle",1],["heroinp",1],["lsdu",1],["lsdp",1],["cocainep",1]]]
 ];
