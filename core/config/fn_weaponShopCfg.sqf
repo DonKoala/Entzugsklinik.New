@@ -329,7 +329,7 @@ switch(_shop) do
 						["emsoff_uni",nil,600],
 						["EMTRM_uni",nil,600],
 						["A3L_Worker_Outfit","ADAC Overall",600],
-						["U_C_Scientist","Strahlenanzug",600],
+						["TRYK_U_B_PCUHsW2","Strahlenanzug",600],
 						["B_Kitbag_cbr",nil,100],
 						["V_Rangemaster_belt",nil,100],
 						["tf_rt1523g_big_rhs",nil,100],

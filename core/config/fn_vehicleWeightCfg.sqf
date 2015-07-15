@@ -15,7 +15,7 @@ switch (_className) do
 
 
 	// NEU
-	case "Jonzie_Ambulance": {30};
+	case "Jonzie_Ambulance": {130};
 	case "RHS_UH60M_MEV2": {30};
 	case "DAR_MK23": {100};
 	case "DAR_MK23A": {180};
@@ -49,9 +49,9 @@ switch (_className) do
 	case "A3L_Flipcar": {10};
 	
 	
-	case "B_CBS_WaterShadow730_F": {5};
-	case "A3L_JetSki": {5};
-	case "A3L_JetSki_Yellow": {5};
+	case "B_CBS_WaterShadow730_F": {15};
+	case "A3L_JetSki": {15};
+	case "A3L_JetSki_Yellow": {15};
 	case "A3L_Ship": {160};
 	
 	
@@ -59,14 +59,14 @@ switch (_className) do
 	
 	
 	//Helikopter
-	case "Bell412": {30};
+	case "Bell412": {60};
 	case "Cha_Mi17_Civilian": {325};
 	case "RHS_Mi8AMT_vvs": {325};
-	case "UH1N_Black": {30};
-	case "UH1N_Slick": {30};
-	case "EC635_Unarmed_BW": {30};
+	case "UH1N_Black": {60};
+	case "UH1N_Slick": {60};
+	case "EC635_Unarmed_BW": {60};
 	case "NH90": {250};
-	case "EC635_Unarmed_CSAT": {50};   	
+	case "EC635_Unarmed_CSAT": {65};   	
 	case "EC635_Unarmed": {50};	
 	case "EC635_ADAC": {50};
 	case "EC635_SAR": {50};	
@@ -96,28 +96,28 @@ switch (_className) do
 	case "EWK_M997A2_Ambulance_Tan": {180};
 	
 	//COP CARS
-	case "A3L_TaurusFPBPDGM": {40};
-	case "A3L_TaurusFPBLBPD": {40};
-	case "A3L_TaurusFPBPD": {40};
-	case "A3L_TaurusFPBLBCSO": {40};
-	case "A3L_TaurusFPBCSO": {40};
-	case "A3L_CVPIFPBLBFG": {40};
-	case "A3L_CVPIFPBFG": {40};
-	case "A3L_CVPIFPBLBSP": {40};
-	case "A3L_CVPIFPBLBSP2": {40};
-	case "A3L_CVPIFPBLBSM": {40};
-	case "A3L_CVPIFPBSM": {40};
-	case "A3L_CVPIFPBLBPD": {40};
-	case "A3L_CVPIFPBPD": {40};
-	case "A3L_CVPIFPBLBHP": {40};
-	case "A3L_CVPIFPBHP": {40};
-	case "A3L_CVPIFPBCSO": {40};
-	case "A3L_CVPIFPBLBCSO": {40};
-	case "cl3_xr_1000_police": {5};
-	case "cl3_transitk9": {30};
-	case "cl3_q7_clpd_patrol": {30};
-	case "A3L_ChargerLB": {30};
-	case "BW_Dingo_Des": {30};
+	case "A3L_TaurusFPBPDGM": {140};
+	case "A3L_TaurusFPBLBPD": {140};
+	case "A3L_TaurusFPBPD": {140};
+	case "A3L_TaurusFPBLBCSO": {140};
+	case "A3L_TaurusFPBCSO": {140};
+	case "A3L_CVPIFPBLBFG": {140};
+	case "A3L_CVPIFPBFG": {140};
+	case "A3L_CVPIFPBLBSP": {140};
+	case "A3L_CVPIFPBLBSP2": {140};
+	case "A3L_CVPIFPBLBSM": {140};
+	case "A3L_CVPIFPBSM": {140};
+	case "A3L_CVPIFPBLBPD": {140};
+	case "A3L_CVPIFPBPD": {140};
+	case "A3L_CVPIFPBLBHP": {140};
+	case "A3L_CVPIFPBHP": {140};
+	case "A3L_CVPIFPBCSO": {140};
+	case "A3L_CVPIFPBLBCSO": {140};
+	case "cl3_xr_1000_police": {105};
+	case "cl3_transitk9": {130};
+	case "cl3_q7_clpd_patrol": {130};
+	case "A3L_ChargerLB": {130};
+	case "BW_Dingo_Des": {130};
 	
 	//Bus
 	case "CL3_bus_cl_blue": {50};
@@ -149,8 +149,8 @@ switch (_className) do
 	case "B_MRAP_01_gmg_F": {140}; //hunter gmg
 	case "B_MRAP_01_hmg_F": {140}; //hunter hmg
 	case "cl3_transitNews": {50};//Transit NEWS		
-	case "A3L_LadderTruck": {30};//Transit NEWS	
-	case "cl3_transitemt": {50};//Transit NEWS	
+	case "A3L_LadderTruck": {300};//Transit NEWS	
+	case "cl3_transitemt": {100};//Transit NEWS	
 	case "sfp_wheelchair": {1};//Transit NEWS	
 	
 	//Volha
@@ -162,14 +162,14 @@ switch (_className) do
 	case "Jonzie_Mini_Cooper_R_spec": {30};
 	
 	//explorer
-	case "DAR_ExplorerMedic": {30};
-	case "DAR_ExplorerPolice": {30};
-	case "DAR_ExplorerPoliceStealth": {30};
+	case "DAR_ExplorerMedic": {300};
+	case "DAR_ExplorerPolice": {300};
+	case "DAR_ExplorerPoliceStealth": {300};
 	
 	//impala
-	case "DAR_ImpalaPolice": {30};
-	case "DAR_ImpalaPoliceSlick": {30};
-	case "DAR_ImpalaPoliceDet": {30};
+	case "DAR_ImpalaPolice": {300};
+	case "DAR_ImpalaPoliceSlick": {300};
+	case "DAR_ImpalaPoliceDet": {300};
 	
 	//Playmouth Barracuda
 	case "cl3_440cuda_yellow": {20};
@@ -222,16 +222,16 @@ switch (_className) do
 	
 	
 	//tahoe
-	case "DAR_TahoeEMS": {30};
-	case "DAR_TahoePolice": {30};
-	case "DAR_TahoePoliceSlick": {30};
-	case "DAR_TahoePoliceDet": {30};
+	case "DAR_TahoeEMS": {300};
+	case "DAR_TahoePolice": {300};
+	case "DAR_TahoePoliceSlick": {300};
+	case "DAR_TahoePoliceDet": {300};
 	
 	//firebird
-	case "DAR_DAR_02FirebirdSSVPolice": {30};
+	case "DAR_DAR_02FirebirdSSVPolice": {300};
 	
 	//Jail Bus
-	case "A3L_jailBus": {30};
+	case "A3L_jailBus": {300};
 	
 	//RG-335
 	case "rhsusf_rg33_d": {30};
@@ -465,8 +465,8 @@ switch (_className) do
 	case "DAR_TaurusPolice": {30};
 	
 	//cvpi
-	case "DAR_CVPIPolice": {30};
-	case "A3L_CVPILBFD": {30};
+	case "DAR_CVPIPolice": {300};
+	case "A3L_CVPILBFD": {300};
 	
 	//Burnes LCAC
 	case "Burnes_LCAC_1": {535};
