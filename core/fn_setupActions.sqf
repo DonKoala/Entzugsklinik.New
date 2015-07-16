@@ -71,4 +71,4 @@ life_actions = life_actions + [player addAction["<t color='#BDBDBD'>Hinsetzen</t
 	cursorTarget isKindof "Land_OfficeChair_01_F" ||		
 	cursorTarget isKindof "Land_WoodenLog_F"
 )']];
-life_actions = life_actions + [player addAction["<t color='#BDBDBD'>Aufstehen</t>", life_fnc_sitDown,cursorTarget,10,false,false,"",'life_sitting']];
+life_actions = life_actions + [player addAction["<t color='#BDBDBD'>Aufstehen</t>", life_fnc_standUp,cursorTarget,10,false,false,"",'life_sitting']];

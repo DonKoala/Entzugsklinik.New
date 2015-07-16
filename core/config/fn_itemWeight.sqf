@@ -47,9 +47,9 @@ switch (_item) do
 	case "diamondc": {2};
 	case "cocaine": {7};
 	case "cocainep": {3};
-	case "spikeStrip": {15};
+	case "spikeStrip": {5};
 	case "goldbar": {12};
-	case "blastingcharge": {15};
+	case "blastingcharge": {5};
 	case "boltcutter": {5};
 	case "defusekit": {2};
 	case "storagesmall": {5};
@@ -60,9 +60,9 @@ switch (_item) do
 	case "speedbomb": {10};
 	case "kidney": {4};
 	case "scalpel": {1};
-	case "kegel": {2};
-	case "barrier": {2};
-	case "barriersmall": {2};
+	case "kegel": {1};
+	case "barrier": {1};
+	case "barriersmall": {1};
 	case "methu": {7};
 	case "methp": {3};
 	case "lsdu": {8};

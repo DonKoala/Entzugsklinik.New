@@ -206,6 +206,7 @@ class Life_Client_Core
 		class packupkegel {};
 		class chemlightUse {};
 		class sitDown {};
+		class standUp {};
 		class craftAction {};
 		class processActionDual {};
 		class processActionLsd {};

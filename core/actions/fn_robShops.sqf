@@ -72,6 +72,6 @@ life_use_atm = true;
 if!(alive _robber) exitWith {};
 [[getPlayerUID _robber,name _robber,"211"],"life_fnc_wantedAdd",false,false] spawn life_fnc_MP;
 };
-sleep 300;
+sleep 1300;
 _action = _shop addAction["Tankstelle Ausrauben",life_fnc_robShops];	
 _shop switchMove "";

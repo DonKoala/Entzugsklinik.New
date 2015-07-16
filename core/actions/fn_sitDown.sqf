@@ -1,21 +1,39 @@
-//////////////////////////////////////////////////////////////////////////
-//                            Script Made By                            //
-//                                MacRae                                //
-//                                                                      //
-//                           MODIFIED BY XETOXYC                        //
-//////////////////////////////////////////////////////////////////////////
-if(life_sitting) then{
-    player switchMove "";
-    life_sitting = false;
-} else {
-    _chair = cursorTarget;
-    _unit = player;
+//////////////////////////////////////////////////////////////////
+// Created by: Losi
+// Black Collar Elite  // bce.teamspeak.me
+// pls ask for permission before using
+// fn_sitDown.sqf
+//////////////////////////////////////////////////////////////////
 
-    [[_unit, "Crew"], "life_fnc_switchMove"] spawn life_fnc_MP; 
-    //_unit setPos (getPos _chair); 
-	_unit setPos (_chair modelToWorld [ 0, 0.1, 0.2]);
-    _unit setDir ((getDir _chair) - 180); 
-    _unit setpos [getpos _unit select 0, getpos _unit select 1,((getpos _unit select 2) +1)];
-    life_sitting = true;
+_chair=_this select 0;
+if(isNil "TheGodsofAltis_sitStatus")then{
+TheGodsofAltis_sitStatus=0};
+_handled=false;
+if(isNil "(_chair getVariable 'used')")then{_chair setVariable ["used",false,true];};
+if(_chair getVariable "used")then{exitWith};
+
+
+if(TheGodsofAltis_sitStatus == 0)then{
+if((player distance _chair) < 3)then{
+	player attachTo [_chair,[0,0,0]];
+	player switchMove "HubSittingChairUB_idle3";
+	[[player,"HubSittingChairUB_idle3"],"life_fnc_animSync",true,false] spawn life_fnc_MP;
+	_chair setVariable ["used",true,true];
+	detach player;
+	player setDir (direction _chair + 180);
+	BCE_CurChair=_chair;
+	TheGodsofAltis_sitStatus=1;
+	standup = player addAction["Aufstehen","core\actions\fn_standup.sqf"];
+	_handled=true;};
 };
 
+if(TheGodsofAltis_sitStatus == 1 && !_handled)then{
+	player switchMove "";
+	[[player,""],"life_fnc_animSync",true,false] spawn life_fnc_MP;
+	BCE_CurChair setVariable ["used",false,true];
+	BCE_CurChair=nil;
+	TheGodsofAltis_sitStatus=0;
+
+	player switchMove "";  
+	player removeAction standup;
+};
