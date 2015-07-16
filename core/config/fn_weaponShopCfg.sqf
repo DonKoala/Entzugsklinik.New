@@ -530,6 +530,7 @@ switch(_shop) do
 						["10Rnd_93x64_DMR_05_Mag",nil,10000],			
 						["srifle_DMR_02_F",nil,900000],
 						["10Rnd_338_Mag",nil,9000],
+						["muzzle_snds_338_green",nil,5000],
 						["srifle_DMR_03_F",nil,800000],		
 						["srifle_DMR_06_olive_F",nil,800000],	
 						["srifle_EBR_F",nil,800000],
