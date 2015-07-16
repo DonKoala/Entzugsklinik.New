@@ -51,6 +51,13 @@ switch (playerSide) do
 		//Ticket
 		life_actions = life_actions + [player addAction["Service-Gebühr stellen",life_fnc_servicefeeAction,"",0,false,false,"",'
         !isNull cursorTarget && cursorTarget isKindOf "Man" && (isPlayer cursorTarget) && (side cursorTarget != independent) && alive cursorTarget && cursorTarget distance player < 3 ']];
+		//Kegel aufheben
+		life_actions = life_actions + [player addAction["<t color='#BDBDBD'>Kegel aufheben</t>",life_fnc_packupkegel,"",0,false,false,"",' _kegel = nearestObjects[getPos player,["RoadCone_L_F"],8] select 0; !isNil "_kegel" && !isNil {(_kegel getVariable "item")}']];
+		//Barriere aufheben
+		life_actions = life_actions + [player addAction["<t color='#BDBDBD'>Barriere aufheben</t>",life_fnc_packupbarrier,"",0,false,false,"",' _barrier = nearestObjects[getPos player,["RoadBarrier_F"],8] select 0; !isNil "_barrier" && !isNil {(_barrier getVariable "item")}']];
+	    //Barriere Klein aufheben
+		life_actions = life_actions + [player addAction["<t color='#BDBDBD'>Barriere klein aufheben</t>",life_fnc_packupbarriersmall,"",0,false,false,"",' _barriersmall = nearestObjects[getPos player,["RoadBarrier_small_F"],8] select 0; !isNil "_barriersmall" && !isNil {(_barriersmall getVariable "item")}']];
+
 	};
 };
 

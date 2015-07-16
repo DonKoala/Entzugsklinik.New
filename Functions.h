@@ -279,6 +279,7 @@ class Life_Client_Core
 		class clothing_sek {};
 		class clothing_gold {};
 		class clothing_rock {};
+		class clothing_medic {};
 	};
 	
 	class adac

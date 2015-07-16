@@ -36,13 +36,7 @@ switch (_filter) do
 			_ret set[count _ret,["Item_Carabinieri",nil,1000]];
 			_ret set[count _ret,["Item_CarabinieriFormal",nil,1200]];
 			_ret set[count _ret,["Item_CapoDellaPolizia",nil,1200]];			
-		};
-		if(__GETC__(life_coplevel) > 5) then
-		{
 			_ret set[count _ret,["U_B_Wetsuit",nil,2400]];
-		};
-		if(__GETC__(life_coplevel) > 5) then
-		{
 			_ret set[count _ret,["U_I_FullGhillie_ard",nil,22000]];
 			_ret set[count _ret,["U_O_FullGhillie_ard",nil,22000]];
 			_ret set[count _ret,["U_B_FullGhillie_ard",nil,22000]];
@@ -52,6 +46,19 @@ switch (_filter) do
 			_ret set[count _ret,["U_I_FullGhillie_sard",nil,22000]];
 			_ret set[count _ret,["U_O_FullGhillie_sard",nil,22000]];
 			_ret set[count _ret,["U_B_FullGhillie_sard",nil,22000]];
+			_ret set[count _ret,["TRYK_U_B_PCUGs_BLK",nil,800]];
+			_ret set[count _ret,["TRYK_U_B_PCUGs_gry",nil,800]];
+			_ret set[count _ret,["TRYK_U_B_PCUGs_OD",nil,800]];		
+			_ret set[count _ret,["TRYK_U_denim_hood_blk",nil,800]];
+			_ret set[count _ret,["TRYK_U_denim_hood_nc",nil,800]];
+			_ret set[count _ret,["TRYK_U_denim_jersey_blk",nil,800]];	
+			_ret set[count _ret,["TRYK_U_denim_jersey_blu",nil,800]];
+			_ret set[count _ret,["TRYK_U_taki_wh",nil,800]];		
+			_ret set[count _ret,["TRYK_U_B_BLK_T_BK",nil,800]];
+			_ret set[count _ret,["TRYK_U_B_BLK_T_WH",nil,800]];
+			_ret set[count _ret,["TRYK_U_B_Denim_T_BK",nil,800]];		
+			_ret set[count _ret,["TRYK_U_B_Denim_T_WH",nil,800]];
+			
 		};
 	};
 	

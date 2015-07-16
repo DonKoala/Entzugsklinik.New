@@ -17,6 +17,8 @@ if((_this select 3) in ["cop"] && playerSide != west) exitWith {hint localize "S
 if((_this select 3) in ["sek"] && playerSide != west) exitWith {hint "Du bist kein Mitglied der Carabinieri!"; closeDialog 0;};
 if((_this select 3) in ["dive"] && !license_civ_dive) exitWith { hint localize "STR_Shop_NotaDive"; closeDialog 0;};
 if((_this select 3) in ["aan"] && !license_civ_aan) exitWith { hint localize "STR_Shop_STR_Shop_NotaAAN"; closeDialog 0;};
+if((_this select 3) in ["medic"] && playerSide != independent) exitWith {hint localize "STR_Shop_NotaCop"; closeDialog 0;};
+
 
 
 life_clothing_store = _this select 3;

@@ -173,7 +173,6 @@ switch (_shop) do
 		_return set[count _return,["cl3_dodge_charger_emtcg",40000]];		
 		_return set[count _return,["cl3_dodge_charger_emtpa",35000]];		
 		_return set[count _return,["cl3_transitemt",25000]];				
-		_return set[count _return,["sfp_wheelchair",25000]];				
 	};
 	
 	case "med_air": {
