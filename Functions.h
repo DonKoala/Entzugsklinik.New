@@ -159,17 +159,7 @@ class Life_Client_Core
 		class pInteraction_med {};
 	};
 	
-	class Firefighter
-	{
-		file = "core\medical\feuerwehr";
-		class striderloeschen {};
-		class mast {};
-		class updatelamp {};
-		class addfiregear {};
-		class markers {};
-		class vehLoad {};
-		class vehUnload {};		
-	};
+
 	
 	class Actions
 	{

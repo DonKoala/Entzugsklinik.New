@@ -676,7 +676,7 @@ switch (_className) do
 	case "B_Heli_Light_01_F": {30};
 	case "O_Heli_Light_02_v2_F": {75};
 	case "C_Heli_Light_01_civil_F": {30};
-	case "I_Heli_light_03_unarmed_F": {165};
+	case "I_Heli_light_03_unarmed_F": {350};
 	case "B_Heli_Transport_01_F": {165};
 	case "O_Heli_Light_02_unarmed_F": {175};
 	case "I_Heli_Transport_02_F": {350};
@@ -684,11 +684,14 @@ switch (_className) do
 	case "B_Heli_Attack_01_F": {165};
 	case "B_Heli_Transport_03_unarmed_F": {335};
 	case "B_Heli_Transport_03_F": {335};
-	case "O_Heli_Transport_04_F": {125};
+	case "O_Heli_Transport_04_F": {60};
 	case "O_Heli_Transport_04_medevac_F": {225};
 	case "O_Heli_Transport_04_covered_F": {295};
 	case "O_Heli_Transport_04_fuel_F": {130};
 	case "O_Heli_Transport_04_repair_F": {130};
+	case "O_Heli_Transport_04_bench_F": {60};
+	case "O_Heli_Transport_04_box_F": {250};
+	
 	
 	//bell
 	case "dezkit_b206_ems": {30};

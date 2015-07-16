@@ -265,6 +265,10 @@ switch (_shop) do
 			_return set[count _return,["cl3_range_rover_camo",65000]];
 			_return set[count _return,["cl3_range_rover_camo_urban",65000]];
 			_return set[count _return,["B_Heli_Light_01_F",245000]];
+			
+			   
+			
+			_return set[count _return,["I_Heli_light_03_unarmed_F",450000]];
 			_return set[count _return,["rhs_tigr_msv",445000]];
 			_return set[count _return,["rhsusf_rg33_d",550000]];
 			_return set[count _return,["rhsusf_rg33_wd",550000]];
@@ -1143,6 +1147,22 @@ switch (_shop) do
 	
 	case "civ_air":
 	{
+	
+	  
+	 
+	 
+	 
+	 
+	 
+	 
+	 _return set[count _return,["B_Heli_Transport_03_unarmed_F",3000000]];
+	 _return set[count _return,["O_Heli_Transport_04_F",450000]];
+	 _return set[count _return,["O_Heli_Transport_04_bench_F",450000]];
+	 _return set[count _return,["O_Heli_Transport_04_box_F",2150000]];
+
+	 
+	 
+	 
 		_return set[count _return,["B_Heli_Light_01_F",245000]];
 		_return set[count _return,["C_Heli_Light_01_civil_F",245000]];
 		_return set[count _return,["I_Heli_Transport_02_F",3000000]];
