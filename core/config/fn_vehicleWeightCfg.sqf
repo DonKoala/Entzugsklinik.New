@@ -436,6 +436,36 @@ switch (_className) do
 	case "cl3_dodge_charger_emt": {30};
 	case "cl3_dodge_charger_emtcg": {30};
 	case "cl3_dodge_charger_emtpa": {30};
+	case "cl3_dodge_charger_f_black": {25};
+	case "cl3_dodge_charger_f_blue": {25};
+	case "cl3_dodge_charger_f_camourban": {25};
+	case "cl3_dodge_charger_f_darkgreen": {25};
+	case "cl3_dodge_charger_f_darkred": {25};
+	case "cl3_dodge_charger_f_green": {25};
+	case "cl3_dodge_charger_f_grey": {25};
+	case "cl3_dodge_charger_f_lime": {25};
+	case "cl3_dodge_charger_f_orange": {25};
+	case "cl3_dodge_charger_f_pink": {25};
+	case "cl3_dodge_charger_f_purple": {25};
+	case "cl3_dodge_charger_f_red": {25};
+	case "cl3_dodge_charger_f_white": {25};
+	case "cl3_dodge_charger_f_yellow": {25};
+	case "cl3_dodge_charger_f_camo": {25};
+	case "cl3_dodge_charger_o_black": {25};
+	case "cl3_dodge_charger_o_blue": {25};
+	case "cl3_dodge_charger_o_camourban": {25};
+	case "cl3_dodge_charger_o_darkgreen": {25};
+	case "cl3_dodge_charger_o_darkred": {25};
+	case "cl3_dodge_charger_o_green": {25};
+	case "cl3_dodge_charger_o_grey": {25};
+	case "cl3_dodge_charger_o_lime": {25};
+	case "cl3_dodge_charger_o_orange": {25};
+	case "cl3_dodge_charger_o_pink": {25};
+	case "cl3_dodge_charger_o_purple": {25};
+	case "cl3_dodge_charger_o_red": {25};
+	case "cl3_dodge_charger_o_white": {25};
+	case "cl3_dodge_charger_o_yellow": {25};
+	case "cl3_dodge_charger_0_camo": {25};
 	
 	//dodge grand caravan
 	case "A3L_GrandCaravan": {30};
@@ -708,6 +738,7 @@ switch (_className) do
 	case "S_Rangerover_Orange": {25};
 	case "S_Rangerover_Purple": {25};
 	case "S_Rangerover_Red": {25};
+	case "S_Rangerover_White": {25};
 	case "cl3_range_rover_camo": {25};
 	case "cl3_range_rover_camo_urban": {25};
 	
@@ -1162,6 +1193,7 @@ switch (_className) do
 	
 	
 	//Honda
+	case "cl3_civic_vti": {15};
 	case "cl3_civic_vti_yellow": {15};
 	case "cl3_civic_vti_black": {15};
 	case "cl3_civic_vti_blue": {15};
