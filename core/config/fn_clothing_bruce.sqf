@@ -96,7 +96,26 @@ switch (_filter) do
 		_ret set[count _ret,["U_Competitor","Wettkämpfer",100]];
 		_ret set[count _ret,["U_NikosAgedBody","Nikos Anzug",500]];
 		_ret set[count _ret,["U_Marshal","Marshal's Seide",400]];
-	
+		_ret set[count _ret,["KAEL_SUITS_BR_F3",nil,900]];
+		_ret set[count _ret,["KAEL_SUITS_BR_F12",nil,900]];
+		_ret set[count _ret,["KAEL_SUITS_BLK_F",nil,900]];
+		_ret set[count _ret,["KAEL_SUITS_BR_F8",nil,900]];
+		_ret set[count _ret,["KAEL_SUITS_BR_F11",nil,900]];
+		_ret set[count _ret,["KAEL_SUITS_BR_F10",nil,900]];
+		_ret set[count _ret,["KAEL_SUITS_BR_F7",nil,900]];
+		_ret set[count _ret,["KAEL_SUITS_BR_F6",nil,900]];
+		_ret set[count _ret,["KAEL_SUITS_BR_F5",nil,900]];
+		_ret set[count _ret,["KAEL_SUITS_BR_F4",nil,900]];
+		_ret set[count _ret,["KAEL_SUITS_BR_F",nil,900]];
+		_ret set[count _ret,["KAEL_SUITS_BR_F9",nil,900]];
+		_ret set[count _ret,["KAEL_SUITS_BR_F13",nil,900]];		
+		_ret set[count _ret,["KAEL_SUITS_BR_F14",nil,900]];	
+		_ret set[count _ret,["TRYK_SUITS_BLK_F",nil,900]];			
+		_ret set[count _ret,["TRYK_SUITS_BR_F",nil,900]];			
+		_ret set[count _ret,["TRYK_ZARATAKI",nil,500]];	
+		_ret set[count _ret,["TRYK_ZARATAKI2",nil,500]];	
+		_ret set[count _ret,["TRYK_ZARATAKI3",nil,500]];			
+		
 		////neu
 		_ret set[count _ret,["A3L_Bikini_Girl",nil,250]];
 		_ret set[count _ret,["A3L_FuckCaidenPants",nil,650]];
