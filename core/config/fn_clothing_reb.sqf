@@ -99,7 +99,7 @@ switch (_filter) do
 		_ret set[count _ret,["G_Combat",nil,550]];
 		_ret set[count _ret,["G_mas_wpn_bala_gog_b",nil,550]];
 		_ret set[count _ret,["G_mas_wpn_bala_mask_b",nil,550]];
-		_ret set[count _ret,["G_mas_wpn_bala_b,550]];
+		_ret set[count _ret,["G_mas_wpn_bala_b",nil,550]];
 		_ret set[count _ret,["G_Bandanna_beast",nil,550]];
 		_ret set[count _ret,["G_mas_wpn_wrap_gog_c",nil,550]];
 		_ret set[count _ret,["G_mas_wpn_wrap_mask_c",nil,550]];
