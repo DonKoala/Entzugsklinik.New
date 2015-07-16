@@ -316,7 +316,6 @@ switch (_shop) do
 		_return set[count _return,["C_Hatchback_01_sport_F",45000]];
 		_return set[count _return,["A3L_Camaro",76000]];
 		_return set[count _return,["cl3_lada_white",3000]];
-		_return set[count _return,["cl3_defender_110_yellow",50000]];
 		_return set[count _return,["cl3_volha_grey",15000]];
 		_return set[count _return,["cl3_volha_black",15000]];
 	};
