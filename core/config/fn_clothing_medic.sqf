@@ -30,6 +30,8 @@ switch (_filter) do
 			["Item_Medic","Rettungssanitäter Overall",600],
 			["emsoff_uni",nil,600],
 			["EMTRM_uni",nil,600],
+			["emt_Uni1",nil,600],
+			["emt_Uni3",nil,600],
 			["A3L_Worker_Outfit","ADAC Overall",600],
 			["TRYK_U_B_PCUHsW2","Strahlenanzug",600]
 		
