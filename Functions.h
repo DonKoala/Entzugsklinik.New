@@ -532,6 +532,7 @@ class Life_Client_Core
 		class usebrenn {};
 		class useraff {};
 		class drinkwhiskey {};
+		class scheere {};
 	};
 	
 	class Dialog_Controls

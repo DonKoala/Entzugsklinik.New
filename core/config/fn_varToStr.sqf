@@ -102,7 +102,7 @@ switch (_var) do
 	
 	///TEST
 	
-	case "life_inv_scheere": {"Scheere"};
+	case "life_inv_scheere": {"Rettungsschere"};
 	
 	
 

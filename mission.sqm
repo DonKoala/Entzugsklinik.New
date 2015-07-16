@@ -3193,7 +3193,7 @@ class Mission
 					rank="MAJOR";
 					skill=0.60000002;
 					text="medic_9_1";
-					description="Team Bravo - Leitung (Vertretung)";
+					description="Team Bravo - Feuerwehrmann Sam";
 				};
 			};
 		};
