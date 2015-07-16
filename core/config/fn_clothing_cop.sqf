@@ -48,6 +48,7 @@ switch (_filter) do
 		_ret set[count _ret,["Beret_PoliceBlack",nil,200]];
 		_ret set[count _ret,["NBeret_PoliceBlack",nil,200]];
 		_ret set[count _ret,["NBeret_PoliceBlue",nil,200]];
+		_ret set[count _ret,["A3L_sargehat",nil,200]];
 		if(__GETC__(life_coplevel) > 1) then
 		{
 			_ret set[count _ret,["H_CrewHelmetHeli_B",nil,2500]];
