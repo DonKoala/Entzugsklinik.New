@@ -593,6 +593,7 @@ switch (_shop) do
 		_return set[count _return,["cl3_insignia_dark_green",100000]];
 		_return set[count _return,["cl3_insignia_gold",100000]];
 		_return set[count _return,["cl3_insignia_green",100000]];
+		_return set[count _return,["cl3_insignia_grey",100000]];
 		_return set[count _return,["cl3_insignia_lavendar",100000]];
 		_return set[count _return,["cl3_insignia_light_blue",100000]];
 		_return set[count _return,["cl3_insignia_light_yellow",100000]];
