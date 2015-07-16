@@ -41,6 +41,10 @@ switch (true) do
 		};
 	};
 	
+	case (_item == "scheere"): {
+		[_item] call life_fnc_scheere;
+	};
+	
 	case (_item == "zyankali"):									   
 	{															  
 		if(([false,_item,1] call life_fnc_handleInv)) then		  

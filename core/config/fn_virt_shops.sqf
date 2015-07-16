@@ -26,7 +26,7 @@ switch (_shop) do
 	case "cop": {["Polizei Markt",["handcuffs","handcuffkeys","donuts","coffee","spikeStrip","water","rabbit","apple","redgull","fuelF","defusekit","gpstracker","barrier","kegel","barriersmall"]]};
 	case "gold": {["Goldhändler",["goldbar","goldschatz"]]};
 	case "organ": {["Organhändler",["kidney","scalpel"]]}; 
-	case "med": {["Sanitäter Markt",["handcuffs","handcuffkeys","donuts","coffee","kidney","scalpel"]]}; 
+	case "med": {["Sanitäter Markt",["scheere","handcuffs","handcuffkeys","donuts","coffee","kidney","scalpel"]]}; 
 	case "besonders": {["Genussmittel Händler",["cigarette","schnaps"]]}; 
 	case "uranium": {["Uranhändler",["uranium","puranium"]]};
 	case "raff": {["Treibstoffhändler",["diesel","benzin"]]};

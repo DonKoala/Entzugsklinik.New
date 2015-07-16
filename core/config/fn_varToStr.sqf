@@ -100,6 +100,11 @@ switch (_var) do
 	case "life_inv_goldschatz": {"Goldschatz"};
 	
 	
+	///TEST
+	
+	case "life_inv_scheere": {"Scheere"};
+	
+	
 
 
 	

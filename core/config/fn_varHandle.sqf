@@ -105,6 +105,8 @@ switch (_mode) do
 			case "mais": {"life_inv_mais"};
 			case "goldschatz": {"life_inv_goldschatz"};
 			
+			case "scheere": {"life_inv_scheere"};
+			
 		};
 	};
 	
@@ -198,6 +200,8 @@ switch (_mode) do
 			case "life_inv_zucker": {"zucker"};
 			case "life_inv_mais": {"mais"};
 			case "life_inv_goldschatz": {"goldschatz"};
+			
+			case "life_inv_scheere": {"scheere"};
 
 		};
 	};
